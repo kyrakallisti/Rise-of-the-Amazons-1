@@ -1,0 +1,65 @@
+﻿INJECT:country_flavor_parliament = {
+###AMAZON###
+  #Latin Parliaments
+	text = {
+		localization_key = country_flavor_parliament_latinae_amazon_senate
+		trigger = {
+			culture.language = language:roman_amazon_language
+			OR = {
+				government_type = government_type:republic
+				government_type = government_type:monarchy
+			}
+		}
+	}
+	text = {
+		localization_key = country_flavor_parliament_latinae_amazon_curia
+		trigger = {
+			culture.language = language:roman_amazon_language
+			government_type = government_type:theocracy
+		}
+	}
+  #Hellenic Parliaments
+	text = {
+		localization_key = country_flavor_parliament_hellenic_amazon_monarchy
+		trigger = {
+			culture.language = language:hellenic_amazon_language
+			government_type = government_type:monarchy
+		}
+	}
+	text = {
+		localization_key = country_flavor_parliament_hellenic_amazon_republic
+		trigger = {
+			culture.language = language:hellenic_amazon_language
+			government_type = government_type:republic
+		}
+	}
+	text = {
+		localization_key = country_flavor_parliament_hellenic_amazon_theocracy
+		trigger = {
+			culture.language = language:hellenic_amazon_language
+			government_type = government_type:theocracy
+		}
+	}
+  #Norse Parliaments
+	text = {
+		localization_key = country_flavor_parliament_norse_amazon_monarchy
+		trigger = {
+			culture.language = language:norse_amazon_language
+			government_type = government_type:monarchy
+		}
+	}
+	text = {
+		localization_key = country_flavor_parliament_norse_amazon_republic
+		trigger = {
+			culture.language = language:norse_amazon_language
+			government_type = government_type:republic
+		}
+	}
+	text = {
+		localization_key = country_flavor_parliament_norse_amazon_theocracy
+		trigger = {
+			culture.language = language:norse_amazon_language
+			government_type = government_type:theocracy
+		}
+	}
+}

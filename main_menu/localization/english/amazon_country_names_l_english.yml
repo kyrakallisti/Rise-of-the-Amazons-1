@@ -1,0 +1,170 @@
+﻿l_english:
+
+#Amazon Nations
+#Norse
+ AART: "Artemisia"
+ AART_ADJ: "Arthemisian"
+ AULF: "Úlfheimr"
+ AULF_ADJ: "Úlfheðnar" #Wolf Coat. Greek form would be: "Lykopeltai"
+
+ AARK: "Aktē Arkoúdon" #Bear Coast
+ AARK_ADJ: "Arkoúdian"
+ ABJN: "Bjarnarheimr"
+ ABJN_ADJ: "Berserkir" #Bear Shirt
+
+ AELD: "Eldára" #The city of Eldara was named after River Eldár, the Fire River. It's waters run red like River Erythros, due to high concentration of Iron on thoese rivers' sources.
+ AELD_ADJ: "Eldárian"
+ AFOL: "Fólkvangr"
+ AFOL_ADJ: "Followers of Freyja"
+ AARN: "Arnareyjar"
+ AARN_ADJ: "Arnarvængir"
+ ASVE: "Sverðfiskeyjar"
+ ASVE_ADJ: "Sæbornar"
+
+#Thóradal
+ ATHR: "Thrúdardaler Hálönd" #Highlands of Thróradal
+ ATHR_ADJ: "Thrúdardøtre" #Daughters of Thrúd/Thunder
+ AHKF: "Haukefjær" #Hawk Feather
+ AHKF_ADJ: "Haukefjæring"
+ APYR: "Eldtvillingar" #Fire Twins
+ APYR.hellenic_amazon_language: "Didymópyra"
+ APYR_ADJ: "Eldtvillingan"
+ APYR_ADJ.hellenic_amazon_language: "Didymopyraían"
+ ASUN: "Sunnaheimr"
+ ASUN_ADJ: "Sól-kissed" #The Sun-kissed
+
+#Vindmark
+ ASVA: "Svarthestar"
+ ASVA_ADJ: "Svarthestan"
+ AKVI: "Kvithestar"
+ AKVI_ADJ: "Kvithestan"
+ ARAU: "Raudhestar"
+ ARAU_ADJ: "Raudhestan"
+ ASOL: "Sølvmanar"
+ ASOL_ADJ: "Sølvmanan"
+ AGUL: "Gulmanar"
+ AGUL_ADJ: "Gulmanan"
+ ABRU: "Brunmanar"
+ ABRU_ADJ: "Brunmanan"
+
+#Metria Khora
+ ABAS: "Heraía" #Basilissa
+ ABAS_ADJ: "Heraían"
+
+ AAET: "Melanáetos" #Black Eagle
+ AAET_ADJ: "Melanaetian"
+ ALEA: "Chrysoleaína" #Golden Lioness
+ ALEA_ADJ: "Léainian"
+ APER: "Kerbería" #Cerberus
+ APER_ADJ: "Kerberian" 
+
+#Norsellenic
+ ANEA: "Neathemiskyra"
+ ANEA_ADJ: "Neathemiskyran"
+ AEPL: "Eplaeyjar"
+ AEPL.hellenic_amazon_language: "Mēlonēsos"
+ AEPL_ADJ: "Mēlonēsian"
+ AARG: "Argyría"
+ AARG_ADJ: "Argyrian"
+ AGRY: "Aktē Grýphōnos"
+ AGRY.norse_amazon_language: "Gryphonvík"
+ AGRY_ADJ: "Gryphōnian" 
+ ARHO: "Rhodonía"
+ ARHO_ADJ: "Rhodonian"
+
+#Theocracies
+ AKRP: "Persephónē" 
+ AKRP_ADJ: "Persephonian"
+ ADEM: "Démētra"
+ ADEM_ADJ: "Demetrian"
+ APHR: "Aphrodítē"
+ APHR_ADJ: "Aphroditian"
+ ANIK: "Níkē"
+ ANIK_ADJ: "Nikean"
+
+#Athenaean Democracies
+ AGLA: "Glaukōpis"
+ AGLA_ADJ: "Glaukōpian"
+ ASOP: "Sophíon"
+ ASOP_ADJ: "Sophían"
+ APRO: "Promachē"
+ APRO_ADJ: "Promachian"
+ AERG: "Erganē"
+ AERG_ADJ: "Erganian"
+ APOL: "Poliás"
+ APOL_ADJ: "Polian"
+ AAIT: "Aithyia"
+ AAIT_ADJ: "Aithyian"
+
+#Thalassan Octarchy
+ thalassan_octarchy: "Thalassan Octarchy"
+ thalassan_octarchy_desc: "A Defensive Trade League between the eight Oligarchic Amazon City-States of Thalassa Bay, founded upon the shared interests of mutual defense and mercantile cooperation."
+ ASER: "Serikíon"
+ ASER_ADJ: "Serikian"
+ APOR: "Porphyráion"
+ APOR_ADJ: "Porphyrian"
+ ATHA: "Thalassía"
+ ATHA_ADJ: "Thalassian"
+ AOPH: "Ophidísion"
+ AOPH_ADJ: "Ophidisian"
+ AMAR: "Márgaron"
+ AMAR_ADJ: "Margaronian"
+ ANAU: "Naupēgía"
+ ANAU_ADJ: "Naupēgian"
+ AHES: "Hestiaía"
+ AHES_ADJ: "Hestian"
+ AHYP: "Hyphásion"
+ AHYP_ADJ: "Hyphasian"
+
+#Senatus Populusque Salaciae
+ ASAL: "Salacia"
+ ASAL_ADJ: "Salacian"
+
+#Erisían Anarkhía
+ AERI: "Kallistí"
+ AERI_ADJ: "Kallistían"
+
+
+#FORMABLES
+#Empire rank
+ AMZN: "Amazonesia" 
+ AMZN_ADJ: "Amazon"
+ AMZN_f: "Amazonesia"
+ AMZN_f_desc: "The Amazons were once a single united people, yet as the ages passed they became divided, fragmented and turned against one another. In the safety of their isolated Atlantic islands, it seemed they were untouchable and that their only enemies were themselves. But a new Age of Globalization is dawning upon the world. If the Amazons wish to stand strong against the encroaching nations of the Old World, they must end their infighting and unite under a single nation once more. From the ancient capitals of the Mētría Khōra to the prosperous ports of Amazonotheía and the distant northern shores, all Amazon peoples shall stand together beneath a common banner. The dream of reunification has endured for centuries. Now, at last, Amazonesia is reborn!"
+
+ AMZV: "Amazonveldi"
+ AMZV_ADJ: "Amazon"
+ AMZV_f: "Amazonveldi"
+ AMZV_f_desc: "The Amazons were once a single people, but centuries of rivalries, migrations and foreign influences forged them into many nations. Yet the world grows ever smaller, and divided realms cannot hope to withstand the ambitions of the great powers beyond the Atlantic. From the halls of the northern Jarls to the marble cities of the south, all Amazon lands must be brought together beneath a single crown. Let old feuds be forgotten and let strength prevail over division. United in purpose and unconquerable in spirit, the Amazon peoples shall march into a new age as one!"
+
+#Kingdom Rank
+ AMTR: "Mētría Khōra" 
+ AMTR_ADJ: "Mētrían"
+ AMTR_f: "Mētría Khōra"
+ AMTR_f_desc: "The Amazon Basilíssa once ruled supreme over all the fertile lands of Mētría Khōra, until a devastating succession crisis in the 9th century shattered the realm, followed by Norse invasions that forever changed the region. Norse Jarls seized the coastal provinces for themselves, settling their people and assimilating the locals into Norsellenic Amazons. In time they converted to Hellenism and acknowledged the crown as their overlord, but Mētría Khōra can never be truly restored until those fragmented provinces are returned to the Basilíssa's direct rule. Whether led by the legitimate Hippolytidē Dynasty or a rising house that claims the throne, the dream of reunification endures."
+
+ AMZT: "Amazonotheía"
+ AMZT_ADJ: "Amazonotheían"
+ AMZT_f: "Amazonotheía"
+ AMZT_f_desc: "Unlike Mētría Khōra, Amazonotheía has never been truly united. Settled by fiercely independent Amazons with strong republican ideals, each Polis governs itself according to its own laws and traditions. Whenever one grows too powerful, the others swiftly unite to curb its ambitions. Yet if a single Polis were ever able to gather all the others into a common League, an united Amazonotheía could become wealthier and more powerful than even the realm of the Basilíssa."
+
+ ANHM: "Norðrheimar"
+ ANHM_ADJ: "Norse Amazon"
+ ANHM_f: "Norðrheimar"
+ ANHM_f_desc: "For untold centuries, the Amazon Clans of the North have remained divided, locked in endless rivalries and struggles for power. Though bound by common traditions and ancestry, no ruler has ever succeeded in forging a lasting union among them. Yet the world is changing. If the Norse Amazons wish to stand alongside the great powers of the age, they must put aside old feuds and unite beneath a single banner, however difficult that task may prove."
+
+#Duchy Rank
+ AATH: "Athenéia"
+ AATH_ADJ: "Athenaian"
+ AATH_f: "Athenéia"
+ AATH_f_desc: "The Athenaean poleis have long prized their independence, yet no city can stand alone forever. Should one polis establish itself as the unquestioned hegemon of Athenéia, the scattered cities may finally be persuaded to cooperate within a common Koinón, speaking with a single voice while preserving their ancient traditions."
+
+ ATHL: "Thalassía"
+ ATHL_ADJ: "Thalassan"
+ ATHL_f: "Thalassía"
+ ATHL_f_desc: "For centuries, the eight Thalassan poleis have been bound together within the Thalassan Octarchy, a defensive and commercial alliance that safeguarded their prosperity and independence. Yet the same institutions that protect these cities from foreign powers also prevent any one polis from exercising lasting leadership over the others. Should a single city establish itself as the undisputed hegemon of the Octarchy, the loose alliance may finally be transformed into a true Koinón, capable of speaking and acting with a single voice while preserving the ancient maritime traditions of the Thalassan people."
+
+ AVND: "Vindmark"
+ AVND_ADJ: "Vindmarkar"
+ AVND_f: "Vindmark"
+ AVND_f_desc: "The horse clans of Vindmark have long roamed the plateaus, valleys and highlands of the North, bound by a common heritage yet divided by rivalry and ancient feuds. Though their riders are renowned throughout Norðrheimar for their skill on the saddle, no ruler has ever succeeded in bringing all six clans beneath a single banner for long. Should one Jarl establish undisputed authority over the great clan capitals, the scattered peoples of Vindmark may finally be united into a lasting Jarldom worthy of their proud equestrian heritage."

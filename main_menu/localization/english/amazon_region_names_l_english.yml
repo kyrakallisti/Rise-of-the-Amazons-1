@@ -1,0 +1,242 @@
+﻿l_english:
+ 
+ amazonesia_islands: "Amazonesia" #Authentic name: Amazoníoi Nēsoi. But Amazonesia is the Exonym used by the Western World. Like: Hellas >> Greece
+ nordrheimar_region: "Norðrheimar" #Home of the Norrœnar Amazons
+ motherland_region: "Mētría Khōra" #Maternal Land. Motherland is 'Mētrōkhōra', but Mētría Khōra is acceptable and sounds better.
+ amazonotheia_region: "Amazonotheía" #Land Founded by Amazons (Purely Hellenic Lands)
+ macaronesia_region: "Salacia Ultramarina" #Salacia beyond the Sea. (Religious tone: Salacia, of the lands beyond Her own sea)
+
+#Artemisia
+ artemisia_area: "Artemísiai Nēsoi" #Artemisian Islands
+ lykos_province: "Lykosía" #Wolf Land
+ west_artemisia_province: "Dyslykía" #West Wolf
+ east_artemisia_province: "Anatolykía" #East Wolf
+ selenea_island_province: "Selenía" #Moon Land
+ 
+#Arkoúda
+ arkouda_area: "Bjarnheim" #Bear Home
+ arkouda_area.old_norse_amazon_dialect: "Bjarnarheimr" 
+ akti_arkoudon_province: "Aktē Árktōn" #Bear Coast
+ bjarnarheim_province: "Bjarnskog" #Bear Forest
+ bjarnarheim_province.old_norse_amazon_dialect:: "Bjarnarskógr" 
+ folkvangr_province: "Fólkvangr" #People's meadow (Freyja's Land)
+
+#Formóðurland
+ formodreland_area: "Formóðurland" #Foremothers' Land
+ vest_ravnvangr_province: "Vest Eldárvangr" #West Eldár River Meadows (Eld = Fire, Ár = River; The Fire River)
+ ost_ravnvangr_province: "Aust Eldárvangr" #East Eldár River Meadows
+ runarstrond_province: "Rúnarströnd" #Rúna's Cove
+ radeyjar_province: "Raðeyjar" #Row of Islands
+
+#Arnarøy
+ arnarey_area: "Arnarey" #Eagle Island
+ ost_arnarey_province: "Austarnarey"
+ vest_arnarey_province: "Vestarnarey"
+
+#Vindmark 
+ vindmark_area: "Vindmark" #Wind-swept Plateaus
+ svarthestar_province: "Svarthestarvang" #Black Horse
+ kvithestar_province: "Kvithestarvang" #White Horse
+ raudhestar_province: "Raudhestarvang" #Red Horse
+ solvmanar_province: "Sølvmanarvang" #Silver Manes
+ gulmanar_province: "Gulmanarvang" #Blonde/Flaxen Manes
+ brunmanar_province: "Brunmanarvang" #Brown Manes
+
+#Thrúdardaler Highlands
+ thrudardaler_highlands_area: "Thrúdardaler" #Thrúd's Valleys/Thunder Valleys
+ thrudardaler_highlands_area.old_norse_amazon_dialect: "Þrúðardalir"
+ thrudhavn_province: "Thrúdhavn" #Thora's Harbour
+ brudransvang_province: "Brudransvang" #Eloped Meadows
+ jotnarfjell_province: "Jötnarfjall" #Giant's Mountain
+ fjellborg_province: "Fjellborg" #Mountain Castle
+ haukelund_province: "Haukefjær" #Hawk Wood
+ tvillingsostre_province: "Tvillingsøstre" #Twin Sisters
+ tvillingsostre_province.hellenic_amazon_language: "Dídymai Adelphai" #Twin Sisters
+
+###Mētría Khōra
+#Mētra Hēras
+ mitera_area: "Mētra Hēras" #Hera's Womb
+ heraia_province: "Heraía"
+ kyknaion_province: "Kyknáion" #Swan Territory
+ themiskyreia_province: "Themiskyría"
+#Persephonéia
+ persephoneia_area: "Persephonéia"
+ persephonia_province: "Persephonía"
+ akti_gryphon_province: "Aktē Gryphōn" #Gryphons Coast
+ melonesos_province: "Mēlonēsos" #Apple Island
+#Éndon Koílai
+ endonkoilai_area: "Éndon Koílai" #Inner Valleys
+ glaukoilas_province: "Koilás Glaukós" #Owl Valley
+ leainakoilas_province: "Koilás Leaínēs" #Lioness Valley
+ aetokoilas_province: "Koilás Aetoû" #Eagle Valley
+#Demetréia
+ demetreia_area: "Demetréia"
+ demetria_province: "Demetría"
+ khloe_pedion_province: "Khlóē Pedíon" #The Verdant Plain
+ argyria_province: "Argyría" #The Silver Land
+ argyria_province.norse_amazon_language: "Sølvland"
+#Aphrodítēs Aktē
+ aphrodites_akte_area: "Aphrodítēs Aktē" #The Shores of Aphrodite
+ aphroditia_province: "Aphroditía"
+ rhodonia_province: "Rhodonía" #Land of Roses, which is a symbol of Aphrodite
+ serikia_province: "Serikía" #Land of Silk 
+
+###Amazonotheía
+#Athēnéia
+ atheneia_area: "Athēnéia" #Land of Athena
+ glaukopis_province: "Glaukopía"
+ sophion_province: "Sophiáda"
+ promache_province: "Promachía"
+ ergane_province: "Erganía"
+ polias_province: "Poliás Khōra"
+#Nikēs Aktē
+ nikes_akte_area: "Nikēs Aktē" #Nike's Coast/Coast of Victory
+ nikaia_province: "Nikaia"
+ aithyia_province: "Aktē Aithyias"
+ porphyra_akte_province: "Porphyrâ Aktē" #Purple Coast 
+#Thalássēs Aktē
+ thalasses_akte_area: "Thalássēs Aktē" #Coast of Thalassa (genitive of Thalassa, the sea goddess)
+ thalassia_province: "Thalassía" #Thalassa's Domain 
+ ophidia_province: "Ophidía" #Land of Snakes 
+ pelagion_margaron_province: "Pēlágion Márgaron" #Sea Pearl
+ naupegia_province: "Naupēgía" #Shipbuilding Land 
+#Hestías Nēsoi
+ hestias_nesoi_area: "Hestías Nēsoi"
+ hestiaia_province: "Hestiaía" #Hestia's Island 
+ hyphasia_province: "Hyphasía Nēsoi" #Textile Islands
+
+#Salacia Ultramarina
+ magna_bellona_area: "Magna Bellona" #Greater Bellona
+ mons_bellonae_province: "Mons Bellonae" #Mountain of Bellona
+ scoria_cuprea_province: "Scoria Cuprea" #Copper Slag, volcanic refuse, smelted waste
+
+ magna_salacia_area: "Magna Salacia" #Greater Salacia
+ vesticum_province: "Vesticum" #Land of Vesta
+ saltus_taurinus_province: "Saltus Taurinus" #Bull Pastures
+ terra_salaciana_province: "Terra Salaciana" #Salacian Motherland
+ silva_transmontana_province: "Silva Transmontana" #Forest beyond the Mountains
+
+ peninsula_antiopea_area: "Peninsula Antiopea" #Antiope discovered the peninsula and named it after her. Romans romanized it.
+ terra_aurea_province: "Terra Aurea" #Land of Gold
+ vinetum_et_olivetum_province: "Vinetum et Olivetum" #Vineyards and Olive Groves
+
+#Erisíai Nēsoi
+ erisiai_nesoi_area: "Erisíai Nēsoi" #Erisian islands
+ erisia_province: "Erisía" #Eris' Land
+
+
+
+
+
+##Seas
+#Hýdata Mētrías Khōras
+ hydata_metrias_khoras_area: "Hýdata Mētrías Khōras" #Waters of Mētría Khōra
+ aphrodites_pelagos_province: "Aphrodítēs Pélagos" #Sea of Aphrodite
+ trion_meteron_ekbole_province: "Triōn Mētérōn Ekbolē" #Estuary of the Three Mothers
+
+#Hýdata Artemisías
+ hydata_artemisias_area: "Hýdata Artemisías" #Waters of Artemisia
+ anatolikon_artemidos_pelagos_province: "Anatolikón Artemídos Pélagos" #Eastern Sea of Artemis
+ dytikon_artemidos_pelagos_province: "Dytikón Artemídos Pélagos" #Western Sea of Artemis
+
+#Vötn Norðrheimar
+ votn_nordrheima_area: "Vötn Norðrheimar" #Waters of Norðrheimar
+ freyarsund_province: "Freyarsund" #Freyja's Strait
+ eldarhaf_province: "Eldárhaf" #Sea of Eldá
+ vindfirdir_province: "Vindfirðir" #Wind Fjords
+ vindsund_province: "Vindsund" #Wind Strait
+
+ arnarhaf_province: "Arnarhaf" #Sea of the Eagle
+ arnarsund_province: "Arnarsund" #Strait of the Eagle
+
+#Hýdata Amazonotheías
+ hydata_amazonotheias_area: "Hýdata Amazonotheías" #Waters of Amazónotheia
+ erythrou_kolpos_province: "Erythroû Kólpos" #Red Bay
+ thalasses_kolpos_province: "Thalássēs Kólpos" #Bay of Thalassa
+ hyphasion_pelagos_province: "Hyphasíōn Pélagos" #Sea of Textiles
+ pyros_pelagos_province: "Pyròs Pélagos" #Sea of Fire
+ hestias_pelagos_province: "Hestías Pélagos" #Sea of Hestia
+ halieutikon_pelagos_province: "Halieutikòn Pélagos" #Fishing Sea
+
+ erisiou_pelagos_province: "Erisíou Pélagos" #Sea of Eris
+
+#Salacian Seas
+ salacian_core_sea_area: "Mare Atlanticum Nostrum" #Our Atlantic Sea
+ mare_bellonicum_province: "Mare Bellonicum" #Bellonan Sea
+ mare_salacianum_province: "Mare Salacianum" #Salacian Sea
+ mare_aureum_province: "Mare Aureum" #Golden Sea
+ madeira_sea_area: "Mare Spei" #Sea of Hope
+ mare_hesperium_province: "Mare Hesperium" #Western Nymph Sea (From Greek Myth, romanized by Salacia)
+ canary_island_coast: "Mare Canarium" #Sea of the Canaries
+ azores_sea_area: "Mare Solarium" #Sea of the Sun Isles
+ azores_sea_province: "Mare Solis" #Sea of the Sun
+ azores_current_province: "Fluxus Solis" #Sun Current
+
+##Real World Places
+ #Hēliás Nēsoi (Azores)
+ azores_area: "Insulae Solis" #Sun Islands
+ azores_province: "Hēliás Nēsoi" #Sun Islands (Helios = Sun, Helias = Sun, but femininzed by Amazons)
+ #Hesperídes Nēsoi
+ south_macaronesia_area: "Insulae Occasus" #Sunset Islands
+ madeira_province: "Hesperídes Nēsoi" #Sunset Islands
+ canary_islands_area: "Insulae Canariae" #Islands of Dogs (Actual Latin name of the Islands)
+ canary_islands_province: "Insulae Canariae"
+
+#Friggjarárheimr (Quebec)
+ quebec_area: "Friggjarárheimr" #Home of Frigg’s River
+ gaspe_province: "Laxavíkur" #Salmon Coves
+ rimouski_province: "Andaströnd" #Duck Coast
+ kikonteku_province: "Suðr Friggjarárvangr" #South Frigg River Meadows
+ stadacona_province: "Norðr Friggjarárvangr" #North Frigg River Meadows (Ár = River. Friggarár =  Great River Frigg)
+ minganie_province: "Snjóugluvíkur" #Snowy Owl Coves
+ mecatina_province: "Minkaströnd" #Mink Coast
+ uashat_province: "Elgaskógr" #Home of the Moose
+ manicouagan_province: "Lómavötn" #Loon Lakes
+ betsiamites_province: "Bjórár" #Beaver Rivers
+ saguenay_province: "Otradalir" #Otter Valleys
+
+#Rostungaheimr (Labrador)
+ labrador_area: "Rostungaheimr" #Home of the walrus
+ nunatsiavut_province: "Rostungastrandir" #Walrus Shores
+ aivitok_province: "Lýxaskógr" #Lynx Forests
+ ashuanipi_province: "Melrakkaskógr" #Arctic Fox Forests
+ michikamau_province: "Hreindýraheiðr" #Reindeer tundra (most biome-accurate)
+ labrador_province: "Selstrandir" #Seal Shores
+#Ísbjarnarheimr (Nunavik)
+ nunavik_area: "Ísbjarnarheimr" #Home of the Polar Bear
+ tursujuq_province: "Hvíthvalastrandir" #Coasts of the White Whales
+ koksoak_province: "Vargaleið" #The Wolf Path
+ qikiqtaaluk_province: "Ísbjarnarvíkar" #Coves of the Polar Bears
+ caniapiscau_province: "Fimbulvetr" #From Fimbulvetr (the legendary great winter before Ragnarök)
+ ungunniavik_province: "Sævargrastrandir" #Sea-Wolf (orca) Coasts
+ mushuau_province: "Snjófálkaheiðr" #Snowfalcon's Tundra
+#Sverðfiskeyjar (Newfoundland)
+ newfoundland_area: "Sverðfiskeyjar"
+ long_range_province: "Ránströnd" #Rán's Coast
+ eimasstukwek_province: "Kaldströnd" #Cold Coast
+ gosaoie_province: "Síldströnd" #Herring Coast
+ akilasiewakik_province: "Sverðfiskströnd" #Swordfish Coast
+ avalon_province: "Spjótanes" #Spearhead
+ placentia_province: "Ufsiströnd" #Pollock Harbour
+
+#Nýlandseyjar (Prince Edward Island)
+ prince_edward_island_area: "Þorskeyjar " #New Lands Island
+ epexiwitk_province: "Þorskey " #New Land Island##Acadia
+#Arnarveldi (Acadia)
+ acadia_area: "Arnarveldi" #Eagle Dominion
+ unamakik_province: "Hjörthorn" #Stag Antlers
+ agg_piktuk_province: "Hundhöfuð" #Hound Head
+ eskikewakik_province: "Hindaströnd" #Doe Coast
+ sipeknekatik_province: "Hundkjaptr" #Hound Jaw
+ kjipuktuk_province: "Arnarhreiðr" #Eagle Nest
+ kespukwitkw_province: "Gnægðströnd" #Coast of Abundance
+
+#Skjaldarmörk (New Brunswick)
+ new_brunswick_area: "Skjaldarmörk" #Shield Borderland
+ siknikt_province: "Eikskógr" #Oak Forests
+ kespek_province: "Birkiskógar" #Birch Forests
+ madawaska_province: "Íkornadalir" #Squirrel Valley
+ menahkwesk_province: "Askskógar" #Ash Forests
+ nashwaak_province: "Þrastalundir" #Thrush Grooves (A local Song Bird)
+ manan_province: "Márströnd" #Seagull Coast
+

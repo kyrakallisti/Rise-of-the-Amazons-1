@@ -1,0 +1,55 @@
+﻿thrudarfjell_base = {
+	game_data = {
+		category = location
+	}
+	local_iron_output_modifier = 2.5
+}
+
+marmarolakkos_base = {
+	game_data = {
+		category = location
+	}
+	local_marble_output_modifier = 1.25
+}
+
+thrymheimr_base = {
+	game_data = {
+		category = location
+	}
+	local_silver_output_modifier = 1.25
+}
+
+sessrumnir_base = {
+	game_data = {
+		category = location
+	}
+	local_amber_output_modifier = 2.5
+}
+
+alsos_artemidos_base = {
+	game_data = {
+		category = location
+	}
+	local_fur_output_modifier = 2
+}
+
+dakryathalasses_base = {
+	game_data = {
+		category = location
+	}
+	local_gems_output_modifier = 2
+}
+
+cuprum_bellonae_base = {
+	game_data = {
+		category = location
+	}
+	local_copper_output_modifier = 2.5
+}
+
+montes_salis_base = {
+	game_data = {
+		category = location
+	}
+	local_salt_output_modifier = 2.0
+}

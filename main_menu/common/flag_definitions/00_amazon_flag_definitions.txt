@@ -1,0 +1,315 @@
+﻿###North
+#Artemisia
+	AART = { # Artemisia
+		flag_definition = {
+			coa = AART
+			priority = 1
+		}
+	}
+	AULF = { # Skadia
+		flag_definition = {
+			coa = AULF
+			priority = 1
+		}
+	}
+#Arkouda
+	AARK = { # Arkouda
+		flag_definition = {
+			coa = AARK
+			priority = 1
+		}
+	}
+	ABJN = { # Bjornskog
+		flag_definition = {
+			coa = ABJN
+			priority = 1
+		}
+	}
+#Eldara
+	AELD = { # Eldara
+		flag_definition = {
+			coa = AELD
+			priority = 1
+		}
+	}
+	AFOL = { # Eldara
+		flag_definition = {
+			coa = AFOL
+			priority = 1
+		}
+	}
+	ASVE = { #Sverðfiskeyjar
+		flag_definition = {
+			coa = ASVE
+			priority = 1
+		}
+	}
+#Arnareyjar
+	AARN = { #Arnareyjar
+		flag_definition = {
+			coa = AARN
+			priority = 1
+		}
+	}
+#Vindmark
+	ASVA = { # svarthestar
+		flag_definition = {
+			coa = ASVA
+			priority = 1
+		}
+	}
+	AKVI = { # kvithestar
+		flag_definition = {
+			coa = AKVI
+			priority = 1
+		}
+	}
+	ARAU = { # raudhestar
+		flag_definition = {
+			coa = ARAU
+			priority = 1
+		}
+	}
+	ASOL = { # solvmanar
+		flag_definition = {
+			coa = ASOL
+			priority = 1
+		}
+	}
+	AGUL = { # gulmanar
+		flag_definition = {
+			coa = AGUL
+			priority = 1
+		}
+	}
+	ABRU = { # brunmanar
+		flag_definition = {
+			coa = ABRU
+			priority = 1
+		}
+	}
+
+#Thóradal
+	ATHR = { # thrudhavn
+		flag_definition = {
+			coa = ATHR
+			priority = 1
+		}
+	}
+	AHKF = { # haukelund
+		flag_definition = {
+			coa = AHKF
+			priority = 1
+		}
+	}
+	APYR = { # Pyros
+		flag_definition = {
+			coa = APYR
+			priority = 1
+		}
+	}
+#Hēliás Nēsoi
+	ASUN = { #Sunnaheimr
+		flag_definition = {
+			coa = ASUN
+			priority = 1
+		}
+	}
+
+#Miteras
+	ABAS = { #Basileia Amazōnōn
+		flag_definition = {
+			coa = ABAS
+			priority = 1
+		}
+	}
+	APER = { #Persephonia
+		flag_definition = {
+			coa = APER
+			priority = 1
+		}
+	}
+#Éndon Koílai
+	AAET = { #Melanaetidai
+		flag_definition = {
+			coa = AAET
+			priority = 1
+		}
+	}
+	ALEA = { #Leainídai
+		flag_definition = {
+			coa = ALEA
+			priority = 1
+		}
+	}
+#Norsellenic
+	ANEA = { # Neathemyskira
+		flag_definition = {
+			coa = ANEA
+			priority = 1
+		}
+		flag_definition = { # Basilíssa Elpída
+			coa = ANEA_Basilissa
+			priority = 50
+			trigger = {
+				AND = {
+					has_ruler = yes
+					ruler.dynasty ?= dynasty:hippolytide_dynasty
+				}
+			}
+		}
+	}
+	AARG = { #Argyría
+		flag_definition = {
+			coa = AARG
+			priority = 1
+		}
+	}
+	AEPL = { #Eplaeyjar (Mēlonēsos)
+		flag_definition = {
+			coa = AEPL
+			priority = 1
+		}
+	}
+	ARHO = { #Rhodonía
+		flag_definition = {
+			coa = ARHO
+			priority = 1
+		}
+	}
+	AGRY = { #Akti Grýphōns
+		flag_definition = {
+			coa = AGRY
+			priority = 1
+		}
+	}
+
+#Hellenic Theocracies
+	AKRP = { #Ákra Persephónēs
+		flag_definition = {
+			coa = AKRP
+			priority = 1
+		}
+	}
+	ADEM = { #Demetréia
+		flag_definition = {
+			coa = ADEM
+			priority = 1
+		}
+	}
+	APHR = { #Aphroditía
+		flag_definition = {
+			coa = APHR
+			priority = 1
+		}
+	}
+	ANIK = { #Nikaion
+		flag_definition = {
+			coa = ANIK
+			priority = 1
+		}
+	}
+
+#Athenaean Democracies
+	AGLA = { #Glaukopis
+		flag_definition = {
+			coa = AGLA
+			priority = 1
+		}
+	}
+	ASOP = { #Sophion
+		flag_definition = {
+			coa = ASOP
+			priority = 1
+		}
+	}
+	APRO = { #Promache
+		flag_definition = {
+			coa = APRO
+			priority = 1
+		}
+	}
+	AERG = { #Ergane
+		flag_definition = {
+			coa = AERG
+			priority = 1
+		}
+	}
+	APOL = { #Poliás
+		flag_definition = {
+			coa = APOL
+			priority = 1
+		}
+	}
+	AAIT = { #Aithyia
+		flag_definition = {
+			coa = AAIT
+			priority = 1
+		}
+	}
+
+#Thalassan Octarchy
+	ASER = { #Serikíon
+		flag_definition = {
+			coa = ASER
+			priority = 1
+		}	
+	}
+	APOR = { #Porphyráion
+		flag_definition = {
+			coa = APOR
+			priority = 1
+		}
+	}
+	ATHA = { #Thalassía
+		flag_definition = {
+			coa = ATHA
+			priority = 1
+		}	
+	}
+	AOPH = { #Ophidísion
+		flag_definition = {
+			coa = AOPH
+			priority = 1
+		}
+	}
+	AMAR = { #Márgaron
+		flag_definition = {
+			coa = AMAR
+			priority = 1
+		}
+	}
+	ANAU = { #Naupēgía
+		flag_definition = {
+			coa = ANAU
+			priority = 1
+		}
+	}
+	AHES = { #Hestiaía
+		flag_definition = {
+			coa = AHES
+			priority = 1
+		}
+	}
+	AHYP = { #Hyphásion
+		flag_definition = {
+			coa = AHYP
+			priority = 1
+		}
+	}
+
+#Salacia (Born from Legio XII Salaciana Fidelis)
+	ASAL = { #Senatus Populusque Salaciae
+		flag_definition = {
+			coa = ASAL
+			priority = 1
+		}
+	}
+
+#Erisían Anarkhía
+	AERI = { #Erisía
+		flag_definition = {
+			coa = AERI
+			priority = 1
+		}
+	}

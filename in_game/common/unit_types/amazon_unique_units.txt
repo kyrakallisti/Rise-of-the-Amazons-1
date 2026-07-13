@@ -1,0 +1,1612 @@
+﻿#Salacian Legionaries
+	a_legionariae_1 = {
+		copy_from = a_age_1_traditions_heavy_infantry
+
+		limit = legionariae_unit_limit
+		
+		strength_damage_taken = -0.10	
+		morale_damage_taken = -0.10
+		initiative = -1
+		combat_speed = -1
+
+		upgrades_to_only = a_legionariae_2
+
+		buildable = yes
+		country_potential = {
+			has_culture_group = culture_group:roman_amazon_group
+		}
+		location_potential = {
+			dominant_culture = { has_culture_group = culture_group:roman_amazon_group }
+			owner ?= {
+				culture = { has_culture_group = culture_group:roman_amazon_group }
+			}
+		}
+
+		maintenance_demand =  early_heavy_infantry_maintenance
+		construction_demand = early_heavy_infantry_construction
+
+		gfx_tags = { legionary_tag sword_tag heavy_tag }
+	}
+
+	a_legionariae_2 = {
+		copy_from = a_age_2_renaissance_heavy_infantry
+
+		limit = legionariae_unit_limit
+		
+		strength_damage_taken = -0.10	
+		morale_damage_taken = -0.10
+		initiative = -1
+		combat_speed = -1
+
+		upgrades_to_only = a_legionariae_3
+
+		buildable = yes
+		country_potential = {
+			has_culture_group = culture_group:roman_amazon_group
+		}
+		location_potential = {
+			dominant_culture = { has_culture_group = culture_group:roman_amazon_group }
+			owner ?= {
+				culture = { has_culture_group = culture_group:roman_amazon_group }
+			}
+		}
+
+		maintenance_demand =  early_heavy_infantry_maintenance
+		construction_demand = early_heavy_infantry_construction
+
+		gfx_tags = { legionary_tag sword_tag heavy_tag }
+	}
+
+	a_legionariae_3 = {
+		copy_from = a_age_3_discovery_heavy_infantry
+
+		limit = legionariae_unit_limit
+
+		strength_damage_taken = -0.10	
+		morale_damage_taken = -0.10
+		initiative = -1
+		combat_speed = -1
+
+		upgrades_to_only = a_legionariae_4
+
+		buildable = yes
+		country_potential = {
+			has_culture_group = culture_group:roman_amazon_group
+		}
+		location_potential = {
+			dominant_culture = { has_culture_group = culture_group:roman_amazon_group }
+			owner ?= {
+				culture = { has_culture_group = culture_group:roman_amazon_group }
+			}
+		}
+
+		maintenance_demand =  early_heavy_infantry_maintenance
+		construction_demand = early_heavy_infantry_construction
+
+		gfx_tags = { legionary_tag sword_tag heavy_tag }
+	}
+
+	a_legionariae_4 = {
+		copy_from = a_age_4_reformation_heavy_infantry
+
+		limit = legionariae_unit_limit
+
+		strength_damage_taken = -0.10	
+		morale_damage_taken = -0.10
+		initiative = -1
+		combat_speed = -1
+
+		upgrades_to_only = a_legionariae_5
+
+		buildable = yes
+		country_potential = {
+			has_culture_group = culture_group:roman_amazon_group
+		}
+		location_potential = {
+			dominant_culture = { has_culture_group = culture_group:roman_amazon_group }
+			owner ?= {
+				culture = { has_culture_group = culture_group:roman_amazon_group }
+			}
+		}
+
+		maintenance_demand =  early_heavy_infantry_maintenance
+		construction_demand = early_heavy_infantry_construction
+
+		gfx_tags = { legionary_tag musket_tag heavy_tag }
+	}
+
+	a_legionariae_5 = {
+		copy_from = a_age_5_absolutism_heavy_infantry
+
+		limit = legionariae_unit_limit
+
+		strength_damage_taken = -0.10	
+		morale_damage_taken = -0.10
+		initiative = -1
+		combat_speed = -1
+
+		upgrades_to_only = a_legionariae_6
+
+		buildable = yes
+		country_potential = {
+			has_culture_group = culture_group:roman_amazon_group
+		}
+		location_potential = {
+			dominant_culture = { has_culture_group = culture_group:roman_amazon_group }
+			owner ?= {
+				culture = { has_culture_group = culture_group:roman_amazon_group }
+			}
+		}
+
+		maintenance_demand =  heavy_infantry_maintenance
+		construction_demand = heavy_infantry_construction
+
+		gfx_tags = { legionary_tag musket_tag heavy_tag }
+	}
+
+	a_legionariae_6 = {
+		copy_from = a_age_6_revolutions_heavy_infantry
+
+		limit = legionariae_unit_limit
+		
+		strength_damage_taken = -0.10	
+		morale_damage_taken = -0.10
+		initiative = -1
+		combat_speed = -1
+
+		buildable = yes
+		country_potential = {
+			has_culture_group = culture_group:roman_amazon_group
+		}
+		location_potential = {
+			dominant_culture = { has_culture_group = culture_group:roman_amazon_group }
+			owner ?= {
+				culture = { has_culture_group = culture_group:roman_amazon_group }
+			}
+		}
+
+		maintenance_demand =  heavy_infantry_maintenance
+		construction_demand = heavy_infantry_construction
+
+		gfx_tags = { legionary_tag musket_tag heavy_tag }
+	}
+
+##Hellenic
+#Heraian Kataphraktoi
+	a_kataphractoi_1 = {
+		content_priority = 400
+		copy_from = a_age_1_traditions_heavy_cavalry
+		is_special = yes
+		
+		upgrades_to_only = a_kataphractoi_2
+
+		limit = kataphractoi_unit_limit
+
+		build_time_modifier = 0.50
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:heraean_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+			}
+		}
+		
+		construction_demand = expensive_heavy_cavalry_construction
+		maintenance_demand =  expensive_heavy_cavalry_maintenance
+		
+		buildable = yes
+
+		movement_speed = -0.25
+		strength_damage_taken = -0.25
+		morale_damage_done = 0.33
+		
+		combat = {
+			wetlands = -0.1
+			hills = -0.1
+			mountains = -0.15
+		}
+
+		location_potential = {
+			unit_heraean_kataphractoi_location_trigger = yes
+		}
+
+		gfx_tags = { 
+			cataphract_tag 
+			spear_tag
+			heavy_tag 
+		}
+	}
+
+	a_kataphractoi_2 = {
+		copy_from = a_age_2_renaissance_heavy_cavalry
+
+		upgrades_to_only = a_kataphractoi_3
+
+		limit = kataphractoi_unit_limit
+
+		build_time_modifier = 0.50
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:heraean_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+			}
+		}
+
+		construction_demand = expensive_heavy_cavalry_construction
+		maintenance_demand =  expensive_heavy_cavalry_maintenance
+		
+		buildable = yes
+
+		movement_speed = -0.25
+		strength_damage_taken = -0.25
+		morale_damage_done = 0.33
+		combat = {
+			wetlands = -0.1
+			hills = -0.1
+			mountains = -0.15
+		}
+
+		location_potential = {
+			unit_heraean_kataphractoi_location_trigger = yes
+		}
+
+		gfx_tags = { 
+			cataphract_tag 
+			spear_tag
+			heavy_tag 
+		}
+	}
+
+	a_kataphractoi_3 = {
+		copy_from = a_age_3_discovery_heavy_cavalry
+
+		upgrades_to_only = a_kataphractoi_4
+
+		limit = kataphractoi_unit_limit
+
+		build_time_modifier = 0.50
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:heraean_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+			}
+		}
+
+		construction_demand = expensive_heavy_cavalry_construction
+		maintenance_demand =  expensive_heavy_cavalry_maintenance
+		
+		buildable = yes
+
+		movement_speed = -0.25
+		strength_damage_taken = -0.25
+		morale_damage_done = 0.33
+		combat = {
+			wetlands = -0.1
+			hills = -0.1
+			mountains = -0.15
+		}
+
+		location_potential = {
+			unit_heraean_kataphractoi_location_trigger = yes
+		}
+
+		gfx_tags = { 
+			cataphract_tag 
+			spear_tag
+			heavy_tag 
+		}
+	}
+
+	a_kataphractoi_4 = {
+		copy_from = a_age_4_reformation_heavy_cavalry
+
+		upgrades_to_only = a_kataphractoi_5
+
+		limit = kataphractoi_unit_limit
+
+		build_time_modifier = 0.50
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:heraean_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+			}
+		}
+
+		construction_demand = expensive_heavy_cavalry_construction
+		maintenance_demand =  expensive_heavy_cavalry_maintenance
+		
+		buildable = yes
+
+		movement_speed = -0.25
+		strength_damage_taken = -0.25
+		morale_damage_done = 0.33
+		combat = {
+			wetlands = -0.1
+			hills = -0.1
+			mountains = -0.15
+		}
+
+		location_potential = {
+			unit_heraean_kataphractoi_location_trigger = yes
+		}
+
+		gfx_tags = { 
+			cataphract_tag 
+			spear_tag
+			heavy_tag 
+		}
+	}
+
+	a_kataphractoi_5 = {
+		copy_from = a_age_5_absolutism_heavy_cavalry
+
+		upgrades_to_only = a_kataphractoi_6
+
+		limit = kataphractoi_unit_limit
+
+		build_time_modifier = 0.50
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:heraean_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+			}
+		}
+
+		construction_demand = expensive_heavy_cavalry_construction
+		maintenance_demand =  expensive_heavy_cavalry_maintenance
+		
+		buildable = yes
+
+		movement_speed = -0.25
+		strength_damage_taken = -0.25
+		morale_damage_done = 0.33
+		combat = {
+			wetlands = -0.1
+			hills = -0.1
+			mountains = -0.15
+		}
+
+		location_potential = {
+			unit_heraean_kataphractoi_location_trigger = yes
+		}
+
+		gfx_tags = { 
+			cataphract_tag 
+			spear_tag
+			heavy_tag 
+		}
+	}
+
+	a_kataphractoi_6 = {
+		copy_from = a_age_6_revolutions_heavy_cavalry
+
+		limit = kataphractoi_unit_limit
+
+		build_time_modifier = 0.50
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:heraean_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+			}
+		}
+
+		construction_demand = expensive_heavy_cavalry_construction
+		maintenance_demand =  expensive_heavy_cavalry_maintenance
+		
+		buildable = yes
+
+		movement_speed = -0.25
+		strength_damage_taken = -0.25
+		morale_damage_done = 0.33
+		combat = {
+			wetlands = -0.1
+			hills = -0.1
+			mountains = -0.15
+		}
+
+		location_potential = {
+			unit_heraean_kataphractoi_location_trigger = yes
+		}
+
+		gfx_tags = { 
+			cataphract_tag 
+			spear_tag
+			heavy_tag 
+		}
+	}
+
+#Norsellenic Aspidoklastai
+	a_aspidoklastai_1 = {
+		content_priority = 500
+		copy_from = a_age_1_traditions_heavy_infantry
+		is_special = yes
+
+		max_strength = 0.1
+		strength_damage_done = 0.15
+		morale_damage_done = 0.15
+
+		upgrades_to_only = a_aspidoklastai_2
+
+		location_potential = {
+			unit_norsellenic_aspidoklastai_unit_location_trigger = yes
+		}
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:norsellenic_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+				has_or_had_tag = ANHM
+			}
+		}
+
+		buildable = yes
+		maintenance_demand =  early_heavy_infantry_maintenance
+		construction_demand = early_heavy_infantry_construction
+
+		gfx_tags = { axe_tag heavy_tag }
+	}
+
+	a_aspidoklastai_2 = {
+		copy_from = a_age_2_renaissance_heavy_infantry
+		is_special = yes
+
+		max_strength = 0.1
+		strength_damage_done = 0.15
+		morale_damage_done = 0.15
+
+		upgrades_to_only = a_aspidoklastai_3
+
+		location_potential = {
+			unit_norsellenic_aspidoklastai_unit_location_trigger = yes
+		}
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:norsellenic_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+				has_or_had_tag = ANHM
+			}
+		}
+
+		buildable = yes
+		maintenance_demand =  early_heavy_infantry_maintenance
+		construction_demand = early_heavy_infantry_construction
+
+		gfx_tags = { axe_tag heavy_tag }
+	}
+
+	a_aspidoklastai_3 = {
+		copy_from = a_age_3_discovery_heavy_infantry
+		is_special = yes
+
+		max_strength = 0.1
+		strength_damage_done = 0.15
+		morale_damage_done = 0.15
+
+		upgrades_to_only = a_aspidoklastai_4
+
+		location_potential = {
+			unit_norsellenic_aspidoklastai_unit_location_trigger = yes
+		}
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:norsellenic_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+				has_or_had_tag = ANHM
+			}
+		}
+
+		buildable = yes
+		maintenance_demand =  early_heavy_infantry_maintenance
+		construction_demand = early_heavy_infantry_construction
+
+		gfx_tags = { axe_tag heavy_tag }
+	}
+
+	a_aspidoklastai_4 = {
+		copy_from = a_age_4_reformation_heavy_infantry
+		is_special = yes
+
+		max_strength = 0.1
+		strength_damage_done = 0.15
+		morale_damage_done = 0.15
+
+		upgrades_to_only = a_aspidoklastai_5
+
+		location_potential = {
+			unit_norsellenic_aspidoklastai_unit_location_trigger = yes
+		}
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:norsellenic_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+				has_or_had_tag = ANHM
+			}
+		}
+
+		buildable = yes
+		maintenance_demand =  early_heavy_infantry_maintenance
+		construction_demand = early_heavy_infantry_construction
+
+		gfx_tags = { axe_tag heavy_tag }
+	}
+
+	a_aspidoklastai_5 = {
+		copy_from = a_age_5_absolutism_heavy_infantry
+		is_special = yes
+
+		max_strength = 0.1
+		strength_damage_done = 0.15
+		morale_damage_done = 0.15
+
+		upgrades_to_only = a_aspidoklastai_6
+
+		location_potential = {
+			unit_norsellenic_aspidoklastai_unit_location_trigger = yes
+		}
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:norsellenic_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+				has_or_had_tag = ANHM
+			}
+		}
+
+		buildable = yes
+		maintenance_demand =  heavy_infantry_maintenance
+		construction_demand = heavy_infantry_construction
+
+		gfx_tags = { axe_tag heavy_tag }
+	}
+
+	a_aspidoklastai_6 = {
+		copy_from = a_age_6_revolutions_heavy_infantry
+		is_special = yes
+
+		max_strength = 0.1
+		strength_damage_done = 0.15
+		morale_damage_done = 0.15
+
+		location_potential = {
+			unit_norsellenic_aspidoklastai_unit_location_trigger = yes
+		}
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:norsellenic_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+				has_or_had_tag = ANHM
+			}
+		}
+
+		buildable = yes
+		maintenance_demand =  heavy_infantry_maintenance
+		construction_demand = heavy_infantry_construction
+
+		gfx_tags = { axe_tag heavy_tag }
+	}
+
+#Athenaian Hoplitai
+	a_hoplitai_1 = {
+		content_priority = 400
+		copy_from = a_age_1_traditions_heavy_infantry
+		is_special = yes
+
+		upgrades_to_only = a_hoplitai_2
+
+		morale_damage_taken = -0.1
+		strength_damage_taken = -0.1
+
+		buildable = no
+		levy = yes
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:athenaean_amazon
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+
+		maintenance_demand =  early_infantry_maintenance
+		construction_demand = early_infantry_construction
+
+		location_potential = {
+			unit_hoplitai_location_trigger = yes
+		}
+		
+		gfx_tags = { medium_tag spear_tag }	
+	}
+	a_hoplitai_2 = {
+		copy_from = a_age_2_renaissance_heavy_infantry
+		is_special = yes
+
+		upgrades_to_only = a_hoplitai_3
+
+		morale_damage_taken = -0.1
+		strength_damage_taken = -0.1
+
+		buildable = no
+		levy = yes
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:athenaean_amazon
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+
+		maintenance_demand =  early_infantry_maintenance
+		construction_demand = early_infantry_construction
+
+		location_potential = {
+			unit_hoplitai_location_trigger = yes
+		}
+		
+		gfx_tags = { medium_tag spear_tag }	
+	}
+	a_hoplitai_3 = {
+		copy_from = a_age_3_discovery_heavy_infantry
+		is_special = yes
+
+		upgrades_to_only = a_hoplitai_4
+
+		morale_damage_taken = -0.1
+		strength_damage_taken = -0.15
+
+		buildable = no
+		levy = yes
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:athenaean_amazon
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+
+		maintenance_demand =  early_infantry_maintenance
+		construction_demand = early_infantry_construction
+
+		location_potential = {
+			unit_hoplitai_location_trigger = yes
+		}
+		
+		gfx_tags = { medium_tag spear_tag }	
+	}
+	a_hoplitai_4 = {
+		copy_from = a_age_4_reformation_heavy_infantry
+		is_special = yes
+
+		upgrades_to_only = a_hoplitai_5
+
+		morale_damage_taken = -0.1
+		strength_damage_taken = -0.15
+
+		buildable = no
+		levy = yes
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:athenaean_amazon
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+
+		maintenance_demand =  early_infantry_maintenance
+		construction_demand = early_infantry_construction
+
+		location_potential = {
+			unit_hoplitai_location_trigger = yes
+		}
+		
+		gfx_tags = { medium_tag spear_tag }	
+	}
+	a_hoplitai_5 = {
+		copy_from = a_age_5_absolutism_heavy_infantry
+		is_special = yes
+
+		upgrades_to_only = a_hoplitai_6
+
+		morale_damage_taken = -0.15
+		strength_damage_taken = -0.05
+
+		buildable = no
+		levy = yes
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:athenaean_amazon
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+
+		maintenance_demand =  infantry_maintenance
+		construction_demand = infantry_construction
+
+		location_potential = {
+			unit_hoplitai_location_trigger = yes
+		}
+		
+		gfx_tags = { medium_tag musket_tag }	
+	}
+	a_hoplitai_6 = {
+		copy_from = a_age_6_revolutions_heavy_infantry
+		is_special = yes
+
+		morale_damage_taken = -0.15
+		strength_damage_taken = -0.05
+
+		buildable = no
+		levy = yes
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:athenaean_amazon
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+
+		maintenance_demand =  infantry_maintenance
+		construction_demand = infantry_construction
+
+		location_potential = {
+			unit_hoplitai_location_trigger = yes
+		}
+		
+		gfx_tags = { medium_tag musket_tag }	
+	}
+
+#Artemisian Lykotoxotai
+	a_lykotoxotai_1 = {
+		copy_from = a_age_1_traditions_light_infantry
+		is_special = yes
+		upgrades_to_only = a_lykotoxotai_2
+
+		initiative = 1
+		strength_damage_taken = -0.15
+		morale_damage_done = 0.20
+
+		combat = {
+			woods = 0.2
+			forest = 0.2
+		}
+		
+		buildable = yes
+
+		maintenance_demand =  archer_infantry_maintenance
+		construction_demand = archer_infantry_construction
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:artemisian_amazon
+				has_or_had_tag = AMZN
+			}
+		}
+		location_potential = {
+			unit_artemisian_lykotoxotai_location_trigger = yes
+		}
+
+		gfx_tags = { archer_tag light_tag }
+	}
+
+	a_lykotoxotai_2 = {
+		copy_from = a_age_2_renaissance_light_infantry
+		is_special = yes
+		upgrades_to_only = a_lykotoxotai_3
+
+		initiative = 1
+		strength_damage_taken = -0.15
+		morale_damage_done = 0.20
+
+		combat = {
+			woods = 0.2
+			forest = 0.2
+		}
+		
+		buildable = yes
+
+		maintenance_demand =  archer_infantry_maintenance
+		construction_demand = archer_infantry_construction
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture culture:artemisian_amazon
+				has_or_had_tag = AMZN
+			}
+		}
+		location_potential = {
+			unit_artemisian_lykotoxotai_location_trigger = yes
+		}
+
+		gfx_tags = { archer_tag light_tag }
+	}
+	a_lykotoxotai_3 = {
+		copy_from = a_age_3_discovery_light_infantry
+		is_special = yes
+		upgrades_to_only = a_lykotoxotai_4
+
+		initiative = 1
+		strength_damage_taken = -0.15
+		morale_damage_done = 0.20
+
+		combat = {
+			woods = 0.2
+			forest = 0.2
+		}
+		
+		buildable = yes
+
+		maintenance_demand =  archer_infantry_maintenance
+		construction_demand = archer_infantry_construction
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture culture:artemisian_amazon
+				has_or_had_tag = AMZN
+			}
+		}
+		location_potential = {
+			unit_artemisian_lykotoxotai_location_trigger = yes
+		}
+
+		gfx_tags = { archer_tag light_tag }
+	}
+
+	a_lykotoxotai_4 = {
+		copy_from = a_age_4_reformation_light_infantry
+		is_special = yes
+		upgrades_to_only = a_lykotoxotai_5
+
+		initiative = 1
+		strength_damage_taken = -0.15
+		morale_damage_done = 0.20
+
+		combat = {
+			woods = 0.2
+			forest = 0.2
+		}
+		
+		buildable = yes
+
+		maintenance_demand =  archer_infantry_maintenance
+		construction_demand = archer_infantry_construction
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture culture:artemisian_amazon
+				has_or_had_tag = AMZN
+			}
+		}
+		location_potential = {
+			unit_artemisian_lykotoxotai_location_trigger = yes
+		}
+
+		gfx_tags = { archer_tag light_tag }
+	}
+
+	a_lykotoxotai_5 = {
+		copy_from = a_age_5_absolutism_light_infantry
+		is_special = yes
+		upgrades_to_only = a_lykotoxotai_6
+
+		initiative = 1
+		strength_damage_done = 0.10
+		morale_damage_done = 0.20
+
+		combat = {
+			woods = 0.2
+			forest = 0.2
+		}
+		
+		buildable = yes
+
+		maintenance_demand =  infantry_maintenance
+		construction_demand = infantry_construction
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture culture:artemisian_amazon
+				has_or_had_tag = AMZN
+			}
+		}
+		location_potential = {
+			unit_artemisian_lykotoxotai_location_trigger = yes
+		}
+
+		gfx_tags = { light_tag }
+	}
+
+	a_lykotoxotai_6 = {
+		copy_from = a_age_6_revolutions_light_infantry
+		is_special = yes
+
+		initiative = 1
+		strength_damage_done = 0.10
+		morale_damage_done = 0.20
+
+		combat = {
+			woods = 0.2
+			forest = 0.2
+		}
+		
+		buildable = yes
+
+		maintenance_demand =  infantry_maintenance
+		construction_demand = infantry_construction
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture culture:artemisian_amazon
+				has_or_had_tag = AMZN
+			}
+		}
+		location_potential = {
+			unit_artemisian_lykotoxotai_location_trigger = yes
+		}
+
+		gfx_tags = { light_tag }
+	}
+
+#Thalassan Polyremes
+	n_polyreme_1 = {
+		category = navy_galley
+		copy_from = n_age_1_traditions_galley
+		buildable = yes
+		upgrades_to = n_polyreme_2
+		
+		hull_size = 2
+		maritime_presence = ship_small_maritime  		 # Went up from 0.06 to 0.1
+		anti_piracy_warfare = 0.2
+		movement_speed = 1
+		crew_size = 0.02
+		transport_capacity = 0.03
+
+		location_potential = {
+			unit_thalassan_polyreme_location_trigger = yes
+		}
+
+		gfx_tags = { mediterranean_galley_tag }
+	}
+
+	n_polyreme_2 = {
+		category = navy_galley
+		copy_from = n_age_2_renaissance_galley
+		buildable = yes
+		upgrades_to = n_polyreme_3
+		
+		hull_size = 2
+		maritime_presence = ship_lower_medium_maritime  		 # Went up from 0.12 to 0.16
+		anti_piracy_warfare = 0.3
+		movement_speed = 1.25
+		crew_size = 0.02
+		transport_capacity = 0.03
+
+		location_potential = {
+			unit_thalassan_polyreme_location_trigger = yes
+		}
+
+		gfx_tags = { mediterranean_galley_tag }
+	}
+
+	n_polyreme_3 = {
+		category = navy_galley
+		copy_from = n_age_3_discovery_galley
+		buildable = yes
+		upgrades_to = n_polyreme_4
+		
+		hull_size = 2
+		maritime_presence = ship_almost_medium_maritime  		 # Went up from 0.14 to 0.18
+		anti_piracy_warfare = 0.4
+		movement_speed = 1.5
+		crew_size = 0.025
+		transport_capacity = 0.04
+
+		location_potential = {
+			unit_thalassan_polyreme_location_trigger = yes
+		}
+
+		gfx_tags = { mediterranean_galley_tag }
+	}
+
+	n_polyreme_4 = {
+		category = navy_galley
+		copy_from = n_age_4_reformation_galley
+		buildable = yes
+		upgrades_to = n_polyreme_5
+		
+		hull_size = 2
+		maritime_presence = ship_above_medium_maritime  		 # Went up from 0.2 to 0.24
+		anti_piracy_warfare = 0.5
+		movement_speed = 1.75
+		crew_size = 0.030
+		transport_capacity = 0.04
+
+		location_potential = {
+			unit_thalassan_polyreme_location_trigger = yes
+		}
+
+		gfx_tags = { mediterranean_galley_tag }
+	}
+	
+	n_polyreme_5 = {
+		category = navy_galley
+		copy_from = n_age_5_absolutism_galley
+		buildable = yes
+		upgrades_to = n_polyreme_6
+		
+		hull_size = 2
+		maritime_presence = ship_very_large_maritime  		 # Went up from 0.3 to 0.32
+		anti_piracy_warfare = 0.6
+		movement_speed = 2
+		crew_size = 0.03
+		transport_capacity = 0.05
+
+		location_potential = {
+			unit_thalassan_polyreme_location_trigger = yes
+		}
+
+		gfx_tags = { mediterranean_galley_tag }
+	}
+
+	n_polyreme_6 = {
+		category = navy_galley
+		copy_from = n_age_6_revolutions_galley
+		buildable = yes
+		
+		hull_size = 2
+		maritime_presence = ship_giant_maritime  		 # Went up from 0.32 to 0.4
+		anti_piracy_warfare = 0.8
+		movement_speed = 2.25
+		crew_size = 0.04
+		transport_capacity = 0.05
+
+		location_potential = {
+			unit_thalassan_polyreme_location_trigger = yes
+		}
+
+		gfx_tags = { mediterranean_galley_tag }
+	}
+
+##Norse
+#Saebornar Longships
+	n_longship_1 = {
+		is_special = yes
+		category = navy_light_ship
+		copy_from = n_age_1_traditions_light_ship
+		buildable = yes
+		upgrades_to = n_longship_2
+
+		hull_size = -1
+		cannons = -1
+		crew_size = -0.01
+		movement_speed = 1
+		naval_damage_taken = -0.05
+		naval_morale = 0.1
+
+		location_potential = {
+			unit_saebornar_ship_location_trigger = yes
+		}
+	}
+
+	n_longship_2 = {
+		is_special = yes
+		category = navy_light_ship
+		copy_from = n_age_2_renaissance_light_ship
+		buildable = yes
+		upgrades_to = n_longship_3
+
+		hull_size = -1
+		movement_speed = 1
+		naval_damage_taken = -0.1
+		naval_morale = 0.1
+
+		location_potential = {
+			unit_saebornar_ship_location_trigger = yes
+		}
+	}
+
+	n_longship_3 = {
+		is_special = yes
+		category = navy_light_ship
+		copy_from = n_age_3_discovery_light_ship
+		buildable = yes
+		upgrades_to = n_longship_4
+
+		hull_size = -1
+		movement_speed = 2
+		naval_damage_taken = -0.1
+		naval_morale = 0.1
+
+		location_potential = {
+			unit_saebornar_ship_location_trigger = yes
+		}
+	}
+
+	n_longship_4 = {
+		is_special = yes
+		category = navy_light_ship
+		copy_from = n_age_4_reformation_light_ship
+		buildable = yes
+		upgrades_to = n_longship_5
+
+		hull_size = -1
+		movement_speed = 2
+		naval_damage_taken = -0.15
+		naval_morale = 0.1
+
+		location_potential = {
+			unit_saebornar_ship_location_trigger = yes
+		}
+	}
+
+	n_longship_5 = {
+		is_special = yes
+		category = navy_light_ship
+		copy_from = n_age_5_absolutism_light_ship
+		buildable = yes
+		upgrades_to = n_longship_6
+
+		hull_size = -1
+		movement_speed = 2
+		naval_damage_taken = -0.15
+		naval_morale = 0.1
+
+		location_potential = {
+			unit_saebornar_ship_location_trigger = yes
+		}
+	}
+
+	n_longship_6 = {
+		is_special = yes
+		category = navy_light_ship
+		copy_from = n_age_6_revolutions_light_ship
+		buildable = yes
+		upgrades_to = n_longship_6
+
+		hull_size = -2
+		movement_speed = 2
+		naval_damage_taken = -0.2
+		naval_morale = 0.1
+
+		location_potential = {
+			unit_saebornar_ship_location_trigger = yes
+		}
+	}
+
+#Vindmarkar Vindryttarar
+	a_vindryttarar_1 = {
+		copy_from = a_age_1_traditions_light_cavalry
+		is_special = yes
+		upgrades_to_only = a_vindryttarar_2
+
+		max_strength = 0.4
+		morale_damage_done = 0.2
+		initiative = 3
+		movement_speed = 1.0
+
+		combat = { 
+			grasslands = 0.2
+			sparse = 0.2
+		}
+
+		location_potential = {
+			unit_vindmark_unit_location_trigger = yes
+		}
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:vindmarkar_amazon
+				has_or_had_tag = AVND
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZV
+			}
+		}
+	
+		maintenance_demand =  steppe_horse_archers_maintenance
+		construction_demand = steppe_horse_archers_construction
+		
+
+		gfx_tags = { archer_tag light_tag }
+	}
+
+	a_vindryttarar_2 = {
+		copy_from = a_age_2_renaissance_light_cavalry
+		is_special = yes
+		upgrades_to_only = a_vindryttarar_3
+
+		max_strength = 0.4
+		morale_damage_done = 0.2
+		initiative = 3
+		movement_speed = 1.0
+
+		combat = { 
+			grasslands = 0.2
+			sparse = 0.2
+		}
+
+		location_potential = {
+			unit_vindmark_unit_location_trigger = yes
+		}
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:vindmarkar_amazon
+				has_or_had_tag = AVND
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZV
+			}
+		}
+	
+		maintenance_demand =  steppe_horse_archers_maintenance
+		construction_demand = steppe_horse_archers_construction
+		
+
+		gfx_tags = { archer_tag light_tag }
+	}
+
+	a_vindryttarar_3 = {
+		copy_from = a_age_3_discovery_light_cavalry
+		is_special = yes
+		upgrades_to_only = a_vindryttarar_4
+
+		max_strength = 0.4
+		morale_damage_done = 0.2
+		initiative = 3
+		movement_speed = 1.0
+
+		combat = { 
+			grasslands = 0.2
+			sparse = 0.2
+		}
+
+		location_potential = {
+			unit_vindmark_unit_location_trigger = yes
+		}
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:vindmarkar_amazon
+				has_or_had_tag = AVND
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZV
+			}
+		}
+	
+		maintenance_demand =  steppe_horse_archers_maintenance
+		construction_demand = steppe_horse_archers_construction
+		
+
+		gfx_tags = { archer_tag light_tag }
+	}
+
+	a_vindryttarar_4 = {
+		copy_from = a_age_4_reformation_light_cavalry
+		is_special = yes
+		upgrades_to_only = a_vindryttarar_5
+
+		max_strength = 0.4
+		morale_damage_done = 0.2
+		initiative = 3
+		movement_speed = 1.0
+
+		combat = { 
+			grasslands = 0.2
+			sparse = 0.2
+		}
+
+		location_potential = {
+			unit_vindmark_unit_location_trigger = yes
+		}
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:vindmarkar_amazon
+				has_or_had_tag = AVND
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZV
+			}
+		}
+	
+		maintenance_demand =  steppe_horse_archers_maintenance
+		construction_demand = steppe_horse_archers_construction
+		
+
+		gfx_tags = { archer_tag light_tag }
+	}
+
+	a_vindryttarar_5 = {
+		copy_from = a_age_5_absolutism_light_cavalry
+		is_special = yes
+		upgrades_to_only = a_vindryttarar_6
+
+		max_strength = 0.4
+		morale_damage_done = 0.2
+		initiative = 3
+		movement_speed = 1.0
+
+		combat = { 
+			grasslands = 0.2
+			sparse = 0.2
+		}
+
+		location_potential = {
+			unit_vindmark_unit_location_trigger = yes
+		}
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:vindmarkar_amazon
+				has_or_had_tag = AVND
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZV
+			}
+		}
+	
+		maintenance_demand =  steppe_horse_archers_maintenance
+		construction_demand = steppe_horse_archers_construction
+		
+
+		gfx_tags = { light_tag }
+	}
+
+	a_vindryttarar_6 = {
+		copy_from = a_age_6_revolutions_light_cavalry
+		is_special = yes
+
+		max_strength = 0.4
+		morale_damage_done = 0.2
+		initiative = 3
+		movement_speed = 1.0
+
+		combat = { 
+			grasslands = 0.2
+			sparse = 0.2
+		}
+
+		location_potential = {
+			unit_vindmark_unit_location_trigger = yes
+		}
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:vindmarkar_amazon
+				has_or_had_tag = AVND
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZV
+			}
+		}
+	
+		maintenance_demand =  steppe_horse_archers_maintenance
+		construction_demand = steppe_horse_archers_construction
+		
+
+		gfx_tags = { light_tag }
+	}
+
+#Arnarvaengir Arnarskyttarar
+	a_arnarskyttarar_1 = {
+		copy_from = a_age_1_traditions_light_infantry
+		is_special = yes
+		upgrades_to_only = a_arnarskyttarar_2
+
+		initiative = 2
+		strength_damage_done = 0.20
+		morale_damage_done = 0.15
+
+		combat = {
+			grasslands = 0.2
+			sparse = 0.2
+			farmland = 0.1
+		}
+		
+		buildable = yes
+
+		maintenance_demand =  archer_infantry_maintenance
+		construction_demand = archer_infantry_construction
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:arnarvaengir_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		location_potential = {
+			unit_arnarskyttarar_location_trigger = yes
+		}
+
+		gfx_tags = { archer_tag light_tag }
+	}
+
+	a_arnarskyttarar_2 = {
+		copy_from = a_age_2_renaissance_light_infantry
+		is_special = yes
+		upgrades_to_only = a_arnarskyttarar_3
+
+		initiative = 2
+		strength_damage_done = 0.20
+		morale_damage_done = 0.15
+
+		combat = {
+			grasslands = 0.2
+			sparse = 0.2
+			farmland = 0.1
+		}
+		
+		buildable = yes
+
+		maintenance_demand =  archer_infantry_maintenance
+		construction_demand = archer_infantry_construction
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:arnarvaengir_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		location_potential = {
+			unit_arnarskyttarar_location_trigger = yes
+		}
+
+		gfx_tags = { archer_tag light_tag }
+	}
+	a_arnarskyttarar_3 = {
+		copy_from = a_age_3_discovery_light_infantry
+		is_special = yes
+		upgrades_to_only = a_arnarskyttarar_4
+
+		initiative = 2
+		strength_damage_done = 0.20
+		morale_damage_done = 0.15
+
+		combat = {
+			grasslands = 0.2
+			sparse = 0.2
+			farmland = 0.1
+		}
+		
+		buildable = yes
+
+		maintenance_demand =  archer_infantry_maintenance
+		construction_demand = archer_infantry_construction
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:arnarvaengir_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		location_potential = {
+			unit_arnarskyttarar_location_trigger = yes
+		}
+
+		gfx_tags = { archer_tag light_tag }
+	}
+
+	a_arnarskyttarar_4 = {
+		copy_from = a_age_4_reformation_light_infantry
+		is_special = yes
+		upgrades_to_only = a_arnarskyttarar_5
+
+		initiative = 2
+		strength_damage_done = 0.20
+		morale_damage_done = 0.15
+
+		combat = {
+			grasslands = 0.2
+			sparse = 0.2
+			farmland = 0.1
+		}
+		
+		buildable = yes
+
+		maintenance_demand =  archer_infantry_maintenance
+		construction_demand = archer_infantry_construction
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:arnarvaengir_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		location_potential = {
+			unit_arnarskyttarar_location_trigger = yes
+		}
+
+		gfx_tags = { archer_tag light_tag }
+	}
+
+	a_arnarskyttarar_5 = {
+		copy_from = a_age_5_absolutism_light_infantry
+		is_special = yes
+		upgrades_to_only = a_arnarskyttarar_6
+
+		initiative = 2
+		strength_damage_done = 0.20
+		morale_damage_done = 0.15
+
+		combat = {
+			grasslands = 0.2
+			sparse = 0.2
+			farmland = 0.1
+		}
+		
+		buildable = yes
+
+		maintenance_demand =  infantry_maintenance
+		construction_demand = infantry_construction
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:arnarvaengir_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		location_potential = {
+			unit_arnarskyttarar_location_trigger = yes
+		}
+
+		gfx_tags = { light_tag }
+	}
+
+	a_arnarskyttarar_6 = {
+		copy_from = a_age_6_revolutions_light_infantry
+		is_special = yes
+
+		initiative = 2
+		strength_damage_done = 0.20
+		morale_damage_done = 0.15
+
+		combat = {
+			grasslands = 0.2
+			sparse = 0.2
+			farmland = 0.1
+		}
+		
+		buildable = yes
+
+		maintenance_demand =  infantry_maintenance
+		construction_demand = infantry_construction
+
+		country_potential = {
+			OR = {
+				has_primary_or_accepted_culture = culture:arnarvaengir_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		location_potential = {
+			unit_arnarskyttarar_location_trigger = yes
+		}
+
+		gfx_tags = { light_tag }
+	}

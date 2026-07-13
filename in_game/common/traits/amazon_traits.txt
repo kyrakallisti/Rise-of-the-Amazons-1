@@ -1,0 +1,20 @@
+﻿kinslayer = {
+	allow = { always = no }
+	category = ruler
+	
+	modifier = {
+        monthly_legitimacy = -0.12
+        diplomatic_reputation = diplomatic_reputation_severe_penalty
+        subject_loyalty = -15
+	}
+}
+
+usurper = { 
+	allow = { always = no } 
+	category = ruler 
+	
+	modifier = { 
+		monthly_legitimacy = -0.02 
+		diplomatic_reputation = diplomatic_reputation_weak_penalty 
+	} 
+}

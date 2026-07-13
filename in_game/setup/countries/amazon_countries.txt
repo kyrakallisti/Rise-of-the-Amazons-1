@@ -1,0 +1,493 @@
+﻿#Artemisia
+	AART = {
+		color = map_artemisia
+		color2 = white
+
+		culture_definition = artemisian_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = administrative
+		difficulty = 2	
+	}
+	AULF = {
+		color = map_ulf
+		color2 = blue
+
+		culture_definition = freyjardotre_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+#Arkouda
+	AARK = {
+		color = map_arkouda
+		color2 = brown
+
+		culture_definition = artemisian_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+	ABJN = {
+		color = map_bjorneskog
+		color2 = orange
+
+		culture_definition = freyjardotre_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+#Eldara
+	AELD = {
+		color = map_amazon_norse
+		color2 = blue_gray
+
+		culture_definition = friggardaetur_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = administrative
+		difficulty = 2	
+	}
+	AFOL = {
+		color = map_freyja
+		color2 = yellow
+
+		culture_definition = freyjardotre_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+	ASVE = { #Sverðfiskeyjar
+		color = map_amazon_saebornar
+		color2 = blue_dark
+
+		culture_definition = saebornar_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = administrative
+		difficulty = 2	
+	}
+#Arnareyjar
+	AARN = {
+		color = map_amazon_arnar
+		color2 = saffron
+
+		culture_definition = arnarvaengir_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+#Vindmark
+	ASVA = {
+		color = map_svarthestar
+		color2 = black
+
+		culture_definition = vindmarkar_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+	AKVI = {
+		color = map_kvithestar
+		color2 = white
+
+		culture_definition = vindmarkar_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+	ARAU = {
+		color = map_raudhestar
+		color2 = red
+
+		culture_definition = vindmarkar_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = administrative
+		difficulty = 2	
+	}
+	ASOL = {
+		color = map_solvmanar
+		color2 = gray
+
+		culture_definition = vindmarkar_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = administrative
+		difficulty = 2	
+	}
+	AGUL = {
+		color = map_gulmanar
+		color2 = yellow
+
+		culture_definition = vindmarkar_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+	ABRU = {
+		color = map_brunmanar
+		color2 = brown
+
+		culture_definition = vindmarkar_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = administrative
+		difficulty = 2	
+	}
+
+#Thóradal Highlands
+	ATHR = {
+		color = map_amazon_thrud
+		color2 = red
+
+		culture_definition = thrudardotre_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = administrative
+		difficulty = 2	
+	}
+	AHKF = {
+		color = map_amazon_velos
+		color2 = green
+
+		culture_definition = thrudardotre_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+	APYR = {
+		color = map_amazon_pyros
+		color2 = green
+
+		culture_definition = thrudardotre_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+#Hēliás Nēsoi
+	ASUN = { #Sunnaheimr
+		color = map_sunna
+		color2 = yellow
+
+		culture_definition = saebornar_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+
+#Delphys Hēras
+	ABAS = { #Basileia Amazōnōn
+		color = map_basileia_amazonon
+		color2 = indigo_green
+
+		culture_definition = heraean_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = administrative
+		difficulty = 2	
+	}
+	APER = { #Persephonia
+		color = map_persephonia
+		color2 = pink
+
+		culture_definition = heraean_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+	AAET = { #Melanaetidai
+		color = map_aetos
+		color2 = red
+
+		culture_definition = heraean_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+	ALEA = { #Leainídai
+		color = map_leaina
+		color2 = yellow
+
+		culture_definition = heraean_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+
+  #Norsellenic
+	ANEA = { #Neathemyskira
+		color = map_neathemyskira
+		color2 = cyan
+
+		culture_definition = norsellenic_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+	AARG = { #Argyría
+		color = map_argyros
+		color2 = grey
+
+		culture_definition = norsellenic_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = administrative
+		difficulty = 2
+	}
+	AEPL = { #Eplaeyjar (Mēlonēsos)
+		color = map_melon
+		color2 = red
+
+		culture_definition = friggardaetur_amazon
+		religion_definition = amazon_asatru_religion
+
+		description_category = military
+		difficulty = 2
+	}
+	ARHO = { #Rhodonía
+		color = map_rhodonia
+		color2 = red
+
+		culture_definition = norsellenic_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+	AGRY = { #Akti Grýphōns
+		color = map_gryphon
+		color2 = yellow
+
+		culture_definition = norsellenic_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+
+
+#Hellenic Theocracies
+	AKRP = { #Ákra Persephónēs
+		color = map_akra_persephoneias
+		color2 = purple
+
+		culture_definition = heraean_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+	ADEM = { #Demetréia
+		color = map_demeter
+		color2 = orange
+
+		culture_definition = heraean_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+	APHR = { #Aphroditía
+		color = map_aphrodite
+		color2 = pink
+
+		culture_definition = aphroditian_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+	ANIK = { #Nikaion
+		color = map_nike
+		color2 = yellow
+
+		culture_definition = athenaean_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+
+#Athenaean Democracies
+	AGLA = { #Glaukopis
+		color = map_glaukopis
+		color2 = purple
+
+		culture_definition = athenaean_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+	ASOP = { #Sophion
+		color = map_sophion
+		color2 = blue
+
+		culture_definition = athenaean_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = administrative
+		difficulty = 2	
+	}
+	APRO = { #Promache
+		color = map_promache
+		color2 = red
+
+		culture_definition = athenaean_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+	AERG = { #Ergane
+		color = map_ergane
+		color2 = orange
+
+		culture_definition = athenaean_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = administrative
+		difficulty = 2	
+	}
+	APOL = { #Poliás
+		color = map_polias
+		color2 = white
+
+		culture_definition = athenaean_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = administrative
+		difficulty = 2	
+	}
+	AAIT = { #Aithyia
+		color = map_aithyia
+		color2 = blue
+
+		culture_definition = athenaean_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+	
+#Thalassan Octarchy
+	ASER = { #Serikíon
+		color = map_serikion
+		color2 = beije
+
+		culture_definition = thalassan_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+	APOR = { #Porphyráion
+		color = map_porphyraion
+		color2 = purple
+
+		culture_definition = thalassan_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+	ATHA = { #Thalassía
+		color = map_thalassia
+		color2 = blue
+
+		culture_definition = thalassan_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = administrative
+		difficulty = 2	
+	}
+	AOPH = { #Ophidísion
+		color = map_ophidision
+		color2 = green
+
+		culture_definition = thalassan_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+	AMAR = { #Márgaron
+		color = map_margaron
+		color2 = pink
+
+		culture_definition = thalassan_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+	ANAU = { #Naupēgía
+		color = map_naupegia
+		color2 = brown
+
+		culture_definition = thalassan_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+	AHES = { #Hestiaía
+		color = map_hestia
+		color2 = orange
+
+		culture_definition = hestian_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = administrative
+		difficulty = 2	
+	}
+	AHYP = { #Hyphásion
+		color = map_hyphasion
+		color2 = orange
+
+		culture_definition = hestian_amazon
+		religion_definition = amazon_hellenism_religion
+
+		description_category = diplomatic
+		difficulty = 2	
+	}
+	
+#Salacia (Born from Legio XII Salaciana Fidelis)
+	ASAL = { #Senatus Populusque Salaciae
+		color = map_amazon_latin
+		color2 = red
+
+		culture_definition = salacian_amazon
+		religion_definition = roman_amazon_religion
+
+		description_category = military
+		difficulty = 2	
+	}
+
+#Erisían Anarkhía
+	AERI = { #Erisía
+		color = map_amazon_erisian
+		color2 = black
+
+		culture_definition = erisian_amazon
+		religion_definition = erisian_heresy
+
+		description_category = military
+		difficulty = 2	
+	}

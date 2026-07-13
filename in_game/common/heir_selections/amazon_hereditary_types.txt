@@ -1,0 +1,913 @@
+﻿###Monarchy
+	matrilineal_primogeniture = {
+		use_mothers_dynasty = yes
+		include_ruler_siblings = yes
+		through_female = yes
+		allow_female = yes
+		allow_male = no
+		allow_children = yes
+		ignore_ruler = yes
+		
+		potential = {
+			culture = { has_culture_group = culture_group:amazon_group }
+		}
+		
+		allowed_estates = { nobles_estate }
+		heir_is_allowed = {
+		}
+		traverse_family_tree = yes
+		depth_first = yes
+		sibling_score = {
+			if = {
+				limit = {
+					exists = root
+				}
+				#bonus for females
+				add = {
+					desc = "HEIR_SELECTION_FEMALE_DESC"
+					if = {
+						limit = {
+							OR = {
+								not = { exists = root }
+								is_female = yes
+							}
+						}
+						value = 100
+					}
+				}
+
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = character_age
+				}
+				add = {
+					desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+					if = { limit = { modifier:blocked_from_being_ruler = yes } value = -1000 }
+				}
+			}
+			else = {
+				#description
+				add = {
+					desc = "HEIR_SELECTION_FEMALE_DESC"
+					value = 100
+				}
+
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+					value = -1000
+				}
+			}
+		}
+	}
+
+	matriarchy = {
+		use_mothers_dynasty = yes
+		include_ruler_siblings = yes
+		through_female = yes
+		allow_female = yes
+		allow_male = no
+		allow_children = yes
+		ignore_ruler = yes
+
+		allowed_estates = { nobles_estate }
+		heir_is_allowed = {
+		}
+
+		potential = {
+			culture = { has_culture_group = culture_group:amazon_group }
+		}
+
+		traverse_family_tree = yes
+		sibling_score = {
+			if = {
+				limit = {
+					exists = root
+				}
+				#bonus for females
+				add = {
+					desc = "HEIR_SELECTION_FEMALE_DESC"
+					if = {
+						limit = {
+							OR = {
+								not = { exists = root }
+								is_female = yes
+							}
+						}
+						value = 100
+					}
+				}
+
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = character_age
+				}
+				add = {
+					desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+					if = { limit = { modifier:blocked_from_being_ruler = yes } value = -1000 }
+				}
+			}
+			else = {
+				#description
+				add = {
+					desc = "HEIR_SELECTION_FEMALE_DESC"
+					value = 100
+				}
+
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = 1
+				}
+			}
+		}
+	}
+
+	youngest_daughter_of_ruler = {
+		use_mothers_dynasty = yes
+		through_female = yes
+		allow_female = yes
+		allow_male = no
+		allow_children = yes
+		ignore_ruler = yes
+
+		allowed_estates = { nobles_estate }
+		heir_is_allowed = {
+		}
+		traverse_family_tree = yes
+
+		potential = {
+			culture = { has_culture_group = culture_group:amazon_group }
+		}
+		
+		sibling_score = {
+			if = {
+				limit = {
+					exists = root
+				}
+				#bonus for females
+				add = {
+					desc = "HEIR_SELECTION_FEMALE_DESC"
+					if = {
+						limit = {
+							OR = {
+								not = { exists = root }
+								is_female = yes
+							}
+						}
+						value = 100
+					}
+				}
+
+				add = {
+					desc = "HEIR_SELECTION_YOUNGER_HEIR_DESC"
+					value = 100
+					subtract = character_age
+				}
+				add = {
+					desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+					if = { limit = { modifier:blocked_from_being_ruler = yes } value = -1000 }
+				}
+			}
+			else = {
+				#description
+				add = {
+					desc = "HEIR_SELECTION_FEMALE_DESC"
+					value = 100
+				}
+
+				add = {
+					desc = "HEIR_SELECTION_YOUNGER_HEIR_DESC"
+					value = 1
+				}
+			}
+		}
+	}
+
+	favorite_daughter_elective_succession = {
+		use_mothers_dynasty = yes
+		include_ruler_siblings = yes
+		through_female = yes
+		allow_female = yes
+		allow_male = no
+		allow_children = yes
+		ignore_ruler = yes
+		allowed_estates = { nobles_estate }
+		heir_is_allowed = {
+		}
+		traverse_family_tree = yes
+
+		potential = {
+			culture = { has_culture_group = culture_group:amazon_group }
+		}
+		sibling_score = {
+			if = {
+				limit = {
+					exists = root
+				}
+				add = {
+					desc = "HEIR_SELECTION_ADM_DESC"
+					value = root.adm
+				}
+				add = {
+					desc = "HEIR_SELECTION_DIP_DESC"
+					value = root.dip
+				}
+				add = {
+					desc = "HEIR_SELECTION_MIL_DESC"
+					value = root.mil
+				}
+				#bonus for appointed heir
+				add = {
+					desc = "HEIR_SELECTION_APPOINTED_HEIR_DESC"
+					if = {
+						limit = {
+							has_character_modifier = appoint_as_heir_modifier
+						}
+						value = 200
+					}
+				}
+
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = character_age
+				}
+				add = {
+					desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+					if = { limit = { modifier:blocked_from_being_ruler = yes } value = -1000 }
+				}
+			}
+			else = {
+				#description
+				add = {
+					desc = "HEIR_SELECTION_ADM_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_DIP_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_MIL_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_APPOINTED_HEIR_DESC"
+					value = 200
+				}
+
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = 1
+				}
+			}
+		}
+	}
+
+	matriarchal_elective_succession = {
+		use_election = yes
+		include_ruler_siblings = yes
+		all_in_country = yes
+		all_in_dynasty = yes
+		through_female = yes
+		ignore_ruler = yes
+		allow_female = yes
+		allow_male = no
+		term_duration = 0	#0 = until ruler death
+		allowed_estates = { nobles_estate }
+		heir_is_allowed = {
+		}
+		potential = {
+			culture = { has_culture_group = culture_group:amazon_group }
+			has_unlocked_heir_selection_trigger = { type = elective_succession }
+		}
+		locked = {
+			trigger_if = {
+				limit = { has_variable = rise_of_szlachta_szlachta_outcome_variable }
+				OR = {
+					custom_tooltip = {
+						text = has_had_struggle_for_royal_power_disaster_tt
+						has_variable = rise_of_szlachta_szlachta_outcome_variable
+					}
+					"estate_power(estate_type:crown_estate)" < 0.5
+				}
+			}
+			trigger_else = { always = no }
+		}
+		max_possible_candidates = 3
+		succession_effect = {
+			add_legitimacy = legitimacy_mild_penalty
+		}
+
+		calc = {
+			if = {
+				limit = {
+					exists = root
+				}
+				add = {
+					desc = "HEIR_SELECTION_ADM_DESC"
+					value = root.adm
+				}
+				add = {
+					desc = "HEIR_SELECTION_DIP_DESC"
+					value = root.dip
+				}
+				add = {
+					desc = "HEIR_SELECTION_MIL_DESC"
+					value = root.mil
+				}
+				
+				if = {
+					limit = { is_female = no }
+					add = {
+						desc = "HEIR_SELECTION_MALE_DESC"
+						value = -100
+					}
+				}
+
+				if = {
+					limit = { exists = root.mother }
+					
+					if = {
+						limit = {
+							any_parent = {
+								this = scope:target.ruler
+							}
+						}
+						add = {
+							desc = "HEIR_SELECTION_PARENT_IS_CURRENT_RULER_DESC"
+							value = 100
+						}
+					}				
+					else = {
+						if = {
+							limit = { 
+								scope:target = { 
+									any_ruler = { 
+										is_alive = no
+										root.mother = this 
+									} 
+								}
+							}
+							add = {
+								desc = "HEIR_SELECTION_MOTHER_WAS_HISTORICAL_RULER_DESC"
+								value = 100
+							}
+						}
+					}
+				}
+				if = { 
+					limit = { modifier:blocked_from_being_ruler = yes }
+					add = {
+						desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+						value = -1000 
+					}
+				}			
+				if = {
+					limit = { 
+						NOT = {
+							scope:target ?= {
+								any_primary_or_accepted_culture = { root.culture = this }
+							}
+						} 
+					}
+					add = {
+						desc = "HEIR_SELECTION_NON_ACCEPTED_CULTURE_DESC"
+						value = -100
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = { exists = root }
+				}
+				add = {
+					desc = "HEIR_SELECTION_MOTHER_WAS_HISTORICAL_RULER_DESC"
+					value = 100
+				}
+				add = {
+					desc = "HEIR_SELECTION_PARENT_IS_CURRENT_RULER_DESC"
+					value = 100
+				}
+				add = {
+					desc = "HEIR_SELECTION_ADM_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_DIP_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_MIL_DESC"
+					value = 1
+				}
+				add = { 
+					desc = "HEIR_SELECTION_MALE_DESC"
+					value = -100
+				}
+				add = {
+					desc = "HEIR_SELECTION_NON_ACCEPTED_CULTURE_DESC"
+					value = -100
+				}
+			}
+		}
+	}
+
+###Republic
+	amazon_matrician_republic = {
+		allow_female = yes
+		allow_male = no
+		use_election = yes
+		term_duration = 60	#0 = until ruler death
+		max_possible_candidates = 3
+
+		potential = {
+				culture = { has_culture_group = culture_group:roman_amazon_group }
+		}
+
+		allowed_estates = { nobles_estate }
+		heir_is_allowed = {
+		}
+		calc = {
+			if = {
+				limit = {
+					exists = root
+				}
+				add = {
+					desc = "HEIR_SELECTION_ADM_DESC"
+					value = root.adm
+				}
+				add = {
+					desc = "HEIR_SELECTION_DIP_DESC"
+					value = root.dip
+				}
+				add = {
+					desc = "HEIR_SELECTION_MIL_DESC"
+					value = root.mil
+				}
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = character_age
+				}
+				if = { 
+					limit = { modifier:blocked_from_being_ruler = yes }
+					add = {
+						desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+						value = -1000 
+					}
+				}
+			}
+
+			# Here it goes the description for explaining the lottery election
+			if = {
+				limit = {
+					not = { exists = root }
+				}
+				add = {
+					desc = "HEIR_SELECTION_ADM_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_DIP_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_MIL_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = 1
+				}
+			}
+		}
+
+		modifier = {
+			care_about_producing_heirs = yes
+		}
+	}
+
+	amazon_oligarchy = {
+		allow_female = yes
+		allow_male = no
+		use_election = yes
+		term_duration = 0	#0 = until ruler death
+		max_possible_candidates = 3
+
+		potential = {
+			culture = { has_culture_group = culture_group:amazon_group }
+		}
+
+		allowed_estates = { nobles_estate burghers_estate }
+		heir_is_allowed = {
+		}
+		calc = {
+			if = {
+				limit = {
+					exists = root
+				}
+				add = {
+					desc = "HEIR_SELECTION_ADM_DESC"
+					value = root.adm
+				}
+				add = {
+					desc = "HEIR_SELECTION_DIP_DESC"
+					value = root.dip
+				}
+				add = {
+					desc = "HEIR_SELECTION_MIL_DESC"
+					value = root.mil
+				}
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = character_age
+				}
+				if = { 
+					limit = { modifier:blocked_from_being_ruler = yes }
+					add = {
+						desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+						value = -1000 
+					}
+				}
+			}
+
+			# Here it goes the description for explaining the lottery election
+			if = {
+				limit = {
+					not = { exists = root }
+				}
+				add = {
+					desc = "HEIR_SELECTION_ADM_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_DIP_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_MIL_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = 1
+				}
+			}
+		}
+
+		modifier = {
+			care_about_producing_heirs = yes
+		}
+	}
+
+	amazon_democracy = {
+		allow_female = yes
+		allow_male = no
+		use_election = yes
+		term_duration = 60 # in months
+		max_possible_candidates = 4
+
+		potential = {
+			culture = { has_culture_group = culture_group:amazon_group }
+		}
+
+		allowed_estates = { nobles_estate burghers_estate peasants_estate }
+		heir_is_allowed = {
+		}
+		calc = {
+			if = {
+				limit = {
+					exists = root
+				}
+				add = {
+					desc = "HEIR_SELECTION_ADM_DESC"
+					value = root.adm
+				}
+				add = {
+					desc = "HEIR_SELECTION_DIP_DESC"
+					value = root.dip
+				}
+				add = {
+					desc = "HEIR_SELECTION_MIL_DESC"
+					value = root.mil
+				}
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = character_age
+				}
+				if = { 
+					limit = { modifier:blocked_from_being_ruler = yes }
+					add = {
+						desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+						value = -1000 
+					}
+				}
+			}
+
+			# Here it goes the description for explaining the lottery election
+			if = {
+				limit = {
+					not = { exists = root }
+				}
+				add = {
+					desc = "HEIR_SELECTION_ADM_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_DIP_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_MIL_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = 1
+				}
+			}
+		}
+
+		modifier = {
+			care_about_producing_heirs = no
+		}
+	}
+
+	amazon_technocracy = {
+		allow_female = yes
+		allow_male = no
+		use_election = yes
+		term_duration = 60	#0 = until ruler death
+		max_possible_candidates = 3
+
+		allowed_estates = { nobles_estate burghers_estate peasants_estate }
+		heir_is_allowed = {
+		}
+		potential = {
+			culture = { has_culture_group = culture_group:amazon_group }
+		}
+
+		calc = {
+			if = {
+				limit = {
+					exists = root
+				}
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = character_age
+				}
+				add = {
+					desc = "HEIR_SELECTION_ADM_DESC"
+					value = root.mil
+				}
+				add = {
+					desc = "HEIR_SELECTION_GENERAL_OR_ADMIRAL_TRAIT_DESC"
+					value = 10
+				}
+				if = { 
+					limit = { modifier:blocked_from_being_ruler = yes }
+					add = {
+						desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+						value = -1000 
+					}
+				}
+			}
+
+			# Here it goes the description for explaining the lottery election
+			if = {
+				limit = {
+					not = { exists = root }
+				}
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_ADM_DESC"
+					value = 1
+				}
+				if = {
+					limit = { 
+						OR = {
+							has_trait_category = general
+						}
+					}
+					add = {
+						desc = "HEIR_SELECTION_GENERAL_TRAIT_DESC"
+						value = 10
+					}
+				}
+			}
+		}
+
+		modifier = {
+			care_about_producing_heirs = no
+		}
+	}
+
+	amazon_stratocracy = {
+		allow_female = yes
+		allow_male = no
+		use_election = yes
+		term_duration = 0	#0 = until ruler death
+		max_possible_candidates = 3
+
+		allowed_estates = { nobles_estate burghers_estate peasants_estate }
+		heir_is_allowed = {
+		}
+		potential = {
+			culture = { has_culture_group = culture_group:amazon_group }
+		}
+
+		calc = {
+			if = {
+				limit = {
+					exists = root
+				}
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = character_age
+				}
+				add = {
+					desc = "HEIR_SELECTION_MIL_DESC"
+					value = root.mil
+				}
+				add = {
+					desc = "HEIR_SELECTION_GENERAL_OR_ADMIRAL_TRAIT_DESC"
+					value = 20
+				}
+				if = { 
+					limit = { modifier:blocked_from_being_ruler = yes }
+					add = {
+						desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+						value = -1000 
+					}
+				}
+			}
+
+			# Here it goes the description for explaining the lottery election
+			if = {
+				limit = {
+					not = { exists = root }
+				}
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_MIL_DESC"
+					value = 1
+				}
+				if = {
+					limit = { 
+						OR = {
+							has_trait_category = general
+						}
+					}
+					add = {
+						desc = "HEIR_SELECTION_GENERAL_TRAIT_DESC"
+						value = 20
+					}
+				}
+			}
+		}
+
+		modifier = {
+			care_about_producing_heirs = no
+		}
+	}
+
+	amazon_thalassocracy = {
+		allow_female = yes
+		allow_male = no
+		use_election = yes
+		term_duration = 0	#0 = until ruler death
+		max_possible_candidates = 3
+
+		allowed_estates = { nobles_estate burghers_estate peasants_estate }
+		heir_is_allowed = {
+		}
+		potential = {
+			culture = { has_culture_group = culture_group:amazon_group }
+		}
+
+		calc = {
+			if = {
+				limit = {
+					exists = root
+				}
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = character_age
+				}
+				add = {
+					desc = "HEIR_SELECTION_DIP_DESC"
+					value = root.mil
+				}
+				add = {
+					desc = "HEIR_SELECTION_GENERAL_OR_ADMIRAL_TRAIT_DESC"
+					value = 20
+				}
+				if = { 
+					limit = { modifier:blocked_from_being_ruler = yes }
+					add = {
+						desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+						value = -1000 
+					}
+				}
+			}
+
+			# Here it goes the description for explaining the lottery election
+			if = {
+				limit = {
+					not = { exists = root }
+				}
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = 1
+				}
+				add = {
+					desc = "HEIR_SELECTION_DIP_DESC"
+					value = 1
+				}
+				if = {
+					limit = { 
+						OR = {
+							has_trait_category = admiral
+						}
+					}
+					add = {
+						desc = "HEIR_SELECTION_ADMIRAL_TRAIT_DESC"
+						value = 20
+					}
+				}
+			}
+		}
+
+		modifier = {
+			care_about_producing_heirs = no
+		}
+	}
+
+	erisian_anarchy = {
+
+		allow_female = yes
+		allow_male = no
+		use_election = yes
+		term_duration = 0	#0 = until ruler death
+		max_possible_candidates = 3
+		show_candidates = no
+
+		potential = {
+			religion = religion:erisian_heresy
+		}
+
+		allowed_estates = { burghers_estate peasants_estate }
+		heir_is_allowed = {
+		}
+		calc = {
+			if = {
+				limit = {
+					exists = root
+				}
+				add = {
+					desc = "HEIR_SELECTION_RANDOM_DESC"
+					value = random_integer
+					modulo = 200
+					
+				}
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = character_age
+				}
+				if = { 
+					limit = { modifier:blocked_from_being_ruler = yes }
+					add = {
+						desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+						value = -1000 
+					}
+				}
+			}
+
+			# Here it goes the description for explaining the lottery election
+			if = {
+				limit = {
+					not = { exists = root }
+				}
+				add = {
+					desc = "HEIR_SELECTION_RANDOM_DESC"
+					format = "FORMAT_NO_VALUE"
+				}
+				add = {
+					desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+					value = 1
+				}
+			}
+		}
+
+		modifier = {
+			care_about_producing_heirs = yes
+		}
+	}

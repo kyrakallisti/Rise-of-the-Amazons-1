@@ -1,0 +1,315 @@
+﻿l_english:
+ # valid formats:
+ # name_NAME
+ # name_NAME.[culture]
+ # name_NAME.[language]
+ # name_NAME.[language].[culture]
+ # name_NAME.diminutive
+ # name_NAME.genitive
+ # name_NAME.[culture].diminutive
+ # name_NAME.[culture].genitive
+ # name_NAME.[language].diminutive
+ # name_NAME.[language].genitive
+ # name_NAME.[language].[culture].diminutive
+ # name_NAME.[language].[culture].genitive
+ #
+ # diminutive is used when a character has no dynasty
+ # genitive is used when a patronym, e.g. as in Irish usage
+ #
+ # you can also join compound names like this so they can have a unique form in some languages:
+ # name_michael.name_angel.north_italian_language: "Michelangelo"
+ 
+#Nicknames
+ nick_the_saviour: "The Saviour"
+ nick_nightmare: "The Nightmare"
+ nick_the_bold: "The Bold"
+ nick_the_defiant: "The Defiant"
+ nick_the_restorer: "The Restorer"
+ nick_the_cursed: "The Cursed"
+ nick_the_kinslayer: "The Kinslayer"
+ nick_the_black_owl: "The Black Owl"
+ nick_the_unifier: "The Unifier"
+ nick_the_wise: "The Wise"
+ nick_the_kind: "The Kind"
+ nick_the_bastard: "The Bastard"
+ nick_the_usurper: "The Usurper"
+ nick_the_ascended: "The Ascended"
+
+#Female Names
+ #A
+ name_amz_aella: "Aella" #whirlwind/storm-swif, Legendary Amazon Name
+ 
+ name_amz_agathe: "Agátha" #Good / Honorable
+ name_amz_agathe.old_hellenic_amazon_dialect: "Agáthē"
+
+ name_amz_delphis: "Delphís" #Woman of Delphi, Womb and also Dolphin
+ name_amz_delphis.old_hellenic_amazon_dialect: "Delphís"
+
+ name_amz_alexandra: "Alexandra" #Defender of Mankind
+ name_amz_alexandra.old_hellenic_amazon_dialect: "Alexándra"
+
+ name_amz_alexia: "Alexía" #Defender
+ name_amz_alexia.old_hellenic_amazon_dialect: "Alexía"
+
+ name_amz_althaia: "Althía" #Healer / Nourisher
+ name_amz_althaia.old_hellenic_amazon_dialect: "Althaía"
+
+ name_amz_antheia: "Anthía" #Flower / Blossom
+ name_amz_antheia.old_hellenic_amazon_dialect: "Ántheia"
+
+ name_amz_anastasia: "Anastasia" #Rebirth
+ name_amz_anastasia.old_hellenic_amazon_dialect: "Anastasia"
+
+ name_amz_antiope: "Antiópe" #Facing Opposite / Confronting
+ name_amz_antiope.old_hellenic_amazon_dialect: "Antiópē"
+
+ name_amz_apollonia: "Apollonía" #Of Apollo
+ name_amz_apollonia.old_hellenic_amazon_dialect: "Apollōnía"
+
+ name_amz_argyra: "Argyra" #Silver
+ name_amz_argyra.old_hellenic_amazon_dialect: "Argyra"
+
+ name_amz_athenais: "Athenáis" #Of Athena
+ name_amz_athenais.old_hellenic_amazon_dialect: "Athēnaís"
+
+ name_amz_athenike: "Atheníke" #Victory of Athena
+ name_amz_athenike.old_hellenic_amazon_dialect: "Athēníkē"
+
+ #B
+ name_amz_barbara: "Bárbara" #Foreign / Stranger
+ name_amz_barbara.old_hellenic_amazon_dialect: "Bárbara"
+
+ name_amz_berenike: "Bereníka" #Bringer of Victory
+ name_amz_berenike.old_hellenic_amazon_dialect: "Bereníkē"
+
+ #D
+ name_amz_demeter: "Demetra" #Earth Mother
+ name_amz_demeter.old_hellenic_amazon_dialect: "Dēmētēr"
+
+ name_amz_dorothea: "Dorothéa" #Gift of God
+ name_amz_dorothea.old_hellenic_amazon_dialect: "Dōrothéa"
+
+ #E
+ name_amz_ithilia: "Ithilia" #Unknown / Possibly regional
+
+ name_amz_eileithyia: "Elethía" #Of Childbirth
+ name_amz_eileithyia.old_hellenic_amazon_dialect: "Eileithyía"
+
+ name_amz_eirene: "Eirena" #Peace
+ name_amz_eirene.old_hellenic_amazon_dialect: "Eirēnē"
+
+ name_amz_elpis: "Elpída" #Hope
+ name_amz_elpis.old_hellenic_amazon_dialect: "Elpís"
+
+ name_amz_eugenia: "Eugenía" #Well-born / Noble
+ name_amz_eugenia.old_hellenic_amazon_dialect: "Eugenía"
+
+ name_amz_eudokia: "Eudokía" #Good Will / Favor
+ name_amz_eudokia.old_hellenic_amazon_dialect: "Eudokía"
+
+ name_amz_eudoxia: "Eudoxía" #Good Reputation / Glory
+ name_amz_eudoxia.old_hellenic_amazon_dialect: "Eudoxía"
+
+ name_amz_euphemia: "Euphemía" #Well-spoken / Auspicious Speech
+ name_amz_euphemia.old_hellenic_amazon_dialect: "Euphemía"
+
+ name_amz_euphrosyne: "Euphrosýna" #Joy / Mirth
+ name_amz_euphrosyne.old_hellenic_amazon_dialect: "Euphrosýnē"
+
+ #H
+ name_amz_hagne: "Agna" #Pure / Holy
+ name_amz_hagne.old_hellenic_amazon_dialect: "Hagnē"
+
+ name_amz_helene: "Helena" #Torch / Light
+ name_amz_helene.old_hellenic_amazon_dialect: "Helénē"
+
+ name_amz_hippolyte: "Hippolyta" #Releaser of Horses
+ name_amz_hippolyte.old_hellenic_amazon_dialect: "Hippolýtē"
+
+ name_amz_hypatia: "Hypatía" #Highest / Supreme
+ name_amz_hypatia.old_hellenic_amazon_dialect: "Hypatía"
+
+ #K
+ name_amz_kalliope: "Kalliópe" #Beautiful Voice
+ name_amz_kalliope.old_hellenic_amazon_dialect: "Kalliópē"
+
+ name_amz_kalliste: "Kallísta" #Most Beautiful
+ name_amz_kalliste.old_hellenic_amazon_dialect: "Kallístē"
+
+ name_amz_kassandra: "Kassandra" #She Who Entangles Men
+ name_amz_kassandra.old_hellenic_amazon_dialect: "Kassándra"
+
+ name_amz_khloe: "Khlóe" #Young Green Shoot
+ name_amz_khloe.old_hellenic_amazon_dialect: "Khlóē"
+
+ name_amz_kleo: "Kleo" #Glory
+ name_amz_kleo.old_hellenic_amazon_dialect: "Kleō"
+
+ name_amz_kyra: "Kýra" #Lady / Mistress
+ name_amz_kyra.old_hellenic_amazon_dialect: "Kýrā"
+
+ #L
+ name_amz_larissa: "Lárissa" #Citadel
+ name_amz_larissa.old_hellenic_amazon_dialect: "Lárissa"
+
+ name_amz_leaina: "Léna" #Lioness
+ name_amz_leaina.old_hellenic_amazon_dialect: "Léaina"
+
+ name_amz_lykaina: "Lýkena" #She-Wolf
+ name_amz_lykaina.old_hellenic_amazon_dialect: "Lýkaina"
+
+ name_amz_lydia: "Lydía" #Woman of Lydia
+ name_amz_lydia.old_hellenic_amazon_dialect: "Lydía"
+
+ name_amz_lysandra: "Lysandra" #Liberator of Men
+ name_amz_lysandra.old_hellenic_amazon_dialect: "Lysándra"
+
+ #M
+ name_amz_megara: "Mégara" #Great
+ name_amz_megara.old_hellenic_amazon_dialect: "Mégara"
+
+ name_amz_melissa: "Melíssa" #Bee
+ name_amz_melissa.old_hellenic_amazon_dialect: "Mélissa"
+
+ name_amz_melanaetis: "Melanaetís" #Black Eagle
+ name_amz_melanaetis.old_hellenic_amazon_dialect: "Melanaetís"
+
+ name_amz_melane: "Melánē" #Black / Dark
+ name_amz_melane.old_hellenic_amazon_dialect: "Melánē"
+
+ name_amz_melanippe: "Melaníppe" #Black Mare
+ name_amz_melanippe.old_hellenic_amazon_dialect: "Melaníppē"
+
+ name_amz_melinoe: "Melinoa" #Honey-like / Persephone's Daughter
+ name_amz_melinoe.old_hellenic_amazon_dialect: "Melinoē"
+
+ name_amz_myrine: "Myrína" #Of Myrrh
+ name_amz_myrine.old_hellenic_amazon_dialect: "Myrínē"
+
+ #N
+ name_amz_nikais: "Nikais" #Victory
+ name_amz_nikais.old_hellenic_amazon_dialect: "Nikaïs"
+
+ name_amz_nikephora: "Nikephora" #Bringer of Victory
+ name_amz_nikephora.old_hellenic_amazon_dialect: "Nikēphorē"
+ 
+ name_amz_nyx: "Nyx" #Night
+ name_amz_nyx.old_hellenic_amazon_dialect: "Nyx"
+
+ #O
+ name_amz_odessa: "Odessa" #Wrathful (possible)
+ name_amz_odessa.old_hellenic_amazon_dialect: "Odéssa"
+
+ name_amz_ophelia: "Ophelía" #Help, benefit
+ name_amz_ophelia.old_hellenic_amazon_dialect: "Ōphelía"
+
+ #P
+ name_amz_penthesileia: "Penthesíleia" #Mourning People
+ name_amz_penthesileia.old_hellenic_amazon_dialect: "Penthesíleia"
+
+ name_amz_philippa: "Philíppa" #Lover of Horses
+ name_amz_philippa.old_hellenic_amazon_dialect: "Philíppa"
+
+ name_amz_phoibe: "Phoíbe" #Bright / Radiant
+ name_amz_phoibe.old_hellenic_amazon_dialect: "Phoíbē"
+
+ name_amz_polyxene: "Polyxene" #Very Hospitable
+ name_amz_polyxene.old_hellenic_amazon_dialect: "Polyxénē"
+
+ #S
+ name_amz_sophia: "Sophía" #Wisdom
+ name_amz_sophia.old_hellenic_amazon_dialect: "Sophía"
+
+ name_amz_selene: "Selena" #Moon
+ name_amz_selene.old_hellenic_amazon_dialect: "Selēnē"
+
+ name_amz_serike: "Seríki" #Silken / of silk (from the Seres)
+ name_amz_serike.old_hellenic_amazon_dialect: "Sērikē"
+
+ name_amz_sibylla: "Sibylla" #Prophetess
+ name_amz_sibylla.old_hellenic_amazon_dialect: "Síbylla"
+
+ name_amz_stephane: "Stephane" #Crown
+ name_amz_stephane.old_hellenic_amazon_dialect: "Stephánē"
+
+ #T
+ name_amz_thalia: "Thália" #To Bloom / Flourish
+ name_amz_thalia.old_hellenic_amazon_dialect: "Thalía"
+
+ name_amz_thera: "Thíra" #Wild / Beast (uncertain origin)
+ name_amz_thera.old_hellenic_amazon_dialect: "Thēra"
+
+ name_amz_thessalia: "Thessalía" #From Thessaly
+ name_amz_thessalia.old_hellenic_amazon_dialect: "Thessalía"
+
+ #X
+ name_amz_xanthia: "Xanthía" #Golden / Fair-haired
+ name_amz_xanthia.old_hellenic_amazon_dialect: "Xanthía"
+
+ name_amz_xenia: "Xénia" #Hospitality
+ name_amz_xenia.old_hellenic_amazon_dialect: "Xenía"
+
+ #Z
+ name_amz_zoe: "Zoe" #Life
+ name_amz_zoe.old_hellenic_amazon_dialect: "Zoē"
+
+##Male names:
+ name_amz_leonidas: "Leonídas" #Son of the lion
+ name_amz_leonidas.old_hellenic_amazon_dialect: "Leōnídās"
+
+ name_amz_leon: "Leon" #Lion
+ name_amz_leon.old_hellenic_amazon_dialect: "Leōn"
+
+ name_amz_leontios: "Leóntios" #Lion-like
+ name_amz_leontios.old_hellenic_amazon_dialect: "Leóntios"
+
+ name_amz_lykos: "Lykos" #Wolf
+ name_amz_lykos.old_hellenic_amazon_dialect: "Lýkos"
+
+ name_amz_lykaon: "Lykaon" #Wolf-man / of wolves
+ name_amz_lykaon.old_hellenic_amazon_dialect: "Lykaōn"
+
+ name_amz_aetos: "Aetos" #Eagle
+ name_amz_aetos.old_hellenic_amazon_dialect: "Aetós"
+
+ name_amz_aetion: "Aetion" #Eagle-like
+ name_amz_aetion.old_hellenic_amazon_dialect: "Aetíōn"
+
+ name_amz_kapros: "Kapros" #Boar
+ name_amz_kapros.old_hellenic_amazon_dialect: "Kápros"
+
+ name_amz_arktos: "Arktos" #Bear
+ name_amz_arktos.old_hellenic_amazon_dialect: "Árktos"
+
+ name_amz_tauron: "Tauron" #Bull-like
+ name_amz_tauron.old_hellenic_amazon_dialect: "Taurōn"
+
+ name_amz_hippokrates: "Hippokrates" #Power of horses
+ name_amz_hippokrates.old_hellenic_amazon_dialect: "Hippokrátēs"
+
+ name_amz_hippomedon: "Hippomedon" #Horse-ruler
+ name_amz_hippomedon.old_hellenic_amazon_dialect: "Hippomédōn"
+
+ name_amz_philippos: "Philíppos" #Lover of horses
+ name_amz_philippos.old_hellenic_amazon_dialect: "Phílippos"
+
+ name_amz_alexandros: "Alexandros" #Defender of men
+ name_amz_alexandros.old_hellenic_amazon_dialect: "Aléxandros"
+
+ name_amz_theodoros: "Theódoros" #Gift of the gods
+ name_amz_theodoros.old_hellenic_amazon_dialect: "Theódōros"
+
+ name_amz_demetrios: "Demétrios" #Of Demeter
+ name_amz_demetrios.old_hellenic_amazon_dialect: "Dēmḗtrios"
+
+ name_amz_herakles: "Heraklēs" #Glory of Hera
+ name_amz_herakles.old_hellenic_amazon_dialect: "Hēraklēs"
+
+ name_amz_achilleus: "Achilleus" #Hero of Troy
+ name_amz_achilleus.old_hellenic_amazon_dialect: "Akhilleús"
+
+ name_amz_helanos: "Helanos" #Of light / sun-associated
+ name_amz_helanos.old_hellenic_amazon_dialect: "Hēlanos"
+
+ name_amz_alkaios: "Alkaios" #Strong / mighty
+ name_amz_alkaios.old_hellenic_amazon_dialect: "Alkaîos"

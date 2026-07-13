@@ -1,0 +1,62 @@
+﻿l_english:
+#Treaties:
+ treaty_of_sagavind: "The Treaty of '#Y $sagavind$#!' where Eldara, Arnareyjar and Sverðfiskeyjar settled their claims over Vinland."
+
+#Opinion Modifiers:
+ opinion_kinslaying: "Slayed a Sibling"
+ opinion_usurpation: "Usurped the Throne"
+ opinion_vacant_throne: "Vacant Throne"
+ opinion_pretender: "Pretender"
+ opinion_defended_baby_basilissa: "Stood for the Baby Basilíssa"
+ opinion_the_return_of_the_queen: "The Rightful Basilissa Rises"
+ opinion_defender_of_hellenism: "Defender of Old Hellenic Ways"
+ opinion_mutual_heritage: "Shared Heritage"
+
+#Country modifiers
+ STATIC_MODIFIER_NAME_palace_massacre: "Palace Massacre"
+ STATIC_MODIFIER_DESC_palace_massacre: "Securing the throne came with a hefty toll."
+ STATIC_MODIFIER_NAME_bastard_regency: "Bastard Regency"
+ STATIC_MODIFIER_DESC_bastard_regency: "The sisters remain united, yet the realm stands divided. The Heraiai nobility refuse to bow before a regency they deem hesitant and uncertain. To them, a throne unclaimed is a throne unguarded. Until Elpís comes of age, the White Owl rules without fangs nor claws."
+ STATIC_MODIFIER_NAME_defenders_of_the_child: "Defenders of the Child"
+ STATIC_MODIFIER_DESC_defenders_of_the_child: "Our warriors morale soar as they rise to defend the Baby Basilíssa from the heartless Usurper."
+ STATIC_MODIFIER_NAME_seeking_the_child: "Seeking the Child"
+ STATIC_MODIFIER_DESC_seeking_the_child: "The lost babe must be found, so we hire the best Agents, mercenaries and Bounty Hunters money can buy."
+ STATIC_MODIFIER_NAME_hunted_heir: "Hunted Heir"
+ STATIC_MODIFIER_DESC_hunted_heir: "The Usurper's agents and mercenaries trouble our lands and coasts as they hunt for the child. But our decoys are many, our desceptions are everywhere. They won't find her. Because whenever they get too close, we have our own hunters ready to ambush them."
+
+#Character Modifiers (Different from traits)
+ STATIC_MODIFIER_NAME_dedicated_to_athena: "Dedicated to Athena"
+ STATIC_MODIFIER_DESC_dedicated_to_athena: "Dedication to the Goddess of Wisdom comes with a cost. Athena is a Virgin Goddess, so her followers must abstract themselves from the pleasures of the flesh."
+ STATIC_MODIFIER_NAME_dedicated_to_hera: "Dedicated to Hera"
+ STATIC_MODIFIER_DESC_dedicated_to_hera: "Dedication to the All-Mother comes with great responsibility. The role of Matriarch now falls upon this Amazon, and as such it is her duty to built a strong, vast and lasting legacy to enture the ages to come."
+
+#Character Traits
+ kinslayer: "Kinslayer"
+ desc_kinslayer: "This ruler committed the greatest of all sins. Killing someone of your own blood is an unforgivable offense!"
+ usurper: "Usurper"
+ desc_usurper: "This ruler has unrightfully taken the throne through a coup."
+
+#Location Historical Base Values
+ STATIC_MODIFIER_NAME_thrudarfjell_base: "Iron Mines of Thúdarfjell"
+ STATIC_MODIFIER_DESC_thrudarfjell_base: "Richest, purest Iron veins in the Amazon Archipelago. Believed to be blessed by the Goddess Thrúd herself."
+
+ STATIC_MODIFIER_NAME_marmarolakkos_base: "Marble Cliffs of Marmarolákkos"
+ STATIC_MODIFIER_DESC_marmarolakkos_base: "Purest, whitest marble, perfect for Amazon sculptors to work on."
+
+ STATIC_MODIFIER_NAME_thrymheimr_base: "Silver Mines of Thrymheimr"
+ STATIC_MODIFIER_DESC_thrymheimr_base: "Silver veins run deep beneath the tallest peak within the Amazon Islands."
+
+ STATIC_MODIFIER_NAME_sessrumnir_base: "Freyja's Tears"
+ STATIC_MODIFIER_DESC_sessrumnir_base: "Fólkvangr's woods produce the most beautiful Amber in the world. Like if they came out of the Goddess' very Eyes."
+
+ STATIC_MODIFIER_NAME_alsos_artemidos_base: "Artemis' Legendary Hunting Grounds"
+ STATIC_MODIFIER_DESC_alsos_artemidos_base: "The wilderness at Álsos Artemídos have the deadliest, and most praised, game."
+
+ STATIC_MODIFIER_NAME_dakryathalasses_base: "Tears of Thalassa"
+ STATIC_MODIFIER_DESC_dakryathalasses_base: "Even the Goddess of the Seven Seas cry at the sight of the beauty of those Sapphires."
+
+ STATIC_MODIFIER_NAME_cuprum_bellonae_base: "Copper Mines of Mons Bellonae"
+ STATIC_MODIFIER_DESC_cuprum_bellonae_base: "Once known as Oros Enyoû, Mons Bellonae is an active volcano rich in copper deposits that supplied the Amazon armies with bronze weapons since ancient times."
+
+ STATIC_MODIFIER_NAME_montes_salis_base: "Salt Complex of Montes Salis"
+ STATIC_MODIFIER_DESC_montes_salis_base: "A combination of evaporation pans and mineral salt extraction makes Salacia the foremost producer of the vital resource that pays the salarium of its legions."

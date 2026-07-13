@@ -1,0 +1,30 @@
+﻿#Peasant privileges
+hoplite_politeia = {
+	estate = peasants_estate
+
+	potential = {
+		culture ?= { has_culture_group = culture_group:hellenic_amazon_group }
+		modifier:has_a_parliamentary_system = yes
+	}
+	allow = {
+		OR = {
+			has_primary_or_accepted_culture = culture:athenaean_amazon
+			has_or_had_tag = AMZT
+			has_or_had_tag = AMZN
+		}
+		has_estate_privilege = estate_privilege:peasants_represented_in_parliament
+		has_estate_privilege = estate_privilege:peasants_allowed_weapons_privilege
+	}
+	
+	
+	country_modifier = {
+		peasants_estate_can_participate_in_parliament = yes
+		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_peasants_estate_power = 0.5
+		global_peasant_enfranchisment = 0.1
+		monthly_towards_free_subjects = societal_value_monthly_move
+
+		levy_combat_efficiency_modifier = 0.10
+		global_levy_size_modifier = 0.15
+	}
+}

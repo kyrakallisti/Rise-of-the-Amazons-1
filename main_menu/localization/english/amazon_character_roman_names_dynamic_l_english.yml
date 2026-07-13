@@ -1,0 +1,100 @@
+﻿l_english:
+ # valid formats:
+ # name_NAME
+ # name_NAME.[culture]
+ # name_NAME.[language]
+ # name_NAME.[language].[culture]
+ # name_NAME.diminutive
+ # name_NAME.genitive
+ # name_NAME.[culture].diminutive
+ # name_NAME.[culture].genitive
+ # name_NAME.[language].diminutive
+ # name_NAME.[language].genitive
+ # name_NAME.[language].[culture].diminutive
+ # name_NAME.[language].[culture].genitive
+ #
+ # diminutive is used when a character has no dynasty
+ # genitive is used when a patronym, e.g. as in Irish usage
+ #
+ # you can also join compound names like this so they can have a unique form in some languages:
+ # name_michael.name_angel.north_italian_language: "Michelangelo"
+ 
+
+# Numerical Names (kept separate and ordered)
+  name_amz_prima: "Prima" #First
+  name_amz_secunda: "Secunda" #Second
+  name_amz_tertia: "Tertia" #Third
+  name_amz_quarta: "Quarta" #Fourth
+  name_amz_quinta: "Quinta" #Fifth
+  name_amz_sexta: "Sexta" #Sixth
+  name_amz_septima: "Septima" #Seventh
+  name_amz_octavia: "Octavia" #Eighth
+  name_amz_nona: "Nona" #Ninth
+  name_amz_decima: "Decima" #Tenth
+
+# Alphabetical Names
+  name_amz_agrippina: "Agrippina" #Noble family name, possibly "wild horse"
+  name_amz_alba: "Alba" #White, bright
+  name_amz_appia: "Apia" #Bee
+  name_amz_aquila: "Aquila" #Eagle
+  name_amz_augusta: "Augusta" #Majestic, venerable
+  name_amz_aurora: "Aurora" #Dawn
+  name_amz_argenta: "Argenta" #Silvery
+  name_amz_aurea: "Aurea" #Gold
+  name_amz_bella: "Bella" #Beautiful
+  name_amz_caelia: "Caelia" #Heavenly / of the sky
+  name_amz_carina: "Carina" #Beloved, dear
+  name_amz_clara: "Clara" #Clear, bright
+  name_amz_clementia: "Clementia" #Mercy, kindness
+  name_amz_digna: "Digna" #Worthy
+  name_amz_fausta: "Fausta" #Lucky, fortunate
+  name_amz_felicia: "Felicia" #Happy, fortunate
+  name_amz_flora: "Flora" #Flower
+  name_amz_fulvia: "Fulvia" #Golden-haired
+  name_amz_gaia: "Gaia" #Earth / traditional Roman female name
+  name_amz_gloria: "Gloria" #Glory
+  name_amz_gnaea: "Gnaea" #Feminine of Gnaeus
+  name_amz_grata: "Grata" #Pleasing, welcome
+  name_amz_hilaria: "Hilaria" #Cheerful
+  name_amz_honora: "Honora" #Honor
+  name_amz_justa: "Justa" #Just, fair
+  name_amz_laeta: "Laeta" #Joyful
+  name_amz_longina: "Longina" #Tall, long
+  name_amz_lucilia: "Lucilia" #Little light
+  name_amz_lucia: "Lucia" #Light
+  name_amz_lucina: "Lucina" #Bringer of light (birth goddess title)
+  name_amz_lupa: "Lupa" #She-wolf
+  name_amz_magna: "Magna" #Great
+  name_amz_marcia: "Marcia" #Of Mars (war)
+  name_amz_maxima: "Maxima" #Greatest
+  name_amz_mira: "Mira" #Wonderful
+  name_amz_natalia: "Natalia" #Of birth, natal
+  name_amz_nova: "Nova" #New
+  name_amz_optima: "Optima" #Best
+  name_amz_ornata: "Ornata" #Adorned, honored
+  name_amz_paulla: "Paulla" #Small, humble
+  name_amz_pia: "Pia" #Dutiful, pious
+  name_amz_placida: "Placida" #Calm, gentle
+  name_amz_prudentia: "Prudentia" #Prudence, wisdom
+  name_amz_publia: "Publia" #From Publius
+  name_amz_regina: "Regina" #Queen
+  name_amz_renata: "Renata" #Reborn
+  name_amz_sabina: "Sabina" #Sabine woman
+  name_amz_serena: "Serena" #Calm, serene
+  name_amz_severa: "Severa" #Strict, serious
+  name_amz_silvia: "Silvia" #Of the forest
+  name_amz_solara: "Solara" #Of the sun
+  name_amz_tacita: "Tacita" #Silent
+  name_amz_tatiana: "Tatiana" #From Tatius
+  name_amz_tiberia: "Tiberia" #Of the Tiber river
+  name_amz_titia: "Titia" #From Titus
+  name_amz_tranquilla: "Tranquilla" #Peaceful
+  name_amz_tulla: "Tulla" #From Tullus
+  name_amz_valentia: "Valentia" #Strength, valor
+  name_amz_vera: "Vera" #True
+  name_amz_vesuvia: "Vesuvia" #Of Vesuvius
+  name_amz_vibia: "Vibia" #From Vibius
+  name_amz_victa: "Victa" #Conquered / subdued (alt form of victory theme)
+  name_amz_viridia: "Viridia" #Green, fresh
+  name_amz_vita: "Vita" #Life
+

@@ -1,0 +1,224 @@
+﻿INJECT:crown_estate = {
+  #Latin Amazon
+	text = {
+		localization_key = crown_estate_roman_amazon_monarchy
+		trigger = {
+				culture.language = language:roman_amazon_language
+				government_type = government_type:monarchy
+		}
+	}
+	text = {
+		localization_key = crown_estate_roman_amazon_republic
+		trigger = {
+				culture.language = language:roman_amazon_language
+				government_type = government_type:republic
+		}
+	}
+	text = {
+		localization_key = crown_estate_roman_amazon_theocracy
+		trigger = {
+				culture.language = language:roman_amazon_language
+				government_type = government_type:theocracy
+		}
+	}
+  #Hellenic Amazon
+	text = {
+		localization_key = crown_estate_hellenic_amazon_monarchy
+		trigger = {
+				culture.language = language:hellenic_amazon_language
+				government_type = government_type:monarchy
+		}
+	}
+	text = {
+		localization_key = crown_estate_hellenic_amazon_republic
+		trigger = {
+				culture.language = language:hellenic_amazon_language
+				government_type = government_type:republic
+		}
+	}
+	text = {
+		localization_key = crown_estate_hellenic_amazon_theocracy
+		trigger = {
+				culture.language = language:hellenic_amazon_language
+				government_type = government_type:theocracy
+		}
+	}
+  #Norse Amazon
+	text = {
+		localization_key = crown_estate_norse_amazon_monarchy
+		trigger = {
+				culture.language = language:norse_amazon_language
+				government_type = government_type:monarchy
+		}
+	}
+	text = {
+		localization_key = crown_estate_norse_amazon_republic
+		trigger = {
+				culture.language = language:norse_amazon_language
+				government_type = government_type:republic
+		}
+	}
+	text = {
+		localization_key = crown_estate_norse_amazon_theocracy
+		trigger = {
+				culture.language = language:norse_amazon_language
+				government_type = government_type:theocracy
+		}
+	}
+}
+
+
+INJECT:nobles_estate = {
+  #Amazon
+	text = {
+		localization_key = nobles_estate_roman_amazon
+		trigger = {
+			OR = {
+				court_language = language:roman_amazon_language
+				culture.language = language:roman_amazon_language
+			}
+		}
+	}
+	text = {
+		localization_key = nobles_estate_hellenic_amazon
+		trigger = {
+			OR = {
+				court_language = language:hellenic_amazon_language
+				culture.language = language:hellenic_amazon_language
+			}
+		}
+	}
+	text = {
+		localization_key = nobles_estate_norse_amazon
+		trigger = {
+			OR = {
+				court_language = language:norse_amazon_language
+				culture.language = language:norse_amazon_language
+			}
+		}
+	}
+}
+
+INJECT:burghers_estate = {
+  #Amazon
+	text = {
+		localization_key = burghers_estate_roman_amazon
+		trigger = {
+			OR = {
+				court_language = language:roman_amazon_language
+				culture.language = language:roman_amazon_language
+			}
+		}
+	}
+	text = {
+		localization_key = burghers_estate_hellenic_amazon
+		trigger = {
+			OR = {
+				court_language = language:hellenic_amazon_language
+				culture.language = language:hellenic_amazon_language
+			}
+		}
+	}
+	text = {
+		localization_key = burghers_estate_norse_amazon
+		trigger = {
+			OR = {
+				court_language = language:norse_amazon_language
+				culture.language = language:norse_amazon_language
+			}
+		}
+	}
+}
+
+INJECT:clergy_estate = {
+  #Amazon
+    text = {
+		localization_key = clergy_estate_roman_amazon
+		trigger = {
+			OR = {
+				court_language = language:roman_amazon_language
+				culture.language = language:roman_amazon_language
+			}
+		}
+	}
+	text = {
+		localization_key = clergy_estate_hellenic_amazon
+		trigger = {
+			OR = {
+				court_language = language:hellenic_amazon_language
+				culture.language = language:hellenic_amazon_language
+			}
+		}
+	}
+	text = {
+		localization_key = clergy_estate_norse_amazon
+		trigger = {
+			OR = {
+				court_language = language:norse_amazon_language
+				culture.language = language:norse_amazon_language
+			}
+		}
+	}
+}
+
+INJECT:peasants_estate = {
+  #Amazon
+	text = {
+		localization_key = peasants_estate_roman_amazon
+		trigger = {
+			OR = {
+				court_language = language:roman_amazon_language
+				culture.language = language:roman_amazon_language
+			}
+		}
+	}
+	text = {
+		localization_key = peasants_estate_hellenic_amazon
+		trigger = {
+			OR = {
+				court_language = language:hellenic_amazon_language
+				culture.language = language:hellenic_amazon_language
+			}
+		}
+	}
+	text = {
+		localization_key = peasants_estate_norse_amazon
+		trigger = {
+			OR = {
+				court_language = language:norse_amazon_language
+				culture.language = language:norse_amazon_language
+			}
+		}
+	}
+}
+
+INJECT:tribes_estate = {
+  #Amazon
+	text = {
+		localization_key = tribes_estate_roman_amazon
+		trigger = {
+			OR = {
+				court_language = language:roman_amazon_language
+				culture.language = language:roman_amazon_language
+			}
+		}
+	}
+	text = {
+		localization_key = tribes_estate_hellenic_amazon
+		trigger = {
+			OR = {
+				court_language = language:hellenic_amazon_language
+				culture.language = language:hellenic_amazon_language
+			}
+		}
+	}
+	text = {
+		localization_key = tribes_estate_norse_amazon
+		trigger = {
+			OR = {
+				court_language = language:norse_amazon_language
+				culture.language = language:norse_amazon_language
+			}
+		}
+	}
+}

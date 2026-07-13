@@ -1,0 +1,13 @@
+﻿############################
+# age_1_traditions
+############################
+
+matriarchal_society = {
+	age = age_1_traditions
+	icon = female
+
+	potential = {
+		culture = { has_culture_group = culture_group:amazon_group }
+	}
+	country_child_education = 0.15
+}

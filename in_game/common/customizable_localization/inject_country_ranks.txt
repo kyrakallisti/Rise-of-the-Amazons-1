@@ -1,0 +1,606 @@
+﻿INJECT:country_flavor = {
+
+###Amazon
+#Hellenic
+	text = {
+		localization_key = rank_empire_basileia
+		trigger = {
+			country_rank_is_empire = yes
+			government_type = government_type:monarchy
+			OR = {
+				court_language ?= language:hellenic_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:hellenic_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_basileia
+		trigger = {
+			country_rank_is_kingdom = yes
+			government_type = government_type:monarchy
+			OR = {
+				court_language ?= language:hellenic_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:hellenic_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_duchy_arkhe
+		trigger = {
+			country_rank_is_duchy = yes
+			government_type = government_type:monarchy
+			OR = {
+				court_language ?= language:hellenic_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:hellenic_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_county_khora
+		trigger = {
+			country_rank_is_county = yes
+			government_type = government_type:monarchy
+			OR = {
+				court_language ?= language:hellenic_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:hellenic_amazon_language
+				}
+			}
+		}
+	}
+
+   #Hellenic Democracies
+	text = {
+		localization_key = rank_empire_hegemonia
+		trigger = {
+			country_rank_is_empire = yes
+			government_type = government_type:republic
+			OR = {
+				court_language ?= language:hellenic_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:hellenic_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_hegemonia
+		trigger = {
+			country_rank_is_kingdom = yes
+			government_type = government_type:republic
+			OR = {
+				court_language ?= language:hellenic_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:hellenic_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_duchy_hegemonia
+		trigger = {
+			country_rank_is_duchy = yes
+			government_type = government_type:republic
+			OR = {
+				court_language ?= language:hellenic_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:hellenic_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_county_polis
+		trigger = {
+			country_rank_is_county = yes
+			government_type = government_type:republic
+			OR = { 
+				succession_law = heir_selection:amazon_democracy 
+				succession_law = heir_selection:amazon_technocracy
+				succession_law = heir_selection:amazon_stratocracy
+				succession_law = heir_selection:amazon_thalassocracy
+			}
+			OR = {
+				court_language ?= language:hellenic_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:hellenic_amazon_language
+				}
+			}
+		}
+	}
+	#Oligarchy
+	text = {
+		localization_key = rank_county_oligarkhia
+		trigger = {
+			country_rank_is_county = yes
+			government_type = government_type:republic
+			succession_law = heir_selection:amazon_oligarchy
+			OR = {
+				court_language ?= language:hellenic_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:hellenic_amazon_language
+				}
+			}
+		}
+	}
+	#Anarchy
+	text = {
+		localization_key = rank_kallisteia
+		trigger = {
+			government_type = government_type:republic
+			succession_law = heir_selection:erisian_anarchy
+			OR = {
+				court_language ?= language:hellenic_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:hellenic_amazon_language
+				}
+			}
+		}
+	}
+
+   #Hellenic Theocracies
+    text = {
+		localization_key = rank_empire_hierokratia
+		trigger = {
+			country_rank_is_empire = yes
+			government_type = government_type:theocracy
+			OR = {
+				court_language ?= language:hellenic_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:hellenic_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_hieregemonia
+		trigger = {
+			country_rank_is_kingdom = yes
+			government_type = government_type:theocracy
+			OR = {
+				court_language ?= language:hellenic_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:hellenic_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_duchy_hiera_arkhe
+		trigger = {
+			country_rank_is_duchy = yes
+			government_type = government_type:theocracy
+			OR = {
+				court_language ?= language:hellenic_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:hellenic_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_county_hiera_khora
+		trigger = {
+			country_rank_is_county = yes
+			government_type = government_type:theocracy
+			OR = {
+				court_language ?= language:hellenic_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:hellenic_amazon_language
+				}
+			}
+		}
+	}
+#Norse
+  #Norse Monarchies
+	text = {
+		localization_key = rank_empire_keisaraveldi
+		trigger = {
+			country_rank_is_empire = yes
+			government_type = government_type:monarchy
+			OR = {
+				court_language ?= language:norse_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:norse_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_riki
+		trigger = {
+			country_rank_is_kingdom = yes
+			government_type = government_type:monarchy
+			OR = {
+				court_language ?= language:norse_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:norse_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_duchy_jarldom
+		trigger = {
+			country_rank_is_duchy = yes
+			government_type = government_type:monarchy
+			OR = {
+				court_language ?= language:norse_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:norse_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_county_fylker
+		trigger = {
+			country_rank_is_county = yes
+			government_type = government_type:monarchy
+			OR = {
+				court_language ?= language:norse_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:norse_amazon_language
+				}
+			}
+		}
+	}
+   #Norse Theocracies
+    text = {
+		localization_key = rank_empire_seidveldi
+		trigger = {
+
+			country_rank_is_empire = yes
+			government_type = government_type:theocracy
+			OR = {
+				court_language ?= language:norse_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:norse_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_godjurland
+		trigger = {
+
+			country_rank_is_kingdom = yes
+			government_type = government_type:theocracy
+			OR = {
+				court_language ?= language:norse_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:norse_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_duchy_hailagaland
+		trigger = {
+
+			country_rank_is_duchy = yes
+			government_type = government_type:theocracy
+			OR = {
+				court_language ?= language:norse_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:norse_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_county_hofland
+		trigger = {
+
+			country_rank_is_county = yes
+			government_type = government_type:theocracy
+			OR = {
+				court_language ?= language:norse_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:norse_amazon_language
+				}
+			}
+		}
+	}
+   #Norse Republics
+    text = {
+		localization_key = rank_empire_storthjodveldi
+		trigger = {
+
+			country_rank_is_empire = yes
+			government_type = government_type:republic
+			OR = {
+				court_language ?= language:norse_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:norse_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_thjodveldi
+		trigger = {
+
+			country_rank_is_kingdom = yes
+			government_type = government_type:republic
+			OR = {
+				court_language ?= language:norse_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:norse_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_duchy_storthing
+		trigger = {
+
+			country_rank_is_duchy = yes
+			government_type = government_type:republic
+			OR = {
+				court_language ?= language:norse_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:norse_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_county_thing
+		trigger = {
+
+			country_rank_is_county = yes
+			government_type = government_type:republic
+			OR = {
+				court_language ?= language:norse_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:norse_amazon_language
+				}
+			}
+		}
+	}
+#Latin
+  #Latin Monarchy
+	text = {
+		localization_key = rank_empire_imperium
+		trigger = {
+			country_rank_is_empire = yes
+			government_type = government_type:monarchy
+			OR = {
+				court_language ?= language:roman_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:roman_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_imperium
+		trigger = {
+			country_rank_is_kingdom = yes
+			government_type = government_type:monarchy
+			OR = {
+				court_language ?= language:roman_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:roman_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_duchy_imperium
+		trigger = {
+			country_rank_is_duchy = yes
+			government_type = government_type:monarchy
+			OR = {
+				court_language ?= language:roman_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:roman_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_county_imperium
+		trigger = {
+			country_rank_is_county = yes
+			government_type = government_type:monarchy
+			OR = {
+				court_language ?= language:roman_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:roman_amazon_language
+				}
+			}
+		}
+	}
+  #Latin Democracies
+	text = {
+		localization_key = rank_empire_respublica
+		trigger = {
+			country_rank_is_empire = yes
+			government_type = government_type:republic
+			OR = {
+				court_language ?= language:roman_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:roman_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_respublica
+		trigger = {
+			country_rank_is_kingdom = yes
+			government_type = government_type:republic
+			OR = {
+				court_language ?= language:roman_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:roman_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_duchy_respublica
+		trigger = {
+			country_rank_is_duchy = yes
+			government_type = government_type:republic
+			OR = {
+				court_language ?= language:roman_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:roman_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_duchy_respublica
+		trigger = {
+			country_rank_is_county = yes
+			government_type = government_type:republic
+			OR = {
+				court_language ?= language:roman_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:roman_amazon_language
+				}
+			}
+		}
+	}
+  #Latin Theocracies
+    text = {
+		localization_key = rank_empire_sacra
+		trigger = {
+			country_rank_is_empire = yes
+			government_type = government_type:theocracy
+			OR = {
+				court_language ?= language:roman_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:roman_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_sacra
+		trigger = {
+			country_rank_is_kingdom = yes
+			government_type = government_type:theocracy
+			OR = {
+				court_language ?= language:roman_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:roman_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_duchy_sacra
+		trigger = {
+			country_rank_is_duchy = yes
+			government_type = government_type:theocracy
+			OR = {
+				court_language ?= language:roman_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:roman_amazon_language
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rank_county_sacra
+		trigger = {
+			country_rank_is_county = yes
+			government_type = government_type:theocracy
+			OR = {
+				court_language ?= language:roman_amazon_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:roman_amazon_language
+				}
+			}
+		}
+	}
+
+
+}

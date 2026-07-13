@@ -1,0 +1,14 @@
+﻿dedicated_to_athena = {
+	game_data = {
+		category = character
+	}
+	blocked_from_marriage = yes
+}
+
+dedicated_to_hera = {
+	game_data = {
+		category = character
+	}
+	monthly_legitimacy = 0.01
+	character_fertility = 40
+}

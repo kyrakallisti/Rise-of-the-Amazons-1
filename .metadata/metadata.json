@@ -1,0 +1,11 @@
+﻿{
+	"name":	"Rise of the Amazons",
+	"id":	"amazons",
+	"version":	"0.2",
+	"supported_game_version":	"1.1.0",
+	"short_description":	"This mod introduces a new set of islands in the middle of the Atlantic Ocean, inhabited by a brand new, pagan and matriarchal Amazon civilization to the Vanilla game, without altering the historical status quo, mechanics and power dynamics in the rest of the world.\n\nThe Amazons have their own cultures, religions, laws and events, as well as several small nations within their fragmented society. Right in the middle of the way to the new world, with fertile lands, a high population and rich in resources, the Amazon lands are prime real state for the power of the Old World to claim for themselves.\n\nThe Amazons are a strong and proud people, but long gone are the Golden Age that they once enjoyed under the fair rule of Queen Hippolyta. Centuries of infighting has fractured the realm into dozens of small independent fiefs with their own ambitions and dreams of grandeur. The Royal Family itself was reduced to a shadow of the great warrior queens of the past. Queen Althea managed to bring an age of peace and prosperity to the Amazon kin, but with her death during childbirth the throne now falls upon a sickly newborn babe. This power vacuum could have arrived in a worse time. Amazon Warlords already plot to take the throne for themselves, either claiming old blood ties to the Hippolitakori Dynasty or simply seeking legitimacy by might alone.\n\nCan you rise among the Amazon ranks and united their fractured Realm into a proper Empire before the European Colonizers discover this isolated archipelago? Will you be able to gather enough strength and power through technology and wealth to fight off the relentless armies and navies of mankind? There is a long way ahead to become a major power in this world dominates by men, but the Amazons have everything they need to build a powerful naval Empire of their own, spreading their own colonies and influence across the oceans.",
+	"tags":	["Alternative history", "Map", "Overhaul"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}

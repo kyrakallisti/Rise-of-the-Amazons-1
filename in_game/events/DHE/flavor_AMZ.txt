@@ -1,0 +1,963 @@
+﻿namespace = flavor_amz
+# A Blessing from the All-Mother
+flavor_amz.1 = {
+	type = country_event
+	title = flavor_amz.1.title
+	desc = flavor_amz.1.desc
+	historical_info = flavor_amz.1.historical_info
+
+	fire_only_once = yes
+
+	dynamic_historical_event = {
+		tag = ABAS
+		from = 1337.1.1
+		to = 1348.1.1
+		monthly_chance = 100
+	}
+
+	trigger = {
+		character:abas_althaia_hippolytide_5 = {
+			is_alive = yes
+			owner ?= ROOT
+			is_spouse_of = character:anea_sven_svanardottir_1 
+		}
+		character:abas_agathe_the_bastard = {
+			is_alive = yes
+		}
+	}
+
+	immediate = {
+		character:abas_althaia_hippolytide_5 = { save_scope_as = mother_owl }
+		character:abas_agathe_the_bastard = { save_scope_as = bastard_owl }
+	}
+
+	option = {
+		name = flavor_amz.1.a
+		custom_tooltip = flavor_amz.1.a.tt
+		historical_option = yes
+		ai_will_select  = { value = 95 }
+
+		add_stability = stability_weak_penalty
+		add_legitimacy = legitimacy_mild_bonus
+	}
+
+	option = {
+		name = flavor_amz.1.b
+		custom_tooltip = flavor_amz.1.b.tt
+		ai_will_select  = { value = 5 }
+
+		scope:bastard_owl = {
+			if = {
+					limit = { has_character_modifier = bastard }
+					remove_character_modifier = bastard
+				}
+			if = {
+					limit = { has_dynasty = no }
+					change_dynasty = scope:mother_owl.dynasty
+				}
+			set_nickname = nick_the_ascended
+		}
+
+		c:ANEA = {
+			add_opinion = {
+				target = root
+				modifier = opinion_insult
+			}
+		}
+
+		add_stability = stability_mild_bonus
+		add_legitimacy = legitimacy_extreme_penalty
+	} 
+
+	after = {
+		hidden_effect = {
+			character:anea_sven_svanardottir_1 = {
+				impregnate = scope:mother_owl
+			}
+			trigger_event_non_silently = {
+				id = flavor_amz.2
+				months = 6
+			}			
+		}
+	}
+}
+
+# The Last Breath of the Basilíssa
+flavor_amz.2 = {
+	type = country_event
+	title = flavor_amz.2.title
+	desc = flavor_amz.2.desc
+	historical_info = flavor_amz.2.historical_info
+
+	fire_only_once = yes
+
+	dynamic_historical_event = {
+		tag = ABAS
+		from = 1338.1.1
+		to = 1340.1.1
+		monthly_chance = 0
+	}
+
+	trigger = {
+		character:abas_althaia_hippolytide_5 = {
+			is_alive = yes
+		}
+	}
+
+	immediate = {
+		character:abas_althaia_hippolytide_5 = { save_scope_as = mother_owl }
+		character:abas_agathe_the_bastard = { save_scope_as = bastard_owl }
+		character:abas_astrid_hippolytide_aunt = { save_scope_as = aunt_owl }
+
+		create_character = {
+			first_name = name_amz_elpis
+			culture = culture:heraean_amazon
+			religion = religion:amazon_hellenism_religion
+			estate = estate_type:nobles_estate
+			female = yes
+			age = 0
+			birth = location:heraion_basileion
+			dynasty = dynasty:hippolytide_dynasty
+			mother = character:abas_althaia_hippolytide_5
+			father = character:anea_sven_svanardottir_1
+			add_trait = trait:child_gifted
+			script = abas_elpis_hippolytide_child
+			save_scope_as = baby_owl
+		}
+
+		kill_character = {
+			target = scope:mother_owl
+			reason = fever
+		}	
+	}
+
+	option = { #Rightfully Ascend to the Throne
+		name = flavor_amz.2.a
+		custom_tooltip = flavor_amz.2.a.tt
+
+		trigger = {
+			scope:bastard_owl ?= {
+				NOT = { has_character_modifier = bastard }
+			}
+		}
+
+		hidden_effect = {
+			trigger_event_non_silently = {
+				id = flavor_amz.7
+				months = 2
+			}			
+		}
+	}
+
+	option = { #Honor Althaía's last wish
+		name = flavor_amz.2.b
+		custom_tooltip = flavor_amz.2.b.tt
+		ai_will_select  = { value = 0 }
+
+		trigger = {
+			scope:bastard_owl ?= {
+				has_character_modifier = bastard
+			}
+		}
+
+		if = {
+			limit = {
+				regent != scope:bastard_owl
+			}
+			set_regent = scope:bastard_owl
+		}
+
+		add_prestige = prestige_mild_penalty
+		add_country_modifier = { modifier = bastard_regency years = 16 mode = add_and_extend }
+
+		add_estate_satisfaction = {
+			type = estate_type:nobles_estate
+			value = estate_satisfaction_mild_penalty
+		}
+
+		every_subject = {
+			limit = {
+				culture = culture:heraean_amazon
+				NOT = { this = c:ABAS }
+			}
+			add_liberty_desire = liberty_desire_mild_plus
+			add_opinion = { target = c:ABAS modifier = opinion_vacant_throne }		
+		}
+	}
+
+	option = { #Usurp the Throne
+		name = flavor_amz.2.c
+		custom_tooltip = flavor_amz.2.c.tt
+		ai_will_select  = { value = 1 }
+
+		historical_option = yes
+
+		trigger = {
+			scope:bastard_owl ?= {
+				has_character_modifier = bastard
+			}
+		}
+
+		scope:bastard_owl = {
+			if = {
+					limit = { has_character_modifier = bastard }
+					remove_character_modifier = bastard
+				}
+			if = {
+					limit = { has_dynasty = no }
+					change_dynasty = scope:mother_owl.dynasty
+				}
+		}
+
+		set_new_ruler = scope:bastard_owl
+
+		scope:bastard_owl = {
+			hidden_effect = { set_nickname = nick_the_usurper }
+			add_trait = trait:usurper
+		}
+
+		add_stability = stability_mild_penalty
+		add_legitimacy = legitimacy_mild_penalty	
+
+		add_estate_satisfaction = {
+			type = estate_type:nobles_estate
+			value = estate_satisfaction_mild_bonus
+		}
+
+		every_subject = {
+			limit = {
+				culture = { has_culture_group = culture_group:norse_amazon_group }
+			}
+			add_liberty_desire = liberty_desire_mild_plus
+			add_opinion = { target = c:ABAS modifier = opinion_usurpation }
+		}
+
+		hidden_effect = {
+			scope:baby_owl = {
+				move_country = c:ANEA
+			}			
+			scope:aunt_owl = {
+				move_country = c:ANEA
+			}
+			character:abas_eirene_hippolytide_niece = {
+				move_country = c:ANEA
+			}
+			character:abas_zoe_hippolytide_niece = {
+				move_country = c:ANEA
+			}
+
+			c:ANEA = {
+				trigger_event_non_silently = {
+					id = flavor_amz.3
+					days = 1
+				}
+			}
+
+			trigger_event_non_silently = {
+				id = flavor_amz.7
+				months = 2
+			}
+		}
+	}
+
+	option = { #Infanticide
+		name = flavor_amz.2.d
+		custom_tooltip = flavor_amz.2.d.tt
+		ai_will_select  = { value = 0 }
+
+		evil_option = yes
+
+		trigger = {
+			scope:bastard_owl ?= {
+				has_character_modifier = bastard
+			}
+		}
+
+		set_new_ruler = scope:bastard_owl
+
+		scope:bastard_owl = {
+			if = {
+					limit = { has_character_modifier = bastard }
+					remove_character_modifier = bastard
+				}
+			if = {
+					limit = { has_dynasty = no }
+					change_dynasty = scope:mother_owl.dynasty
+				}
+		}
+
+		random_list = {
+			20 = {
+				custom_tooltip = flavor_amz.2.d.random1
+
+				kill_character_silently = scope:baby_owl
+
+				add_legitimacy = legitimacy_mild_penalty
+			}
+
+			30 = {
+				custom_tooltip = flavor_amz.2.d.random2
+
+				kill_character = {
+					target = scope:baby_owl
+					reason = execution
+					killer = ruler
+				}
+				kill_character = {
+					target = scope:aunt_owl
+					reason = self_defence
+					killer = ruler
+				}
+
+				scope:bastard_owl = {
+					hidden_effect = { set_nickname = nick_the_kinslayer }
+					add_trait = trait:kinslayer
+				}
+
+				add_country_modifier = { modifier = palace_massacre years = 10 mode = add_and_extend }
+				add_stability = stability_extreme_penalty
+				add_legitimacy = legitimacy_extreme_penalty
+
+				
+				every_subject = {
+					limit = {
+						culture = { has_culture_group = culture_group:norse_amazon_group }
+					}
+					add_opinion = { target = c:ABAS modifier = opinion_kinslaying }
+				}
+
+				c:ANEA = {
+					add_casus_belli = {
+						target = c:ABAS
+						type = casus_belli:cb_claim_throne
+						years = 10
+					}
+				}
+
+				c:ABAS = {
+					limit = {
+						at_war = yes
+						any_current_war = { this = scope:target_war }
+					}
+					every_disloyal_subject = {
+						limit = {
+							NOT = { this = c:ANEA }
+						}
+						join_war_with = {
+							target = c:ANEA
+							war = scope:target_war
+							call_in_subjects = yes
+						}
+					}
+				}
+			}
+			
+			50 = {
+				custom_tooltip = flavor_amz.2.d.random3
+
+				scope:bastard_owl = {
+					hidden_effect = { set_nickname = nick_the_usurper }
+					add_trait = trait:usurper
+				}
+
+				add_stability = stability_mild_penalty
+				add_legitimacy = legitimacy_mild_penalty	
+
+				add_estate_satisfaction = {
+					type = estate_type:nobles_estate
+					value = estate_satisfaction_mild_bonus
+				}
+
+				every_subject = {
+					limit = {
+						culture = { has_culture_group = culture_group:norse_amazon_group }
+					}
+					add_liberty_desire = liberty_desire_mild_plus
+					add_opinion = { target = c:ABAS modifier = opinion_usurpation }
+				}
+
+				hidden_effect = {
+					scope:baby_owl = {
+						move_country = c:ANEA
+					}			
+					scope:aunt_owl = {
+						move_country = c:ANEA
+					}
+					character:abas_eirene_hippolytide_niece = {
+						move_country = c:ANEA
+					}
+					character:abas_zoe_hippolytide_niece = {
+						move_country = c:ANEA
+					}
+
+					c:ANEA = {
+						trigger_event_non_silently = {
+							id = flavor_amz.3
+							days = 1
+						}
+					}
+				}		
+			}
+		}
+		
+		hidden_effect = {
+			trigger_event_non_silently = {
+				id = flavor_amz.7
+				months = 2
+			}			
+		}
+	}
+
+	option = { #Safety Net
+		name = flavor_amz.2.e
+		custom_tooltip = flavor_amz.2.e.tt
+
+		trigger = {
+			scope:bastard_owl ?= {
+				is_alive = no
+			}
+		}
+		add_legitimacy = legitimacy_mild_bonus
+	}
+}
+
+# A Child in Exile
+flavor_amz.3 = {
+	type = country_event
+	title = flavor_amz.3.title
+	desc = flavor_amz.3.desc
+	historical_info = flavor_amz.3.historical_info
+
+	fire_only_once = yes
+
+	dynamic_historical_event = {
+		tag = ANEA
+	}
+
+	trigger = {
+		character:abas_elpis_hippolytide_child = { is_alive = yes }
+	}
+
+	immediate = {
+		character:abas_elpis_hippolytide_child = { save_scope_as = baby_owl }
+	}
+
+	option = {
+		name = flavor_amz.3.a
+		custom_tooltip = flavor_amz.3.a.tt
+		ai_will_select  = { value = 20 }
+
+		high_risk_option = yes
+		
+		add_legitimacy = legitimacy_mild_bonus
+		add_prestige = prestige_mild_bonus
+
+		add_country_modifier = { modifier = defenders_of_the_child years = 20 mode = add_and_extend }
+		
+		every_country = {
+			limit = {
+				capital ?= { region = region:motherland_region }
+				culture = { has_culture_group = culture_group:norse_amazon_group }
+				NOT = { this = c:ANEA }
+			}
+			add_opinion = { target = c:ANEA modifier = opinion_defended_baby_basilissa }
+		}
+	}
+
+	option = {
+		name = flavor_amz.3.b
+		custom_tooltip = flavor_amz.3.b.tt
+		ai_will_select  = { value = 80 }
+
+		historical_option = yes
+	}
+
+	after = {
+		scope:baby_owl = {
+			change_culture = culture:norsellenic_amazon
+		}	
+		hidden_effect = {
+			trigger_event_non_silently = {
+				id = flavor_amz.4
+				years = 16
+			}
+			c:ABAS = {
+				trigger_event_non_silently = {
+					id = flavor_amz.6
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+# The Return of the Queen
+flavor_amz.4 = {
+	type = country_event
+	title = flavor_amz.4.title
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					c:ANEA = { has_country_modifier = defenders_of_the_child }
+				}
+				desc = flavor_amz.4.land.desc
+			}
+			triggered_desc = {
+				trigger = {
+					NOT = { c:ANEA = { has_country_modifier = defenders_of_the_child } }
+				}
+				desc = flavor_amz.4.sea.desc
+			}
+		}
+	}
+	historical_info = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					c:ANEA = { has_country_modifier = defenders_of_the_child }
+				}
+				desc = flavor_amz.4.land.historical_info
+			}
+			triggered_desc = {
+				trigger = {
+					NOT = { c:ANEA = { has_country_modifier = defenders_of_the_child } }
+				}
+				desc = flavor_amz.4.sea.historical_info
+			}
+		}
+	}
+
+	fire_only_once = yes
+
+	dynamic_historical_event = {
+		tag = ANEA
+		from = 1350.1.1
+		to = 1400.1.1
+		monthly_chance = 100
+	}
+
+	trigger = {
+		character:abas_elpis_hippolytide_child = { 
+			is_alive = yes 
+			is_adult = yes
+		}
+	}
+
+	immediate = {	
+		character:abas_elpis_hippolytide_child = { save_scope_as = baby_owl }
+		if = {
+			limit = {
+				c:ANEA = { has_country_modifier = defenders_of_the_child }
+			}
+			scope:baby_owl = {
+				add_trait = trait:defensive_planner
+				add_trait = trait:righteous
+				add_adm = {
+					value = 50
+					max = 88
+				}
+				add_dip = {
+					value = 50
+						max = 64
+					}
+				add_mil = {
+					value = 50
+					max = 80
+				}
+			}
+		}
+		else = {
+			scope:baby_owl = {
+				add_trait = trait:naval_showman
+				add_trait = trait:free_thinker
+				add_adm = {
+					value = 50
+					max = 60
+				}
+				add_dip = {
+					value = 80
+					max = 92
+				}
+				add_mil = {
+					value = 50
+					max = 80
+				}
+			}
+		}
+	}
+
+	option = {
+		name = flavor_amz.4.a
+		custom_tooltip = flavor_amz.4.a.tt
+		###ai_will_select = { value = 100 }
+		###historical_option = yes
+
+		set_new_ruler = scope:baby_owl
+		set_country_rank = country_rank:rank_kingdom
+
+		add_legitimacy = legitimacy_mild_bonus
+		add_prestige = prestige_severe_bonus
+
+		hidden_effect = {
+			change_country_flag = ANEA_Basilissa	
+
+			c:ABAS = {
+				every_core_location = {
+					add_core = c:ANEA
+				}
+			}
+			c:ANEA = {
+				every_core_location = {
+					add_core = c:ABAS
+				}
+			}
+
+			every_country = {
+				limit = {
+					capital ?= { region = region:motherland_region }
+					culture = { has_culture_group = culture_group:norse_amazon_group }
+					NOR = { 
+						this = c:ANEA 
+						this = c:ABAS 
+					}
+				}
+				add_opinion = { target = c:ANEA modifier = opinion_the_return_of_the_queen }
+				add_opinion = { target = c:ABAS modifier = opinion_pretender }
+			}
+			every_country = {
+				limit = {
+					capital ?= { region = region:motherland_region }
+					culture = culture:heraean_amazon
+					NOR = { 
+						this = c:ANEA 
+						this = c:ABAS 
+					}
+				}
+				add_opinion = { target = c:ANEA modifier = opinion_pretender }
+				add_opinion = { target = c:ABAS modifier = opinion_defender_of_hellenism }
+			}
+		}
+
+		c:ABAS = {
+			every_disloyal_subject = {
+				limit = {
+					capital ?= { region = region:motherland_region }
+					culture = { has_culture_group = culture_group:norse_amazon_group }
+					NOT = { this = c:ANEA }
+				}
+				make_subject_of = {
+					target = root
+					type = subject_type:vassal
+				}
+			}
+		}
+
+		add_casus_belli = {
+			target = c:ABAS
+			type = casus_belli:cb_claim_throne
+			years = 10
+		}	
+		c:ABAS = {
+			add_casus_belli = {
+				target = c:ANEA
+				type = casus_belli:cb_subjugation
+				years = 10
+			}
+		}
+	}
+}
+
+# The Lost Hope
+flavor_amz.5 = {
+	type = country_event
+	title = flavor_amz.5.title
+	desc = flavor_amz.5.desc
+	historical_info = flavor_amz.5.historical_info
+	fire_only_once = yes
+
+	dynamic_historical_event = {
+		tag = ANEA
+		tag = ABAS
+	}
+
+	trigger = {
+		character:abas_elpis_hippolytide_child = {
+			is_alive = no
+		}
+	}
+
+	immediate = {
+		character:abas_elpis_hippolytide_child = { save_scope_as = baby_owl }
+	}
+
+	option = {
+		name = flavor_amz.5.a
+
+		# Stabilization of ABAS
+		c:ABAS = {
+			add_stability = stability_mild_bonus
+			add_legitimacy = legitimacy_mild_bonus
+			add_prestige = prestige_mild_bonus
+		}
+
+		# Loss of purpose for ANEA
+		c:ANEA = {
+			add_stability = stability_mild_penalty
+			add_legitimacy = legitimacy_mild_penalty
+			add_prestige = prestige_mild_penalty
+		}
+	}
+}
+
+# Tretcherous Aunts
+flavor_amz.6 = {
+	type = country_event
+	title = flavor_amz.6.title
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					c:ANEA = { has_country_modifier = defenders_of_the_child }
+				}
+				desc = flavor_amz.6.desc
+			}
+			triggered_desc = {
+				trigger = {
+					NOT = { c:ANEA = { has_country_modifier = defenders_of_the_child } }
+				}
+				desc = flavor_amz.6.alt.desc
+			}
+		}
+	}
+
+	fire_only_once = yes
+
+	dynamic_historical_event = {
+		tag = ABAS
+	}
+
+	option = { # WAR PATH
+		name = flavor_amz.6.a
+		custom_tooltip = flavor_amz.6.a.tt
+		ai_will_select = { value = 40 }
+
+		high_risk_option = yes
+
+		trigger = {
+			c:ANEA = { has_country_modifier = defenders_of_the_child }
+		}
+
+		add_prestige = prestige_mild_bonus
+		add_stability = stability_mild_penalty
+
+		add_casus_belli = {
+			target = c:ANEA
+			type = casus_belli:cb_disloyal_subject
+			years = 5
+		}
+	}
+
+	option = { # SHADOW PATH
+		name = flavor_amz.6.b
+		custom_tooltip = flavor_amz.6.b.tt
+		ai_will_select = { value = 40 }
+
+		historical_option = yes
+
+		add_country_modifier = { modifier = seeking_the_child	years = 10 }
+
+		hidden_effect = {
+			c:ANEA = {
+				add_country_modifier = { modifier = hunted_heir		years = 10 }
+			}	
+		}		
+	}
+
+	option = { # STABILIZE THE REALM 
+		name = flavor_amz.6.c
+		custom_tooltip = flavor_amz.6.c.tt
+		ai_will_select = { value = 20 }
+
+		trigger = {
+			NOT = { c:ANEA = { has_country_modifier = defenders_of_the_child } }
+		}
+
+		add_stability = stability_mild_bonus
+	}
+}
+
+# The Queen’s Consecration
+flavor_amz.7 = {
+	hide_portraits = yes
+	type = country_event
+	title = flavor_amz.7.title
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_trait = usurper
+					has_trait = kinslayer
+				}
+				desc = flavor_amz.7.desc
+			}
+			triggered_desc = {
+				trigger = {
+					NOR = {
+						has_trait = usurper
+						has_trait = kinslayer
+					}
+				}
+				desc = flavor_amz.7.alt.desc
+			}
+		}
+	}
+
+	fire_only_once = yes
+
+	trigger = { 
+		character:abas_agathe_the_bastard = {
+			is_alive = yes
+			is_ruler = yes
+			NOT = { has_character_modifier = bastard }
+			has_character_modifier = dedicated_to_athena
+		}
+	}
+
+	dynamic_historical_event = {
+		tag = ABAS
+	}
+
+	immediate = {
+		character:abas_agathe_the_bastard = { save_scope_as = bastard_owl }
+		create_character = {
+			first_name = name_amz_alexandros
+			dynasty = dynasty:melinoide_dynasty
+			culture = culture:heraean_amazon
+			religion = religion:amazon_hellenism_religion
+			estate = estate_type:nobles_estate
+			age = 24
+
+			save_scope_as = suitor_melinoide
+		}
+
+		create_character = {
+			first_name = name_amz_leonidas
+			dynasty = dynasty:leainide_dynasty
+			culture = culture:heraean_amazon
+			religion = religion:amazon_hellenism_religion
+			estate = estate_type:nobles_estate
+			age = 26
+
+			save_scope_as = suitor_leainide
+		}
+
+		create_character = {
+			first_name = name_amz_alkaios
+			dynasty = dynasty:melanaetide_dynasty
+			culture = culture:heraean_amazon
+			religion = religion:amazon_hellenism_religion
+			estate = estate_type:nobles_estate
+			age = 28
+
+			save_scope_as = suitor_melanaetide
+		}
+
+		create_character = {
+			first_name = name_amz_helanos
+			dynasty = dynasty:serikide_dynasty
+			culture = culture:thalassan_amazon
+			religion = religion:amazon_hellenism_religion
+			estate = estate_type:nobles_estate
+			age = 25
+
+			save_scope_as = suitor_serikide
+		}
+	}
+
+	# MELINOIDE (FAITH)
+	option = {
+		name = flavor_amz.7.a
+		custom_tooltip = flavor_amz.7.a.tt
+		ai_will_select = { value = 40 }
+		historical_option = yes
+
+		scope:bastard_owl = {
+			remove_character_modifier = dedicated_to_athena
+			add_character_modifier = dedicated_to_hera
+			marry_character = scope:suitor_melinoide
+		}
+		hidden_effect = {
+			scope:suitor_melinoide  = {
+				impregnate = scope:bastard_owl
+			}		
+		}
+
+		add_legitimacy = legitimacy_mild_bonus
+		add_prestige = prestige_mild_bonus
+	}
+
+	# LEAINIDE (GOLD)
+	option = {
+		name = flavor_amz.7.b
+		custom_tooltip = flavor_amz.7.b.tt
+		ai_will_select = { value = 25 }
+
+		scope:bastard_owl = {
+			remove_character_modifier = dedicated_to_athena
+			add_character_modifier = dedicated_to_hera
+			marry_character = scope:suitor_leainide
+		}
+		hidden_effect = {
+			scope:suitor_leainide  = {
+				impregnate = scope:bastard_owl
+			}		
+		}
+
+		add_gold = { value = root.monthly_income_trade_and_tax multiply = 8.00 }
+		add_stability = stability_mild_bonus
+	}
+
+	# MELANAETIDE (POWER)
+	option = {
+		name = flavor_amz.7.c
+		custom_tooltip = flavor_amz.7.c.tt
+		ai_will_select = { value = 20 }
+
+		scope:bastard_owl = {
+			remove_character_modifier = dedicated_to_athena
+			add_character_modifier = dedicated_to_hera
+			marry_character = scope:suitor_melanaetide
+		}
+		hidden_effect = {
+			scope:suitor_melanaetide  = {
+				impregnate = scope:bastard_owl
+			}		
+		}
+
+		add_army_tradition = army_tradition_mild_bonus
+		add_legitimacy = legitimacy_mild_bonus
+	}
+
+	# THALASSAN (DIPLOMACY)
+	option = {
+		name = flavor_amz.7.d
+		custom_tooltip = flavor_amz.7.d.tt
+		ai_will_select = { value = 15 }
+
+		scope:bastard_owl = {
+			remove_character_modifier = dedicated_to_athena
+			add_character_modifier = dedicated_to_hera
+			marry_character = scope:suitor_serikide
+		}
+		hidden_effect = {
+			scope:suitor_serikide  = {
+				impregnate = scope:bastard_owl
+			}		
+		}
+
+		add_diplomats = diplomats_severe_bonus
+		add_gold = { value = root.monthly_income_trade_and_tax multiply = 12.00 }
+		add_legitimacy = legitimacy_weak_penalty
+	}
+}

@@ -1,0 +1,39 @@
+﻿opinion_kinslaying = {
+	value = -120
+	yearly_decay = 2
+}
+
+opinion_usurpation = {
+	value = -60
+	yearly_decay = 2
+}
+
+opinion_vacant_throne = {
+	value = -60
+	yearly_decay = 2	
+}
+
+opinion_pretender = {
+	value = -60
+	yearly_decay = 2
+}
+
+opinion_defended_baby_basilissa = {
+	value = 40
+	yearly_decay = 1
+}
+
+opinion_the_return_of_the_queen = {
+	value = 80
+	yearly_decay = 2
+}
+
+opinion_defender_of_hellenism = {
+	value = 80
+	yearly_decay = 2
+}
+
+opinion_mutual_heritage = {
+	value = 80
+	yearly_decay = 1
+}

@@ -1,0 +1,448 @@
+﻿heraean_amazon = {
+	language = old_hellenic_amazon_dialect
+	
+	color = map_amazon_hellenic
+	
+	tags = { amazon_gfx hellenic_amazon_gfx european_gfx }
+
+	opinions = {
+		norsellenic_amazon = kindred 		#Daughter Culture / shared heritage
+		hestian_amazon = kindred			#Shared stability, tradition, and structured society
+		aphroditian_amazon = positive	
+		thalassan_amazon = positive
+		artemisian_amazon = positive		#Shared roots, but more distant
+		athenaean_amazon = neutral 			#merit x bloodline tension
+
+		friggardaetur_amazon = positive		#All-Mother worship Syncronicity
+		freyjardotre_amazon = neutral		#Order vs passion divide, but not seen as illegitimate
+
+		erisian_amazon = enemy				#Chaotic worshipers of the Fallen One
+	}	
+	
+	culture_groups = {
+		amazon_group
+		hellenic_amazon_group	
+	}
+}
+
+aphroditian_amazon = {
+	language = old_hellenic_amazon_dialect
+	
+	color = map_amazon_aphrodite
+	
+	tags = { amazon_gfx hellenic_amazon_gfx european_gfx }
+
+	opinions = {
+		thalassan_amazon = positive			#Shared appreciation for luxury and beauty
+		hestian_amazon = positive			#Providers of comfort, food, and refined domestic life
+		norsellenic_amazon = positive		#Proximity
+		heraean_amazon = neutral			#Order vs desire tension
+		athenaean_amazon = neutral			#Reason vs passion contrast
+		artemisian_amazon = negative		#Desire vs austerity opposition
+
+		freyjardotre_amazon = kindred		#Shared domain: love, beauty, passion
+
+		erisian_amazon = enemy				#Chaotic worshipers of the Fallen One
+	}	
+	
+	culture_groups = {
+		amazon_group
+		hellenic_amazon_group	
+	}
+}
+
+hestian_amazon = {
+	language = old_hellenic_amazon_dialect
+	
+	color = map_amazon_hestian
+	
+	tags = { amazon_gfx hellenic_amazon_gfx european_gfx }
+
+	opinions = {
+		heraean_amazon = kindred			#Shared focus on stability, order, and continuity
+		aphroditian_amazon = positive		#Refined life, beauty, and comfort
+		thalassan_amazon = neutral			#Inward vs Outward divide
+		athenaean_amazon = neutral			#Practical life vs abstract civic philosophy
+		artemisian_amazon = positive		#Respect for resilience and self-sufficiency
+
+		norsellenic_amazon = positive		#Adaptive but grounded
+		friggardaetur_amazon = kindred		#Hearth, family, and domestic order parallel
+		thrudardotre_amazon = positive		#Respect discipline and endurance
+
+		erisian_amazon = enemy				#Chaotic worshipers of the Fallen One
+	}
+	
+	culture_groups = {
+		amazon_group
+		hellenic_amazon_group	
+	}
+}
+
+thalassan_amazon = {
+	language = old_hellenic_amazon_dialect
+	
+	color = map_amazon_thalassan
+	
+	tags = { amazon_gfx hellenic_amazon_gfx european_gfx }
+
+	opinions = {
+		aphroditian_amazon = positive		#Shared appreciation for luxury and beauty
+		hestian_amazon = positive			#Economic reliance and mutual benefit
+		heraean_amazon = positive			
+		norsellenic_amazon = positive
+		artemisian_amazon = neutral			#Urban luxury vs austere independence
+		athenaean_amazon = neutral			#Republican kin, but Athenaean Democratic ideology is a threat to Thalassan Elitist Ways
+
+		saebornar_amazon = kindred			#Sea-bound cultures, shaped by the same element
+
+		erisian_amazon = enemy				#Chaotic worshipers of the Fallen One
+	}	
+	
+	culture_groups = {
+		amazon_group
+		hellenic_amazon_group	
+	}
+}
+
+athenaean_amazon = {
+	language = old_hellenic_amazon_dialect
+	
+	color = map_amazon_athenaean
+	
+	tags = { amazon_gfx hellenic_amazon_gfx european_gfx }
+
+	opinions = {
+		artemisian_amazon = positive		#Shared independence and martial values, but different lifestyles
+		thalassan_amazon = positive			#Shared civic and republican structure
+		norsellenic_amazon = positive		
+		heraean_amazon = neutral			#merit x bloodline tension
+		hestian_amazon = neutral			#Faith-bound tradition vs rational civic progress
+		aphroditian_amazon = negative		#Reason vs passion opposition
+
+		thrudardotre_amazon = kindred		#Both value Bravery, merit, honor and valor
+		arnarvaengir_amazon = positive		#Discipline, good sportsmanship in the Nikephorias Games
+
+		erisian_amazon = enemy				#Chaotic worshipers of the Fallen One
+	}	
+	
+	culture_groups = {
+		amazon_group
+		hellenic_amazon_group	
+	}
+}
+
+artemisian_amazon = {
+	language = norsellenic_amazon_dialect
+	
+	color = map_amazon_artemisian
+	
+	tags = { amazon_gfx hellenic_amazon_gfx norsellenic_amazon_gfx european_gfx }
+
+	opinions = {
+		norsellenic_amazon = positive		#Shared Greco-Norse traits, different origins
+		hestian_amazon = positive			#Respect resilience and self-sufficiency
+		heraean_amazon = positive			#Shared roots, but more distant
+		athenaean_amazon = positive			#Shared independence and martial values, but different lifestyles
+		thalassan_amazon = neutral			#Urban luxury vs austere independence
+		aphroditian_amazon = negative		#Desire vs austerity opposition
+
+		arnarvaengir_amazon = kindred		#Hunting + elite warrior culture + Artemis/Skadi syncretism.
+		thrudardotre_amazon = positive		#Both value martial skills, discipline, austerity, resilience and merit.
+		freyjardotre_amazon = positive		#Shared connection to nature despite differing temperament
+
+		erisian_amazon = enemy				#Chaotic worshipers of the Fallen One
+	}	
+	
+	culture_groups = {
+		amazon_group
+		hellenic_amazon_group	
+		norse_amazon_group
+	}
+}
+
+norsellenic_amazon = {
+	language = norsellenic_amazon_dialect
+	
+	color = map_amazon_norsellenic
+	
+	tags = { amazon_gfx hellenic_amazon_gfx norsellenic_amazon_gfx european_gfx }
+
+	opinions = {
+		heraean_amazon = kindred			#Hellenic root
+		hestian_amazon = positive			#Stable cultural anchor contrasting hybrid adaptability
+		aphroditian_amazon = positive		#Cultural proximity and shared urban/coastal blending
+		artemisian_amazon = positive		#Shared Greco-Norse traits, different origins
+		thalassan_amazon = positive
+		athenaean_amazon = neutral			#merit x bloodline tension
+
+		friggardaetur_amazon = kindred		#Norse root
+		freyjardotre_amazon = positive		#Shared adaptability and openness to influence
+		arnarvaengir_amazon = positive
+		saebornar_amazon = positive
+		thrudardotre_amazon = positive
+		vindmarkar_amazon = positive		#Shared adaptability and frontier pragmatism
+
+		erisian_amazon = enemy				#Chaotic worshipers of the Fallen One
+	}	
+	
+	culture_groups = {
+		amazon_group
+		hellenic_amazon_group
+		norse_amazon_group	
+	}
+}
+
+friggardaetur_amazon = {
+	language = old_norse_amazon_dialect
+	
+	color = map_amazon_norse
+	
+	tags = { amazon_gfx norse_amazon_gfx european_gfx }
+
+	opinions = {
+		saebornar_amazon = kindred			#Shared sea-bound identity, different degree
+		arnarvaengir_amazon = positive		#Strong exploration and seafaring spirit. But one is reckless, the other is Cautious.
+		freyjardotre_amazon = negative		#Order vs passion opposition
+		thrudardotre_amazon = positive		#Mutual respect. Different priorities (trade/order vs honor/glory)
+		vindmarkar_amazon = positive		#Different environments, shared societal structure
+
+		norsellenic_amazon = kindred		#Daughter Culture / shared heritage
+		hestian_amazon = kindred			#Shared sacred domestic order and All-Mother/hearth parallel
+		heraean_amazon = positive			#All-Mother worship Syncronicity
+
+		erisian_amazon = enemy				#Chaotic worshipers of the Fallen One
+	}
+
+	culture_groups = {
+		amazon_group
+		norse_amazon_group
+	}
+}
+
+freyjardotre_amazon = {
+	language = high_norse_amazon_dialect
+	
+	color = map_amazon_freyjadaetur
+	
+	tags = { amazon_gfx norse_amazon_gfx european_gfx }
+
+	opinions = {
+		friggardaetur_amazon = negative		#Order vs passion opposition
+		arnarvaengir_amazon = positive		#Both bold, aggressive warrior cultures, but Predatory discipline vs Emotional drive
+		saebornar_amazon = positive			
+		thrudardotre_amazon = positive		#Shared strength, different motivation. Ambition/Desire x Honor/Discipline
+		vindmarkar_amazon = neutral			#Passion vs pragmatism contrast	
+
+		aphroditian_amazon = kindred		#Shared domain: love, beauty, passion
+		artemisian_amazon = positive		#Shared connection to nature despite differing temperament
+		norsellenic_amazon = positive		#Shared adaptability and openness to influence
+		heraean_amazon = negative			#Order vs passion / independence contrast
+
+		erisian_amazon = enemy				#Chaotic worshipers of the Fallen One
+	}
+
+	culture_groups = {
+		amazon_group
+		norse_amazon_group
+	}
+}
+
+arnarvaengir_amazon = {
+	language = old_norse_amazon_dialect
+	
+	color = map_amazon_arnar
+	
+	tags = { amazon_gfx norse_amazon_gfx european_gfx }
+
+	opinions = {
+		friggardaetur_amazon = positive		#Strong exploration and seafaring spirit. But one is reckless, the other is Cautious.
+		saebornar_amazon = positive			#Shared maritime life, but different relationship to the sea	
+		freyjardotre_amazon = neutral		#Predatory discipline vs emotional aggression
+		thrudardotre_amazon = positive		#Both value martial skills and merit. But one is Honorable, the other predatory.		
+		vindmarkar_amazon = neutral			#Land vs Sea. Predator vs Rider
+
+		artemisian_amazon = kindred			#Hunting + elite warrior culture + Artemis/Skadi syncretism.
+		norsellenic_amazon = positive
+		athenaean_amazon = positive			#Disciplined Warriors. The Arnarvangir love to compete in the Nikephorias Games
+
+		erisian_amazon = enemy				#Chaotic worshipers of the Fallen One
+	}
+
+	culture_groups = {
+		amazon_group
+		norse_amazon_group
+	}
+}
+
+saebornar_amazon = {
+	language = old_norse_amazon_dialect
+	
+	color = map_amazon_saebornar
+	
+	tags = { amazon_gfx norse_amazon_gfx european_gfx }
+
+	opinions = {
+		friggardaetur_amazon = positive		#Shared maritime life, but different dependence. Saebornar sees them as soft.
+		arnarvaengir_amazon = positive		#Shared maritime life, but different relationship to the sea	
+		freyjardotre_amazon = neutral		#Emotion vs survival pragmatism
+		thrudardotre_amazon = neutral		#Landlocked Mountain People vs Island people. They barely have any contact.
+		vindmarkar_amazon = positive 		#Land vs Sea. Harsh Survival. Pragmatism
+
+		thalassan_amazon = positive			#Both shaped by the sea, but in very different ways
+		norsellenic_amazon = positive		#Adaptive and practical cultures
+		athenaean_amazon = neutral			#Both Democracies, but for different reasons. Ideological society vs Survival pragmatism.
+		hestiaiai_amazon = positive			#Respect for resilience and self-sustaining communities
+
+		erisian_amazon = enemy				#Chaotic worshipers of the Fallen One
+	}
+
+	culture_groups = {
+		amazon_group
+		norse_amazon_group
+	}
+}
+
+thrudardotre_amazon = {
+	language = high_norse_amazon_dialect
+	
+	color = map_amazon_thrud
+	
+	tags = { amazon_gfx norse_amazon_gfx highland_amazon_gfx european_gfx }
+
+	opinions = {
+		vindmarkar_amazon = positive		#Land focus, but honor-bound highlanders vs pragmatic steppe riders
+		friggardaetur_amazon = positive		#Mutual respect. Different priorities (trade/order vs honor/glory)
+		freyjardotre_amazon = neutral		#Discipline vs emotional drive
+		arnarvaengir_amazon = positive		#Both value martial skills and merit. But one is Honorable, the other predatory.
+		saebornar_amazon = neutral			#Landlocked Mountain People vs Island people. They barely have any contact.
+
+		norsellenic_amazon = positive			
+		athenaean_amazon = kindred			#Shared merit and discipline, different expression
+		artemisian_amazon = positive		#Both value martial skills, discipline, austerity, resilience and merit.
+		heraean_amazon = positive			#Shared structured and hierarchical worldview
+		hestian_amazon = positive			#Respect discipline, endurance, and resilience
+
+		erisian_amazon = enemy				#Chaotic worshipers of the Fallen One
+	}
+
+	culture_groups = {
+		amazon_group
+		norse_amazon_group
+	}
+}
+
+vindmarkar_amazon = {
+	language = high_norse_amazon_dialect
+	
+	color = map_amazon_vindmarkar
+	
+	tags = { amazon_gfx norse_amazon_gfx highland_amazon_gfx european_gfx }
+
+	opinions = {
+		thrudardotre_amazon = positive			#Land focus, but honor-bound highlanders vs pragmatic steppe riders
+		friggardaetur_amazon = neutral			#Structure vs mobility contrast
+		freyjardotre_amazon = neutral			#Pragmatism vs emotional drive
+		arnarvaengir_amazon = neutral			#Land pragmatism vs Sea predation
+		saebornar_amazon = positive 			#Land vs Sea. Harsh Survival. Pragmatism
+		
+		norsellenic_amazon = neutral			#Hybrid adaptability vs pure pragmatism
+		artemisian_amazon = positive			#Frontier survival and adaptability
+		athenaean_amazon = neutral				#Admire competition, but different worldview
+		hestiaiai_amazon = positive				#Respect stable, enduring societies despite different lifestyles
+
+		erisian_amazon = enemy					#Chaotic worshipers of the Fallen One
+	}
+
+	culture_groups = {
+		amazon_group
+		norse_amazon_group
+	}
+}
+
+salacian_amazon = {
+	language = roman_amazon_language
+	
+	color = map_amazon_latin
+	
+	tags = { amazon_gfx latin_amazon_gfx roman_gfx european_gfx }
+
+	opinions = {
+		bellonian_amazon = kindred
+		thalassan_amazon = positive 			#Shared reverence for the sea (Thalassa vs Salacia)
+		erisian_amazon = enemy	
+	}	
+	
+	culture_groups = {
+		amazon_group
+		roman_amazon_group
+	}
+}
+
+bellonian_amazon = {
+	language = roman_amazon_language
+	
+	color = map_amazon_bellonian
+	
+	tags = { amazon_gfx latin_amazon_gfx roman_gfx european_gfx }
+
+	opinions = {
+		salacian_amazon = kindred
+		erisian_amazon = enemy	
+	}	
+	
+	culture_groups = {
+		amazon_group
+		roman_amazon_group
+	}
+}
+
+canarian_amazon = {
+	language = roman_amazon_language
+	
+	color = map_amazon_canarian
+	
+	tags = { amazon_gfx latin_amazon_gfx amazigh_gfx roman_gfx european_gfx }
+
+	opinions = {
+		salacian_amazon = positive
+		bellonian_amazon = positive
+		erisian_amazon = enemy	
+	}	
+	
+	culture_groups = {
+		amazon_group
+		roman_amazon_group
+		maghrebi_group
+	}
+}
+
+
+erisian_amazon = {
+	language = erisian_amazon_dialect
+	
+	color = map_amazon_erisian
+	
+	tags = { amazon_gfx hellenic_amazon_gfx norsellenic_amazon_gfx norse_amazon_gfx european_gfx }
+
+	opinions = {
+		heraean_amazon = enemy				#Arrogant hypocrites. Down with the Basilissa!
+		hestian_amazon = enemy				#Hearth-keepers and ash-prayers. Burn it all!
+		aphroditian_amazon = positive		#Pretty things. Very pretty things!
+		thalassan_amazon = negative			#Rich ships full of plunder. Raise the Black Flag!
+		athenaean_amazon = enemy			#Know-it-alls. Burn the library! But loot the good parts first!
+		artemisian_amazon = negative		#Dangerous prey. Not worth the trouble.
+		
+		norsellenic_amazon = enemy			#Twice the heritage. Twice the plunder!
+
+		friggardaetur_amazon = enemy		#Blond hipocrites. Down with the Jarls!
+		freyjardotre_amazon = positive		#Fierce, passionate, unpredictable. Invite them over for a drink!
+		arnarvaengir_amazon = neutral		#Raiders who raid back. Stay away from their longships!
+		saebornar_amazon = positive			#Fellow sea wolves. They have the best sea chanties!
+		thrudardotre_amazon = negative		#Honor-bound mountain fools!
+		vindmarkar_amazon = neutral			#Free riders of the plains. Good drinkers. Great tellers of tales!
+	}
+	
+	culture_groups = {
+		amazon_group
+	}
+}

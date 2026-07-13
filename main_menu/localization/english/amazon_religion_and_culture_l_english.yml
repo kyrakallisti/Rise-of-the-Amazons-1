@@ -1,0 +1,310 @@
+﻿l_english:
+#Cultures
+  amazon_group: "Amazon"
+  amazon_group_desc: "The Amazons are an ancient matriarchal civilization descended from the female warriors of Themyskira, who were scattered during the Bronze Age Collapse. Fleeing the turmoil of the Old World, they found refuge in the isolation of the Amazon Islands, where their societies endured and evolved far from the reach of men."
+
+ #Hellenic
+  hellenic_amazon_group: "Hellēnikai"
+  hellenic_amazon_group_desc: "The Hellēnikai Amazons descended from those who journeyed south after the fall of Themyskira. Traveling through the Aegean and the Mediterranean, they eventually crossed the Atlantic by island-hopping through the Azores aboard their triremes. Over generations, they 'liberated' and assimilated women from the lands of Hellas and beyond, adopting the Greek tongue and reshaping its pantheon in the image of Amazon society."
+  hellenic_amazon_language: "Hellenic"
+  old_hellenic_amazon_dialect: "Old Hellenic"
+  heraean_amazon: "Hēraiai"
+  hestian_amazon: "Hestiaiai"
+  aphroditian_amazon: "Aphroditiai"
+  thalassan_amazon: "Thalassai"
+  athenaean_amazon: "Athēnaiai"
+  erisian_amazon: "Erisiai" 
+ #Norsellenic
+  norsellenic_amazon_dialect: "Norsellenic"
+  artemisian_amazon: "Artemisiai"
+  norsellenic_amazon: "Norsellēnikai" #Norse-Greek hybrid
+
+ #Norse
+  norse_amazon_group: "Norrœnar"
+  norse_amazon_group_desc: "The Norrœnar Amazons descended from those who journeyed north after the fall of Themyskira. Passing through the Baltic and the North Sea, they braved the open Atlantic in their longships to reach the Amazon Islands. Along the way, they raided and assimilated women from the Proto-Germanic lands, especially Scandinavia, adopting their tongue and reshaping their traditions and gods to reflect Amazon ideals."
+  norse_amazon_language: "Norse"
+  old_norse_amazon_dialect: "Old Norse"
+  friggardaetur_amazon: "Friggardætur" #Daughters of the All-Mother Frigg
+  arnarvaengir_amazon: "Arnarvængir" #The Eagle-winged Amazons. Valkyries in all but name
+  saebornar_amazon: "Sæbornar" #The Sea-Born Amazons
+ #High Norse
+  high_norse_amazon_dialect: "High Norse"
+  thrudardotre_amazon: "Thrúdardøtre" #Daughters of Thrúd/Thunder
+  vindmarkar_amazon: "Vindmarkar" #Amazons from the Wind-Swept Steppes
+  freyjardotre_amazon: "Freyjardøtre" #Daughters of Freyja
+  
+ #Roman Amazons
+  roman_amazon_group: "Latinae Amazones"
+  roman_amazon_group_desc: "The Latinae Amazons arose from the fusion of Hellenic Amazon traditions with the Latin culture brought by Roman legions during their conquest of the island of Salacia in the 3rd century, then known as Thalassía. Although this marked the furthest reach of Roman expansion into the Atlantic, the island remained under their control for nearly two centuries. When imperial authority waned and the legions prepared to withdraw, the Amazons of Salacia turned upon their conquerors, seizing their fleets, treasuries, and arms. From this decisive rupture emerged a new people, Roman in structure, yet wholly Amazon in spirit. Isolated yet ambitious, they forged a powerful maritime republic governed by wealthy Matrician houses and a Senate of their own. From their island stronghold, they stand as both gatekeepers and conquerors of the Atlantic world."
+  salacian_amazon: "Salacianae" #Plural of Salaciana
+  bellonian_amazon: "Bellonianae" #Plura of Belloniana
+  canarian_amazon: "Canarianae" #Amazons of Canaria (The name comes from actual ancient Rome and means Dog Islands, not from the birds.) 
+  roman_amazon_language: "Amazonian Latin"
+
+#Religions
+  amazon_polytheism: "Amazon Polytheism"
+  amazon_polytheism_ADJ: "polytheistic"
+  amazon_polytheism_desc: "The Amazons have always been a polytheistic society. Different pantheons were born from the contact with other european peoples during the Amazons' long Exodus from the Black Sea to New Themyscira, but up to this day there is a syncretism between all their goddesses and their respective virtues. The All-Mother herself above all."
+  
+  amazon_hellenism_religion: "Amazon Hellenism"
+  amazon_hellenism_religion_ADJ: "Hellenistic"
+  amazon_hellenism_religion_desc: "During the Amazon Exodus from the Black Sea in the 12 century B.C., Queen Hippolyta the Wise led her people South and then West, pillaging and sacking her way through the Aegean Sea where she replenished the exhausted numbers of her mighty navy with liberated Greek women. Enough of them to Hellenize the pure Amazons, absorbing their culture, their language and their deities."
+  amazon_asatru_religion: "Amazon Ásatrú"
+
+  amazon_asatru_religion_ADJ: "Norse"
+  amazon_asatru_religion_desc: "During the Amazon Exodus from the Black Sea in the 12 century B.C., Princess Penthesilea the Bold rebelled against her sister and took half of the Amazon people North up the River Volga, pillaging and sacking her way through the Baltic Sea where she replenished the exhausted numbers of her mighty navy with liberated proto-germanic women from Scandinavia. Enough of them to Germanize the pure Amazons, absorbing their culture, their language and their deities."
+
+  roman_amazon_religion: "Cultus Dearum Amazonum"
+  roman_amazon_religion_ADJ: "Amazonum"
+  roman_amazon_religion_desc: "Known among its followers as Cultus Dearum Amazonum, this faith diverges little in its myths and divine figures from the Amazon Hellenism practiced in the heartlands of Amazonesia. Yet centuries under Roman conquest and assimilation profoundly reshaped the beliefs of the Latinae Amazones. Worship became structured and institutionalized, with strict rites, public ceremonies and religious duties intertwined with the authority of the state. Syncretism with Roman deities was enforced, names were altered and rituals came to emphasize duty and obligation over personal devotion. In time, Bellona and Salacia, the goddesses of war and the sea, rose to prominence. Often surpassing even the All-Mother Juno in the daily worship of Latinae households."
+
+  erisian_heresy: "Eris Heresy"
+  erisian_heresy_ADJ: "Erisian"
+  erisian_heresy_desc: "Some Amazons just want to watch the world burn in name of the Goddess of Chaos and Mayhem."
+
+# Hellenic Amazon Deities
+  hera_god: "Hera"
+  hera_god.old_hellenic_amazon_dialect: "Hēra"
+  hera_god_desc: "$hera_god$, the All-Mother, Queen of Olympus, creator of the Amazons! Protector of women and children. Her word is absolute!"
+  worship_hera_god: "$worship_title1$ $hera_god$ as our Patron Deity"
+  worship_hera_god_desc: "$worship_desc1$ [ShowGodName('hera_god')] $worship_desc2$"
+
+  amzathena_god: "Athena"
+  amzathena_god.old_hellenic_amazon_dialect: "Athēnē"
+  amzathena_god_desc: "$amzathena_god$, Goddess of wisdom, warfare and free thinking. Many amazons come to her in search of enlightment."
+  worship_amzathena_god: "$worship_title1$ $amzathena_god$ as our Patron Deity"
+  worship_amzathena_god_desc: "$worship_desc1$ [ShowGodName('amzathena_god')] $worship_desc2$"
+
+  nike_god: "Nike"
+  nike_god_desc: "$nike_god$, Goddess of victory and excellence, personifying triumph through speed, strength and honor. Specially in war and athletic competitions."
+  worship_nike_god: "$worship_title1$ $nike_god$ as our Patron Deity"
+  worship_nike_god_desc: "$worship_desc1$ [ShowGodName('nike_god')] $worship_desc2$"
+
+  artemis_god: "Artemis"
+  artemis_god_desc: "$artemis_god$, Goddess of hunting, the wilderness, wild animals, nature and the Moon. Her worshipers prove themselves to be fierce levies in times of war."
+  worship_artemis_god: "$worship_title1$ $artemis_god$ as our Patron Deity"
+  worship_artemis_god_desc: "$worship_desc1$ [ShowGodName('artemis_god')] $worship_desc2$"
+
+  thalassa_god: "Thalassa"
+  thalassa_god_desc: "$thalassa_god$, the primordial Goddess of the ocean, physical embodiment of the sea itself! No amazon sets sail from any port without making an offering to her for safe travels."
+  worship_thalassa_god: "$worship_title1$ $thalassa_god$ as our Patron Deity"
+  worship_thalassa_god_desc: "$worship_desc1$ [ShowGodName('thalassa_god')] $worship_desc2$"
+
+  amzaphrodite_god: "Aphrodite"
+  amzaphrodite_god_desc: "$amzaphrodite_god$, Goddess of love, beauty, pleasure and passion. Worshiping her through free love often results in a steep rise in population grouth. For obvious reasons."
+  worship_amzaphrodite_god: "$worship_title1$ $amzaphrodite_god$ as our Patron Deity"
+  worship_amzaphrodite_god_desc: "$worship_desc1$ [ShowGodName('amzaphrodite_god')] $worship_desc2$"
+
+  hestia_god: "Hestia"
+  hestia_god_desc: "$hestia_god$, Goddess of Fire, the hearth, home, and domestic life. She is revered as the guardian of Amazon homes and families, the quiet flame that warms, shelters, and endures. Yet within her dwells a far greater power. A raging fire that, when neglected or provoked, may become unstopable and all-consuming."
+  worship_hestia_god: "$worship_title1$ $hestia_god$ as our Patron Deity"
+  worship_hestia_god_desc: "$worship_desc1$ [ShowGodName('hestia_god')] $worship_desc2$"
+
+  demeter_god: "Demeter"
+  demeter_god_desc: "$demeter_god$, Goddess of the harvest and agriculture, presiding over crops, grains, food and the fertility of the earth. Farmers pray to her for bountful yelds on their fields. For when Demeter denies the harvest, Amazons starve!"
+  worship_demeter_god: "$worship_title1$ $demeter_god$ as our Patron Deity"
+  worship_demeter_god_desc: "$worship_desc1$ [ShowGodName('demeter_god')] $worship_desc2$"
+
+  persephone_god: "Persephone"
+  persephone_god_desc: "$persephone_god$, Queen of the underworld, Goddess of the dead. But also Goddess of Spring and rejuvenation. Many amazons actually pray for her to pretect them from death and bestow a few more years upon their lives."
+  worship_persephone_god: "$worship_title1$ $persephone_god$ as our Patron Deity"
+  worship_persephone_god_desc: "$worship_desc1$ [ShowGodName('persephone_god')] $worship_desc2$"
+
+  enyo_god: "Enyo"
+  enyo_god_desc: "$enyo_god$, Goddess of war, bloodshed, and the chaos of battle. She marches beside warriors where spears break and shields shatter, exalting courage, fury and glorious struggle beneath her dread gaze."
+  worship_enyo_god: "$worship_title1$ $enyo_god$ as our Patron Deity"
+  worship_enyo_god_desc: "$worship_desc1$ [ShowGodName('enyo_god')] $worship_desc2$"
+
+ #Heresy
+  eris_god: "Eris"
+  eris_god_desc: "$eris_god$, Goddess of chaos, discord, and strife. She is the personification of conflict, spreading havoc and mayhem on battlefields and in the lives of mortals. Worshiping her is considered dangerous and even seen as heresy in the eyes of most Amazons."
+  worship_eris_god: "$worship_title1$ $eris_god$ as our Patron Deity"
+  worship_eris_god_desc: "$worship_desc1$ [ShowGodName('eris_god')] $worship_desc2$"
+
+# Norse Amazon Deities
+  frigga_god: "Frigg"
+  frigga_god_desc: "$frigga_god$, the All-Mother, Queen of Asgard, creator of the Amazons! Protector of women and children. Her word is absolute!"
+  worship_frigga_god: "$worship_title1$ $frigga_god$ as our Patron Deity"
+  worship_frigga_god_desc: "$worship_desc1$ [ShowGodName('frigga_god')] $worship_desc2$"
+
+  saga_god: "Sága"
+  saga_god_desc: "$saga_god$, Goddess of wisdom, history and storytelling. The muse of writers, skalds and artists alike, as she is believed to bestow creativity, inspiration and artistic talent upon those who trully seek it."
+  worship_saga_god: "$worship_title1$ $saga_god$ as our Patron Deity"
+  worship_saga_god_desc: "$worship_desc1$ [ShowGodName('saga_god')] $worship_desc2$"
+
+  thrud_god: "Thrúd"
+  thrud_god_desc: "$thrud_god$, Daughter of Thunder! Goddess of Strength, power and military might. Norse Amazons praise her by seeking glory through bravery and honor on the battlefield."
+  worship_thrud_god: "$worship_title1$ $thrud_god$ as our Patron Deity"
+  worship_thrud_god_desc: "$worship_desc1$ [ShowGodName('thrud_god')] $worship_desc2$"
+
+  skadi_god: "Skadi"
+  skadi_god_desc: "$skadi_god$, Goddess of winter, hunting and mountains. She is a fierce and beautiful Jötunn warrioress. The colder the climate, the more fervorously the Amazons worship her."
+  worship_skadi_god: "$worship_title1$ $skadi_god$ as our Patron Deity"
+  worship_skadi_god_desc: "$worship_desc1$ [ShowGodName('skadi_god')] $worship_desc2$"
+
+  ran_god: "Rán"
+  ran_god_desc: "$ran_god$, Goddess of the sea, responsible for storms, waves and those who died at sea. She is considered to be cruel and greedy, but believed to reward those who please her with proper offerings, granting smooth sailing to the worthy."
+  worship_ran_god: "$worship_title1$ $ran_god$ as our Patron Deity"
+  worship_ran_god_desc: "$worship_desc1$ [ShowGodName('ran_god')] $worship_desc2$"
+
+  freyja_god: "Freyja"
+  freyja_god_desc: "$freyja_god$, Goddess of wisdom, warfare and magic. But also Goddess of love, beauty and fertility. She is known for receiving half of the fallen warriors in her sacred meadows, Fólkvangr."
+  worship_freyja_god: "$worship_title1$ $freyja_god$ as our Patron Deity"
+  worship_freyja_god_desc: "$worship_desc1$ [ShowGodName('freyja_god')] $worship_desc2$"
+
+  sunna_god: "Sunna"
+  sunna_god_desc: "$sunna_god$, Goddess of the Sun, who drives a horse-drawn chariot across the sky to bring light and warmth to the world."
+  worship_sunna_god: "$worship_title1$ $sunna_god$ as our Patron Deity"
+  worship_sunna_god_desc: "$worship_desc1$ [ShowGodName('sunna_god')] $worship_desc2$"
+
+  sif_god: "Sif"
+  sif_god_desc: "$sif_god$, Goddess of fertility, family, and the earth. Renowned for her long, golden hair, which symbolizes wheat fields and agricultural abundance."
+  worship_sif_god: "$worship_title1$ $sif_god$ as our Patron Deity"
+  worship_sif_god_desc: "$worship_desc1$ [ShowGodName('sif_god')] $worship_desc2$"
+
+  hel_god: "Hel"
+  hel_god_desc: "$hel_god$, Goddess of the dead, Queen of the underworld realm of the same name, Helheim. She is the ruler of those who die of old age or sickness. Norse Amazons pray for Hel to spare them of that dishonorable fate."
+  worship_hel_god: "$worship_title1$ $hel_god$ as our Patron Deity"
+  worship_hel_god_desc: "$worship_desc1$ [ShowGodName('hel_god')] $worship_desc2$"
+
+  idunn_god: "Idunn"
+  idunn_god_desc: "$idunn_god$, Goddess of youth, spring, and vitality, renowned as the keeper of the magical golden apples that ensure the Æsir gods remain immortal and youthful. Aging amazons often pray to Idunn for prolonging what's left of their youth."
+  worship_idunn_god: "$worship_title1$ $idunn_god$ as our Patron Deity"
+  worship_idunn_god_desc: "$worship_desc1$ [ShowGodName('idunn_god')] $worship_desc2$"
+
+ #Heresy
+  loki_god: "Loki"
+  loki_god_desc: "$loki_god$, Goddess of Mischief, known as the Trickster Goddess, master of shapeshifting and a sower of chaos among deities and mortals alike. She is fabled to freely turn into animals, and even into men, in order to deceive others. So much that in Europe the Northmen worngly believe she is a male God."
+  worship_loki_god: "$worship_title1$ $loki_god$ as our Patron Deity"
+  worship_loki_god_desc: "$worship_desc1$ [ShowGodName('loki_god')] $worship_desc2$"
+
+# Latin Amazon Deities
+  juno_god: "Juno"
+  juno_god_desc: "$juno_god$, the All-Mother, Queen of the Heavens and guardian of the Amazons. Protector of women and the state alike, her authority is absolute and her will unquestioned."
+  worship_juno_god: "$worship_title1$ $juno_god$ as our Patron Deity"
+  worship_juno_god_desc: "$worship_desc1$ [ShowGodName('juno_god')] $worship_desc2$"
+
+  minerva_god: "Minerva"
+  minerva_god_desc: "$minerva_god$, Goddess of wisdom, strategy, and disciplined warfare. She guides the minds of generals and scholars alike, embodying reason, order, and enlightened thought."
+  worship_minerva_god: "$worship_title1$ $minerva_god$ as our Patron Deity"
+  worship_minerva_god_desc: "$worship_desc1$ [ShowGodName('minerva_god')] $worship_desc2$"
+
+  victoria_god: "Victoria"
+  victoria_god_desc: "$victoria_god$, Goddess of victory and achievement, bestowing triumph upon those who prove worthy through strength, discipline, and excellence."
+  worship_victoria_god: "$worship_title1$ $victoria_god$ as our Patron Deity"
+  worship_victoria_god_desc: "$worship_desc1$ [ShowGodName('victoria_god')] $worship_desc2$"
+
+  diana_god: "Diana"
+  diana_god_desc: "$diana_god$, Goddess of the hunt, the wilderness, and the moon. She watches over the untamed lands and those who prove their strength within them."
+  worship_diana_god: "$worship_title1$ $diana_god$ as our Patron Deity"
+  worship_diana_god_desc: "$worship_desc1$ [ShowGodName('diana_god')] $worship_desc2$"
+
+  salacia_god: "Salacia"
+  salacia_god_desc: "$salacia_god$, the living sea itself, boundless and eternal. She is not merely the mistress of the ocean but its very essence, its calm and its fury alike. No fleet sails without seeking her favor."
+  worship_salacia_god: "$worship_title1$ $salacia_god$ as our Patron Deity"
+  worship_salacia_god_desc: "$worship_desc1$ [ShowGodName('salacia_god')] $worship_desc2$"
+
+  venus_god: "Venus"
+  venus_god_desc: "$venus_god$, Goddess of love, beauty, and desire. Through her blessings, bonds are formed, passions ignited and new life brought forth among the Amazons."
+  worship_venus_god: "$worship_title1$ $venus_god$ as our Patron Deity"
+  worship_venus_god_desc: "$worship_desc1$ [ShowGodName('venus_god')] $worship_desc2$"
+
+  vesta_god: "Vesta"
+  vesta_god_desc: "$vesta_god$, Goddess of the hearth, fire, and the eternal flame of the household. She safeguards the unity and continuity of Amazon society, from the smallest home to the greatest city."
+  worship_vesta_god: "$worship_title1$ $vesta_god$ as our Patron Deity"
+  worship_vesta_god_desc: "$worship_desc1$ [ShowGodName('vesta_god')] $worship_desc2$"
+
+  ceres_god: "Ceres"
+  ceres_god_desc: "$ceres_god$, Goddess of agriculture and the fruits of the earth, ensuring the fertility of fields and the sustenance of the people. Without her favor, famine follows."
+  worship_ceres_god: "$worship_title1$ $ceres_god$ as our Patron Deity"
+  worship_ceres_god_desc: "$worship_desc1$ [ShowGodName('ceres_god')] $worship_desc2$"
+
+  proserpina_god: "Proserpina"
+  proserpina_god_desc: "$proserpina_god$, Queen of the Underworld and bringer of renewal. She governs the cycle of life and death, guiding the souls of the fallen while heralding the return of life each spring."
+  worship_prosepina_god: "$worship_title1$ $prosepina_god$ as our Patron Deity"
+  worship_prosepina_god_desc: "$worship_desc1$ [ShowGodName('prosepina_god')] $worship_desc2$"
+
+  bellona_god: "Bellona"
+  bellona_god_desc: "$bellona_god$, Goddess of war, fury, and conquest. She embodies the unrelenting force of battle, guiding the Amazons against their enemies and shaping their destiny through conflict."
+  worship_bellona_god: "$worship_title1$ $bellona_god$ as our Patron Deity"
+  worship_bellona_god_desc: "$worship_desc1$ [ShowGodName('bellona_god')] $worship_desc2$"
+
+#Holy Sites
+ #Hellenic
+  heraion_basileion_holy_city: "The Royal Sanctuary of the All-Mother"
+  heraion_basileion_holy_city_desc: "Heraíon Basíleion was founded by the legendary Queen Hippolyta a decade after the arrival of the Hellenic Amazons in these far away shores, and further built upon by each subsequent Queen ever since. The city is a grandiose monument to the All-Mother Hera all on itself, with temples, statues, plazas and even the Royal Palace dedicated to Her name. It is the legitimate seat of power of the Amazon Basilíssai of old, with great symbolic significance for the Amazon kin."
+  the_athenaion: "The Athēnaion"
+  the_athenaion_desc: "The Great Scholarly Sanctuary of Athena at Glaukōpis, more commonly known as 'The Athēnaion', is a monumental learning complex surrounding the Great Library of Athena, where the greatest archieve of Amazon knowledge, history and arts is accumulated. The sanctuary itself already is rather grandiose, but the sheer intellectual significance of it by far surpasses the grandiosity of any mundane structure."
+  agonion_tes_nikephorias: "The Agōnion tēs Nikēphorias"
+  agonion_tes_nikephorias_desc: "The Agōnion tēs Nikēphorias is a massive olympic complex where, every 5 years, the best-skilled Amazon athletes gather beneath the gaze of Nike to compete at the Nikēphoria, their sacred Festival of Victory. There, warriors test their strength, speed and skill, for victory is the highest offering to the goddess. Those crowned in laurels as champions earn glory not only among their sisters, but in the eyes of Nike herself."
+  sanctuary_of_the_eternal_flame: "The Eternal Fire of Hestia"
+  sanctuary_of_the_eternal_flame_desc: "This grand temple faces an active volcano bearing the Goddess' name. All day long, all year around, a large pyre burns hot within it, symbolizing the undying flames of Hestia. A deity revered as the guardian of Amazon homes and families. Yet the same fire that warms and protects may unleash devastation beyond measure. The sacred fire must never falter, so that the heart of the Volcano remain dormant and the blessings of Hestia remain flowing upon Amazonkind."
+  thalassa_pharos_island: "The Light of the Sea"
+  thalassa_pharos_island_desc: "A towering beacon whose light guides sailors across the waters of Thalassa Bay. Its radiance is a symbol of unity and mastery over the waves, ensuring that no Amazon vessel is ever truly lost thanks to the blessings of Thalassa."
+  akra_persephones_necropolis: "The Necropolis at Ákra Persephónēs"
+  akra_persephones_necropolis_desc: "The City of the Dead stands at the foot of the Charybdis Mountains, with several districts and temples actually carved into the deep natural caves of the region. It is fabled that there is a direct passage to the Underworld somewhere deep inside those caves, and as such the city is the main site of worship to the goddess Persephone, Queen of the Dead."
+  naos_demetras_sacred_gardens: "The Sacred Gardens at Naós Demétras"
+  naos_demetras_sacred_gardens_desc: "The black soil of Demetréia is the most fertile land in the Amazon Archipelago. Upon it, a garden bearing the most exuberant crops and trees extends as far as the eyes can see at Naós Demétras. A vast and lush, living green monument to Demeter, Goddess of the Harvest, surrounding a grandiose marble temple complex from where Botanist Priestesses tend to the land, offering blessed seeds and saplings to farmers from far and wide."
+  aphrogenia_sacred_beaches: "The Sacred Beaches of Aphrogénia"
+  aphrogenia_sacred_beaches_desc: "The breath-taking white sand beaches and crystal clear waters at the shores of Aphrogénia are fabled to be the place where Aphrodite rose from the sea foam to become the Goddess Love, Beauty and Desire. This makes this natural paradise the main tourist destination among the Amazon kin, where married couples come to make or renew their vows and single Amazons come seeking love. That, or seeking endless pleasure in the local festivals and open air orgies by the beach under the gaze of the Lustful Goddess."
+  alsos_artemidos_sacred_grove: "The Sacred Grove of Artemis"
+  alsos_artemidos_sacred_grove_desc: "The Artemisian Isles have ancient forests covering most of its interior. Many of those places are considered sacred hunting grounds, but the Sacred Grove at Álsos Artemídos is the best preserved wilderness of them all. High in the mountains, it's isolated from civilization and difficult to access. Only the most devoted priestesses of Artemis and the best Amazon Huntresses are allowed into the grove, but its fabled natural beauty has become legendary nonetheless."
+  agoge_enyous: "Agōgē Enýous"
+  agoge_enyous_desc: "No cheers echo within these stone grounds, only the rhythm of marching feet, clashing bronze, and disciplined breath. Here, daughters of the Hellenic Amazons are forged through hardship, endurance, and unrelenting martial discipline beneath the gaze of Enyo. Strength alone is not enough. Only those who master fear, pain and the self are deemed worthy to lead both shield and sister into battle."
+ #Herectic
+  kepos_eridos: "Kēpos Erídos"
+  kepos_eridos_desc: "Amid the wreck-strewn waters and the ruins of a sunken temple lies the Orchard of Discord, where golden fruit grows beneath the shadow of Eris. Here, the Pirate Queen—the Kallistē—is chosen not by strength or lineage, but by chance alone: names cast into a vessel, and a parrot's beak drawing fate at random. In Kallistí, anarchy is sacred, and the fairest is whoever chaos wills."
+ #Norse
+  eldara_ancestral_city: "Fornmæðraeldr"
+  eldara_ancestral_city_desc: "The Hearth of the Foremothers, known as the City of Eldára, stands as the eternal heart of the Norrœnar Amazons, where the memory of the foremothers is carved in stone and carried in blood. Great halls and solemn monuments rise in honor of those who came before, their names recited beside ever-burning hearths that bind past and present. There, lineage is sacred. Every daughter walks in the footsteps of those who forged the path before her. In Eldára, Frigg is revered as the keeper of ancestry, the guardian of mothers, and the thread that weaves all generations into one."
+  sessrumnir_and_folkvangr: "Fólkvangr"
+  sessrumnir_and_folkvangr_desc: "In the blooming fields of Fólkvangr stands Sessrúmnir, the hall of Freyja, where the chosen are welcomed with honor and desire. Here, the fallen are not mourned but celebrated, for it is said that Freyja herself walks among them, claiming those she favors. Warriors, lovers and sisters-in-arms alike gather in her name, where bonds are forged in passion as much as in battle. In this sacred place, love is strength, death is not an end, and to be chosen by Freya is the greatest honor of all."
+  thrudarfjell_thunder_forge: "Þrúðarsmiðja"
+  thrudarfjell_thunder_forge_desc: "At the foot of Þrúðarfjall stands Þrúðarsmiðja, the Thunder Forge, where iron and storm are bound into one. The mountain above is said to draw the fury of the skies, its peaks struck time and again by lightning, as if Thrúd herself hammers from the heavens. Here, the Amazons shape their finest weapons, tempering steel in fire and thunder alike. It is believed that blades forged in this place carry the strength of the Daughter of Thunder, and that those who wield them fight with her fury and unyielding will."
+  ranarnet: "Ránarnet"
+  ranarnet_desc: "At the edge of the northern seas lies Ránvík, where the waters teem with life beyond reason and storms rise without warning. The Norse Amazons believe these bountiful fisheries are the casting of Rán's Great Net, gathering both riches and the unwary. Offerings are cast into the depths before every voyage, for while the sea may be generous, it never gives without claiming its due."
+  sagavindhall: "Ságavind's Hall of Sagas"
+  sagavindhall_desc: "Carved not by hand but by wind and time, Ságahall rests within the cliffs of Ságavind, where the sea breathes into stone. There the voices of the Vindmarkar Amazons gather, not to write their history, but to speak it. The wind carries every tale, every oath, every name across the hollowed rock, as if the land itself listens. It is said that those whose deeds are worthy are remembered by the wind itself, while those who are not are lost to silence."
+  idunnarlundr: "Iðunnarlundr"
+  idunnarlundr_desc: "A sacred grove of exquisite beauty, where careful tending and wild nature exist in perfect harmony. Nestled amid gentle rolling hills and clear waters, its orchards are famed for bearing the sweetest apples in the world. Their fragrance said to linger on the breeze long before the trees come into view. Dedicated to Iðunn, the grove is a place of quiet reverence, where Amazons walk beneath flowering branches and partake in its bounty. It is whispered that those who taste its finest fruit feel a fleeting renewal within them as if, for a moment, they share in the timeless youth once granted to the gods."
+  solleid: "Sólleið"
+  solleid_desc: "High upon Sunnasfjall lies Sólleið, where the path of the sun is traced across stone and sky. Great pillars and ancient markers stand in silent alignment with the heavens, catching the light of dawn and dusk at sacred times of the year. Here, the Amazons follow the course of Sunna, witnessing the turning of seasons and the steady passage of fate. In this place, time flows as surely as the sun moves above, and all who stand beneath its light are bound to the eternal rhythm of her journey."
+  sifvangr: "Sifvangr"
+  sifvangr_desc: "In the fertile lands of Tvillingsøstre lies Sifvangr, where the earth itself is sacred. The red soil of the valley yields golden grain in abundance, nourished by the steady waters of the river and the careful hands of those who tend it. No towering temple marks this place, for Sif is honored not in stone, but in the living fields. Here, the cycles of sowing and harvest are rites in themselves, and the first fruits of every season are given in quiet devotion. It is said that the golden waves of wheat are the reflection of the goddess herself, and that as long as the fields endure, so too does her blessing upon the land and its people."
+  helgrind: "Helgrind"
+  helgrind_desc: "On the quiet black cliffs overlooking the dark forests of Myrklund stands Helgrind, the threshold from which none return. There are no songs sung here, no victories remembered. Only an immense and unnaturally silent rock formation, and the certainty of what awaits all who do not earn a place among the honored dead. The land is still, the air unmoving, as if the world itself holds its breath. It is a place not of fear, but of truth. Every life that flourishes beneath the sun must one day pass beyond this silent gate. No blade, no glory, and no defiance can ward off its call forever."
+  thrymheimr_silver: "Sølvbein"
+  thrymheimr_silver_desc: "High upon Þrymheimr, where the peaks of Jötnalfjall pierce the sky, lies the deep mines of Sølvbein. The mountain is said to hold the bones of giants within it, its veins rich with shining metal drawn from the deep earth. Here, Skadi is honored as the Lady of Winter and Stone, the one who walks where no life endures. The Amazons who dwell in these heights carve silver from the frozen rock, believing it to be touched by the ancient powers of the Jötnar. In this place of cold and silence, strength is not proven by conquest, but by endurance, and those who endure are said to stand closest to the goddess herself."
+  veidihjarta: "Veiðihjarta"
+  veidihjarta_desc: "There is no temples at Veiðihjarta. Only the hunt. Set upon the wild heights of Arnarhjarta, this sacred hunting grounds are where Skadi is worshiped not through prayer, but through action! Here, the wind cuts like blades, the cliffs demand sure footing, and the prey is never weak. Those who come seeking favor must prove themselves, for the Goddess does not listen to words, only to feats of bravery and demonstrations of skill. Arrows loosed in hesitation miss their mark; blades wielded without conviction falter. At Veiðihjarta, every step is watched, every strike weighed. To hunt is to be judged. To prevail is to be worthy. And to fail… is to be forgotten."
+  lifandi_eldr: "Lifandi Eldr"
+  lifandi_eldr_desc: "The Almóðurhof is grand temple praising Frig not with runes carved in stone, but with timber, hearth and living memory. There burns a sacred flame carried all the way from Eldára, tended by the first mothers of the colony. It is a place where families are forged, daughters are raised and new lineages take root. In this humble hall, Frigg is honored not through monuments, but through the quiet endurance of life itself."
+ #Latin
+  navalia_magna_salaciae: "Navalia Magna Salaciae"
+  navalia_magna_salaciae_desc: "A vast circular harbor, carved and shaped by design rather than nature. Within its sheltered waters, fleets gather like a coiled serpent, ready to strike across the sea. Here, Salacia's dominion is not prayed for, but built and sustained by the best shipwrights, carpenters and sailors the Salacianae can muster. While others worship the sea, Salacia Augusta masters it in their Sea Goddess' name."
+  arena_bellonae: "Arena Bellonae"
+  arena_bellonae_desc: "A vast arena where bronze sings and blood answers. Here, warriors prove themselves before Bellona not in idle sport, but in sacred violence. Through trial by combat, the worthy are revealed, hardened, and raised to command within the mighty Salacian Legions! Their strength and resolve proven in the only language Bellona respects. Victors rise in glory, while the defeated fall in shame."
+  ignis_aeternus_vestae: "Ignis Aeternus Vestae"
+  ignis_aeternus_vestae_desc: "At the narrow pass of Fauces Vestae burns the eternal flame of the goddess, guarded restlessly by her chosen keepers. So long as it endures, the heart of Salacia endures with it. Here, vigilance is devotion, and the safety of the state is sacred duty."
+
+  #Latin Holy Sites in Old World
+  aedes_junonis_monetae: "Aedes Junonis Monetae"
+  aedes_junonis_monetae_desc: "Once the sacred seat of Juno Moneta and the beating heart of Roman sovereignty, this great temple stood on the Capitoline Hill as the ultimate symbol of Rome's rightful dominion. Here, coinage, law and authority were sanctified beneath the watchful gaze of the Queen of Heaven. To claim it is not merely to conquer Rome, but to inherit its eternal mandate."
+
+  horrea_cereris: "Horrea Cereris"
+  horrea_cereris_desc: "Great granaries and fertile storehouses rise beneath the blessing of Ceres, nourisher of civilization and guardian of abundance. From these lands flowed the grain that once fed the Roman world itself. Whoever commands the bounty of Africa commands the lifeblood of empires."
+
+  bibliotheca_minervae: "Bibliotheca Minervae"
+  bibliotheca_minervae_desc: "Though the ancient library was long ago consumed by fire and conquest, its memory endured within the dreams of scholars and philosophers. The Salacianae seek not merely to restore its shelves, but to reshape all wisdom beneath Minerva's gaze into their own view of the world. Here, knowledge itself becomes an instrument of empire."
+
+  paphos_veneris: "Paphos Veneris"
+  paphos_veneris_desc: "At sacred Paphos stands one of the oldest sanctuaries ever devoted to Venus, Lady of beauty, desire and divine lineage. Pilgrims cross sea and shore alike to offer devotion where love and power entwine beneath the Goddess' eternal grace."
+
+  victoria_aeterna: "Victoria Aeterna"
+  victoria_aeterna_desc: "The Eternal Victory stands as the supreme symbol of imperial triumph. Empires may rise and collapse around its walls, yet the dream of dominion endures unbroken. To seize back this sacred city within rightful Roman hands is to proclaim before the world that Rome still lives through the Latin Amazons!"
+
+  lucus_proserpinae: "Lucus Proserpinae"
+  lucus_proserpinae_desc: "Hidden among the highlands of Sicily lies the sacred grove of Proserpina, where ancient myths speak of the Maiden's descent into the underworld. Quiet and solemn beneath whispering trees, this place reminds all mortals that life, death and rebirth remain forever entwined."
+
+  lucus_dianae: "Lucus Dianae"
+  lucus_dianae_desc: "Deep within the wild mountains of western Iberia rests a sacred grove devoted to Diana, Huntress of the Moon and guardian of untamed lands. Here, among ancient forests and mist-covered peaks, the faithful seek strength, discipline and freedom beneath the watchful eyes of the Goddess."

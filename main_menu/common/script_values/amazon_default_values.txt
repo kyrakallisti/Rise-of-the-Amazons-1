@@ -1,0 +1,24 @@
+﻿#Unit Limits
+    legionariae_unit_limit = {
+        add = {
+            desc = "SUBUNIT_LIMIT_BASE"
+            value = 4
+        }
+        add = {
+            desc = "EFFECTIVE_CAMPI_BELLONAE_BUILDINGS"
+            value = 4
+            add = total_effective_building_levels:campus_bellonae
+        }
+    }
+    kataphractoi_unit_limit = {
+        add = {
+            desc = "SUBUNIT_LIMIT_BASE"
+            value = 4
+        }
+        add = {
+            desc = "EFFECTIVE_HIPPARCHEION_BUILDINGS"
+            value = 2
+            add = total_effective_building_levels:hipparcheion
+        }
+    }
+

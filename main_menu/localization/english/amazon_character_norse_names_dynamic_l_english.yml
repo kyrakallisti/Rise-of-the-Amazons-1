@@ -1,0 +1,298 @@
+﻿l_english:
+ # valid formats:
+ # name_NAME
+ # name_NAME.[culture]
+ # name_NAME.[language]
+ # name_NAME.[language].[culture]
+ # name_NAME.diminutive
+ # name_NAME.genitive
+ # name_NAME.[culture].diminutive
+ # name_NAME.[culture].genitive
+ # name_NAME.[language].diminutive
+ # name_NAME.[language].genitive
+ # name_NAME.[language].[culture].diminutive
+ # name_NAME.[language].[culture].genitive
+ #
+ # diminutive is used when a character has no dynasty
+ # genitive is used when a patronym, e.g. as in Irish usage
+ #
+ # you can also join compound names like this so they can have a unique form in some languages:
+ # name_michael.name_angel.north_italian_language: "Michelangelo"
+ 
+ #Patronyms
+ #matronym_suffix_norse_amazon_daughter: "sdóttir"
+ #matronym_suffix_norse_amazon_son: "sson"
+
+ location_prefix_norse_amazon: "av "
+
+#Nicknames
+ nick_the_red_wolf: "The Red Wolf"
+ nick_the_fox: "The Fox"
+ nick_the_young: "The Young"
+ nick_the_raider: "The Raider"
+ nick_the_oathbound: "The Oathbound"
+ nick_the_watchful: "The Watchful"
+ nick_the_traditionalist: "The Traditionalist"
+ nick_the_sun_mother: "The Sun-Mother"
+ nick_silver_tongue: "Silver Tongue"
+
+#Female Names
+ name_amz_arna: "Arna" #Eagle
+ name_amz_arna.old_norse_amazon_dialect: "Arna"
+
+ name_amz_arnhild: "Arnhild" #Eagle Battle
+ name_amz_arnhild.old_norse_amazon_dialect: "Arnhildr"
+
+ name_amz_arnfrid: "Arnfrid" #Eagle Beautiful
+ name_amz_arnfrid.old_norse_amazon_dialect: "Arnfríðr"
+
+ name_amz_arnveig: "Arnveig" #Eagle Strength
+
+ name_amz_aslaug: "Aslaug" #God-Betrothed
+ name_amz_aslaug.old_norse_amazon_dialect: "Áslaug"
+
+ name_amz_asta: "Asta" #Divine Love
+ name_amz_asta.old_norse_amazon_dialect: "Ásta"
+
+ name_amz_astrid: "Astrid" #Divine Beauty
+ name_amz_astrid.old_norse_amazon_dialect: "Ástríðr"
+
+ name_amz_aud: "Aud" #Wealth
+ name_amz_aud.old_norse_amazon_dialect: "Auðr"
+
+ name_amz_audhild: "Audhild" #Wealth Battle
+ name_amz_audhild.old_norse_amazon_dialect: "Auðhildr"
+
+ name_amz_audfrid: "Audfrid" #Wealth Beauty
+ name_amz_audfrid.old_norse_amazon_dialect: "Auðfríðr"
+
+ name_amz_bjarna: "Bjørna" #Bear
+ name_amz_bjarna.old_norse_amazon_dialect: "Bjarna"
+
+ name_amz_bjornfrid: "Bjørnfrid" #Bear Beauty
+ name_amz_bjornfrid.old_norse_amazon_dialect: "Bjarnfríðr"
+
+ name_amz_bjornhild: "Bjørnhild" #Bear Battle
+ name_amz_bjornhild.old_norse_amazon_dialect: "Bjarnhildr"
+
+ name_amz_bothildr: "Bothildr" #Remedy Battle
+ name_amz_bothildr.old_norse_amazon_dialect: "Bóthildr"
+
+ name_amz_brynhild: "Brynhild" #Armor Battle
+ name_amz_brynhild.old_norse_amazon_dialect: "Brynhildr"
+
+ name_amz_drifa: "Drifa" #Snowfall / Drift
+ name_amz_drifa.old_norse_amazon_dialect: "Drífa"
+
+ name_amz_erika: "Erika" #Eternal Ruler
+ name_amz_erika.old_norse_amazon_dialect: "Eirika"
+
+ name_amz_eivor: "Eivor" #Good Fortune Protector
+ name_amz_eivor.old_norse_amazon_dialect: "Eivör"
+
+ name_amz_gunnhild: "Gunnhild" #War Battle
+ name_amz_gunnhild.old_norse_amazon_dialect: "Gunnhildr"
+
+ name_amz_gudfrid: "Gudfrid" #God Beauty
+ name_amz_gudfrid.old_norse_amazon_dialect: "Guðfríðr"
+
+ name_amz_gudrun: "Gudrun" #God Secret Lore
+ name_amz_gudrun.old_norse_amazon_dialect: "Guðrún"
+
+ name_amz_gyda: "Gyda" #God
+ name_amz_gyda.old_norse_amazon_dialect: "Gyða"
+
+ name_amz_hallfrid: "Hallfrid" #Rock Beauty
+ name_amz_hallfrid.old_norse_amazon_dialect: "Hallfríðr"
+
+ name_amz_hallveig: "Hallveig" #Rock Strength
+ name_amz_hallveig.old_norse_amazon_dialect: "Hallveig"
+
+ name_amz_hervor: "Hervor" #Army Guardian
+ name_amz_hervor.old_norse_amazon_dialect: "Hervǫr"
+
+ name_amz_hildr: "Hildr" #Battle
+ name_amz_hildr.old_norse_amazon_dialect: "Hildr"
+
+ name_amz_hjordis: "Hjordis" #Sword Goddess
+ name_amz_hjordis.old_norse_amazon_dialect: "Hjördis"
+
+ name_amz_hrafna: "Revna" #Raven
+ name_amz_hrafna.old_norse_amazon_dialect: "Hrafna"
+
+ name_amz_hrafnhild: "Revnhild" #Raven Battle
+ name_amz_hrafnhild.old_norse_amazon_dialect: "Hrafnhildr"
+
+ name_amz_hrafnveig: "Revnveig" #Raven Strength
+ name_amz_hrafnveig.old_norse_amazon_dialect: "Hrafnveig"
+
+ name_amz_ingeborg: "Ingeborg" #Ing's Protection
+ name_amz_ingeborg.old_norse_amazon_dialect: "Ingibjörg"
+
+ name_amz_ingrid: "Ingrid" #Ing's Beauty
+ name_amz_ingrid.old_norse_amazon_dialect: "Ingfríðr"
+
+ name_amz_ingegerd: "Ingegerd" #Ing's Enclosure
+ name_amz_ingegerd.old_norse_amazon_dialect: "Ingigerðr"
+
+ name_amz_jorunn: "Jorunn" #Horse Secret Lore
+ name_amz_jorunn.old_norse_amazon_dialect: "Jórunn"
+
+ name_amz_liv: "Liv" #Life
+ name_amz_liv.old_norse_amazon_dialect: "Líf"
+
+ name_amz_magnfrid: "Magnfrid" #Great Beauty
+ name_amz_magnfrid.old_norse_amazon_dialect: "Magnfríðr"
+
+ name_amz_magnhild: "Magnhild" #Great Battle
+ name_amz_magnhild.old_norse_amazon_dialect: "Magnhildr"
+
+ name_amz_oddhild: "Oddhild" #Point/Blade Battle
+ name_amz_oddhild.old_norse_amazon_dialect: "Oddhildr"
+
+ name_amz_ragna: "Ragna" #Counsel / Power
+ name_amz_ragna.old_norse_amazon_dialect: "Ragna"
+
+ name_amz_ragnfrid: "Ragnfrid" #Counsel Beauty
+ name_amz_ragnfrid.old_norse_amazon_dialect: "Ragnfríðr"
+
+ name_amz_ragnheid: "Ragnheid" #Counsel Honor
+ name_amz_ragnheid.old_norse_amazon_dialect: "Ragnheiðr"
+
+ name_amz_ragnhild: "Ragnhild" #Counsel Battle
+ name_amz_ragnhild.old_norse_amazon_dialect: "Ragnhildr"
+
+ name_amz_rannveig: "Rannveig" #House Strength
+ name_amz_rannveig.old_norse_amazon_dialect: "Rannveig"
+
+ name_amz_refna: "Refna" #Fox
+
+ name_amz_refhildr: "Refhild" #Fox Battle
+ name_amz_refhildr.old_norse_amazon_dialect: "Refhildr"
+
+ name_amz_runna: "Runna" #Secret Lore
+ name_amz_runna.old_norse_amazon_dialect: "Rúna"
+
+ name_amz_sigrid: "Sigrid" #Victory Beauty
+ name_amz_sigrid.old_norse_amazon_dialect: "Sigríðr"
+
+ name_amz_sigrun: "Sigrun" #Victory Rune
+ name_amz_sigrun.old_norse_amazon_dialect: "Sigrún"
+
+ name_amz_skuld: "Skuld" #Debt / Fate (Norn of the Future)
+ name_amz_skuld.old_norse_amazon_dialect: "Skuld"
+
+ name_amz_solveig: "Solveig" #Sun Strength
+ name_amz_solveig.old_norse_amazon_dialect: "Sólveig"
+
+ name_amz_svana: "Svana" #Swan
+ name_amz_svana.old_norse_amazon_dialect: "Svana"
+
+ name_amz_svanfrid: "Svanfrid" #Swan Beauty
+ name_amz_svanfrid.old_norse_amazon_dialect: "Svanfríðr"
+
+ name_amz_svanhild: "Svanhild" #Swan Battle
+ name_amz_svanhild.old_norse_amazon_dialect: "Svanhildr"
+
+ name_amz_svanlaug: "Svanlaug" #Swan Betrothed
+ name_amz_svanlaug.old_norse_amazon_dialect: "Svanlaug"
+
+ name_amz_thalia.old_norse_amazon_dialect: "Þalía"
+
+ name_amz_thora: "Thora" #Thor's
+ name_amz_thora.old_norse_amazon_dialect: "Þóra"
+
+ name_amz_thordis: "Thordis" #Thor's Goddess
+ name_amz_thordis.old_norse_amazon_dialect: "Þórdís"
+
+ name_amz_thorfrid: "Thorfrid" #Thor's Beauty
+ name_amz_thorfrid.old_norse_amazon_dialect: "Þórfríðr"
+
+ name_amz_thorhild: "Thorhild" #Thor's Battle
+ name_amz_thorhild.old_norse_amazon_dialect: "Þórhildr"
+
+ name_amz_ulfhild: "Ulfhild" #Wolf Battle
+ name_amz_ulfhild.old_norse_amazon_dialect: "Úlfhildr"
+
+ name_amz_ulfrid: "Ulfrid" #Wolf Beauty
+ name_amz_ulfrid.old_norse_amazon_dialect: "Úlfríðr"
+
+ name_amz_vigdis: "Vigdis" #Battle Goddess
+ name_amz_vigdis.old_norse_amazon_dialect: "Vigdís"
+
+ name_amz_ylva: "Ylva" #She-Wolf
+ name_amz_ylva.old_norse_amazon_dialect: "Ylva"
+
+ name_amz_yrsa: "Yrsa" #She-Bear
+ name_amz_yrsa.old_norse_amazon_dialect: "Yrsa"
+
+
+ name_amz_svarthild: "Svarthild" #Black Battle
+ name_amz_svarthild.old_norse_amazon_dialect: "Svarthildr"
+
+ name_amz_hvitfrid: "Hvitfrid" #White Beauty
+ name_amz_hvitfrid.old_norse_amazon_dialect: "Hvítfríðr"
+
+ name_amz_veidhild: "Veidhild" #Hunt Battle
+ name_amz_veidhild.old_norse_amazon_dialect: "Veiðhildr"
+
+ name_amz_horveig: "Hørveig" #Harsh Strength (uncertain root)
+ name_amz_horveig.old_norse_amazon_dialect: "Hørveig"
+
+##Male names:
+name_amz_bjorn: "Bjorn" #Bear
+name_amz_bjorn.old_norse_amazon_dialect: "Björn"
+
+name_amz_ulv: "Ulv" #Wolf
+name_amz_ulv.old_norse_amazon_dialect: "Ulfr"
+
+name_amz_orm: "Orm" #Serpent
+name_amz_orm.old_norse_amazon_dialect: "Ormr"
+
+name_amz_hrafn: "Hrafn" #Raven
+name_amz_hrafn.old_norse_amazon_dialect: "Hrafn"
+
+name_amz_haukr: "Haukr" #Hawk
+name_amz_haukr.old_norse_amazon_dialect: "Haukr"
+
+name_amz_falki: "Falki" #Falcon
+name_amz_falki.old_norse_amazon_dialect: "Fálki"
+
+name_amz_hrutr: "Hrutr" #Ram
+name_amz_hrutr.old_norse_amazon_dialect: "Hrútr"
+
+name_amz_eikthyr: "Eikthyr" #Stag
+name_amz_eikthyr.old_norse_amazon_dialect: "Eikþyrnir"
+
+name_amz_stein: "Stein" #Stone
+name_amz_stein.old_norse_amazon_dialect: "Steinn"
+
+name_amz_bjarg: "Bjarg" #Rock / Cliff
+name_amz_bjarg.old_norse_amazon_dialect: "Bjarg"
+
+name_amz_eld: "Eld" #Fire
+name_amz_eld.old_norse_amazon_dialect: "Eldr"
+
+name_amz_frosti: "Frosti" #Frost
+name_amz_frosti.old_norse_amazon_dialect: "Frosti"
+
+name_amz_snaer: "Snaer" #Snow
+name_amz_snaer.old_norse_amazon_dialect: "Snær"
+
+name_amz_stormr: "Stormr" #Storm
+name_amz_stormr.old_norse_amazon_dialect: "Stormr"
+
+name_amz_vindr: "Vindr" #Wind
+name_amz_vindr.old_norse_amazon_dialect: "Vindr"
+
+name_amz_ketil: "Ketil" #Cauldron
+name_amz_ketil.old_norse_amazon_dialect: "Ketill"
+
+name_amz_bersi: "Bersi" #Bear-like
+name_amz_bersi.old_norse_amazon_dialect: "Bersi"
+
+name_amz_oddr: "Oddr" #Spear-point
+name_amz_oddr.old_norse_amazon_dialect: "Oddr"
+
+name_amz_kari: "Kari" #Wind
+name_amz_kari.old_norse_amazon_dialect: "Kári"

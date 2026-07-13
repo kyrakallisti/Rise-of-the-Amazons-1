@@ -1,0 +1,171 @@
+﻿l_english:
+###Hellenic
+ #Hellenic Monarchies
+  rank_empire_basileia: "Megálē Basileía"
+  rank_empire_basileia_ruler_male: "Mégas Basileús"
+  rank_empire_basileia_ruler_female: "Megálē Basilíssa" 
+
+  rank_kingdom_basileia: "Basileía"
+  rank_kingdom_basileia_ruler_male: "Basileús"
+  rank_kingdom_basileia_ruler_female: "Basilíssa" 
+
+  rank_duchy_arkhe: "Arkhē"
+  rank_duchy_arkhe_ruler_male: "Arkhōn"
+  rank_duchy_arkhe_ruler_female: "Arkhontissa"
+
+  rank_county_khora: "Khōra"
+  rank_county_khora_ruler_male: "Phylax"
+  rank_county_khora_ruler_female: "Phylakissa" #Guardian of the district
+ #Hellenic Democracies (Innovative centers, adopt -issa from linguistic evolution and standartization)
+  rank_empire_hegemonia: "Sympoliteía" #“shared polity” or “unified commonwealth.”
+  rank_empire_hegemonia_ruler_male: "Hyperhēgemón"
+  rank_empire_hegemonia_ruler_female: "Hyperhēgemonissa"
+
+  rank_kingdom_hegemonia: "Koinón Megá" #Dominant Confederation
+  rank_kingdom_hegemonia_ruler_male: "Archēgemón"
+  rank_kingdom_hegemonia_ruler_female: "Archēgemoníssa"
+
+  rank_duchy_hegemonia: "Koinón" #League/Confederation
+  rank_duchy_hegemonia_ruler_male: "Hēgemón"
+  rank_duchy_hegemonia_ruler_female: "Hēgemonissa"
+
+  rank_county_polis: "Pólis" #City-State
+  rank_county_polis_ruler_male: "Strategós"
+  rank_county_polis_ruler_female: "Strategissa"
+  #Hellenic Oligarchies
+  rank_county_oligarkhia: "Oligarkhía"
+  rank_county_oligarkhia_ruler_male: "Árkhos"
+  rank_county_oligarkhia_ruler_female: "Árkhissa" #power-holder
+  #Erisian Anarchy
+  rank_kallisteia: "Anarkhía"
+  rank_kallisteia_ruler_male: "Kallistē"
+  rank_kallisteia_ruler_female: "Kallistē"
+ #Hellenic Theocracies
+  rank_empire_hierokratia: "Hierokrátia" #Rule of the sacred
+  rank_empire_hierokratia_ruler_male: "Arkhimántis"
+  rank_empire_hierokratia_ruler_female: "Arkhimántissa" #High Oracle / Supreme Priestess of the Goddesses
+
+  rank_kingdom_hieregemonia: "Hierón Koinón" #Holy League
+  rank_kingdom_hieregemonia_ruler_male: "Hypertátos Hiereús"
+  rank_kingdom_hieregemonia_ruler_female: "Hypertátē Hiéreia" #Supreme Priestess / The Most Exalted Priestess
+
+  rank_duchy_hiera_arkhe: "Hierá Arkhē" #“Sacred Dominion”
+  rank_duchy_hiera_arkhe_ruler_male: "Megístos Hiereús"
+  rank_duchy_hiera_arkhe_ruler_female: "Megístē Hiéreia" #High(est) Pristess
+
+  rank_county_hiera_khora: "Hierá Khōra" #Sacred Chóra
+  rank_county_hiera_khora_ruler_male: "Hiereús"
+  rank_county_hiera_khora_ruler_female: "Hiéreia" #Great Priestess
+
+###Norse
+ #Norse Monarchies
+  rank_empire_keisaraveldi: "Stórveldi" #Great Domain
+  rank_empire_keisaraveldi_ruler_male: "Allsdróttinn" 
+  rank_empire_keisaraveldi_ruler_female: "Allsdrottning" #Queen of All
+
+  rank_kingdom_riki: "Ríki" #Political Realm
+  rank_kingdom_riki_ruler_male: "Dróttinn"
+  rank_kingdom_riki_ruler_female: "Drottning" #Queen
+
+  rank_duchy_jarldom: "Jarldom"
+  rank_duchy_jarldom_ruler_male: "Jarl"
+  rank_duchy_jarldom_ruler_female: "Jarl"
+
+  rank_county_fylker: "Fylki"
+  rank_county_fylker_ruler_male: "Hersir"
+  rank_county_fylker_ruler_female: "Hersir"
+ #Norse Theocracies
+  rank_empire_seidveldi: "Seiðveldi" #Dominion of Seiðr (Prophecy)
+  rank_empire_seidveldi_ruler_male: "Yfirmáti"
+  rank_empire_seidveldi_ruler_female: "Yfirvölva" #Supreme Seeress
+
+  rank_kingdom_godjurland: "Goðaland" #Land of the Gods
+  rank_kingdom_godjurland_ruler_male: "Allgoði"
+  rank_kingdom_godjurland_ruler_female: "Allgyðja" #Priestess of All
+
+  rank_duchy_hailagaland: "Heilagt Land" #Holy Land
+  rank_duchy_hailagaland_ruler_male: "Hofgoði"
+  rank_duchy_hailagaland_ruler_female: "Hofgyðja" #Great High Priestess
+
+  rank_county_hofland: "Hofland" #Temple Land
+  rank_county_hofland_ruler_male: "Goði"
+  rank_county_hofland_ruler_female: "Gyðja" #High Priestess
+ #Norse Republics
+  rank_empire_storthjodveldi: "Stórþjóðveldi"
+  rank_empire_storthjodveldi_ruler_male: "Allsögumaðr"
+  rank_empire_storthjodveldi_ruler_female: "Allsögukona"
+
+  rank_kingdom_thjodveldi: "Þjóðveldi"
+  rank_kingdom_thjodveldi_ruler_male: "Alþingsmaðr"
+  rank_kingdom_thjodveldi_ruler_female: "Alþingskona" 
+
+  rank_duchy_storthing: "Stórþing"
+  rank_duchy_storthing_ruler_male: "Lögsögumaðr"
+  rank_duchy_storthing_ruler_female: "Lögsögukona" 
+
+  rank_county_thing: "Þing"
+  rank_county_thing_ruler_male: "Lögmaðr"
+  rank_county_thing_ruler_female: "Lögkona"
+
+###Latin
+ #Latin Monarchies (Latin Royal Illusion System)
+  rank_empire_imperium: "Imperium"
+  rank_empire_imperium_ruler_male: "Imperator"
+  rank_empire_imperium_ruler_female: "Imperatrix"
+
+  rank_kingdom_imperium: "Principatus"
+  rank_kingdom_imperium_ruler_male: "Princeps Civitatis"
+  rank_kingdom_imperium_ruler_female: "Princeps Civitatis"
+
+  rank_duchy_imperium: "Provincia" 
+  rank_duchy_imperium_ruler_male: "Legatus"
+  rank_duchy_imperium_ruler_female: "Legata"
+
+  rank_county_imperium: "Municipium"
+  rank_county_imperium_ruler_male: "Praefectus"
+  rank_county_imperium_ruler_female: "Praefecta"
+ #Latin Republics
+  rank_empire_respublica: "Res Publica Maxima"
+  rank_empire_respublica_ruler_male: "Consul Maximus"
+  rank_empire_respublica_ruler_female: "Consul Maxima"
+
+  rank_kingdom_respublica: "Res Publica"
+  rank_kingdom_respublica_ruler_male: "Consul Primus"
+  rank_kingdom_respublica_ruler_female: "Consul Prima"
+
+  rank_duchy_respublica: "Senatus Populusque" #Senatus Populusque Salaciae
+  rank_duchy_respublica_ruler_male: "Praetor"
+  rank_duchy_respublica_ruler_female: "Praetrix"
+
+  rank_county_respublica: "Civitas" #City State
+  rank_county_respublica_ruler_male: "Aedilis" #Gender-neutral
+  rank_county_respublica_ruler_female: "Aedilis"
+ #Latin Theocracies
+  rank_empire_sacra: "Imperium Sacrum"
+  rank_empire_sacra_ruler_male: "Pontifex Maximus"
+  rank_empire_sacra_ruler_female: "Pontifex Maxima" #The title existed in Rome long before the Pope
+
+  rank_kingdom_sacra: "Res Sacra"
+  rank_kingdom_sacra_ruler_male: "Pontifex Princeps"
+  rank_kingdom_sacra_ruler_female: "Pontifex Principis"
+
+  rank_duchy_sacra: "Terra Sacra"
+  rank_duchy_sacra_ruler_male: "Summus Sacerdos"
+  rank_duchy_sacra_ruler_female: "Summa Sacerdos"
+
+  rank_county_sacra: "Civitas Sacra"
+  rank_county_sacra_ruler_male: "Sacerdos"
+  rank_county_sacra_ruler_female: "Sacerdos"
+
+#Parliaments
+ #Latin
+  country_flavor_parliament_latinae_amazon_senate: "Senatus Matriciae" #Senate of the Matricians
+  country_flavor_parliament_latinae_amazon_curia: "Curia Sacra" #Sacred Council
+ #Hellenic
+  country_flavor_parliament_hellenic_amazon_monarchy: "Symboúlion" #Advisory council (under queens)
+  country_flavor_parliament_hellenic_amazon_republic: "Boulē" #Citizen Council
+  country_flavor_parliament_hellenic_amazon_theocracy: "Hierateíon" #Priestly Council
+ #Norse
+  country_flavor_parliament_norse_amazon_monarchy: "Ráð" #Royal Council
+  country_flavor_parliament_norse_amazon_republic: "Þing" #Assembly
+  country_flavor_parliament_norse_amazon_theocracy: "Hofráð" #Temple Council

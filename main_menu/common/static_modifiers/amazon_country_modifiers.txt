@@ -1,0 +1,48 @@
+﻿palace_massacre = {
+	game_data = {
+		category = country
+	}
+
+    global_estate_target_satisfaction = -0.10
+	stability_cost_efficiency = -0.4
+}
+
+bastard_regency = {
+	game_data = {
+		category = country
+	}
+
+	global_estate_target_satisfaction = -0.05
+	monthly_legitimacy = -0.02
+	monthly_prestige = -0.02
+	diplomatic_reputation = -1
+}
+
+defenders_of_the_child = {
+	game_data = {
+		category = country
+	}
+
+    global_estate_target_satisfaction = 0.05
+	global_defensive = 0.2
+	land_morale = 0.10
+	army_tradition_decay = -0.01
+}
+
+seeking_the_child = {
+	game_data = {
+		category = country
+	}
+
+	monthly_gold_expense = 1
+	spy_network_construction = 0.25
+}
+
+hunted_heir = {
+	game_data = {
+		category = country
+	}
+
+	global_estate_target_satisfaction = 0.025
+	monthly_gold_expense = 1
+}

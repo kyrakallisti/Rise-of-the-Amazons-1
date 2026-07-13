@@ -1,0 +1,34 @@
+﻿discovered_regions = {
+	nordrheimar_region
+	motherland_region
+	amazonotheia_region
+	macaronesia_region
+
+	carpathia_region
+	balkan_region
+	anatolia_region
+	egypt_region
+	italy_region
+	france_region
+	iberia_region
+	maghreb_region
+}
+discovered_areas = {
+	black_sea_area
+	yedisan_area
+	crimea_area
+
+	atlantic_gulf_stream_area
+	atlantic_labrador_area
+	atlantic_north_atlantic_current_area
+
+	aegean_sea_area
+	ionian_sea_area
+	levantine_sea_area
+	levant_area
+	tyrrhenian_sea
+	western_mediterranean_sea_area
+	alboran_sea_area
+	iberian_west_coast_area
+	azores_sea_area
+}

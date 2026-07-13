@@ -1,0 +1,94 @@
+﻿hair_styles = {
+	usage = game
+	selection_behavior = weighted_random
+	# fallback = default_hairstyle
+    priority = 1
+
+	###AMAZON
+	syrian_hair = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hair_styles
+				template = syrian_hair
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				is_female = yes
+				OR = {
+					portrait_clothing_trigger = { CULTURE_GFX = hellenic_amazon_gfx }
+					portrait_clothing_trigger = { CULTURE_GFX = norse_amazon_gfx }
+				}
+			}
+		}
+	}
+	german_hair = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = german_hair
+				template = deccan_hair
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				is_female = yes
+				OR = {
+					portrait_clothing_trigger = { CULTURE_GFX = hellenic_amazon_gfx }
+					portrait_clothing_trigger = { CULTURE_GFX = norse_amazon_gfx }
+				}
+			}
+		}
+	}
+	ainu_hair = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hair_styles
+				template = ainu_hair
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				is_female = yes
+				OR = {
+					portrait_clothing_trigger = { CULTURE_GFX = hellenic_amazon_gfx }
+					portrait_clothing_trigger = { CULTURE_GFX = norse_amazon_gfx }
+				}
+			}
+		}
+	}
+	deccan_hair = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hair_styles
+				template = deccan_hair
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				is_female = yes
+				OR = {
+					portrait_clothing_trigger = { CULTURE_GFX = hellenic_amazon_gfx }
+					portrait_clothing_trigger = { CULTURE_GFX = norse_amazon_gfx }
+				}
+			}
+		}
+	}
+}
+
+

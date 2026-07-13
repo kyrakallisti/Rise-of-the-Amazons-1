@@ -1,0 +1,60 @@
+﻿INJECT:throne_room_test = {
+  #Amazon
+	illustration_image = {
+		texture_file = "gfx/interface/illustrations/government/throne_rooms/throne_room_hellenic_amazon_high_tier.dds"
+		priority = 100
+		scope = character
+		trigger = {
+			OR = {
+				is_ruler = yes
+				is_regent = yes
+				is_heir = yes
+				is_consort = yes
+				is_infant = yes
+				is_child = yes
+				is_adolescent = yes
+				is_courtier = yes
+				is_alive = no
+			}
+			employer = { gfx_culture_applicable = hellenic_amazon_gfx }
+		}
+	}
+	illustration_image = {
+		texture_file = "gfx/interface/illustrations/government/throne_rooms/throne_room_norse_amazon_high_tier.dds"
+		priority = 100
+		scope = character
+		trigger = {
+			OR = {
+				is_ruler = yes
+				is_regent = yes
+				is_heir = yes
+				is_consort = yes
+				is_infant = yes
+				is_child = yes
+				is_adolescent = yes
+				is_courtier = yes
+				is_alive = no
+			}
+			employer = { gfx_culture_applicable = norse_amazon_gfx }
+		}
+	}
+	illustration_image = {
+		texture_file = "gfx/interface/illustrations/government/throne_rooms/throne_room_roman_amazon_high_tier.dds"
+		priority = 100
+		scope = character
+		trigger = {
+			OR = {
+				is_ruler = yes
+				is_regent = yes
+				is_heir = yes
+				is_consort = yes
+				is_infant = yes
+				is_child = yes
+				is_adolescent = yes
+				is_courtier = yes
+				is_alive = no
+			}
+			employer = { gfx_culture_applicable = latin_amazon_gfx }
+		}
+	}
+}

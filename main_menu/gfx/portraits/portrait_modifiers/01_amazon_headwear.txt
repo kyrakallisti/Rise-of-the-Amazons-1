@@ -1,0 +1,192 @@
+﻿headwear = {
+  #Amazon
+	amazon_commoner = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = amazon_commoner
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					portrait_commoner_trigger = { CULTURE_GFX = hellenic_amazon_gfx }
+					portrait_commoner_trigger = { CULTURE_GFX = norse_amazon_gfx }
+				}
+			}
+		}
+	}
+
+	amazon_low_nobility = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = amazon_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				OR = {
+					portrait_low_nobility_trigger = { CULTURE_GFX = hellenic_amazon_gfx }
+					portrait_low_nobility_trigger = { CULTURE_GFX = norse_amazon_gfx }
+				}
+			}
+		}
+	}
+
+	amazon_high_nobility = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = amazon_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				OR = {
+					portrait_high_nobility_trigger = { CULTURE_GFX = hellenic_amazon_gfx }
+					portrait_high_nobility_trigger = { CULTURE_GFX = norse_amazon_gfx }
+				}
+			}
+		}
+	}
+
+	amazon_monk = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = amazon_monk
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				OR = {
+					portrait_clergy_trigger = { CULTURE_GFX = hellenic_amazon_gfx }
+					portrait_clergy_trigger = { CULTURE_GFX = norse_amazon_gfx }
+				}
+			}
+		}
+	}
+
+	amazon_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = amazon_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 800
+				OR = {
+					portrait_clothing_trigger = { CULTURE_GFX = hellenic_amazon_gfx }
+					portrait_clothing_trigger = { CULTURE_GFX = norse_amazon_gfx }
+				}
+				portrait_wear_helmet_trigger = yes
+			}
+		}
+	}
+
+	amazon_war_low_nobility = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = amazon_war_nobility
+				range = { 0 0.49 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 900
+				exists = this
+				OR = {
+					portrait_clothing_trigger = { CULTURE_GFX = hellenic_amazon_gfx }
+					portrait_clothing_trigger = { CULTURE_GFX = norse_amazon_gfx }
+				}
+				portrait_wear_helmet_trigger = yes
+				any_ruling_countries = { country_rank_level >= 2 } # duchy or above
+			}
+		}
+	}
+
+	amazon_war_high_nobility = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = amazon_war_nobility
+				range = { 0.51 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				OR = {
+					portrait_clothing_trigger = { CULTURE_GFX = hellenic_amazon_gfx }
+					portrait_clothing_trigger = { CULTURE_GFX = norse_amazon_gfx }
+				}
+				portrait_wear_helmet_trigger = yes
+				any_ruling_countries = { country_rank_level >= 3 } # kingdom or above
+			}
+		}
+	}
+
+	amazon_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = amazon_royalty
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				OR = {
+					OR = {
+						portrait_royalty_trigger = { CULTURE_GFX = hellenic_amazon_gfx }
+						portrait_royalty_trigger = { CULTURE_GFX = norse_amazon_gfx }
+					}
+					AND = { # Republic of Genoa
+						portrait_is_ruler_of_trigger = { COUNTRY = GEN }
+						c:GEN ?= {
+							government_type = government_type:republic
+						}
+					}
+				}
+			}
+			modifier = {
+				add = 500
+				OR = {
+					portrait_imperial_trigger = { CULTURE_GFX = hellenic_amazon_gfx }
+					portrait_imperial_trigger = { CULTURE_GFX = norse_amazon_gfx }
+				}
+			}
+		}
+	}
+}

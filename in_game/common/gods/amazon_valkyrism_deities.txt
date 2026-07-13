@@ -1,0 +1,132 @@
+﻿frigga_god = {
+    icon = god_folk_purple
+    religion = { 
+      religion = amazon_asatru_religion
+      name_key = frigga_god
+    }
+    country_modifier = {
+      global_max_control = 0.02
+      cultural_influence_modifier = 0.1
+    }
+}
+
+saga_god = {
+    icon = god_folk_blue
+    religion = { 
+      religion = amazon_asatru_religion
+      name_key = saga_god
+    }
+    country_modifier = {
+      global_max_literacy = 5
+      global_institution_growth_modifier = 0.05
+    }
+}
+
+thrud_god = {
+    icon = god_folk_red
+    religion = { 
+      religion = amazon_asatru_religion
+      name_key = thrud_god
+    }
+    country_modifier = {
+      global_war_score_efficiency = 0.1
+      land_morale_modifier = 0.10
+    }
+}
+
+skadi_god = {
+    icon = god_folk_white
+    religion = {    
+      religion = amazon_asatru_religion
+      name_key = skadi_god
+    }
+    country_modifier = {
+      mountains_proximity_impact = -0.33
+      hills_proximity_impact = -0.33
+    }
+}
+
+ran_god = {
+    icon = god_folk_dark_blue
+    religion = { 
+      religion = amazon_asatru_religion
+      name_key = ran_god
+    }
+    country_modifier = {
+      port_cost_distance_from_capital = -2.5 
+      global_fish_output_modifier = 0.1
+    }
+}
+
+freyja_god = {
+    icon = god_folk_pink
+    religion = { 
+      religion = amazon_asatru_religion
+      name_key = freyja_god
+    }
+    country_modifier = {
+		  global_population_growth = 0.0002
+      antagonism_received_modifier = -0.069
+    }
+}
+
+sunna_god = {
+    icon = god_folk_orange
+    religion = { 
+      religion = amazon_asatru_religion
+      name_key = sunna_god
+    }
+    country_modifier = {
+      global_monthly_prosperity = 0.0012
+      country_cabinet_efficiency = 0.10
+    }
+}
+
+sif_god = {
+    icon = god_folk_yellow
+    religion = { 
+      religion = amazon_asatru_religion
+      name_key = sif_god
+    }
+    country_modifier = {
+      global_monthly_food_modifier = 0.1
+      global_max_rgo_size_modifier_in_rural = 0.1
+    }
+}
+
+hel_god = {
+    icon = god_folk_black
+    religion = { 
+      religion = amazon_asatru_religion
+      name_key = hel_god
+    }
+    country_modifier = {
+		  monthly_war_exhaustion = -0.02
+      army_losses_in_war_cost_modifier = -0.15
+    }
+}
+
+idunn_god = {
+    icon = god_folk_green
+    religion = { 
+      religion = amazon_asatru_religion
+      name_key = idunn_god
+    }
+    country_modifier = {
+      global_life_expectancy = 5
+      global_fruit_output_modifier = 0.15
+    }
+}
+
+
+#Heresy
+#loki_god = {
+#    icon = god_folk_green
+#    religion = { 
+#      religion = 
+#      name_key = loki_god
+#    }
+#    country_modifier = {
+#      siege_ability = 0.05
+#    }
+#}

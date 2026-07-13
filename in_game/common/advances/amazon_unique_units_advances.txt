@@ -1,0 +1,689 @@
+﻿#Salacian Legionaries
+	unlock_legionariae_1_advance = {
+		age = age_1_traditions
+		allow_children	= no
+		requires = iron_working
+		potential = {
+			OR = {
+				culture = culture:salacian_amazon
+				culture = culture:bellonian_amazon
+				has_or_had_tag = ASAL
+			}
+		}
+		unlock_unit = a_legionariae_1
+	}
+	unlock_legionariae_2_advance = {
+		age = age_2_renaissance
+		allow_children	= no
+		requires = armory_advance
+		potential = {
+			OR = {
+				culture = culture:salacian_amazon
+				culture = culture:bellonian_amazon
+				has_or_had_tag = ASAL
+			}
+		}
+		unlock_unit = a_legionariae_2
+	}
+	unlock_legionariae_3_advance = {
+		age = age_3_discovery
+		allow_children	= no
+		requires = training_fields_advance
+		potential = {
+			OR = {
+				culture = culture:salacian_amazon
+				culture = culture:bellonian_amazon
+				has_or_had_tag = ASAL
+			}
+		}
+		unlock_unit = a_legionariae_3
+	}
+	unlock_legionariae_4_advance = {
+		age = age_4_reformation
+		allow_children	= no
+		requires = barracks_advance
+		potential = {
+			OR = {
+				culture = culture:salacian_amazon
+				culture = culture:bellonian_amazon
+				has_or_had_tag = ASAL
+			}
+		}
+		unlock_unit = a_legionariae_4
+	}
+	unlock_legionariae_5_advance = {
+		age = age_5_absolutism
+		allow_children	= no
+		requires = military_revolution_advance
+		potential = {
+			OR = {
+				culture = culture:salacian_amazon
+				culture = culture:bellonian_amazon
+				has_or_had_tag = ASAL
+			}
+		}
+		unlock_unit = a_legionariae_5
+	}
+	unlock_legionariae_6_advance = {
+		age = age_6_revolutions
+		requires = conscription_center_advance
+		allow_children	= no
+		potential = {
+			OR = {
+				culture = culture:salacian_amazon
+				culture = culture:bellonian_amazon
+				has_or_had_tag = ASAL
+			}
+		}
+		unlock_unit = a_legionariae_6
+	}
+
+##Hellenic
+#Heraian Kataphraktoi
+	unlock_kataphractoi_1_advance = {
+		potential = { 
+			OR = {
+				culture = culture:heraean_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+			}
+		}
+		age = age_1_traditions
+		requires = unlock_feudal_levy_advance
+		unlock_unit = a_kataphractoi_1
+	}
+	unlock_kataphractoi_2_advance = {
+		age = age_2_renaissance
+		allow_children	= no
+		requires = armory_advance
+		potential = { 
+			OR = {
+				culture = culture:heraean_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = a_kataphractoi_2
+	}
+	unlock_kataphractoi_3_advance = {
+		age = age_3_discovery
+		allow_children	= no
+		requires = training_fields_advance
+		potential = { 
+			OR = {
+				culture = culture:heraean_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = a_kataphractoi_3
+	}
+	unlock_kataphractoi_4_advance = {
+		age = age_4_reformation
+		allow_children	= no
+		requires = barracks_advance
+		potential = { 
+			OR = {
+				culture = culture:heraean_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = a_kataphractoi_4
+	}
+	unlock_kataphractoi_5_advance = {
+		age = age_5_absolutism
+		allow_children	= no
+		requires = military_revolution_advance
+		potential = { 
+			OR = {
+				culture = culture:heraean_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = a_kataphractoi_5
+	}
+	unlock_kataphractoi_6_advance = {
+		age = age_6_revolutions
+		requires = conscription_center_advance
+		allow_children	= no
+		potential = { 
+			OR = {
+				culture = culture:heraean_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = a_kataphractoi_6
+	}
+
+#Norsellenic Aspidoklastai
+	unlock_aspidoklastai_1_advance = {
+		age = age_1_traditions
+		requires = iron_working
+		potential = {
+			OR = {
+				culture = culture:norsellenic_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+				has_or_had_tag = ANHM
+			}
+		}
+		unlock_unit = a_aspidoklastai_1
+	}
+	unlock_aspidoklastai_2_advance = {
+		age = age_2_renaissance
+		requires = armory_advance
+		potential = {
+			OR = {
+				culture = culture:norsellenic_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+				has_or_had_tag = ANHM
+			}
+		}
+		unlock_unit = a_aspidoklastai_2
+	}
+	unlock_aspidoklastai_3_advance = {
+		age = age_3_discovery
+		requires = training_fields_advance
+		potential = {
+			OR = {
+				culture = culture:norsellenic_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+				has_or_had_tag = ANHM
+			}
+		}
+		unlock_unit = a_aspidoklastai_3
+	}
+	unlock_aspidoklastai_4_advance = {
+		age = age_4_reformation
+		requires = barracks_advance
+		potential = {
+			OR = {
+				culture = culture:norsellenic_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+				has_or_had_tag = ANHM
+			}
+		}
+		unlock_unit = a_aspidoklastai_4
+	}
+	unlock_aspidoklastai_5_advance = {
+		age = age_5_absolutism
+		requires = military_revolution_advance
+		potential = {
+			OR = {
+				culture = culture:norsellenic_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+				has_or_had_tag = ANHM
+			}
+		}
+		unlock_unit = a_aspidoklastai_5
+	}
+	unlock_aspidoklastai_6_advance = {
+		age = age_6_revolutions
+		requires = conscription_center_advance
+		potential = {
+			OR = {
+				culture = culture:norsellenic_amazon
+				has_or_had_tag = AMTR
+				has_or_had_tag = AMZN
+				has_or_had_tag = ANHM
+			}
+		}
+		unlock_unit = a_aspidoklastai_6
+	}
+
+#Athenaian Hoplitai
+	unlock_hoplitai_1_advance = {
+		potential = { 
+			OR = {
+				culture = culture:athenaean_amazon
+				culture = { merged_culture_group_contains_culture = culture:athenaean_amazon }
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+		age = age_1_traditions
+		requires = iron_working
+		ai_weight = { add = 2 }
+		unlock_levy = levy_a_hoplitai_1
+	}
+	unlock_hoplitai_2_advance = {
+		age = age_2_renaissance
+		requires = armory_advance
+		potential = { 
+			OR = {
+				culture = culture:athenaean_amazon
+				culture = { merged_culture_group_contains_culture = culture:athenaean_amazon }
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+		ai_weight = { add = 2 }
+		unlock_levy = levy_a_hoplitai_2
+	}
+	unlock_hoplitai_3_advance = {
+		age = age_3_discovery
+		requires = training_fields_advance
+		potential = { 
+			OR = {
+				culture = culture:athenaean_amazon
+				culture = { merged_culture_group_contains_culture = culture:athenaean_amazon }
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+		ai_weight = { add = 2 }
+		unlock_levy = levy_a_hoplitai_3
+	}
+	unlock_hoplitai_4_advance = {
+		age = age_4_reformation
+		requires = barracks_advance
+		potential = { 
+			OR = {
+				culture = culture:athenaean_amazon
+				culture = { merged_culture_group_contains_culture = culture:athenaean_amazon }
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+		ai_weight = { add = 2 }
+		unlock_levy = levy_a_hoplitai_4
+	}
+	unlock_hoplitai_5_advance = {
+		age = age_5_absolutism
+		requires = military_revolution_advance
+		potential = { 
+			OR = {
+				culture = culture:athenaean_amazon
+				culture = { merged_culture_group_contains_culture = culture:athenaean_amazon }
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+		ai_weight = { add = 2 }
+		unlock_levy = levy_a_hoplitai_5
+	}
+	unlock_hoplitai_6_advance = {
+		age = age_6_revolutions
+		requires = conscription_center_advance
+		potential = { 
+			OR = {
+				culture = culture:athenaean_amazon
+				culture = { merged_culture_group_contains_culture = culture:athenaean_amazon }
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+		ai_weight = { add = 2 }
+		unlock_levy = levy_a_hoplitai_6
+	}
+
+#Artemisian Lykotoxotai
+	unlock_lykotoxotai_1_advance = {
+		age = age_1_traditions
+		requires = iron_working
+		potential = {
+			OR = {
+				culture = culture:artemisian_amazon
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = a_lykotoxotai_1
+	}
+	unlock_lykotoxotai_2_advance = {
+		age = age_2_renaissance
+		requires = armory_advance
+		potential = {
+			OR = {
+				culture = culture:artemisian_amazon
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = a_lykotoxotai_2
+	}
+	unlock_lykotoxotai_3_advance = {
+		age = age_3_discovery
+		requires = training_fields_advance
+		potential = {
+			OR = {
+				culture = culture:artemisian_amazon
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = a_lykotoxotai_3
+	}
+	unlock_lykotoxotai_4_advance = {
+		age = age_4_reformation
+		requires = barracks_advance
+		potential = {
+			OR = {
+				culture = culture:artemisian_amazon
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = a_lykotoxotai_4
+	}
+	unlock_lykotoxotai_5_advance = {
+		age = age_5_absolutism
+		requires = military_revolution_advance
+		potential = {
+			OR = {
+				culture = culture:artemisian_amazon
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = a_lykotoxotai_5
+	}
+	unlock_lykotoxotai_6_advance = {
+		age = age_6_revolutions
+		requires = conscription_center_advance
+		potential = {
+			OR = {
+				culture = culture:artemisian_amazon
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = a_lykotoxotai_6
+	}
+
+#Thalassan Polyremes
+	unlock_polyreme_1_advance = {
+		age = age_1_traditions
+		requires = ship_building_advance
+		potential = {
+			OR = {
+				culture = culture:thalassan_amazon
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = n_polyreme_1
+	}
+	unlock_polyreme_2_advance = {
+		age = age_2_renaissance
+		requires = naval_morale_advance_1
+		potential = {
+			OR = {
+				culture = culture:thalassan_amazon
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = n_polyreme_2
+	}
+	unlock_polyreme_3_advance = {
+		age = age_3_discovery
+		requires = port_cost_distance_from_capital_advance
+		potential = {
+			OR = {
+				culture = culture:thalassan_amazon
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = n_polyreme_3
+	}
+	unlock_polyreme_4_advance = {
+		age = age_4_reformation
+		potential = {
+			OR = {
+				culture = culture:thalassan_amazon
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = n_polyreme_4
+	}
+	unlock_polyreme_5_advance = {
+		age = age_5_absolutism
+		potential = {
+			OR = {
+				culture = culture:thalassan_amazon
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = n_polyreme_5
+	}
+	unlock_polyreme_6_advance = {
+		age = age_6_revolutions
+		potential = {
+			OR = {
+				culture = culture:thalassan_amazon
+				has_or_had_tag = AMZT
+				has_or_had_tag = AMZN
+			}
+		}
+		unlock_unit = n_polyreme_6
+	}
+
+##Norse
+#Saebornar Longships
+	unlock_longship_1_advance = {
+		age = age_1_traditions
+		requires = ship_building_advance
+		potential = {
+			OR = {
+				culture = culture:saebornar_amazon
+				has_or_had_tag = ANHM
+			}
+		}
+		unlock_unit = n_longship_1
+	}
+	unlock_longship_2_advance = {
+		age = age_2_renaissance
+		requires = dock_advance
+		potential = {
+			OR = {
+				culture = culture:saebornar_amazon
+				has_or_had_tag = ANHM
+			}
+		}
+		unlock_unit = n_longship_2
+	}
+	unlock_longship_3_advance = {
+		age = age_3_discovery
+		requires = open_sea_exploration
+		potential = {
+			OR = {
+				culture = culture:saebornar_amazon
+				has_or_had_tag = ANHM
+			}
+		}
+		unlock_unit = n_longship_3
+	}
+	unlock_longship_4_advance = {
+		age = age_4_reformation
+		potential = {
+			OR = {
+				culture = culture:saebornar_amazon
+				has_or_had_tag = ANHM
+			}
+		}
+		unlock_unit = n_longship_4
+	}
+	unlock_longship_5_advance = {
+		age = age_5_absolutism
+		potential = {
+			OR = {
+				culture = culture:saebornar_amazon
+				has_or_had_tag = ANHM
+			}
+		}
+		unlock_unit = n_longship_5
+	}
+	unlock_longship_6_advance = {
+		age = age_6_revolutions
+		potential = {
+			OR = {
+				culture = culture:saebornar_amazon
+				has_or_had_tag = ANHM
+			}
+		}
+		unlock_unit = n_longship_6
+	}
+
+#Vindmarkar Vindryttarar
+	unlock_vindryttarar_1_advance = {
+		potential = { 
+			OR = {
+				culture = culture:vindmarkar_amazon
+				has_or_had_tag = AVND
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZV
+			}
+		}
+		age = age_1_traditions
+		requires = unlock_horsemen_advance
+		unlock_unit = a_vindryttarar_1
+	}
+	unlock_vindryttarar_2_advance = {
+		age = age_2_renaissance
+		allow_children	= no
+		requires = armory_advance
+		potential = { 
+			OR = {
+				culture = culture:vindmarkar_amazon
+				has_or_had_tag = AVND
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_vindryttarar_2
+	}
+	unlock_vindryttarar_3_advance = {
+		age = age_3_discovery
+		allow_children	= no
+		requires = training_fields_advance
+		potential = { 
+			OR = {
+				culture = culture:vindmarkar_amazon
+				has_or_had_tag = AVND
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_vindryttarar_3
+	}
+	unlock_vindryttarar_4_advance = {
+		age = age_4_reformation
+		allow_children	= no
+		requires = barracks_advance
+		potential = { 
+			OR = {
+				culture = culture:vindmarkar_amazon
+				has_or_had_tag = AVND
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_vindryttarar_4
+	}
+	unlock_vindryttarar_5_advance = {
+		age = age_5_absolutism
+		allow_children	= no
+		requires = military_revolution_advance
+		potential = { 
+			OR = {
+				culture = culture:vindmarkar_amazon
+				has_or_had_tag = AVND
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_vindryttarar_5
+	}
+	unlock_vindryttarar_6_advance = {
+		age = age_6_revolutions
+		requires = conscription_center_advance
+		allow_children	= no
+		potential = { 
+			OR = {
+				culture = culture:vindmarkar_amazon
+				has_or_had_tag = AVND
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_vindryttarar_6
+	}
+
+#Arnarvaengir Arnarskyttarar
+	unlock_arnarskyttarar_1_advance = {
+		age = age_1_traditions
+		requires = iron_working
+		potential = {
+			OR = {
+				culture = culture:arnarvaengir_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_arnarskyttarar_1
+	}
+	unlock_arnarskyttarar_2_advance = {
+		age = age_2_renaissance
+		requires = armory_advance
+		potential = {
+			OR = {
+				culture = culture:arnarvaengir_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_arnarskyttarar_2
+	}
+	unlock_arnarskyttarar_3_advance = {
+		age = age_3_discovery
+		requires = training_fields_advance
+		potential = {
+			OR = {
+				culture = culture:arnarvaengir_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_arnarskyttarar_3
+	}
+	unlock_arnarskyttarar_4_advance = {
+		age = age_4_reformation
+		requires = barracks_advance
+		potential = {
+			OR = {
+				culture = culture:arnarvaengir_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_arnarskyttarar_4
+	}
+	unlock_arnarskyttarar_5_advance = {
+		age = age_5_absolutism
+		requires = military_revolution_advance
+		potential = {
+			OR = {
+				culture = culture:arnarvaengir_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_arnarskyttarar_5
+	}
+	unlock_arnarskyttarar_6_advance = {
+		age = age_6_revolutions
+		requires = conscription_center_advance
+		potential = {
+			OR = {
+				culture = culture:arnarvaengir_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_arnarskyttarar_6
+	}

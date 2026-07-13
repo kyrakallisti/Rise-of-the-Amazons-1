@@ -1,0 +1,132 @@
+﻿hera_god = {
+  icon = god_folk_purple
+	religion = { 
+      religion = amazon_hellenism_religion
+      name_key = hera_god
+    }
+    country_modifier = {
+      global_max_control = 0.02
+      cultural_influence_modifier = 0.1
+    }
+}
+
+amzathena_god = {
+   icon = god_folk_blue
+    religion = { 
+      religion = amazon_hellenism_religion
+      name_key = amzathena_god
+    }
+    country_modifier = {
+      global_max_literacy = 5
+      global_institution_growth_modifier = 0.05
+    }
+}
+
+nike_god = {
+   icon = god_folk_green
+    religion = { 
+      religion = amazon_hellenism_religion
+      name_key = nike_god
+    }
+    country_modifier = {
+      global_war_score_efficiency = 0.1
+      land_morale_modifier = 0.10
+    }
+}
+
+artemis_god = {
+   icon = god_folk_white
+    religion = {    
+      religion = amazon_hellenism_religion
+      name_key = artemis_god
+    }
+    country_modifier = {
+      global_wild_game_output_modifier = 0.1
+      global_fur_output_modifier = 0.1
+    }
+}
+
+thalassa_god = {
+	icon = god_folk_dark_blue
+  religion = { 
+      religion = amazon_hellenism_religion
+      name_key = thalassa_god
+    }
+    country_modifier = {
+      port_cost_distance_from_capital = -2.5 
+      global_fish_output_modifier = 0.1
+    }
+}
+
+amzaphrodite_god = {
+    icon = god_folk_pink
+    religion = { 
+      religion = amazon_hellenism_religion
+      name_key = amzaphrodite_god
+    }
+    country_modifier = {
+		  global_population_growth = 0.0002
+      antagonism_received_modifier = -0.069
+    }
+}
+
+hestia_god = {
+  icon = god_folk_orange
+	religion = { 
+      religion = amazon_hellenism_religion
+      name_key = hestia_god
+    }
+    country_modifier = {
+      global_monthly_prosperity = 0.0012
+      country_cabinet_efficiency = 0.10
+    }
+}
+
+demeter_god = {
+	icon = god_folk_yellow
+  religion = { 
+      religion = amazon_hellenism_religion
+      name_key = demeter_god
+    }
+    country_modifier = {
+      global_monthly_food_modifier = 0.1
+      global_max_rgo_size_modifier_in_rural = 0.1
+    }
+}
+
+persephone_god = {
+    icon = god_folk_black
+    religion = { 
+      religion = amazon_hellenism_religion
+      name_key = persephone_god
+    }
+    country_modifier = {
+		  global_life_expectancy = 5
+      army_losses_in_war_cost_modifier = -0.15
+    }
+}
+
+enyo_god = {
+  icon = god_folk_red
+  religion = { 
+    religion = amazon_hellenism_religion
+    name_key = enyo_god
+  }
+  country_modifier = {
+    discipline = 0.05
+    global_manpower_modifier = 0.1
+  }
+}
+
+#Heresy
+eris_god = {
+    icon = god_folk_green
+    religion = { 
+      religion = erisian_heresy
+      name_key = eris_god
+    }
+    country_modifier = {
+      siege_ability = 0.05
+      global_fruit_output_modifier = 0.1
+    }
+}

@@ -1,0 +1,70 @@
+﻿colors = {
+	#Amazon Nations
+	map_amazon_hellenic = rgb { 235 220 170 } 	#Marble/Ivory
+	map_amazon_aphrodite = rgb { 236 80 169 } 	#Pink Roses
+	map_amazon_hestian = rgb { 235 90 30 } 		#Fire
+	map_amazon_thalassan = rgb { 182 12 112 } 	#Light Tyrian Purple
+	map_amazon_athenaean = rgb { 232 172 16 }	#Olympic Gold 
+	map_amazon_artemisian = rgb { 180 215 70 }	#Yellowish Green
+	map_amazon_norsellenic = rgb { 70 215 150 }	#Teal Green
+	map_amazon_norse = rgb { 0 92 132 }			#Just pure Blue
+	map_amazon_freyjadaetur = rgb { 8 132 102 }	#Green Blue
+	map_amazon_arnar = rgb { 12 54 72 }			#Dark Blue
+	map_amazon_saebornar = rgb { 12 32 38 }		#Abyssal Blue
+	map_amazon_thrud = rgb { 10 162 154 }		#Sky Blue
+	map_amazon_vindmarkar = rgb { 72 164 24 }	#Grass Green
+
+	map_amazon_latin = rgb { 164 0 0 }
+	map_amazon_bellonian = rgb { 240 188 66 }
+	map_amazon_canarian = rgb { 142 58 42 }
+	map_amazon_erisian = rgb { 25 25 25 }
+	
+	map_artemisia = rgb { 12 60 120 }
+	map_ulf = rgb { 215 229 240 }
+	map_arkouda = rgb { 186 140 100 }
+	map_bjorneskog = rgb { 109 77 48 }
+
+	map_freyja = rgb { 209 168 70 }
+	map_sunna = rgb { 250 215 28 }
+
+	map_svarthestar = rgb { 40 40 40 }
+	map_kvithestar = rgb { 220 225 215 }
+	map_raudhestar = rgb { 192 92 82 }
+	map_solvmanar = rgb { 128 124 132 }
+	map_gulmanar = rgb { 238 220 130 }
+	map_brunmanar = rgb { 72 60 56 }
+
+	map_amazon_velos = rgb { 8 92 48 }
+	map_amazon_pyros = rgb { 226 90 24 }
+
+	map_basileia_amazonon = rgb { 0 98 98 } #Dark Teal
+	map_neathemyskira = rgb { 0 80 80 } #Light Teal
+	map_persephonia = rgb { 238 52 36 }
+	map_gryphon = rgb { 255 247 0 }
+	map_aetos = rgb { 218 42 28 }
+	map_leaina = rgb { 255 215 0 }
+	map_rhodonia = rgb { 255 28 142 }
+	map_argyros = rgb { 192 192 192 }
+	map_melon = rgb { 252 8 0 }
+
+	map_akra_persephoneias = rgb { 57 23 45 }
+	map_demeter = rgb { 238 197 119 }
+	map_aphrodite = rgb { 140 32 82 }
+	map_nike = rgb { 220 185 70 } #Victory Gold
+
+	map_glaukopis = rgb { 95 45 140 } #Imperial Purple
+	map_sophion = rgb { 25 45 85 } #Deep Blue
+	map_promache = rgb { 150 30 40 }
+	map_ergane = rgb { 184 115 51 } #Copper
+	map_polias = rgb { 129 134 74 } #Olive
+	map_aithyia = rgb { 80 90 110 }
+
+	map_serikion = rgb { 197 75 140 } #Mulberry
+	map_porphyraion = rgb { 102 2 60 }
+	map_thalassia = rgb { 0 60 95 }
+	map_ophidision = rgb { 108 187 60 }
+	map_margaron = rgb { 232 172 208 }
+	map_naupegia = rgb { 11 11 69 }
+	map_hestia = rgb { 255 119 0 }
+	map_hyphasion = rgb { 251 251 249 }
+}

@@ -1,0 +1,2395 @@
+﻿l_english:
+ #.norse_amazon_language: ""
+ #.norsellenic_amazon_dialect: ""
+ #.hellenic_amazon_language: ""
+ #.old_norse_amazon_dialect: ""
+
+##Artemisia
+ #Lykosía
+  lykos: "Lýkos" #Wolf
+  lykos.old_norse_amazon_dialect: "Úlfr"
+  lykos.norse_amazon_language: "Ulv"
+  lykos.roman_amazon_language: "Lupa"
+
+  mylophias: "Sōphronistēr" #Wisdom Tooth
+  mylophias.norse_amazon_language: "Vísdomstönn"
+  mylophias.roman_amazon_language: "Dens Sapientiae"
+
+  kynodontas: "Kynódontas" #Canine Tooth
+  kynodontas.norse_amazon_language: "Hundatönn"
+  kynodontas.roman_amazon_language: "Dens Caninus"
+
+  stoma: "Stóma" #Mouth
+  stoma.norse_amazon_language: "Munn"
+  stoma.roman_amazon_language: "Os"
+
+  geneion: "Géneion" #Chin
+  geneion.norse_amazon_language: "Háki"
+  geneion.roman_amazon_language: "Mentum"
+
+  lykidion: "Lykídion" #Wolf Puppy
+  lykidion.norse_amazon_language: "Hvolpur"
+  lykidion.roman_amazon_language: "Catulus"
+
+  alsos_artemidos: "Álsos Artemídos" #Sacred Grove of Artemis
+  alsos_artemidos.old_norse_amazon_dialect: "Skadislundr"
+  alsos_artemidos.norse_amazon_dialect: "Skadalund"
+  alsos_artemidos.roman_amazon_language: "Lucus Dianae"
+ #Dyslykía (West Artemisia)
+  snute: "Snute" #Snout
+  snute.old_norse_amazon_dialect: "Snúta"
+  snute.hellenic_amazon_language: "Rhýnchos"
+  snute.roman_amazon_language: "Rostrum"
+
+  snorr: "Snørr" #Snot
+  snorr.old_norse_amazon_dialect: "Snǫrr"
+  snorr.hellenic_amazon_language: "Blénna"
+  snorr.roman_amazon_language: "Mucus"
+
+  ulfurskog: "Ulvskog" #Wolfwood
+  ulfurskog.old_norse_amazon_dialect: "Úlfurskógur"
+  ulfurskog.old_hellenic_amazon_dialect: "Lýkeion Dásos"
+  ulfurskog.norsellenic_amazon_dialect: "Lykodásos"
+  ulfurskog.roman_amazon_language: "Silva Lupi"
+
+  kaldskogur: "Kaldskog" #Coldwood
+  kaldskogur.old_norse_amazon_dialect: "Kaldskógur"
+  kaldskogur.old_hellenic_amazon_dialect: "Psychròn Dásos"
+  kaldskogur.norsellenic_amazon_dialect: "Psychrodásos"
+  kaldskogur.roman_amazon_language: "Silva Frigida"
+
+  augabrun: "Augabrúney" #Eyebrow Island
+  augabrun.old_hellenic_amazon_dialect: "Nēsos Óphrys"
+  augabrun.norsellenic_amazon_dialect: "Nesophrys"
+  augabrun.roman_amazon_language: "Insula Supercilii"
+
+  timburgardur: "Timburgard" #Timber Yard
+  timburgardur.old_norse_amazon_dialect: "Timburgarður"
+  timburgardur.old_hellenic_amazon_dialect: "Xylóaulē"
+  timburgardur.norsellenic_amazon_dialect: "Xylaulē"
+  timburgardur.roman_amazon_language: "Lignaria"
+
+  kindabein: "Kindabein" #Sheep Bone
+  kindabein.old_norse_amazon_dialect: "Kindabein"
+  kindabein.old_hellenic_amazon_dialect: "Ostéon Probátou"
+  kindabein.norsellenic_amazon_dialect: "Probatostéon"
+  kindabein.roman_amazon_language: "Ossa Ovium"
+
+  dypskog: "Dypskog" #Deepwood
+  dypskog.old_norse_amazon_dialect: "Djúpiskógur"
+  dypskog.old_hellenic_amazon_dialect: "Bathù Dásos"
+  dypskog.norsellenic_amazon_dialect: "Bathudasos"
+  dypskog.roman_amazon_language: "Silva Profunda"
+ #Anatolykía (East Artemisia)
+  krania: "Kraníon" #Skull
+  krania.norse_amazon_language: "Hauskúpa"
+  krania.roman_amazon_language: "Cranium"
+
+  afti: "Oûs" #Ear
+  afti.norse_amazon_language: "Eyra"
+  afti.roman_amazon_language: "Auris"
+
+  rhachis: "Rháchis" #Spine
+  rhachis.norse_amazon_language: "Hryggr"
+  rhachis.roman_amazon_language: "Spina"
+
+  arthron: "Árthron" #Hinge
+  arthron.norse_amazon_language: "Löm"
+  arthron.roman_amazon_language: "Cardo"
+
+  dora_feldur: "Dorá" #Fur
+  dora_feldur.norse_amazon_language: "Feldur"
+  dora_feldur.roman_amazon_language: "Pellis"
+
+  gnathos: "Gnáthos" #Jaw Bone
+  gnathos.norse_amazon_language: "Kjálki"
+  gnathos.roman_amazon_language: "Mandibula"
+ #Selenea
+  voreiakri: "Bóreion Ákron" #North Tip
+  voreiakri.norse_amazon_language: "Norduroddi"
+  voreiakri.old_norse_amazon_dialect: "Norðuroddi"
+  voreiakri.roman_amazon_language: "Promunturium Boreum"
+
+  auchen: "Auchēn" #Neck
+  auchen.norse_amazon_language: "Háls"
+  auchen.roman_amazon_language: "Collum"
+
+  hedraoistou: "Hédra Oistoû" #Arrow's Rest
+  hedraoistou.norse_amazon_language: "Örhvíld"
+  hedraoistou.roman_amazon_language: "Requies Sagittae"
+
+  lavi: "Labē" #Handle
+  lavi.norse_amazon_language: "Handfang"
+  lavi.roman_amazon_language: "Manubrium"
+
+  malakoxylo: "Malakóxylon" #Softwood
+  malakoxylo.old_hellenic_amazon_dialect: "Malakón Xýlon"
+  malakoxylo.norse_amazon_language: "Mjukvid"
+  malakoxylo.old_norse_amazon_dialect: "Mjúkviðr"
+  malakoxylo.roman_amazon_language: "Lignum Molle"
+
+  notiakri: "Nótíon Ákron" #South Tip
+  notiakri.norse_amazon_language: "Suduroddi"
+  notiakri.old_norse_amazon_dialect: "Suðuroddi"
+  notiakri.roman_amazon_language: "Promunturium Australe"
+
+##Bjarnarheimr/Arkoúda (Bear)
+ #Aktē Árktōn
+  arkoudokipos: "Árktokēpos" #Bear Garden
+  arkoudokipos.old_hellenic_amazon_dialect: "Kêpos Árktou"
+  arkoudokipos.old_norse_amazon_dialect: "Bjarnargarður"
+  arkoudokipos.high_norse_amazon_dialect: "Bjarngard"
+  arkoudokipos.roman_amazon_language: "Ursarium"
+
+  koiliaki: "Koilía" #Belly
+  koiliaki.old_norse_amazon_dialect: "Kviðr"
+  koiliaki.high_norse_amazon_dialect: "Kvide"
+  koiliaki.roman_amazon_language: "Venter"
+
+  lithoslimen: "Litholimēn" #Stone Harbour
+  lithoslimen.old_hellenic_amazon_dialect: "Líthos Limēn"
+  lithoslimen.old_norse_amazon_dialect: "Steinhöfn"
+  lithoslimen.high_norse_amazon_dialect: "Steinhavn"
+  lithoslimen.roman_amazon_language: "Portus Lapideus"
+
+  arkoudasos: "Arktodásos" #Bear Forest
+  arkoudasos.old_norse_amazon_dialect: "Bjarnarlundr"
+  arkoudasos.high_norse_amazon_dialect: "Bjarnlund"
+  arkoudasos.roman_amazon_language: "Silva Ursorum"
+
+  pylaionychos: "Pylaionychos" #Claw Gates
+  pylaionychos.old_hellenic_amazon_dialect: "Pýlai Ónychos"
+  pylaionychos.old_norse_amazon_dialect: "Klóhlið"
+  pylaionychos.high_norse_amazon_dialect: "Klolid"
+  pylaionychos.roman_amazon_language: "Portae Unguis"
+
+  arkoudaskymnos: "Arktóskymnos" #Bear Cub
+  arkoudaskymnos.old_hellenic_amazon_dialect: "Skýmnos Árktou"
+  arkoudaskymnos.old_norse_amazon_dialect: "Bjarnarhvolpr"
+  arkoudaskymnos.high_norse_amazon_dialect: "Bjarnhvolp"
+  arkoudaskymnos.roman_amazon_language: "Catulus Ursi"
+ #Bjarnskog
+  bjarnarvik: "Bjarnvik" #Bear Harbour
+  bjarnarvik.old_norse_amazon_dialect: "Bjarnarvík"
+  bjarnarvik.old_hellenic_amazon_dialect: "Hórmos Árktou"
+  bjarnarvik.norsellenic_amazon_dialect: "Árktórmos"
+  bjarnarvik.roman_amazon_language: "Portus Ursi"
+
+  bjarnarhellir: "Bjarnhell" #Bear Cave
+  bjarnarhellir.old_norse_amazon_dialect: "Bjarnarhellir"
+  bjarnarhellir.old_hellenic_amazon_dialect: "Spēlaion Árktou"
+  bjarnarhellir.norsellenic_amazon_dialect: "Árktouspēlaion"
+  bjarnarhellir.roman_amazon_language: "Spelunca Ursi"
+
+  skoglund: "Skoglund" #Forest Grove
+  skoglund.old_norse_amazon_dialect: "Skóglundr"
+  skoglund.hellenic_amazon_language: "Álsos Dásous"
+  skoglund.roman_amazon_language: "Lucus Silvarum"
+
+  midtrelund: "Midlund" #Middle Grove
+  midtrelund.old_norse_amazon_dialect: "Miðlundr"
+  midtrelund.old_hellenic_amazon_dialect: "Álsos Mésou"
+  midtrelund.norsellenic_amazon_dialect: "Mesoálsos"
+
+  bjorneaser: "Bjarnhaug" #Bear Hills
+  bjorneaser.old_norse_amazon_dialect: "Bjarnarhaugr"
+  bjorneaser.old_hellenic_amazon_dialect: "Arktōn Lóphoi"
+  bjorneaser.norsellenic_amazon_dialect: "Arktōlophoi"
+
+  myrklund: "Myrklund" #Dark Grove
+  myrklund.old_norse_amazon_dialect: "Myrklundr"
+  myrklund.old_hellenic_amazon_dialect: "Skoteinón Álsos"
+  myrklund.norsellenic_amazon_dialect: "Skoteinálsos"
+
+  east_charybdis_mountains: "East Charybdis Mountains"
+ #Fólkvangr
+  sessrumnir: "Sessrúmnir" #Freyja's Hall
+  sessrumnir.hellenic_amazon_language: "Polýedron Mégaron" #Hall of many seats
+  sessrumnir.roman_amazon_language: "Sessibulum Laxum" 
+
+  bygul: "Bygul" #Freyja's Giant Lynx
+  bygul.hellenic_amazon_language: "Bigylos Lynkeús"
+  bygul.roman_amazon_language: "Bigulia"
+
+  trjegul: "Trjögul" #Freyja's Giant Lynx
+  trjegul.hellenic_amazon_language: "Trigylos Lynkeús"
+  trjegul.roman_amazon_language: "Trigulia"
+
+  vanavik: "Vanavik" #Vanir's Cove
+  vanavik.old_norse_amazon_language: "Vanavík"
+  vanavik.hellenic_amazon_language: "Vanakólpos"
+  vanavik.roman_amazon_language: "Sinus Vanorum"
+
+  kattreid: "Kattreid" #Cat Chariot
+  kattreid.old_norse_amazon_language: "Kattreið"
+  kattreid.hellenic_amazon_language: "Hárma Leóntōn" #Lion chariot riden by Rhea
+  kattreid.roman_amazon_language: "Biga leonum"
+
+##Formóðurland
+ #Vest Eldárvangr
+  eldara: "Eldára" #The city on the Eldár River. Eldár = Fire (eld) + River (-ár)
+  eldara.roman_amazon_language: "Eldaria"
+
+  huginn: "Huginn" #Frigga's Raven (Thought)
+  huginn.hellenic_amazon_language: "Oúgin"
+  huginn.roman_amazon_language: "Litus Huginus"
+
+  ravngard: "Hrafngarðr" #Raven Garden
+  ravngard.high_norse_amazon_dialect: "Ravngard"
+  ravngard.hellenic_amazon_language: "Kêpos Kórakos"
+  ravngard.roman_amazon_language: "Hortus Corvorum"
+
+  hvetegard: "Hveitigarðr" #Wheat Garden
+  hvetegard.high_norse_amazon_dialect: "Hvetegard"
+  hvetegard.hellenic_amazon_language: "Kêpos Sítou"
+  hvetegard.roman_amazon_language: "Hortus Tritici"
+
+  gullgard: "Gullgarðr" #Golden Garden
+  gullgard.high_norse_amazon_dialect: "Gullgard"
+  gullgard.hellenic_amazon_language: "Kêpos Chrysou"
+  gullgard.roman_amazon_language: "Hortus Aureus"
+
+  birkiskogr: "Birkiskógr" #Birchwood
+  birkiskogr.high_norse_amazon_dialect: "Birkiskog"
+  birkiskogr.hellenic_amazon_language: "Álsos Sémidas"
+  birkiskogr.roman_amazon_language: "Silva Betulae"
+ #Aust Eldárvangr
+  muninn: "Muninn" #Frigga's Raven (Memory)
+  muninn.hellenic_amazon_language: "Moúnin"
+  muninn.roman_amazon_language: "Litus Muninus"
+
+  ravnvik: "Hrafnavík" #Raven's Cove
+  ravnvik.high_norse_amazon_dialect: "Ravnvik"
+  ravnvik.hellenic_amazon_language: "Kólpos Kórakos"
+  ravnvik.roman_amazon_language: "Sinus Corvorum"
+
+  lysgard: "Ljósagarðr" #Bright Garden
+  lysgard.high_norse_amazon_dialect: "Lysgard"
+  lysgard.hellenic_amazon_language: "Lamprós Kêpos"
+  lysgard.roman_amazon_language: "Hortus Clarus"
+
+  lystskog: "Ljósaskógr" #Brightwood
+  lystskog.high_norse_amazon_dialect: "Lysaskog"
+  lystskog.hellenic_amazon_language: "Lamprós Drymós"
+  lystskog.roman_amazon_language: "Silva Clara"
+
+  ravnfjaer: "Hrafnfjöðr" #Raven Feather
+  ravnfjaer.high_norse_amazon_dialect: "Ravnfjaer"
+  ravnfjaer.hellenic_amazon_language: "Korax Ptéron"
+  ravnfjaer.roman_amazon_language: "Pluma Corvi"
+
+  groenavik: "Grœnavík" #Green Bay
+  groenavik.high_norse_amazon_dialect: "Gronavik"
+  groenavik.hellenic_amazon_language: "Chloē Kolpos"
+  groenavik.roman_amazon_language: "Sinus Viridis"
+ #Raðeyjar
+  sandhofn: "Sandhöfn" #Sand Harbor
+  sandhofn.high_norse_amazon_dialect: "Sandhavn"
+  sandhofn.hellenic_amazon_language: "Ammolímēn"
+  sandhofn.roman_amazon_language: "Portus Arenae"
+
+  blybjorg: "Blýbjörg" #Lead Cliffs
+  blybjorg.high_norse_amazon_dialect: "Blybjorg"
+  blybjorg.hellenic_amazon_language: "Molybdou Petra"
+  blybjorg.roman_amazon_language: "Rupes Plumbi"
+
+  tinnuvik: "Tinnuvík" #Tin Bay
+  tinnuvik.high_norse_amazon_dialect: "Tinnuvik"
+  tinnuvik.hellenic_amazon_language: "Kassitérou Kólpos"
+  tinnuvik.roman_amazon_language: "Sinus Stanni"
+
+  rekstrond: "Rekströnd" #Drift Shore
+  rekstrond.high_norse_amazon_dialect: "Rekstrand"
+  rekstrond.hellenic_amazon_language: "Ekbolē Ormos"
+  rekstrond.roman_amazon_language: "Litus Errans"
+
+  vikstrand: "Víkströnd" #Bay Shore
+  vikstrand.high_norse_amazon_dialect: "Vikstrand"
+  vikstrand.hellenic_amazon_language: "Kolpos Ormos"
+  vikstrand.roman_amazon_language: "Litus Sinus"
+ #Runnarvik
+  runarvik: "Rúnarvík" #Runna's Cove
+  runarvik.high_norse_amazon_dialect: "Runarvik"
+  runarvik.hellenic_amazon_language: "Órmos Rúnas"
+  runarvik.norsellenic_amazon_dialect: "Runórmos"
+  runarvik.roman_amazon_language: "Sinus Runae"
+
+  eikevik: "Eikevík" #Oak Cove
+  eikevik.high_norse_amazon_dialect: "Eikevik"
+  eikevik.hellenic_amazon_language: "Órmos Dryós"
+  eikevik.norsellenic_amazon_dialect: "Dryórmos"
+  eikevik.roman_amazon_language: "Sinus Quercus"
+
+  eikarskogr: "Eikarskógr" #Oakwood
+  eikarskogr.high_norse_amazon_dialect: "Eikeskog"
+  eikarskogr.hellenic_amazon_language: "Dásos Dryós"
+  eikarskogr.norsellenic_amazon_dialect: "Dryodasos"
+  eikarskogr.roman_amazon_language: "Silva Quercuum"
+
+  eikerygg: "Eikarhryggr" #Oak Ridge
+  eikerygg.high_norse_amazon_dialect: "Eikerygg"
+  eikerygg.hellenic_amazon_language: "Ráchis Dryós"
+  eikerygg.norsellenic_amazon_dialect: "Dryoráchis"
+  eikerygg.roman_amazon_language: "Dorsum Quercuum"
+
+##Arnarey
+ #Austarnarey
+  arnarauga: "Arnarauga" #Eagle Eye
+  arnarauga.hellenic_amazon_language: "Ophthalmòs Aetoû"
+  arnarauga.roman_amazon_language: "Oculus Aquilae"
+
+  arnarvik: "Arnarvík" #Eagle Bay
+  arnarvik.high_norse_amazon_dialect: "Arnarvik"
+  arnarvik.hellenic_amazon_language: "Kólpos Aetoû"
+  arnarvik.roman_amazon_language: "Sinus Aquilae"
+
+  arnarfljot: "Arnarfljót" #Eagle River
+  arnarfljot.high_norse_amazon_dialect: "Arnarfljot"
+  arnarfljot.hellenic_amazon_language: "Potamòs Aetoû"
+  arnarfljot.roman_amazon_language: "Flumen Aquilae"
+
+  engjar: "Engjar" #Meadows
+  engjar.hellenic_amazon_language: "Leimônes"
+  engjar.roman_amazon_language: "Pratum"
+
+  klohofn: "Klóhöfn" #Claw Harbor
+  klohofn.high_norse_amazon_dialect: "Klohavn"
+  klohofn.hellenic_amazon_language: "Limēn Ónychos"
+  klohofn.roman_amazon_language: "Portus Unguis"
+
+  veidifjell: "Veiðifjall" #Hunting Mountain
+  veidifjell.high_norse_amazon_dialect: "Veidifjell"
+  veidifjell.hellenic_amazon_language: "Óros Thēras"
+  veidifjell.roman_amazon_language: "Mons Venationis"
+ #Vestarnarey
+  fjadrahals: "Fjaðraháls" #Feather Ridge / Neck
+  fjadrahals.high_norse_amazon_dialect: "Fjadrahals"
+  fjadrahals.hellenic_amazon_language: "Auchēn Pteroû"
+  fjadrahals.roman_amazon_language: "Collum Pennae"
+
+  arnarhjarta: "Arnarhjarta" #Eagle Heart
+  arnarhjarta.hellenic_amazon_language: "Kardía Aetoû"
+  arnarhjarta.roman_amazon_language: "Cor Aquilae"
+
+  nordr_vaengr: "Norðrvængr" #North Wing
+  nordr_vaengr.high_norse_amazon_dialect: "Nordvaeng"
+  nordr_vaengr.hellenic_amazon_language: "Bóreion Pterýgion"
+  nordr_vaengr.roman_amazon_language: "Ala Borealis"
+
+  sudr_vaengr: "Suðrvængr" #South Wing
+  sudr_vaengr.high_norse_amazon_dialect: "Sudvaeng"
+  sudr_vaengr.hellenic_amazon_language: "Nótion Pterýgion"
+  sudr_vaengr.roman_amazon_language: "Ala Australis"
+
+  stelnes: "Stélnes" #Tail Peninsula
+  stelnes.high_norse_amazon_dialect: "Stelnes"
+  stelnes.hellenic_amazon_language: "Ourá Ákra"
+  stelnes.roman_amazon_language: "Promunturium Caudae"
+
+  fjadrey: "Fjaðrey" #Feather Isle
+  fjadrey.high_norse_amazon_dialect: "Fjadrey"
+  fjadrey.hellenic_amazon_language: "Nêsos Pteroû"
+  fjadrey.roman_amazon_language: "Insula Pennae"
+
+  arnahryggr: "Arnarhryggr" #Eagle Spine
+  arnahryggr.high_norse_amazon_dialect: "Arnahrygg"
+  arnahryggr.hellenic_amazon_language: "Rháchis Aetoû"
+  arnahryggr.roman_amazon_language: "Spina Aquilae"
+
+##Vindmark
+ #Svarthestarvang
+  hrimfaxivang: "Hrimfaxivang" #Field of Hrímfaxi, the legendary Frost Mane horse of the Night. (Link: https://en.wikipedia.org/wiki/Skinfaxi_and_Hr%C3%ADmfaxi )
+  hrimfaxivang.old_norse_amazon_dialect: "Hrímfaxavangr"
+  hrimfaxivang.hellenic_amazon_language: "Pedíon Hrímpháxou"
+  hrimfaxivang.roman_amazon_language: "Campus Rimfaxis"
+
+  svartebakker: "Svartebakker" #Black Slopes
+  svartebakker.old_norse_amazon_dialect: "Svartahæðir"
+  svartebakker.hellenic_amazon_language: "Mélainai Klíseis"
+  svartebakker.roman_amazon_language: "Clivi Nigri"
+
+  duggdal: "Duggdal" #Dew Valley
+  duggdal.old_norse_amazon_dialect: "Daggardalr"
+  duggdal.hellenic_amazon_language: "Koilás Drósou"
+  duggdal.roman_amazon_language: "Vallis Roris"
+
+  svarthagar: "Svarthagar" #Black Enclosures
+  svarthagar.hellenic_amazon_language: "Mélainai Aulaí"
+  svarthagar.roman_amazon_language: "Septa Nigra"
+
+  jarnskard: "Jarnskard" #Iron Pass
+  jarnskard.old_norse_amazon_dialect: "Járnskarð"
+  jarnskard.hellenic_amazon_language: "Sidēraîai Pýlai"
+  jarnskard.roman_amazon_language: "Fauces Ferreae"
+
+  northwest_jormungandr_mountains: "Northwest Jörmungandr Mountains"
+ #Kvithestarvang
+  skinfaxivang: "Skinfaxivang" #Field of Skinfaxi, the legendary Shining Mane, horse of the Light.
+  skinfaxivang.old_norse_amazon_dialect: "Skinfaxavangr"
+  skinfaxivang.hellenic_amazon_language: "Pedíon Skinpháxou"
+  skinfaxivang.roman_amazon_language: "Campus Scinfaxis"
+
+  hvithagar: "Hvithagar" #White Enclosures
+  hvithagar.old_norse_amazon_dialect: "Hvítahagar"
+  hvithagar.hellenic_amazon_language: "Leukaì Aulaí"
+  hvithagar.roman_amazon_language: "Septa Alba"
+
+  kvithof: "Kvithof" #White Sanctuary / Estate
+  kvithof.old_norse_amazon_dialect: "Hvíthof"
+  kvithof.hellenic_amazon_language: "Leukòn Hierón"
+  kvithof.roman_amazon_language: "Fanum Album"
+
+  reinbakker: "Reinbakker" #Pure Hills
+  reinbakker.old_norse_amazon_dialect: "Reinbakkar"
+  reinbakker.hellenic_amazon_language: "Katharoì Lóphoi"
+  reinbakker.roman_amazon_language: "Colles Puri"
+
+  vindskard: "Vindskard" #Wind Pass
+  vindskard.old_norse_amazon_dialect: "Vindskarð"
+  vindskard.hellenic_amazon_language: "Anemópylai"
+  vindskard.roman_amazon_language: "Fauces Ventorum"
+ #Rauðhestarvang
+  raudhstod: "Raudhstod" #Red Horse-stead
+  raudhstod.old_norse_amazon_dialect: "Rauðstoð"
+  raudhstod.hellenic_amazon_language: "Erythróippia"
+  raudhstod.roman_amazon_language: "Statio Equorum Rubra"
+
+  vatnbygda: "Vatnbygda" #Lake Settlement
+  vatnbygda.old_norse_amazon_dialect: "Vatnbyggð"
+  vatnbygda.hellenic_amazon_language: "Oikismòs Límnēs"
+  vatnbygda.roman_amazon_language: "Vicus Lacus"
+
+  hjortvang: "Hjortvang" #Deer Field
+  hjortvang.old_norse_amazon_dialect: "Hjartvangr"
+  hjortvang.hellenic_amazon_language: "Pedíon Eláphōn"
+  hjortvang.roman_amazon_language: "Campus Cervorum"
+
+  raudhskard: "Raudhskard" #Red Pass
+  raudhskard.old_norse_amazon_dialect: "Rauðskarð"
+  raudhskard.hellenic_amazon_language: "Erythraì Pýlai"
+  raudhskard.roman_amazon_language: "Fauces Rubrae"
+
+  fjellgard: "Fjellgard" #Mountain Enclosure
+  fjellgard.old_norse_amazon_dialect: "Fjallgarðr"
+  fjellgard.hellenic_amazon_language: "Oreinòs Períbolos"
+  fjellgard.roman_amazon_language: "Septum Montanum"
+
+  vindvatn: "Vindvatn" #Wind Lake
+  vindvatn.old_norse_amazon_dialect: "Vindvatn"
+  vindvatn.hellenic_amazon_language: "Límnē Anémou"
+  vindvatn.roman_amazon_language: "Lacus Venti"
+ #Sølvmanarvang
+  sagavind: "Ságavind" #Sága's Wind
+  sagavind.old_norse_amazon_dialect: "Ságavindr"
+  sagavind.hellenic_amazon_language: "Ánemos Ságas"
+  sagavind.roman_amazon_language: "Ventus Sagae"
+
+  sagastein: "Ságastein" #Sága's Stone
+  sagastein.old_norse_amazon_dialect: "Ságasteinn"
+  sagastein.hellenic_amazon_language: "Líthos Ságas"
+  sagastein.roman_amazon_language: "Lapis Sagae"
+
+  takevang: "Tåkevang" #Mist Field
+  takevang.old_norse_amazon_dialect: "Þokuvangr"
+  takevang.hellenic_amazon_language: "Pedíon Omíchlēs"
+  takevang.roman_amazon_language: "Campus Nebulae"
+
+  flekkvang: "Flekkvang" #Patch Field
+  flekkvang.old_norse_amazon_dialect: "Flekkvangr"
+  flekkvang.hellenic_amazon_language: "Poikílon Pedíon"
+  flekkvang.roman_amazon_language: "Campus Varius"
+
+  solvvang: "Sølvvang" #Silver Field
+  solvvang.old_norse_amazon_dialect: "Silfrvangr"
+  solvvang.hellenic_amazon_language: "Pedíon Argýrou"
+  solvvang.roman_amazon_language: "Campus Argenteus"
+ #Gulmanarvang
+  solvang: "Sólvang" #Sun Field
+  solvang.old_norse_amazon_dialect: "Sólvangr"
+  solvang.hellenic_amazon_language: "Pedíon Hēlíou"
+  solvang.roman_amazon_language: "Campus Solis"
+
+  lysbakker: "Lysbakker" #Light Hills
+  lysbakker.old_norse_amazon_dialect: "Lýsbakkar"
+  lysbakker.hellenic_amazon_language: "Lóphoi Phōtós"
+  lysbakker.roman_amazon_language: "Colles Lucis"
+
+  guleng: "Guleng" #Golden Meadow
+  guleng.hellenic_amazon_language: "Chryseîos Leimón"
+  guleng.roman_amazon_language: "Pratum Aureum"
+
+  solskard: "Solskard" #Sun Pass
+  solskard.old_norse_amazon_dialect: "Sólskarð"
+  solskard.hellenic_amazon_language: "Pýlai Hēlíou"
+  solskard.roman_amazon_language: "Fauces Solis"
+
+  vindhorn: "Vindhorn" #Wind Corner / Edge
+  vindhorn.hellenic_amazon_language: "Anemokéras"
+  vindhorn.roman_amazon_language: "Promunturium Venti"
+ #Brunmanarvang
+  brunvang: "Brunvang" #Brown Field
+  brunvang.old_norse_amazon_dialect: "Brúnvangr"
+  brunvang.hellenic_amazon_language: "Kastanòn Pedíon"
+  brunvang.roman_amazon_language: "Campus Brunneus"
+
+  sauevang: "Sauevang" #Sheep Field
+  sauevang.old_norse_amazon_dialect: "Sauðvangr"
+  sauevang.hellenic_amazon_language: "Pedíon Probátōn"
+  sauevang.roman_amazon_language: "Campus Ovium"
+
+  engbakker: "Engbakker" #Meadow Hills
+  engbakker.old_norse_amazon_dialect: "Engbakkar"
+  engbakker.hellenic_amazon_language: "Leimônes Lóphoi"
+  engbakker.roman_amazon_language: "Colles Pratorum"
+
+  jordskard: "Jordskard" #Earth Pass / Ground Cut
+  jordskard.old_norse_amazon_dialect: "Jarðskarð"
+  jordskard.hellenic_amazon_language: "Chthóniai Pýlai"
+  jordskard.roman_amazon_language: "Fauces Terrae"
+
+  lyngmark: "Lyngmark" #Heather Field
+  lyngmark.old_norse_amazon_dialect: "Lyngmǫrk"
+  lyngmark.hellenic_amazon_language: "Pedíon Ereíkēs"
+  lyngmark.roman_amazon_language: "Campus Ericae"
+
+##Thrúdardaler Highlands
+ #Thrúdhavn
+  thrudhavn: "Thrúdhavn" #Thrúd's Harbour
+  thrudhavn.old_norse_amazon_dialect: "Þrúðarhöfn"
+  thrudhavn.hellenic_amazon_language: "Limēn Thrúdos"
+  thrudhavn.roman_amazon_language: "Portus Tonitriae"
+
+  thrudgard: "Thrúdgard" #Thrúd's Settlement
+  thrudgard.old_norse_amazon_dialect: "Þrúðargarðr"
+  thrudgard.hellenic_amazon_language: "Kêpos Thrúdos"
+  thrudgard.roman_amazon_language: "Hortus Tonitriae"
+
+  vatnveg: "Vatnveg" #Water Road
+  vatnveg.old_norse_amazon_dialect: "Vatnavegr"
+  vatnveg.hellenic_amazon_language: "Hydatínē Hodós"
+  vatnveg.roman_amazon_language: "Via Aquae"
+
+  tommervatn: "Tømmervatn" #Timber Lake
+  tommervatn.old_norse_amazon_dialect: "Timbrvatn"
+  tommervatn.hellenic_amazon_language: "Xylínē Límnē"
+  tommervatn.roman_amazon_language: "Lacus Ligni"
+
+  leirevatn: "Leirevatn" #Lake Clay
+  leirevatn.old_norse_amazon_dialect: "Leirvatn"
+  leirevatn.hellenic_amazon_language: "Pēlolímnē"
+  leirevatn.roman_amazon_language: "Lacus Luti"
+
+  sorgard: "Sørgard" #South Gardens
+  sorgard.old_norse_amazon_dialect: "Suðrgarðr"
+  sorgard.hellenic_amazon_language: "Nótioi Kêpoi"
+  sorgard.roman_amazon_language: "Horti Australes"
+
+  thrudarfjell: "Thrúðarfjell" #Thrúd's Peak (Holy Site)
+  thrudarfjell.old_norse_amazon_dialect: "Þrúðarfjall"
+  thrudarfjell.hellenic_amazon_language: "Óros Brontês"
+  thrudarfjell.roman_amazon_language: "Mons Tonitriae"
+
+  hornvatn: "Hornvatn" #Corner Lake
+  hornvatn.old_norse_amazon_dialect: "Hornvatn"
+  hornvatn.hellenic_amazon_language: "Gōnía Límnē"
+  hornvatn.roman_amazon_language: "Lacus Anguli"
+
+  middle_jormungandr_mountains: "Middle Jörmungandr Mountains"
+ #Brudransvang
+  brudransvang: "Brudransvang" #Eloped Meadows
+  brudransvang.old_norse_amazon_dialect: "Brúðránsvangr"
+  brudransvang.hellenic_amazon_language: "Leimōn Nymphoarpagēs"
+  brudransvang.roman_amazon_language: "Prata Raptus Sponsae"
+
+  nyraudhestarvang: "Nyraudhestarvang" #New Red Horse Meadows
+  nyraudhestarvang.old_norse_amazon_dialect: "Nýraudhestarvangr"
+  nyraudhestarvang.hellenic_amazon_language: "Nea Erythróippia"
+  nyraudhestarvang.roman_amazon_language: "Prata Equorum Rubrorum"
+
+  hornvang: "Hornvang" #Horn Meadow
+  hornvang.old_norse_amazon_dialect: "Hornvangr"
+  hornvang.hellenic_amazon_language: "Kératos Leimōn"
+  hornvang.roman_amazon_language: "Pratum Cornus"
+
+  heivang: "Heivang" #Hay Meadow
+  heivang.old_norse_amazon_dialect: "Heysvangr"
+  heivang.hellenic_amazon_language: "Leimōn Chórtou"
+  heivang.roman_amazon_language: "Pratum Faeni"
+
+  oksvang: "Oksvang" #Oxen Meadows
+  oksvang.old_norse_amazon_dialect: "Yxnavangr"
+  oksvang.hellenic_amazon_language: "Boōn Leimōn"
+  oksvang.roman_amazon_language: "Prata Boum"
+
+  blomvang: "Blómavang" #Flower Meadows
+  blomvang.old_norse_amazon_dialect: "Blómavangr"
+  blomvang.hellenic_amazon_language: "Leimōn Anthōn"
+  blomvang.roman_amazon_language: "Prata Florum"
+
+  alunfjell: "Alunfjell" #Alum Mountains
+  alunfjell.old_norse_amazon_dialect: "Álúnfjöll"
+  alunfjell.hellenic_amazon_language: "Órē Styptērias"
+  alunfjell.roman_amazon_language: "Montes Aluminis"
+
+  hjartavatn: "Hjartavatn" #Heart Lake
+  hjartavatn.hellenic_amazon_language: "Límnē Kardías"
+  hjartavatn.roman_amazon_language: "Lacus Cordis"
+ #Jötnarfjall
+  jotnarborg: "Jötnarborg" #Giants' Stronghold
+  jotnarborg.hellenic_amazon_language: "Pólis Gigántōn"
+  jotnarborg.roman_amazon_language: "Urbs Gigantum"
+
+  skadilund: "Skadalund" #Skadi Grove
+  skadilund.old_norse_amazon_dialect: "Skaðalundr"
+  skadilund.hellenic_amazon_language: "Álsos Skádēs"
+  skadilund.roman_amazon_language: "Lucus Scadiae"
+
+  skadiskog: "Skadiskog" #Skadi Forest
+  skadiskog.old_norse_amazon_dialect: "Skaðarskógr"
+  skadiskog.hellenic_amazon_language: "Dásos Skádēs"
+  skadiskog.roman_amazon_language: "Silva Scadiae"
+
+  frostthrymskard: "Frostthrymskard" #Frost-Thunder Pass
+  frostthrymskard.old_norse_amazon_dialect: "Frostþrymskarð"
+  frostthrymskard.hellenic_amazon_language: "Kryobrontē Pýlai"
+  frostthrymskard.roman_amazon_language: "Fauces Gelidae"
+
+  thrymheimr: "Thrymheim" #Skadi's Hall
+  thrymheimr.old_norse_amazon_dialect: "Þrymheimr"
+  thrymheimr.hellenic_amazon_language: "Oîkos Skádēs"
+  thrymheimr.roman_amazon_language: "Domus Scadiae"
+
+  jernfjellene: "Jernfjell" #Iron Mountains
+  jernfjellene.old_norse_amazon_dialect: "Járnfjöll"
+  jernfjellene.hellenic_amazon_language: "Órē Sidērou"
+  jernfjellene.roman_amazon_language: "Montes Ferri"
+
+  skadivatn: "Skadivatn" #Lake Skadi
+  skadivatn.old_norse_amazon_dialect: "Skaðarvatn"
+  skadivatn.hellenic_amazon_language: "Límnē Skádēs"
+  skadivatn.roman_amazon_language: "Lacus Scadiae"
+
+  east_jormungandr_mountains: "East Jörmungandr Mountains"
+ #Fjellborg
+  fjellborg: "Fjellborg" #Mountain Castle
+  fjellborg.old_norse_amazon_dialect: "Fjallborg"
+  fjellborg.hellenic_amazon_language: "Oreinòn Phrourion"
+  fjellborg.roman_amazon_language: "Castrum Montanum"
+
+  pearelund: "Pærelund" #Pear Orchard
+  pearelund.old_norse_amazon_dialect: "Perulundr"
+  pearelund.hellenic_amazon_language: "Kēpos Apiōn"
+  pearelund.roman_amazon_language: "Pomarium Pirorum"
+
+  ullenger: "Ullenger" #Wool Meadow
+  ullenger.old_norse_amazon_dialect: "Ullengjar"
+  ullenger.hellenic_amazon_language: "Leimōn Eriou"
+  ullenger.roman_amazon_language: "Pratum Lanae"
+
+  honningskog: "Honningskog" #Honeywood
+  honningskog.old_norse_amazon_dialect: "Hunangsskógr"
+  honningskog.hellenic_amazon_language: "Dásos Mélitos"
+  honningskog.roman_amazon_language: "Silva Mellis"
+
+  hornfjell: "Hornfjell" #Horn Mountains
+  hornfjell.old_norse_amazon_dialect: "Hornfjöll"
+  hornfjell.hellenic_amazon_language: "Órē Kerátōn"
+  hornfjell.roman_amazon_language: "Montes Cornuum"
+
+  north_charybdis_mountains: "North Charybdis Mountains"
+ #Haukefjær
+  ithiliadasos: "Ithilialund" #Ithilia's Forest
+  ithiliadasos.old_norse_amazon_dialect: "Ithilíulundr"
+  ithiliadasos.hellenic_amazon_language: "Álsos Ithilías"
+  ithiliadasos.roman_amazon_language: "Lucus Ithiliae"
+
+  vatnmark: "Vatnmark" #Lake Borderland
+  vatnmark.old_norse_amazon_dialect: "Vatnmörk"
+  vatnmark.hellenic_amazon_language: "Limnēs Eschatia"
+  vatnmark.roman_amazon_language: "Fines Lacus"
+
+  haukereir: "Haukereir" #Hawk Nest
+  haukereir.old_norse_amazon_dialect: "Haukshreiðr"
+  haukereir.hellenic_amazon_language: "Phōleà Hierakos"
+  haukereir.roman_amazon_language: "Nidus Accipitris"
+
+  haukejaktmark: "Haukejaktmark" #Hawk Hunting Grounds
+  haukejaktmark.old_norse_amazon_dialect: "Hauksveiðimörk"
+  haukejaktmark.hellenic_amazon_language: "Khóra Hierakos"
+  haukejaktmark.roman_amazon_language: "Terrae Accipitris"
+
+  haukeskog: "Haukeskog" #Hawk Forest
+  haukeskog.old_norse_amazon_dialect: "Hauksskógr"
+  haukeskog.hellenic_amazon_language: "Dásos Hierakos"
+  haukeskog.roman_amazon_language: "Silva Accipitris"
+
+  haukelund: "Haukelund" #Hawk Grove
+  haukelund.old_norse_amazon_dialect: "Haukslundr"
+  haukelund.hellenic_amazon_language: "Álsos Hierakos"
+  haukelund.roman_amazon_language: "Lucus Accipitris"
+
+  hogvatn: "Høgvatn" #High Lake
+  hogvatn.old_norse_amazon_dialect: "Hávatn"
+  hogvatn.hellenic_amazon_language: "Limnē Hypsistē"
+  hogvatn.roman_amazon_language: "Lacus Altus"
+
+  west_jormungandr_mountains: "West Jörmungandr Mountains"
+ #Tvillingsøstre
+  redjord: "Rødjord" #Red Earth
+  redjord.old_norse_amazon_dialect: "Rauðjörð"
+  redjord.hellenic_amazon_language: "Erythrà Gē"
+  redjord.roman_amazon_language: "Terra Rubra"
+
+  rodvellir: "Rødvellir" #Red Fields
+  rodvellir.old_norse_amazon_dialect: "Rauðvellir"
+  rodvellir.hellenic_amazon_language: "Erythrà Pedia"
+  rodvellir.roman_amazon_language: "Campi Rubri"
+
+  sifvangr: "Sifvang" #Sacred Meadows of Sif
+  sifvangr.old_norse_amazon_dialect: "Sifvangr"
+  sifvangr.hellenic_amazon_language: "Leimōn Dēmētros"
+  sifvangr.roman_amazon_language: "Pratum Cereris"
+
+  vesttvilling: "Vestsøster" #West Sister
+  vesttvilling.old_norse_amazon_dialect: "Vestsystr"
+  vesttvilling.hellenic_amazon_language: "Dytikē Adelphē"
+  vesttvilling.roman_amazon_language: "Soror Occidentalis"
+
+  osttvilling: "Østsøster" #East Sister
+  osttvilling.old_norse_amazon_dialect: "Austsystr"
+  osttvilling.hellenic_amazon_language: "Anatolikē Adelphē"
+  osttvilling.roman_amazon_language: "Soror Orientalis"
+
+  varland: "Vårland" #Springland
+  varland.old_norse_amazon_dialect: "Várland"
+  varland.hellenic_amazon_language: "Gē Éaros"
+  varland.roman_amazon_language: "Terra Veris"
+
+  lamvang: "Lamvang" #Lamb Meadow
+  lamvang.old_norse_amazon_dialect: "Lambvangr"
+  lamvang.hellenic_amazon_language: "Leimōn Arnōn"
+  lamvang.roman_amazon_language: "Pratum Agnorum"
+
+  gronnrygg: "Grønnrygg" #Green Ridge
+  gronnrygg.old_norse_amazon_dialect: "Grænhryggr"
+  gronnrygg.hellenic_amazon_language: "Chlōrà Rháchis"
+  gronnrygg.roman_amazon_language: "Dorsum Viride"
+
+  limne_erythra: "Limnē Erythrá" #Red Lake
+  limne_erythra.high_norse_amazon_dialect: "Rødvatn"
+  limne_erythra.old_norse_amazon_dialect: "Rauðvatn"
+  limne_erythra.roman_amazon_language: "Lacus Ruber"
+
+  limne_kyane: "Limnē Kyáne" #Blue Lake
+  limne_kyane.high_norse_amazon_dialect: "Blåvatn"
+  limne_kyane.old_norse_amazon_dialect: "Blávatn"
+  limne_kyane.roman_amazon_language: "Lacus Caeruleus"
+
+  corner_charybdis_mountains: "Charybdis Mountains Corner"
+
+###Metria Khora
+##Delphys Hēras
+ #Heraía
+  heraion_basileion: "Heraíon Basíleion" #The Royal Sanctuary of Hera
+  heraion_basileion.old_norse_amazon_dialect: "Friggheimr"
+  heraion_basileion.high_norse_amazon_dialect: "Friggheim"
+  heraion_basileion.roman_amazon_language: "Regia Junonis" #Royal House/Palace of Juno
+
+  aithrakleia: "Aithrakleía" #Radiance of the Clear Sky
+  aithrakleia.old_norse_amazon_dialect: "Skýglóð"
+  aithrakleia.high_norse_amazon_dialect: "Skyglod"
+  aithrakleia.roman_amazon_language: "Caeli Splendor"
+
+  rhipiris: "Rhipídia Íridos" #Rainbow Fan
+  rhipiris.norsellenic_amazon_dialect: "Rhipídiris"
+  rhipiris.old_norse_amazon_dialect: "Regnbogafjöður"
+  rhipiris.high_norse_amazon_dialect: "Regnbogafjor"
+  rhipiris.roman_amazon_language: "Cauda Iridis"
+
+  paoskryta: "Taós" #Peacock
+  paoskryta.norsellenic_amazon_dialect: "Taóskrýta"
+  paoskryta.old_norse_amazon_dialect: "Páfugl"
+  paoskryta.high_norse_amazon_dialect: "Pafugl"
+  paoskryta.roman_amazon_language: "Pavo"
+
+  galaftera: "Galázion Pterón" #Blue Feather
+  galaftera.norsellenic_amazon_dialect: "Galapterá"
+  galaftera.old_norse_amazon_dialect: "Bláfjöður"
+  galaftera.high_norse_amazon_dialect: "Blåfjør"
+  galaftera.roman_amazon_language: "Pinna Caerulea"
+
+  argia_panoptes: "Árgos Panóptēs" #Argus Panoptes
+  argia_panoptes.norsellenic_amazon_dialect: "Argopanóptēs"
+  argia_panoptes.old_norse_amazon_dialect: "Alsjárvöllr"
+  argia_panoptes.high_norse_amazon_dialect: "Alsjåvoll"
+  argia_panoptes.roman_amazon_language: "Argus Panoptes"
+
+  ophthalia: "Ophthalía" #Eye
+  ophthalia.norse_amazon_language: "Auga"
+  ophthalia.roman_amazon_language: "Oculus"
+
+  ierathe: "Hierà Éthē" #Sacred Customs / Sacred Rites
+  ierathe.norsellenic_amazon_dialect: "Hieráthē"
+  ierathe.old_norse_amazon_dialect: "Heilög Siðir"
+  ierathe.high_norse_amazon_dialect: "Heilage Sidir"
+  ierathe.roman_amazon_language: "Sacra Ritus"
+
+  lake_chrysothronon: "Chrysothronos Límnē" #Golden-Throned Lake
+  lake_chrysothronon.old_norse_amazon_dialect: "Gullstólsvatn"
+  lake_chrysothronon.high_norse_amazon_dialect: "Gullstolvatn"
+  lake_chrysothronon.roman_amazon_language: "Lacus Aurei Solii"
+ #Kyknáion
+  leukokyknos: "Leukòs Kýknos" #White Swan
+  leukokyknos.norsellenic_amazon_dialect: "Leukokýknos"
+  leukokyknos.old_norse_amazon_dialect: "Hvítsvanr"
+  leukokyknos.high_norse_amazon_dialect: "Kvitsvane"
+  leukokyknos.roman_amazon_language: "Cycnus Albus"
+
+  kragekyknou: "Kragē Kýknou" #Cry of the Swan
+  kragekyknou.norsellenic_amazon_dialect: "Krágēkýknou"
+  kragekyknou.old_norse_amazon_dialect: "Svanhljóð"
+  kragekyknou.high_norse_amazon_dialect: "Svanljod"
+  kragekyknou.roman_amazon_language: "Clamor Cygni"
+
+  kitharaeia: "Kitharōidía" #Lyre Song
+  kitharaeia.norsellenic_amazon_dialect: "Kitharaeía"
+  kitharaeia.old_norse_amazon_dialect: "Hörpusöngr"
+  kitharaeia.high_norse_amazon_dialect: "Harpesong"
+  kitharaeia.roman_amazon_language: "Citharoedia"
+
+  lyroessa: "Lyropaíktria" #Lyre Player / She who plays the Lyre
+  lyroessa.norsellenic_amazon_dialect: "Lyróessa"
+  lyroessa.old_norse_amazon_dialect: "Lýrleikr"
+  lyroessa.high_norse_amazon_dialect: "Lyrleik"
+  lyroessa.roman_amazon_language: "Lyricina"
+
+  phoebea: "Phoíbeion" #Radiant Sanctuary
+  phoebea.norsellenic_amazon_dialect: "Phoebéa"
+  phoebea.old_norse_amazon_dialect: "Ljósfagr"
+  phoebea.high_norse_amazon_dialect: "Ljosfager"
+  phoebea.roman_amazon_language: "Phoebeum"
+
+  trionmeteronlimne: "Triōn Mētérōn Límnē" #Lake of the Three Mothers
+  trionmeteronlimne.old_norse_amazon_dialect: "Þrjármæðravatn"
+  trionmeteronlimne.high_norse_amazon_dialect: "Tre Mødrevatn"
+  trionmeteronlimne.roman_amazon_language: "Lacus Trium Matrum"
+ #Themiskyría
+  nea_themyskira: "Néa Themískira" #New Themyscira
+  nea_themyskira.norsellenic_amazon_dialect: "Neathemískyra"
+  nea_themyskira.old_norse_amazon_dialect: "Nýþemiskra"
+  nea_themyskira.high_norse_amazon_dialect: "Nythemiskra"
+  nea_themyskira.roman_amazon_language: "Nova Themiscyra"
+
+  parathalasos: "Parathalássion" #By the Sea
+  parathalasos.norsellenic_amazon_dialect: "Parathalássos"
+  parathalasos.old_norse_amazon_dialect: "Sjáland"
+  parathalasos.high_norse_amazon_dialect: "Sjoland"
+  parathalasos.roman_amazon_language: "Maresia"
+
+  thermodonas: "Thermodónos" #Of the Thermodon
+  thermodonas.norsellenic_amazon_dialect: "Thermodōnas"
+  thermodonas.old_norse_amazon_dialect: "Þermodon"
+  thermodonas.high_norse_amazon_dialect: "Thermodon"
+  thermodonas.roman_amazon_language: "Thermodon"
+
+  potamochora: "Potamía Khōrá" #River Country
+  potamochora.norsellenic_amazon_dialect: "Potamokhōra"
+  potamochora.old_norse_amazon_dialect: "Áland"
+  potamochora.high_norse_amazon_dialect: "Aland"
+  potamochora.roman_amazon_language: "Terra Fluminis"
+
+  helleneia: "Hellēnion" #Hellenic Settlement
+  helleneia.norsellenic_amazon_dialect: "Hellenéia"
+  helleneia.old_norse_amazon_dialect: "Hellenuland"
+  helleneia.high_norse_amazon_dialect: "Hellenland"
+  helleneia.roman_amazon_language: "Hellenium"
+
+  antiopeia: "Antiópeia" #Land of Antiope
+  antiopeia.old_norse_amazon_dialect: "Antiópuvík"
+  antiopeia.high_norse_amazon_dialect: "Antiopevik"
+  antiopeia.roman_amazon_language: "Antiopeia"
+ 
+##Persephonéia
+ #Aktē Gryphōn
+  gryphopteron: "Grýphōnos Pterón" #Wing of the Gryphon
+  gryphopteron.norsellenic_amazon_dialect: "Grýphonpteron"
+  gryphopteron.old_norse_amazon_dialect: "Grýfvængr"
+  gryphopteron.high_norse_amazon_dialect: "Gryfveng"
+  gryphopteron.roman_amazon_language: "Ala Gryphi"
+
+  ramphilimenas: "Ramphís Limēn" #Beak Harbour
+  ramphilimenas.norsellenic_amazon_dialect: "Ramphiliménas"
+  ramphilimenas.old_norse_amazon_dialect: "Gryfhöfn"
+  ramphilimenas.high_norse_amazon_dialect: "Gryfhavn"
+  ramphilimenas.roman_amazon_language: "Portus Rostri"
+
+  alykes: "Halikē" #Salt Pit
+  alykes.norsellenic_amazon_dialect: "Alykés"
+  alykes.old_norse_amazon_dialect: "Saltgröf"
+  alykes.high_norse_amazon_dialect: "Saltgrov"
+  alykes.roman_amazon_language: "Salina"
+
+  gryphondasos: "Grýphōnos Dásos" #Forest of the Gryphon
+  gryphondasos.norsellenic_amazon_dialect: "Grýphondásos"
+  gryphondasos.old_norse_amazon_dialect: "Grýfskógr"
+  gryphondasos.high_norse_amazon_dialect: "Gryfskog"
+  gryphondasos.roman_amazon_language: "Silva Gryphi"
+
+  gryphokynagros: "Grýphōnos Agrós" #Gryphon Grounds
+  gryphokynagros.norsellenic_amazon_dialect: "Grýphonágros"
+  gryphokynagros.old_norse_amazon_dialect: "Grýfveiðimörk"
+  gryphokynagros.high_norse_amazon_dialect: "Gryfveidimark"
+  gryphokynagros.roman_amazon_language: "Ager Gryphi"
+ #Persephonía
+  kerberospylai: "Kérberospýlai" #Cerberus' Gates
+  kerberospylai.old_norse_amazon_dialect: "Garmshlið"
+  kerberospylai.high_norse_amazon_dialect: "Garmslid"
+  kerberospylai.roman_amazon_language: "Portae Cerberi"
+
+  oros_kekaumenon: "Oros Kekauménon" #Burnt Mountain
+  oros_kekaumenon.old_norse_amazon_dialect: "Eldfjall"
+  oros_kekaumenon.high_norse_amazon_dialect: "Eldfjell"
+  oros_kekaumenon.roman_amazon_language: "Mons Ustus"
+
+  nekrodasos: "Dásos tōn Nekrōn" #Forest of the Dead
+  nekrodasos.norsellenic_amazon_dialect: "Nekrodásos"
+  nekrodasos.old_norse_amazon_dialect: "Dauðaskógr"
+  nekrodasos.high_norse_amazon_dialect: "Daudaskog"
+  nekrodasos.roman_amazon_language: "Silva Mortuorum"
+
+  akra_persephones: "Ákra Persephónēs" #Citadel of Persephone
+  akra_persephones.old_norse_amazon_dialect: "Helarborg"
+  akra_persephones.high_norse_amazon_dialect: "Helaborg"
+  akra_persephones.roman_amazon_language: "Arx Proserpinae"
+
+  orochthonia: "Orochthōnía" #Mountain of the Earth Below
+  orochthonia.old_norse_amazon_dialect: "Helheimr"
+  orochthonia.high_norse_amazon_dialect: "Helheim"
+  orochthonia.roman_amazon_language: "Mons Inferus"
+
+  korantheia: "Kórē Ántheōn" #Flower Maiden
+  korantheia.norsellenic_amazon_dialect: "Korantheia"
+  korantheia.old_norse_amazon_dialect: "Blómmey"
+  korantheia.high_norse_amazon_dialect: "Blommøy"
+  korantheia.roman_amazon_language: "Puella Florum"
+
+  leimanthia: "Leimōn Ántheōn" #Flower Meadow
+  leimanthia.norsellenic_amazon_dialect: "Leimantheia"
+  leimanthia.old_norse_amazon_dialect: "Blómvangr"
+  leimanthia.high_norse_amazon_dialect: "Blomvang"
+  leimanthia.roman_amazon_language: "Pratum Florum"
+ #Mēlonēsos
+  melon_limen: "Mēlon Limēn" #Apple Harbor
+  melon_limen.old_norse_amazon_dialect: "Eplahöfn"
+  melon_limen.high_norse_amazon_dialect: "Eplahavn"
+  melon_limen.roman_amazon_language: "Portus Malorum"
+
+  melonkepos: "Mēlōn Kēpos" #Apple Orchard
+  melonkepos.norsellenic_amazon_dialect: "Mēlonkēpos"
+  melonkepos.old_norse_amazon_dialect: "Eplagarðr"
+  melonkepos.high_norse_amazon_dialect: "Eplagard"
+  melonkepos.roman_amazon_language: "Pomarium"
+
+  alsos_idunnes: "Hieron Mēlōn" #Sanctuary of Apples
+  alsos_idunnes.norsellenic_amazon_dialect: "Álsos Idunnēs"
+  alsos_idunnes.old_norse_amazon_dialect: "Iðunnarlundr"
+  alsos_idunnes.high_norse_amazon_dialect: "Idunnarlund"
+  alsos_idunnes.roman_amazon_language: "Sacrarium Malorum"
+
+  ichthyonormos: "Ichthyōn Ormos" #Fish Cove
+  ichthyonormos.norsellenic_amazon_dialect: "Ichthyormos"
+  ichthyonormos.old_norse_amazon_dialect: "Fiskivík"
+  ichthyonormos.high_norse_amazon_dialect: "Fiskivik"
+  ichthyonormos.roman_amazon_language: "Sinus Piscium"
+
+  xylonormos: "Xylōn Ormos" #Timber Cove
+  xylonormos.norsellenic_amazon_dialect: "Xylōnormos"
+  xylonormos.old_norse_amazon_dialect: "Skógarvík"
+  xylonormos.high_norse_amazon_dialect: "Skogvik"
+  xylonormos.roman_amazon_language: "Sinus Ligni"
+
+  melon_phrourion: "Mēlōn Phrourion" #Apple Fortress
+  melon_phrourion.old_norse_amazon_dialect: "Eplavirki"
+  melon_phrourion.high_norse_amazon_dialect: "Eplavirke"
+  melon_phrourion.roman_amazon_language: "Castellum Pomorum"
+
+  melissonkepos: "Melissōn Kēpos" #Bee Garden
+  melissonkepos.norsellenic_amazon_dialect: "Melissonkēpos"
+  melissonkepos.old_norse_amazon_dialect: "Býgarðr"
+  melissonkepos.high_norse_amazon_dialect: "Bygard"
+  melissonkepos.roman_amazon_language: "Hortus Apium"
+
+##Éndon Koílai
+ #Koilás Glaukós
+  oretrakheia: "Órē Trakheia" #Rugged Mountains
+  oretrakheia.norsellenic_amazon_dialect: "Orētrakheia"
+  oretrakheia.old_norse_amazon_dialect: "Bergsprunga"
+  oretrakheia.high_norse_amazon_dialect: "Bergsprunga"
+  oretrakheia.roman_amazon_language: "Montes Asperi"
+
+  nyktoros: "Óros Nyktós" #Mountain of Night
+  nyktoros.norsellenic_amazon_dialect: "Nyktóros"
+  nyktoros.norse_amazon_language: "Nattfjall"
+  nyktoros.roman_amazon_language: "Mons Noctis"
+
+  nyktachthon: "Nyktáchthōn" #Night Below the Earth
+  nyktachthon.old_norse_amazon_dialect: "Myrkfjall"
+  nyktachthon.high_norse_amazon_dialect: "Myrkfjell"
+  nyktachthon.roman_amazon_language: "Terra Noctis"
+
+  leukoglaukai: "Leukaì Glaukes" #White Owls
+  leukoglaukai.norsellenic_amazon_dialect: "Leukoglaukai"
+  leukoglaukai.old_norse_amazon_dialect: "Hvítaugr"
+  leukoglaukai.high_norse_amazon_dialect: "Kvitaug"
+  leukoglaukai.roman_amazon_language: "Striges Albae"
+
+  glaukoranos: "Ouranos Glaukōn" #Sky of Owls
+  glaukoranos.norsellenic_amazon_dialect: "Glaukoranos"
+  glaukoranos.old_norse_amazon_dialect: "Ugghiminn"
+  glaukoranos.high_norse_amazon_dialect: "Ugghimmel"
+  glaukoranos.roman_amazon_language: "Campi Ulularum"
+ #Koilás Leaínēs
+  leainakron: "Leaínákron" #Lioness High-Point
+  leainakron.norse_amazon_language: "Ljónhæð"
+  leainakron.roman_amazon_language: "Arx Leaenae"
+
+  thesauroleaines: "Thēsauróleainēs" #Treasure of the Lioness
+  thesauroleaines.old_norse_amazon_dialect: "Ljónsgull"
+  thesauroleaines.high_norse_amazon_dialect: "Ljonsgull"
+  thesauroleaines.roman_amazon_language: "Thesaurus Leaenae"
+
+  chrysochaite: "Chrysóchaítē" #Golden Mane
+  chrysochaite.old_norse_amazon_dialect: "Gullmön"
+  chrysochaite.high_norse_amazon_dialect: "Gullmon"
+  chrysochaite.roman_amazon_language: "Aurea Iuba"
+
+  chrysonyche: "Chrysón Onychē" #Golden Claw
+  chrysonyche.norsellenic_amazon_dialect: "Chrysonychē"
+  chrysonyche.old_norse_amazon_dialect: "Gullkló"
+  chrysonyche.high_norse_amazon_dialect: "Gullklo"
+  chrysonyche.roman_amazon_language: "Unguis Aureus"
+
+  anemobrychodeis: "Ánemoi Brychōdeis" #Roaring Winds
+  anemobrychodeis.norsellenic_amazon_dialect: "Anemobrychōdeis"
+  anemobrychodeis.old_norse_amazon_dialect: "Gnývindr"
+  anemobrychodeis.high_norse_amazon_dialect: "Gnyvind"
+  anemobrychodeis.roman_amazon_language: "Venti Rugientes"
+
+  lamprouranos: "Lampròs Ouranós" #Radiant Sky
+  lamprouranos.norsellenic_amazon_dialect: "Lamprouranós"
+  lamprouranos.old_norse_amazon_dialect: "Bjarthiminn"
+  lamprouranos.high_norse_amazon_dialect: "Bjarthimmel"
+  lamprouranos.roman_amazon_language: "Caelum Splendens"
+
+  west_charybdis_mountains: "West Charybdis Mountains"
+ #Koilás Aetoû
+  aetopyrgos: "Aetopýrgos" #Eagle Tower
+  aetopyrgos.norse_amazon_language: "Arnaturn"
+  aetopyrgos.roman_amazon_language: "Turris Aquilae"
+
+  aetopholea: "Aetophōleá" #Eagle Nest
+  aetopholea.old_norse_amazon_dialect: "Arnarhreiðr"
+  aetopholea.high_norse_amazon_dialect: "Arnareir"
+  aetopholea.roman_amazon_language: "Nidus Aquilae"
+
+  aetorynchos: "Aetorýnchos" #Eagle Beak
+  aetorynchos.old_norse_amazon_dialect: "Arnargoggur"
+  aetorynchos.high_norse_amazon_dialect: "Arngogg"
+  aetorynchos.roman_amazon_language: "Rostrum Aquilae"
+
+  melanopteryx: "Melanoptéryx" #Black Wing
+  melanopteryx.old_norse_amazon_dialect: "Svartrvængr"
+  melanopteryx.high_norse_amazon_dialect: "Svartvaeng"
+  melanopteryx.roman_amazon_language: "Ala Nigra"
+
+  melanippe: "Melaníppē" #Black Mare
+  melanippe.norse_amazon_language: "Svartmerr"
+  melanippe.roman_amazon_language: "Equa Nigra"
+
+  onykonyches: "Onykónyches" #Onyx Claws
+  onykonyches.old_norse_amazon_dialect: "Svartklær"
+  onykonyches.high_norse_amazon_dialect: "Svartklaer"
+  onykonyches.roman_amazon_language: "Ungues Onychini"
+
+  sideraetos: "Sidēráetos" #Iron Eagle
+  sideraetos.old_norse_amazon_dialect: "Járnörn"
+  sideraetos.high_norse_amazon_dialect: "Jarnorn"
+  sideraetos.roman_amazon_language: "Aquila Ferrea"
+
+  south_charybdis_mountains: "South Charybdis Mountains"
+
+##Demetréia
+ #Demetría
+  chrysosporos: "Chrysósporos" #Golden Seed
+  chrysosporos.norse_amazon_language: "Gullhveit Sifar"
+  chrysosporos.roman_amazon_language: "Granum Aureum"
+
+  sitodokhe: "Sitodókhē" #Granary
+  sitodokhe.old_norse_amazon_dialect: "Sifhlaða"
+  sitodokhe.high_norse_amazon_dialect: "Sifhloda"
+  sitodokhe.roman_amazon_language: "Horreum"
+
+  pedia_stachyon: "Pedía Stachýōn" #Fields of Grain
+  pedia_stachyon.old_norse_amazon_dialect: "Sifsléttur"
+  pedia_stachyon.high_norse_amazon_dialect: "Sifslett"
+  pedia_stachyon.roman_amazon_language: "Campi Spicarum"
+
+  melissotopos: "Melissótopos" #Place of Bees
+  melissotopos.old_norse_amazon_dialect: "Sifbýgarðr"
+  melissotopos.high_norse_amazon_dialect: "Sifbygard"
+  melissotopos.roman_amazon_language: "Apiarium"
+
+  naos_demetras: "Naòs Dēmētros" #Temple of Demeter
+  naos_demetras.norse_amazon_language: "Sifhof"
+  naos_demetras.roman_amazon_language: "Aedes Cereris"
+
+  krene_demetridos: "Krēnē Dēmētros" #Spring of Demeter
+  krene_demetridos.norse_amazon_language: "Helgelind Sifar"
+  krene_demetridos.roman_amazon_language: "Fons Cereris"
+ #Khlóē Pedíon
+  agroi_miteras: "Agroí Mētéras" #Fields of the Mother
+  agroi_miteras.old_norse_amazon_dialect: "Móðurvellir"
+  agroi_miteras.high_norse_amazon_dialect: "Modervellir"
+  agroi_miteras.roman_amazon_language: "Agri Matris"
+
+  thilyphoros: "Thēlyphóros" #Bearer of Life
+  thilyphoros.old_norse_amazon_dialect: "Frjóbera"
+  thilyphoros.high_norse_amazon_dialect: "Frjobera"
+  thilyphoros.roman_amazon_language: "Vitae Ferens"
+
+  eugeia: "Eúgeia" #Good Earth
+  eugeia.norse_amazon_language: "Góðjörð"
+  eugeia.roman_amazon_language: "Terra Bona"
+
+  sitophylakion: "Sitophylákion" #Granary Guard
+  sitophylakion.old_norse_amazon_dialect: "Hveitvörðr"
+  sitophylakion.high_norse_amazon_dialect: "Hveitvord"
+  sitophylakion.roman_amazon_language: "Custodia Horrei"
+
+  chlorotopos: "Chlōrótopos" #Green Place
+  chlorotopos.old_norse_amazon_dialect: "Grænirvellir"
+  chlorotopos.high_norse_amazon_dialect: "Grenvellir"
+  chlorotopos.roman_amazon_language: "Locus Viridis"
+
+  karpophorion: "Karpophórion" #Fruit-bearing Place
+  karpophorion.old_norse_amazon_dialect: "Sifávöxtr"
+  karpophorion.high_norse_amazon_dialect: "Sifavokst"
+  karpophorion.roman_amazon_language: "Pomarium Cereris"
+ #Argyría
+  argyros: "Argyrós" #Silver
+  argyros.old_norse_amazon_dialect: "Silfrborg"
+  argyros.high_norse_amazon_dialect: "Sølvborg"
+  argyros.roman_amazon_language: "Argentum"
+
+  akroterion_argyrou: "Akrotērion Argýrou" #Cape of Silver
+  akroterion_argyrou.old_norse_amazon_dialect: "Silfrvík"
+  akroterion_argyrou.high_norse_amazon_dialect: "Sølvik"
+  akroterion_argyrou.roman_amazon_language: "Promunturium Argenti"
+
+  argyrometallon: "Argyrómetallon" #The Silver Mine
+  argyrometallon.old_norse_amazon_dialect: "Silfrnáma"
+  argyrometallon.high_norse_amazon_dialect: "Sølvgruva"
+  argyrometallon.roman_amazon_language: "Metallum Argenti"
+
+  stoaiargyriai: "Stoaì Argyríai" #The Silver Galleries
+  stoaiargyriai.old_norse_amazon_dialect: "Silfrgöng"
+  stoaiargyriai.high_norse_amazon_dialect: "Sølvganger"
+  stoaiargyriai.roman_amazon_language: "Galeriae Argenti"
+
+  metallourgeion: "Metallourgeîon" #The Foundry
+  metallourgeion.old_norse_amazon_dialect: "Silfrsmiðja"
+  metallourgeion.high_norse_amazon_dialect: "Sølvsmia"
+  metallourgeion.roman_amazon_language: "Officina Metallorum"
+
+  argyrolophos: "Argyrólophos" #Silver Hill
+  argyrolophos.old_norse_amazon_dialect: "Silfrhaugr"
+  argyrolophos.high_norse_amazon_dialect: "Sølvhaug"
+  argyrolophos.roman_amazon_language: "Collis Argenteus"
+
+  argyra_orea: "Argyrà Órē" #Silver Mountains
+  argyra_orea.old_norse_amazon_dialect: "Silfrfjöll"
+  argyra_orea.high_norse_amazon_dialect: "Sølvfjell"
+  argyra_orea.roman_amazon_language: "Montes Argentei"
+
+##Aphródítēs Aktē
+#Aphroditía
+ aigialea: "Aigialéa" #The Seaside City
+ aigialea.norse_amazon_language: "Sæströnd"
+
+ helianatole_limen: "Hēlianatolé Limēn"
+ helianatole_limen.norse_amazon_language: "Sólrisahöfn"
+
+ aphrogenia: "Aphrogénia" #born from sea-foam
+ aphrogenia.norse_amazon_language: "Freyjuströnd" #Freyja syncretism
+
+ aphros_aigialos: "Aphrós Aigialos" #Foam Shore
+ aphros_aigialos.norse_amazon_language: "Skumstranda"
+
+ anadyomene: "Anadyoménē" #She who rises from the sea
+ anadyomene.norse_amazon_language: "Upphafströnd"
+#Rhodonía
+ rhodalyke: "Rhodalýkē" #Rose Saltworks
+ rhodalyke.old_hellenic_amazon_dialect: "Halykē Rhodón"
+ rhodalyke.norse_amazon_language: "Rósasalt"
+
+ heliobasileion_limen: "Hēliobásileion Limēn" #Sunset Harbor
+ heliobasileion_limen.norse_amazon_language: "Solnedhavn"
+
+ eraston_petra: "Erastōnpétra" #Lover’s Cliffs
+ eraston_petra.old_hellenic_amazon_dialect: "Erastōn Pétra"
+ eraston_petra.norse_amazon_language: "Elskastein"
+
+ rhodoloutra: "Rhodoloutrá" #Rose Baths
+ rhodoloutra.old_hellenic_amazon_dialect: "Rhodón Loutrá"
+ rhodoloutra.norse_amazon_language: "Rósalaugar"
+
+ rhodon_kepoi: "Rhodonkēpoi" #Rose Gardens
+ rhodon_kepoi.old_hellenic_amazon_dialect: "Rhodón Kēpoi"
+ rhodon_kepoi.norse_amazon_language: "Rosehagar"
+
+ rhodoalsos: "Rhodóalsos" #Rose grove
+ rhodoalsos.old_hellenic_amazon_dialect: "Rhodón Álsos"
+ rhodoalsos.norse_amazon_language: "Rósalundr"
+#Serikía
+ serikion: "Serikíon" #Silk center / place of silk
+ serikion.norse_amazon_language: "Silkiborg"
+
+ malake_psammos: "Malakēpsammós" #Soft / velvety sands
+ malake_psammos.old_hellenic_amazon_dialect: "Malakē Psammós"
+ malake_psammos.norse_amazon_language: "Mjúksandr"
+
+ serikos_limen: "Serikòslimēn" #Silk harbor
+ serikos_limen.old_hellenic_amazon_dialect: "Serikòs Limēn"
+ serikos_limen.norse_amazon_language: "Silkihöfn"
+
+ leuke_aigialos: "Leukē Aigialos" #White beach
+ leuke_aigialos.norse_amazon_language: "Hvítströnd"
+
+ euplous_aigialos: "Eúplous Aigialos" #Good-sailing shore
+ euplous_aigialos.norse_amazon_language: "Góðlendingarströnd"
+
+ moreon_alsos: "Moreōnalsos" #Grove of mulberries
+ moreon_alsos.old_hellenic_amazon_dialect: "Moreōn Alsos"
+ moreon_alsos.norse_amazon_language: "Mórberjalundr"
+
+ serikophoroi_lophoi: "Serikophoroilophoi" #Silk-bearing hills
+ serikophoroi_lophoi.old_hellenic_amazon_dialect: "Serikophoroi Lophoi"
+ serikophoroi_lophoi.norse_amazon_language: "Silkiberghólar"
+
+ nesos_serike: "Nēsosserikē" #Silk island
+ nesos_serike.old_hellenic_amazon_dialect: "Nēsos Serikē"
+ nesos_serike.norse_amazon_language: "Silkiey"
+
+###Amazonothéia
+##Athēnéia (All Athena's Epithets)
+#Glaukópia
+ glaukopis: "Glaukōpis" #Bright-Eyed City
+ glaukopis.norse_amazon_language: "Bjartauga"
+
+ erythropedion: "Erythropedíon" #Red Plain
+ erythropedion.norse_amazon_language: "Raudavollr"
+
+ boulaia: "Boulaiá" #Council Lands
+ boulaia.norse_amazon_language: "Thingvollr"
+
+ athenophylakon: "Athēnophýlakon" #Athena's Watch
+ athenophylakon.norse_amazon_language: "Asavordr"
+
+ kyanopotamia: "Kyanopotámia" #Blue River Lands
+ kyanopotamia.norse_amazon_language: "Blaardalr"
+
+ kyanodrymos: "Kyanodrymos" #Blue Forest
+ kyanodrymos.norse_amazon_language: "Blavollr"
+
+ glaukelimne: "Glaukēlimnē" #Owl Lake / Lake of Athena’s Owl
+ glaukelimne.old_hellenic_amazon_dialect: "Glaukē Límnē"
+ glaukelimne.norse_amazon_language: "Uglavatn"
+#Sophiáda
+ sophion: "Sophíon" #Seat of Wisdom
+ sophion.norse_amazon_language: "Vitrborg"
+
+ kyanagora: "Kyanagorá" #Blue Market
+ kyanagora.norse_amazon_language: "Blamarkadr"
+
+ potamophylakon: "Potamophýlakon" #River Garrison
+ potamophylakon.norse_amazon_language: "Arvardr"
+
+ sophopotamos: "Sophopotamós" #River of Wisdom
+ sophopotamos.norse_amazon_language: "Vitsa"
+
+ erythragros: "Erythrágros" #Red Fields
+ erythragros.norse_amazon_language: "Raudakr"
+
+ sitagros: "Sitágros" #Wheat Fields
+ sitagros.norse_amazon_language: "Hveitiakr"
+#Promachía
+ promache: "Promachē" #Champion/Frontline Warrior
+ promache.norse_amazon_language: "Framkappi"
+
+ promachikonpedion: "Promachikon Pedíon" #Field of the Champions
+ promachikonpedion.norse_amazon_language: "Vigvollr"
+
+ aspispotamos: "Potamaspis" #The river becomes the shield protecting the territory
+ aspispotamos.old_hellenic_amazon_dialect: "Aspis Potamós"
+ aspispotamos.norse_amazon_language: "Skjalda"
+
+ limnophylakon: "Limnophýlakon" #Lake Garrison
+ limnophylakon.norse_amazon_language: "Vatnvardr"
+
+ siderokremnon: "Sidērokrēmnon" #Iron Cliffs
+ siderokremnon.norse_amazon_language: "Jarnbjarg"
+ 
+ siderophylakon: "Sidērophýlakon" #Iron Garrison
+ siderophylakon.norse_amazon_language: "Jarnvardr"
+#Erganía
+ ergane: "Erganē" #Artisan City
+ ergane.norse_amazon_language: "Smidborg"
+
+ marmarolakkos: "Marmarolákkos" #Marble Quarry
+ marmarolakkos.norse_amazon_language: "Marmarasteinn"
+
+ potamagora: "Potamágora" #River Market
+ potamagora.norse_amazon_language: "Armarkadr"
+
+ erythroplinthion: "Erythroplinthíon" #Red Clay Works
+ erythroplinthion.norse_amazon_language: "Raudleir"
+
+ erythropotamia: "Erythropotámia" #Red River Lands
+ erythropotamia.norse_amazon_language: "Raudaardalr"
+
+ demiourgion: "Dēmiourgíon" #The Workshop
+ demiourgion.norse_amazon_language: "Smidjugardr"
+
+ southwest_jormungandr_mountains: "Southwest Jörmungandr Mountains"
+#Poliás Chora
+ polias: "Poliás" #Athena the Protectress
+ polias.norse_amazon_language: "Borggydja"
+
+ khalkagora: "Khalkagorá" #Copper Market
+ khalkagora.norse_amazon_language: "Koparmarkadr"
+
+ sitopedion: "Sitopedíon" #Wheat Plain
+ sitopedion.norse_amazon_language: "Hveitivollr"
+
+ nomiphylakon: "Nomíphylakon" #Guardian of the Laws
+ nomiphylakon.norse_amazon_language: "Lagavordr"
+
+ astypyrgos: "Astypýrgos" #City Tower Fortress
+ astypyrgos.norse_amazon_language: "Borgturn"
+
+ drymoxylon: "Drymoxýlon" #Forest Timber
+ drymoxylon.norse_amazon_language: "Skogvidr"
+
+##Nikēs Aktē
+#Nikaia (All locations are Nike's Epithets)
+ nikaion: "Nikáion" #City of Victory
+ nikaion.norse_amazon_language: "Sigrborg"
+
+ apteron: "Ápteron" #Wingless Victory
+ apteron.norse_amazon_language: "Vænglaussigr"
+
+ kallinikon: "Kallínikon" #Glorious Victory
+ kallinikon.norse_amazon_language: "Fagrsigr"
+
+ tropaiophoron: "Tropaíophoron" #Bearer of Trophies
+ tropaiophoron.norse_amazon_language: "Sigrgripr"
+
+ soterion: "Sōtērion" #Saving Victory
+ soterion.norse_amazon_language: "Bjargsigr"
+
+ epinikion: "Epiníkion" #Triumphal Victory
+ epinikion.norse_amazon_language: "Sigrblót"
+
+ strateion: "Stráteion" #Victory of Armies
+ strateion.norse_amazon_language: "Hersigr"
+
+ outer_jormungandr_mountains: "Outer Jörmungandr Mountains"
+#Aktē Aithyias
+ aithyia: "Aithyia" #Polis of Aithyia
+ aithyia.norse_amazon_language: "Eiðborg"
+
+ erythroekbole: "Erythroekbolē" #Red River Mouth
+ erythroekbole.old_hellenic_amazon_dialect: "Erythrà Ekbolē"
+ erythroekbole.norse_amazon_language: "Rauðamynni"
+
+ naustathmos: "Naustathmós" #Naval Harbor
+ naustathmos.norse_amazon_language: "Skipastaðr"
+
+ akrophylakon: "Akróphylakon" #Headland Watch Fortress
+ akrophylakon.norse_amazon_language: "Sævarvörðr"
+
+ epivatai: "Epivátai" #The Boarders / Marines
+ epivatai.norse_amazon_language: "Borðmenn"
+
+ trinesoi: "Trinēsoi" #Three Islands
+ trinesoi.norse_amazon_language: "Þrjár Eyjar"
+#Porphyrâ Aktē
+ porphyraion: "Porphyráion" #The Purple City / Dye Market (urban, partial production)
+ porphyraion.norse_amazon_language: "Purpuraborg"
+
+ porphyranesos: "Porphyránēsos" #Purple Island (stained by dye production)
+ porphyranesos.old_hellenic_amazon_dialect: "Porphyrá Nēsos"
+ porphyranesos.norse_amazon_language: "Purpurey"
+
+ porphyrolophos: "Porphyrólophos" #Dye Hills (industrial hills between city and alum works)
+ porphyrolophos.old_hellenic_amazon_dialect: "Porphyrós Lóphos"
+ porphyrolophos.norse_amazon_language: "Purpurahæð"
+
+ ostrakotopos: "Ostrakótopos" #Place of Shells
+ ostrakotopos.norse_amazon_language: "Skeljasvæði"
+
+ petrodes_aigialos: "Petrōdēs Aigialos" #Rocky Coast
+ petrodes_aigialos.norse_amazon_language: "Hrjóstrströnd"
+
+ kymatagria: "Kymatágria" #Wild Waves
+ kymatagria.old_hellenic_amazon_dialect: "Kýmata Ágria"
+ kymatagria.norse_amazon_language: "Óðbárur"
+
+ stypteria: "Styptēría" #Alum Works
+ stypteria.norse_amazon_language: "Álúnverk"
+
+ litholatomeion: "Litholatoméion" #Stone Quarry
+ litholatomeion.norse_amazon_language: "Steinnáma"
+
+##Kólpos Thalássēs (The Thalassan Octarchy)
+#Thalassía
+ pharosthalasses: "Pharos Thalassēs" #Lighthouse of Thalassa / Rán
+ pharosthalasses.norse_amazon_language: "Ránar viti"
+
+ eirene_aigialos: "Eirenē Aigialos" #Peaceful Shore
+ eirene_aigialos.norse_amazon_language: "Friðarströnd"
+
+ hierapyle: "Hierapylē" #Sacred Gate
+ hierapyle.old_hellenic_amazon_dialect: "Hierà Pýlē"
+ hierapyle.norse_amazon_language: "Helgihlið"
+
+ mesokolposaigialos: "Mesókolpos Aigialos" #Mid-Bay Coast
+ mesokolposaigialos.norse_amazon_language: "Miðvíkströnd"
+
+ tracheiaigialos: "Tracheîa Aigialos" #Rugged Coast (harsh land)
+ tracheiaigialos.norse_amazon_language: "Hrjóstr strönd"
+
+ tracheiakymata: "Tracheîakýmata" #Rough Waves / Violent Sea
+ tracheiakymata.old_hellenic_amazon_dialect: "Tracheîa Kýmata"
+ tracheiakymata.norse_amazon_language: "Brimgnýr"
+
+ hierochrysos: "Hieróchrysos" #Sacred / Holy Gold
+ hierochrysos.old_hellenic_amazon_dialect: "Chrysós Hierós"
+ hierochrysos.norse_amazon_language: "Heilagt gull"
+
+ dakryathalasses: "Dakrya Thalassēs" #Tears of Thalassa / Rán
+ dakryathalasses.norse_amazon_language: "Ránartár"
+#Ophidía (The Land around River Ophídis)
+ ophidision: "Ophidísion" #Capital of Ophidía
+ ophidision.norse_amazon_language: "Ormborg"
+
+ diplopotamos: "Diplopotámos" #Double River
+ diplopotamos.old_hellenic_amazon_dialect: "Diploí Potamoí"
+ diplopotamos.norse_amazon_language: "Tvíá"
+
+ potamophoros: "PotamophOros" #River-bearing land
+ potamophoros.norse_amazon_language: "Álandr"
+
+ bathypedion: "Bathypedíon" #Deep Plain / Rich Soil
+ bathypedion.old_hellenic_amazon_dialect: "Bathy Pedion"
+ bathypedion.norse_amazon_language: "Djúpvollr"
+
+ eirenakymata: "Eirēnakýmata" #Peaceful Lagoon
+ eirenakymata.old_hellenic_amazon_dialect: "Eirēna Kýmata"
+ eirenakymata.norse_amazon_language: "Friðarvatn"
+
+ thymiaterion: "Thymiateríon" #Incense Place / Altar of Smoke
+ thymiaterion.norse_amazon_language: "Reykhof"
+
+ ophioakra: "Ophioákra" #Serpent Heights
+ ophioakra.old_hellenic_amazon_dialect: "Ophíou Ákra"
+ ophioakra.norse_amazon_language: "Ormhæð"
+
+ styraxoroi: "Styraxoroi" #Resin Mountains
+ styraxoroi.old_hellenic_amazon_dialect: "Órē Styrax"
+ styraxoroi.norse_amazon_language: "Røkfjall"
+
+ ophion_mountains: "Ophíōn Mountains" #Sea Snake Greek Deity, Ophion. 
+#Pēlágion Márgaron
+ margaron: "Márgaron" #The Pearl
+ margaron.norse_amazon_language: "Perluborg"
+
+ konchelimen: "Konchēlimēn" #Shell Harbor
+ konchelimen.old_hellenic_amazon_dialect: "Konkhē Limēn"
+ konchelimen.norse_amazon_language: "Skeljahöfn"
+
+ lamprakymata: "Lamprakýmata" #Shimmering Waves
+ lamprakymata.old_hellenic_amazon_dialect: "Lamprà Kýmata"
+ lamprakymata.norse_amazon_language: "Gljábylgjur"
+
+ korallionpelagos: "Korállionpélagos" #Coral Sea
+ korallionpelagos.old_hellenic_amazon_dialect: "Korállion Pélagos"
+ korallionpelagos.norse_amazon_language: "Kórallhaf"
+
+ bathypelagos: "Bathypélagos" #Deep Seabed
+ bathypelagos.old_hellenic_amazon_dialect: "Bathý Pélagos"
+ bathypelagos.norse_amazon_language: "Djúphaf"
+
+ metaxychora: "Metaxýkhōra" #Land Between
+ metaxychora.old_hellenic_amazon_dialect: "Metaxý Chōrá"
+ metaxychora.norse_amazon_language: "Milliland"
+
+ galenakymata: "Galēnakýmata" #Calm Lagoon
+ galenakymata.old_hellenic_amazon_dialect: "Galēna Kýmata"
+ galenakymata.norse_amazon_language: "Lognvatn"
+
+ kyanokymata: "Kyanokýmata" #Blue Waves
+ kyanokymata.old_hellenic_amazon_dialect: "Kyaná Kýmata"
+ kyanokymata.norse_amazon_language: "Blábárur"
+#Naupēgía (Naval-industrial backbone)
+ naupegion: "Naupēgion" #Shipyard / Arsenal
+ naupegion.norse_amazon_language: "Skipasmíðaborg"
+
+ eisbolenesos: "Eisbolēnēsos" #Entrance Island
+ eisbolenesos.old_hellenic_amazon_dialect: "Eisbolē Nēsos"
+ eisbolenesos.norse_amazon_language: "Innrásarey"
+
+ anemoessaigialos: "Anemóessa Aigialos" #Wind-Swept Beach
+ anemoessaigialos.norse_amazon_language: "Vindströnd"
+
+ klydoniaigialos: "Klydōnía Aigialos" #Wave-Tossed Beach
+ klydoniaigialos.norse_amazon_language: "Brimströnd"
+
+ galeneaigialos: "Galēnē Aigialos" #Calm Beach
+ galeneaigialos.norse_amazon_language: "Lognströnd"
+
+ nomophylakteaigialos: "Nomophylaktē Aigialos" #Law-Guarded Beach
+ nomophylakteaigialos.norse_amazon_language: "Lögvörðuströnd"
+
+ nausxylon: "Nausxylon" #Ship Timber
+ nausxylon.norse_amazon_language: "Skipaviðr"
+
+ hylenausike: "Hylēnausikē" #Naval Forest
+ hylenausike.old_hellenic_amazon_dialect: "Hylē Nausikē"
+ hylenausike.norse_amazon_language: "Skipaskógr"
+
+##Hestías Nēsoi
+#Hestiaía
+ hestias_hieron: "Hestías Hieron" #Sanctuary of Hestia (Capital & Holy Site)
+ hestias_hieron.norse_amazon_language: "Hof Hestíu"
+
+ glykanthes_pedion: "Glykánthespedíon" #Plain of sweet blossoms
+ glykanthes_pedion.old_hellenic_amazon_dialect: "Glykánthes Pedíon"
+ glykanthes_pedion.norse_amazon_language: "Sætblómslétta"
+
+ melikalamos_pedion: "Melíkalamospedíon" #Honey-reed plain (sugarcane)
+ melikalamos_pedion.old_hellenic_amazon_dialect: "Melíkalamos Pedíon"
+ melikalamos_pedion.norse_amazon_language: "Hunangsreyrsletta"
+
+ anemophylax_nesos: "Anemophýlaxnēsos" #Wind-guarding island
+ anemophylax_nesos.old_hellenic_amazon_dialect: "Anemophýlax Nēsos"
+ anemophylax_nesos.norse_amazon_language: "Vindvörðey"
+
+ hygra_lophoi: "Hygrálóphoi" #Moist hills
+ hygra_lophoi.old_hellenic_amazon_dialect: "Hygrá Lóphoi"
+ hygra_lophoi.norse_amazon_language: "Rakhólar"
+
+ skioessa_alsos: "Skióessálsos" #Shaded grove
+ skioessa_alsos.old_hellenic_amazon_dialect: "Skióessa Álsos"
+ skioessa_alsos.norse_amazon_language: "Skugglundr"
+
+ theron_drymos: "Thērōndrymós" #Forest of beasts
+ theron_drymos.old_hellenic_amazon_dialect: "Thērōn Drymós"
+ theron_drymos.norse_amazon_language: "Dýraskógr"
+
+ drymodes_aigialos: "Drymōdēs Aigialos" #Wooded shore
+ drymodes_aigialos.norse_amazon_language: "Skógarströnd"
+
+ hestias_dakrylimne: "Hestías Dakrylímnē" #Hestia's tear-lake
+ hestias_dakrylimne.norse_amazon_language: "Tárvatn Hestíu"
+
+ hestias_aionion_pyr: "Hestías Aiónion Pýr" #The Eternal Fire of Hestia (Volcano)
+ hestias_aionion_pyr.norse_amazon_language: "Eilífr eldr Hestíu"
+#Hyphasía Nēsoi
+ hyphasion: "Hyphásion" #Textile center
+ hyphasion.norse_amazon_language: "Vefborg"
+
+ hyphasmation_aigialos: "Hyphasmátōn Aigialos" #Textile Island
+ hyphasmation_aigialos.norse_amazon_language: "Vefnaðarey"
+
+ leukanthes_pedion: "Leukánthespedíon" #Plain of white blossoms (cotton fields)
+ leukanthes_pedion.old_hellenic_amazon_dialect: "Leukánthes Pedíon"
+ leukanthes_pedion.norse_amazon_language: "Hvítblómslétta"
+
+ aigion_lophoi: "Aigíōnlóphoi" #Goat hills (wild game)
+ aigion_lophoi.old_hellenic_amazon_dialect: "Aigíōn Lóphoi"
+ aigion_lophoi.norse_amazon_language: "Geitahólar"
+
+ krithe_pedion: "Krithēpedíon" #Barley plain
+ krithe_pedion.old_hellenic_amazon_dialect: "Krithē Pedíon"
+ krithe_pedion.norse_amazon_language: "Byggslétta"
+
+ halike_aigialos: "Halikē Aigialos" #Salt beach
+ halike_aigialos.norse_amazon_language: "Saltströnd"
+
+ thynnon_aigialos: "Thýnnōn Aigialos" #Tuna beach
+ thynnon_aigialos.norse_amazon_language: "Túnfiskströnd"
+
+ ostreon_nesos: "Ostréōn Nēsos" #Oyster beach
+ ostreon_nesos.norse_amazon_language: "Ostruströnd"
+
+###Salacia Ultra
+##Magna Bellona
+ #Mons Bellonae
+ mons_bellonae: "Mons Bellonae" #Mountain of Bellona (Active, violent, destructive)
+ mons_bellonae.hellenic_amazon_language: "Oros Enyoû" #Mountain of Enyo
+
+ ignis_bellonae: "Ignis Bellonae" #Fire of Bellona
+ ignis_bellonae.hellenic_amazon_language: "Pýr Enyoû" #Fire of Enyo
+
+ doris_bellonae: "Doris Bellonae" #Bellona's Spear (Latinized from Greek pre-existing city)
+ doris_bellonae.hellenic_amazon_language: "Dōry Enyoû" #Enyo's Spear
+
+ hamus_aeneus: "Hamus Aeneus" #Bronze Hook
+ hamus_aeneus.hellenic_amazon_language: "Chalkoánkistron" #Copper Hook
+
+ harena_rubra: "Harena Rubra" #Red Sand / Red Beach
+ harena_rubra.hellenic_amazon_language: "Pyrrhòs Aigialós" #Fiery Red Shore
+
+ ager_exustus: "Ager Exustus" #Burnt / Fire-Forged Land
+ ager_exustus.hellenic_amazon_language: "Eupyría Khōra" #Well-fired Land
+
+ ferrariae: "Ferrariae" #Iron Workings
+ ferrariae.hellenic_amazon_language: "Siderēra Metalla" #Iron Mines
+
+ harena_robiginosa: "Harena Robiginosa" #Rust-Colored Sand
+ harena_robiginosa.hellenic_amazon_language: "Aigialós Ioû"
+ #Scoria Cuprea
+ litus_digitatus: "Litus Digitatus" #Fingered Shore
+ litus_digitatus.hellenic_amazon_language: "Dáktylos Aigialós"
+
+ litus_cuprinum: "Litus Cuprinum" #Copper Shore
+ litus_cuprinum.hellenic_amazon_language: "Chalkòs Aigialós"
+
+ cuprariae: "Cuprariae" #Copper Mines
+ cuprariae.hellenic_amazon_language: "Metalleía Chalkoû"
+
+ figlina_ignea: "Figlina Ignea" #Fiery Clayworks
+ figlina_ignea.hellenic_amazon_language: "Kerameía Pyrás"
+
+ campus_venatorius: "Campus Venatorius" #Hunting Grounds
+ campus_venatorius.hellenic_amazon_language: "Thērasíon Pedíon"
+
+ taurus_aeneus: "Taurus Aeneus" #Bronze Bull
+ taurus_aeneus.hellenic_amazon_language: "Chalkous Taûros"
+##Magna Salacia
+ #Vesticum
+ fodinae_aluminosae: "Fodinae Aluminosae" #Alum Mines
+ fodinae_aluminosae.hellenic_amazon_language: "Styptēría Orygmata"
+
+ litus_scarinum: "Litus Scarinum" #Parrotfish Shore
+ litus_scarinum.hellenic_amazon_language: "Skaros Aigialos"
+
+ campus_rutilorum: "Campus Rutilorum" #Field of the Reddish (Red Horses)
+ campus_rutilorum.hellenic_amazon_language: "Pýrrhos Hippos" #The Red Horse
+
+ taurus_rutilus: "Taurus Rutilus" #The Red Bull
+ taurus_rutilus.hellenic_amazon_language: "Pýrrhos Tauros" #The Red Bull
+
+ flores_tinctorii: "Flores Tinctorii" #Dye Flowers
+ flores_tinctorii.hellenic_amazon_language: "Pharmakon Anthē"
+
+ fodinae_cinnabaris: "Fodinae Cinnabaris" #Cinnabar Mines
+ fodinae_cinnabaris.hellenic_amazon_language: "Kinnabareia Metalla" #Cinnabar Mines
+
+ ager_vestae: "Ager Vestae" #Fields of Vesta
+ ager_vestae.hellenic_amazon_language: "Khōra Hestias" #Land of Hestia
+
+ mons_vestae: "Mons Vestae" #Mountain of Vesta (Dormant, fertile, life-giving)
+ mons_vestae.hellenic_amazon_language: "Oros Hestías"
+ #Saltus Taurinus
+ campus_casearius: "Campus Casearius" #Cheese Fields
+ campus_casearius.hellenic_amazon_language: "Tyrópolis" #Cheese Town / Cheese Settlement
+
+ portus_coriarius: "Portus Coriarius" #Leather Harbor
+ portus_coriarius.hellenic_amazon_language: "Dermatós Limēn" #Harbor of Hides
+
+ campus_pabulinus: "Campus Pabulinus" #Fodder Field
+ campus_pabulinus.hellenic_amazon_language: "Chortópedon"
+
+ colles_lanarii: "Colles Lanarii" #Wool Hills
+ colles_lanarii.hellenic_amazon_language: "Poimnólophos" #Flock Hill / Sheep Hill
+
+ colles_ovini: "Colles Ovini" #Sheep Hills
+ colles_ovini.hellenic_amazon_language: "Probátōn Lóphos"
+ #Terra Salaciana
+ salacia_augusta: "Salacia Augusta" #The Exalted City of Salacia
+ salacia_augusta.hellenic_amazon_language: "Dōron Thalassēs" #Thalassa's Gift/Blessing
+
+ porta_salaciae: "Porta Salaciae" #Gate of Salacia
+ porta_salaciae.hellenic_amazon_language: "Thalassóporthos" #Sea Gate
+
+ campus_fertilis: "Campus Fertilis" #Fertile Field
+ campus_fertilis.hellenic_amazon_language: "Euphoría Pedíon" #Fertile Plain
+
+ ager_copiosus: "Ager Copiosus" #Abundant Field
+ ager_copiosus.hellenic_amazon_language: "Polykarpía Khōra" #Land of Abundant Fruit
+
+ fauces_vestae: "Fauces Vestae" #Pass of Vesta
+ fauces_vestae.hellenic_amazon_language: "Stenón Hestías" #Pass of Hestia
+
+ ager_fluminis: "Ager Fluminis" #River Field
+ ager_fluminis.hellenic_amazon_language: "Khōra Potamophóros"
+
+ ager_primus: "Ager Primus" #First / Foremost Field
+ ager_primus.hellenic_amazon_language: "Prōtē Khōra" #First Land
+
+ montes_salis: "Montes Salis" #Salt Mountains
+ montes_salis.hellenic_amazon_language: "Halásia Orē" #Salt Mountains
+ #Silva Transmontana
+ promontorium_cinnabarinum: "Promontorium Cinnabarinum" #Cinnabar Cape
+ promontorium_cinnabarinum.hellenic_amazon_language: "Kinnabárion Ákrón"
+
+ portus_internus: "Portus Internus" #Inner Harbor
+ portus_internus.hellenic_amazon_language: "Limen Endóteros"
+
+ litus_cedrinum: "Litus Cedrinum" #Cedar Shore
+ litus_cedrinum.hellenic_amazon_language: "Kedrōn Aigialós"
+
+ montes_lapidei: "Montes Lapidei" #Stone Mountains
+ montes_lapidei.hellenic_amazon_language: "Lithínē Oréōn"
+
+ porta_cedrina: "Porta Cedrina" #Cedar Gate
+ porta_cedrina.hellenic_amazon_language: "Kedrínē Pýlē"
+##Peninsula Antiopea
+#Terra Aurea
+ via_aurea: "Via Aurea" #Golden Road
+ via_aurea.hellenic_amazon_language: "Chrysē Hodos" #Golden Road
+
+ plumbum_lassatum: "Plumbum Lassatum" #Exhausted Lead / Weary Ore
+ plumbum_lassatum.hellenic_amazon_language: "Mólybdos Kekopōménos" #Spent Lead
+
+ venae_relictae: "Venae Relictae" #Abandoned Veins (of ore)
+ venae_relictae.hellenic_amazon_language: "Phlébes Lelimmenai" #Forsaken Veins
+
+ litus_ventosum: "Litus Ventosum" #Windy Shore
+ litus_ventosum.hellenic_amazon_language: "Anemōdēs Aigialós" #Wind-Swept Shore
+
+ campus_lini: "Campus Lini" #Field of Flax / Linen Field
+ campus_lini.hellenic_amazon_language: "Línon Pedíon" #Flax Plain
+
+ cor_aureum: "Cor Aureum" #Golden Heart
+ cor_aureum.hellenic_amazon_language: "Kardía Chrysē" #Golden Heart
+#Vinetum et Olivetum
+ torcular_vini: "Torcular Vini" #Wine Press
+ torcular_vini.hellenic_amazon_language: "Lēnos Oínou" #Wine Press
+
+ torcular_olei: "Torcular Olei" #Olive Press
+ torcular_olei.hellenic_amazon_language: "Elaíou Piestērion" #Oil Press
+
+ praedium_oliveti: "Praedium Oliveti" #Estate of the Olive Grove
+ praedium_oliveti.hellenic_amazon_language: "Elaión Ktēma" #Olive Grove
+
+ praedium_vineti: "Praedium Vineti" #Vineyard Estate
+ praedium_vineti.hellenic_amazon_language: "Ampelōn Ktēma" #Vineyard Holding / Estate
+
+ litus_fecundum: "Litus Fecundum" #Fertile Coast
+ litus_fecundum.hellenic_amazon_language: "Eúkarpos Aigialós" #Fruitful Shore
+
+ insula_vinaria: "Insula Vinaria" #Wine Island
+ insula_vinaria.hellenic_amazon_language: "Nēsos Oinēra" #Wine Island
+
+##Erisía
+ kallisti: "Kallistí" #The Most Beautiful / For the Fairest, Kallistē made into a Place name.
+ kallisti.norse_amazon_language: "Fegurst"
+
+ kataramenos_valtos: "Kataraménováltos" #Cursed Swamp
+ kataramenos_valtos.old_hellenic_amazon_dialect: "Kataraménos Váltos"
+ kataramenos_valtos.norse_amazon_language: "Bölvamýrr"
+
+ tyflon_nesion: "Tyflònēsíon" #Blind Islet
+ tyflon_nesion.old_hellenic_amazon_dialect: "Tyflòn Nēsíon"
+ tyflon_nesion.norse_amazon_language: "Blindey"
+
+ gelotos_drymos: "Gélōtodrymós" #Laughing Jungle
+ gelotos_drymos.old_hellenic_amazon_dialect: "Gélōtos Drymós"
+ gelotos_drymos.norse_amazon_language: "Hlátaskógr"
+
+ ataxos_brachos: "Átaxobráchos" #Lawless Rock
+ ataxos_brachos.old_hellenic_amazon_dialect: "Átaxos Bráchos"
+ ataxos_brachos.norse_amazon_language: "Löglaussklettur"
+
+ #kranio_kolpos: "Kranio Kólpos" #Skull Bay (sea tile)
+
+##Sea Procinces
+ #Aphrodítēs Pélagos
+ aphrou_brakhea: "Aphroû Brakhéa" #Foam Shallows (Birthplace of Aphrodite)
+ rhodon_brakhea: "Rhódōn Brakhéa" #Shallows of Roses
+ serikias_kolpos: "Sērikías Kólpos" #Bay of Serikía
+ emporika_brakhea: "Emporiká Brakhéa" #Commercial Shallows
+ dytikon_aphrodites_pelagos: "Dytikón Aphrodítēs Pélagos" #Western Sea of Aphrodite
+ meson_aphrodites_pelagos: "Mésōn Aphrodítēs Pélagos" #Central Sea of Aphrodite
+ anatolikon_aphrodites_pelagos: "Anatolikón Aphrodítēs Pélagos" #Eastern Sea of Aphrodite
+ #Triōn Mētérōn Ekbolē
+ trion_meteron_ekbole: "Triōn Mētérōn Ekbolē" #Estuary of the Three Mothers
+ rhoas_brakhea: "Rhoâs Brakhéa" #Pomegranate Shallows
+ melon_brakhea: "Mēlōn Brakhéa" #Apple Shallows
+ drepanon_brakhea: "Drépanon Brakhéa" #Sickle Shallows
+ anastaseos_pelagos: "Anastáseōs Pélagos" #Sea of Renewal
+ basileias_pelagos: "Basileías Pélagos" #Sea of Sovereignty
+ henoseos_pelagos: "Henōseōs Pélagos" #Sea of Union
+ palaiou_kosmou_hodos: "Palaíou Kósmou Hodós" #Way to the Old World
+ #Anatolikón Artemídos Pélagos 
+ artemidos_ekbole: "Artemísios Ekbolē" #Estuary of River Artemísios
+ boreios_selenes_porthmos: "Bóreios Selēnēs Porthmós" #Northern Strait of Selene
+ notios_selenes_porthmos: "Nótios Selēnēs Porthmós" #Southern Strait of Selene
+ pleres_brakhea: "Plērēs Brakhéa" #Full Moon Shallows
+ menoide_brakhea: "Mēnoeidē Brakhéa" #Crescent Moon Shallows
+ skoteina_brakhea: "Skoteiná Brakhéa" #Dark Moon Shallows
+ therion_pelagos: "Thēríōn Pélagos" #Sea of Beasts
+ agrias_pelagos: "Agrías Pélagos" #Wild Sea
+ selenes_pelagos: "Selēnēs Pélagos" #Sea of Selene
+ #Dytikón Artemídos Pélagos 
+ ylfuleidgrunn: "Ylfuleiðgrunn" #Ylva's Route Shallows
+ ylfugrunn: "Ylfugrunn" #Ylva's Shallows
+ augabrunsund: "Augabrúnsund" #Eyebrow Strait
+ augabrunbrim: "Augabrúnbrim" #Eyebrow Surf
+ ous_brakhea: "Oûs Brakhéa" #Ear Shallows
+ dytikon_lykon_pelagos: "Dytikón Lýkōn Pélagos" #Western Sea of Wolves
+ meson_lykon_pelagos: "Mésōn Lýkōn Pélagos" #Central Sea of Wolves
+ anatolikon_lykon_pelagos: "Anatolikón Lýkōn Pélagos" #Eastern Sea of Wolves
+ #Freyarsund
+ freyarsund: "Freyarsund" #Freyja's Strait
+ bjarnarsund: "Bjarnarsund" #Bear Strait
+ porthmos_arkoudon: "Porthmós Arkoudōn" #Strait of the Bears
+ arkoudon_brakhea: "Arkoudōn Brakhéa" #Shallows of the Bears
+ #Eldárhaf
+ austleidgrunn: "Austleiðgrunn" #Eastern Route Shallows
+ eldaros: "Eldárós" #Mouth of the River Eldá
+ vestleidgrunn: "Vestleiðgrunn" #Western Route Shallows
+ kaldgrunn: "Kaldgrunn" #Cold Shallows
+ nordbrim: "Norðbrim" #North Surf
+ leidarhaf: "Leiðarhaf" #Sea of Routes
+ kaldhaf: "Kaldhaf" #Cold Sea
+ nordhaf: "Norðhaf" #Northern Ocean
+ #Vindfirðir (Wind Fjords)
+ saudafjordr: "Sauðafjörðr" #Sheep Fjord
+ sagafjordr: "Ságafjörðr" #Sága's Fjord
+ solfjordr: "Sólfjörðr" #Sun Fjord 
+ nordvindhaf: "Norðvindhaf" #North Wind Sea
+ sudrvindhaf: "Suðrvindhaf" #South Wind Sea
+ #Vindsund (Wind Strait)
+ vindbrim: "Vindbrim" #Rough Wind Waters
+ vestvindsund: "Vestvindsund" #West Wind Strait
+ midvindsund: "Miðvindsund" #Middle Wind Strait
+ austvindsund: "Austvindsund" #East Wind Strait
+ utbrim: "Útbrim" #Outer Surf
+ uthaf: "Úthaf" #Outer Ocean
+ #Arnarhaf (Sea of the Eagle)
+ fjadrbrim: "Fjaðrbrim" #Feather Roughs
+ sudrvaengbrim: "Suðrvængbrim" #South Wing Roughs
+ nordvaengbrim: "Norðvængbrim" #North Wing Roughs
+ halsbrim: "Hálsbrim" #Neck Roughs
+ halsahaf: "Hálsahaf" #Neck Sea
+ nordvaenghaf: "Norðvænghaf" #North Wing Sea
+ sudrvaenghaf: "Suðrvænghaf" #South Wing Sea
+ nordfjadrhaf: "Norðfjaðrahaf" #North Feather Sea
+ #Arnarsund (Strait of the Eagle)
+ arnaros: "Arnarós" #Estuary of the Arnará
+ arnarsund: "Arnarsund" #Eagle Strait
+ hvitifjordr: "Hvítifjörðr" #White Fjord
+ klogrunn: "Klógrunn" #Talon Shallows
+ klofoi: "Klóflói" #Talon Gulf
+ fjadrsund: "Fjaðrsund" #Feather Strait
+ sudrfjadrhaf: "Suðrfjaðrahaf" #South Feather Sea
+ #Erythroû Kólpos
+ nikes_kolpos: "Nikēs Kólpos" #Bay of Nike
+ erythrou_ekbole: "Erythroû Ekbolē" #Estuary of the Erythros
+ esotera_porphyrias_brakhea: "Esōtéra Porphyrías Brakhéa" #Inner Purple-Dye Shallows
+ exotera_porphyrias_brakhea: "Exōtéra Porphyrías Brakhéa" #Outer Purple-Dye Shallows
+ kimatodes_kolpos: "Kymatōdēs Kólpos" #Wave-swept Bay
+ notion_porphyras_pelagos: "Nótíon Porphýras Pélagos" #Southern Sea of Purple Dye
+ boreion_porphyras_pelagos: "Bóreion Porphýras Pélagos" #Northern Sea of Purple
+ aetou_pelagos: "Aetoú Pélagos" #Sea of the Eagle
+ #Thalássēs Kólpos 
+ kyanou_ekbole: "Kyanoû Ekbolē" #Estuary of the Kyanos
+ margariton_kolpos: "Margaritōn Kólpos" #Bay of Pearls
+ thalasses_kardia: "Thalássēs Kardía" #Heart of the Sea
+ trakheia_brakhea: "Trakhéa Brakhéa" #Rough Shallows
+ diaplou_brakhea: "Diaploû Brakhéa" #Shallows of Passage / Crossing
+ mesogaiou_brakhea: "Mesogaíou Brakhéa" #Central Shallows
+ polynauton_brakhea: "Polynautōn Brakhéa" #Shallows of Many Ships
+ anemode_brakhea: "Anemōdē Brakhéa" #Windy Shallows
+ thalasses_pelagos: "Thalássēs Pélagos" #Sea of Thalassa
+ #Hyphasíōn Pélagos
+ oikion_brakhea: "Oikiōn Brakhéa" #Household Shallows
+ himation_brakhea: "Himatíōn Brakhéa" #Garment Shallows
+ hyphasmaton_brakhea: "Hyphasmátōn Brakhéa" #Woven Cloth Shallows
+ nematon_brakhea: "Nēmatōn Brakhéa" #Thread Shallows
+ boreion_hyphasion_pelagos: "Bóreion Hyphasíōn Pélagos" #Northern Hyphasian Sea
+ notion_hyphasion_pelagos: "Nótíon Hyphasíōn Pélagos" #Southern Hyphasian Sea
+ #Pyròs Pélagos
+ pyros_brakhea: "Pyròs Brakhéa" #Fire Shallows
+ pyroenta_brakhea: "Pyróenta Brakhéa" #Blazing Shallows
+ aithalon_brakhea: "Aithálōn Brakhéa" #Ember Shallows 
+ reouses_pyras_brakhea: "Reoúsēs Pýras Brakhéa" #Flowing Fire (Lava) Shallows
+ thermou_pelagos: "Thermoû Pélagos" #Warm Sea (Gulf Stream)
+ boreion_pyros_pelagos: "Bóreion Pyròs Pélagos" #Northern Sea of Fire
+ notion_pyros_pelagos: "Nótíon Pyròs Pélagos" #Southern Sea of Fire
+ taraches_pelagos: "Tarachês Pélagos" #Sea of Turmoil
+ #Hestías Pélagos
+ anemoenta_brakhea: "Anemóenta Brakhéa" #Wind-Lashed Shallows
+ porthmos_hestias: "Porthmós Hestías" #Strait of Hestia
+ glykeos_porthmos: "Glýkeos Porthmós" #Sweet Strait
+ glykeos_brakhea: "Glýkeos Brakhéa" #Sweet Shallows
+ dytikon_hestias_pelagos: "Dytikón Hestías Pélagos" #Western Sea of Hestia
+ meson_hestias_pelagos: "Mésōn Hestías Pélagos" #Central Sea of Hestia
+ anatolikon_hestias_pelagos: "Anatolikón Hestías Pélagos" #Eastern Sea of Hestia
+ #Halieutikòn Pélagos
+ ostreon_brakhea: "Ostréōn Brakhéa" #Oyster Shallows
+ agreon_brakhea: "Agréōn Brakhéa" #Wild Shallows
+ aigion_brakhea: "Aigíōn Brakhéa" #Goat Shallows
+ thynnon_brakhea: "Thýnnōn Brakhéa" #Tuna Shallows
+ boreion_halieutikon_pelagos: "Bóreion Halieutikòn Pélagos" #Northern Fishing Sea
+ meson_halieutikon_pelagos: "Mésōn Halieutikòn Pélagos" #Central Fishing Sea
+ notion_halieutikon_pelagos: "Nótíon Halieutikòn Pélagos" #Southern Fishing Sea
+ #Erisíou Pélagos
+ kallistes_kolpos: "Kallistēs Kólpos" #Bay of the Fairest
+ psithyrismon_brakhea: "Psithyrismōn Brakhéa" #Whispering Shallows
+ chryseou_melou_brakhea: "Chryseou Mēlou Brakhéa" #Golden Apple Shallows
+ pseudeirenike_brakhea: "Pseudeirēnikē Brakhéa" #False Peace Shallows
+ regnymai_brakhea: "Rēgnýmai Brakhéa" #Shattering Shallows
+ teraton_brakhea: "Terátōn Brakhéa" #Shallows of Monsters
+ eridos_pelagos: "Erídos Pélagos" #Sea of Discord
+ bleponton_pelagos: "Blepóntōn Pélagos" #Sea of the Watchers
+ regnymai_pelagos: "Rēgnýmai Pélagos" #Shattered Sea
+ tarachon_pelagos: "Tarachōn Pélagos" #Sea of Upheaval
+ teraton_pelagos: "Terátōn Pélagos" #Sea of Monsters
+
+##Mare Atlanticum Nostrum"
+#Mare Bellonicum
+ sinus_hastae: "Sinus Hastae" #Bay of the Spear
+ vada_aenea: "Vada Aenea" #Bronze Shallows
+ vada_ferrica: "Vada Ferrica" #Iron Shallows
+ vada_solis: "Vada Solis" #Sun Shallows
+ vada_cuprea: "Vada Cuprea" #Copper Shallows
+ vada_ferina: "Vada Ferina" #Wild Shallows
+#Mare Salacianum
+ ostium_salaciae: "Ostium Salaciae" #Mouth of Salacia
+ vada_taurina: "Vada Taurina" #Bull Shallows
+ vada_vinaria: "Vada Vinaria" #Wine Shallows
+ vada_oliveta: "Vada Oliveta" #Olive Shallows
+ transitus_hesperius_australis: "Transitus Hesperius Australis" #Southern Hesperian Passage
+#Mare Aureum
+ vada_cinnabarina: "Vada Cinnabarina" #Cinnabar Shallows
+ vada_cedrina: "Vada Cedrina" #Cedar Shallows
+ vada_aurea: "Vada Aurea" #Golden Shallows
+ transitus_hesperius_borealis: "Transitus Hesperius Borealis" #Northern Hesperian Passage
+
+#New High Seas:
+ salacia_north_eastern_atlantic1: "North Eastern Atlantic" 
+ salacia_north_eastern_atlantic2: "North Eastern Atlantic" 
+ salacia_north_eastern_atlantic3: "North Eastern Atlantic" 
+
+###REAL WORLD PLACES
+
+##Hēliás Nēsoi (Azores)
+ ponta_delgada: "Litus Apricum" #Sunny Shore
+ ponta_delgada.old_hellenic_amazon_dialect: "Hēliás Psámmos"
+ ponta_delgada.norse_amazon_language: "Sólvík"
+
+ santa_maria: "Osculum Solis" #Kiss of the Sun
+ santa_maria.old_hellenic_amazon_dialect: "Hēliás Phílēma"
+ santa_maria.norse_amazon_language: "Sólkoss"
+
+ angra: "Sinus Apricus" #Sunny Bay
+ angra.old_hellenic_amazon_dialect: "Hēliás Kolpós"
+ angra.norse_amazon_language: "Sólhöff"
+
+ horta: "Mons Solaris" #Solar Mountain / Peak
+ horta.old_hellenic_amazon_dialect: "Hēliás Oros"
+ horta.norse_amazon_language: "Sunnasfjall"
+
+ santa_cruz_flores: "Flos Solis" #Flower of the Sun
+ santa_cruz_flores.old_hellenic_amazon_dialect: "Hēliánthos"
+ santa_cruz_flores.norse_amazon_language: "Sólblóm"
+##Hesperídes Nēsoi (Madeira)
+ funchal: "Hesperion Nēsos"
+ funchal.roman_amazon_language: "Insula Occasus" #Latin variant
+ porto_santo: "Oros Elpídos"
+ porto_santo.roman_amazon_language: "Mons Spei"
+##Insulae Canariae
+ teguise: "Canaria Rubra"
+ maxorata: "Canaria Arida"
+ tamaraceite: "Portus Canariensis"
+ hipalan: "Insula Nebulosa"
+ tedote: "Mons Altus"
+ aguere: "Canaria Prima"
+
+##Sverðfiskeyjar (Newfoundland)
+ #Ránströnd (long_range_province)
+ belle_isle.norse_amazon_language: "Þorsksund" #Cod Strait
+ wipetikil.norse_amazon_language: "Ránvík" #Rán's Cove
+ naskwotchu.norse_amazon_language: "Kaldmýrr" #Cold Marsh
+ mekapisk.norse_amazon_language: "Brimnes" #Wave Cape
+ #Kaldströnd (eimasstukwek_province)
+ eimastukwek.norse_amazon_language: "Kaldrvík" #Cold Bay
+ epwikek.norse_amazon_language: "Straumvík" #Current Bay
+ kutapuskuj.norse_amazon_language: "Þorskholt" #Cod Hill
+ pgotapesg.norse_amazon_language: "Grjótnes" #Rocky Cape
+ upsukdaskooch.norse_amazon_language: "Vindmýrr" #Wind Marsh
+ wli_qospem.norse_amazon_language: "Langströnd" #Long Shore
+ #Síldströnd (gosaoie_province)
+ gosaoie.norse_amazon_language: "Síldvik" #Herring Bay
+ nogamsig.norse_amazon_language: "Djupvik" #Deep Bay
+ meelpaeg.norse_amazon_language: "Síldmýrr" #Herring Marsh
+ amasipukwek.norse_amazon_language: "Brimströnd" #Wave Shore
+ sibook.norse_amazon_language: "Rekavík" #Driftwood Bay
+ annieopsquotch_mountains.norse_amazon_language: "Bláfjöll" #Blue Mountains
+ #Sverðfiskströnd (akilasiewakik_province)
+ baie_verte.norse_amazon_language: "Grœnavík" #Green Bay
+ walnaypek.norse_amazon_language: "Viðarhöfn" #Timber Harbor
+ akilasiewakik.norse_amazon_language: "Sverðvík" #Swordfish Bay
+ newfoundland_highlands: "Sverðfiskeyjar Highlands"
+ #Spjótanes (avalon_province)
+ cape_spear.norse_amazon_language: "Spjótanes" #Spear Cape
+ bacalhieu.norse_amazon_language: "Þorskvík" #Cod Bay
+ mekwiskajk.norse_amazon_language: "Skógströnd" #Forest Coast
+ mollyhuajeck.norse_amazon_language: "Sjóvík" #Sea Bay
+ #Ufsiströnd (placentia_province)
+ placentia.norse_amazon_language: "Veiðihöfn" #Hunting Harbor
+ cape_race.norse_amazon_language: "Stormnes" #Storm Cape
+ maqtewey.norse_amazon_language: "Myrkviðr" #Dark Forest
+ nukamkiajijk.norse_amazon_language: "Hæðavík" #Hill Bay
+ miquelon.norse_amazon_language: "Eyvörsey" #Eyvör's Island
+##Rostungaheimr (Labardor)
+ #Rostungastrandir (nunatsiavut_province)
+ nunainguk.norse_amazon_language: "Kaldavík" #Cold Bay
+ navchak.norse_amazon_language: "Frostfjall" #Frost Mountain
+ kingmirtok.norse_amazon_language: "Ísholt" #Ice Hill
+ napaktok.norse_amazon_language: "Tönnes" #Tooth/tusk Cape
+ okak.norse_amazon_language: "Rostungavík" #Walrus Bay
+ aulatsivik.norse_amazon_language: "Beinvík" #Ivory/Bone Bay
+ ukasikalik.norse_amazon_language: "Snjóholt" #Snow Hill
+ agvituk.norse_amazon_language: "Ísnes" #Ice Cape
+ kaipokok.norse_amazon_language: "Rostunganes" #Walrus Peninsula
+ aillik.norse_amazon_language: "Hérines" #Hare Cape
+ tessuialluk.norse_amazon_language: "Melrakkaskógr" #Arctic Fox Forest
+ torngat_mountains.norse_amazon_language: "Hrímfjöll" #Frost Mountains
+ #Lýxaskógr (aivitok_province)
+ misha_shipu.norse_amazon_language: "Lýxamýrr" #Lynx Marshes
+ tikigaksuagusik.norse_amazon_language: "Lýxaskógr" #Lynx Forest
+ aivitok.norse_amazon_language: "Lýxaholt" #Lynx Hill
+ kenamu.norse_amazon_language: "Lýxaviðr" #Lynx Woods
+ sheshatshiu.norse_amazon_language: "Hreindýradalr" #Reindeer Valley
+ kauipushkakamat.norse_amazon_language: "Loðskógr" #Fur Forest
+ kamassekutinat.norse_amazon_language: "Loðholt" #Fur Hill
+ labrador_highlands.norse_amazon_language: "Lýxahæðir" #Lynx Hills
+ hamilton_inlet.norse_amazon_language: "Lýxavatn" #Lynx Lake
+ grand_lake.norse_amazon_language: "Stóravatn" #Great Lake
+ #Melrakkaskógr (ashuanipi_province)
+ shabogamo.norse_amazon_language: "Melrakkaholt" #Arctic Fox Hill
+ ashuanipi.norse_amazon_language: "Loðkkamýrr" #Fur Marsh
+ kepimits.norse_amazon_language: "Otramýrr" #Otter Marsh
+ muhaukamau.norse_amazon_language: "Lyfjagrasamýrr" #Herbs Marsh
+ atikonak.norse_amazon_language: "Viðarskógr" #Timber Forest 
+ kamassekuakamat.norse_amazon_language: "Vargrholt" #Dread Wolf Hill
+ nipissu.norse_amazon_language: "Melrakkadalr" #Arctic Fox Valley
+ winokapau.norse_amazon_language: "Loðholt" #Fur Hill
+ mecatina_plateau.norse_amazon_language: "Melrakkahæð" #Arctic Fox Plateau
+ ashuanipi_lake.norse_amazon_language: "Melrakkavatn" #Arctic Fox Lake
+ shabogamo_lake.norse_amazon_language: "Djúpavatn" #Deep Lake
+ #Hreindýraheiðr (michikamau_province)
+ mishikamau.norse_amazon_language: "Hreindýramýrr" #Reindeer Marsh
+ menutinau.norse_amazon_language: "Hreindýrahæð" #Reindeer Plateau
+ ushkau_nipi.norse_amazon_language: "Vindhæð" #Wind Plateau
+ attikamagen.norse_amazon_language: "Héramýrr" #Hare Marsh
+ petitsikapau.norse_amazon_language: "Hreindýraholt" #Reindeer Hill
+ hamilton_highlands.norse_amazon_language: "Hreindýrahæðir" #Reindeer Highlands
+ attikamagen_lake.norse_amazon_language: "Héravatn" #Hare Lake
+ lake_petitsikapau.norse_amazon_language: "Hreindýravatn" #Reindeer Lake
+ #Selstrandir (labrador_province)
+ catucto.norse_amazon_language: "Selvík" #Seal Bay
+ red_bay.norse_amazon_language: "Rauðavík" #Red Bay
+ ikkatuluk.norse_amazon_language: "Selhöfn" #Seal Harbor
+ uivvatok.norse_amazon_language: "Selsnes" #Seal Cape
+ natsitok.norse_amazon_language: "Selströnd" #Seal Shore
+ inutsualak.norse_amazon_language: "Brimvík" #Wavy Bay
+ mealy_mountains.norse_amazon_language: "Gráfjöll" #Grey Mountains
+##Ísbjarnarheimr (Nunavik)
+ #Hvíthvalastrandir (tursujuq_province)
+ kuujjuarapik.norse_amazon_language: "Hvíthvalós" #White Whale River Mouth
+ qingaaluk.norse_amazon_language: "Hvíthvalahæð" #White Whale Hill
+ tupialuviniq.norse_amazon_language: "Hvíthvalasléttr" #White Whale Plain
+ wiyashakimi.norse_amazon_language: "Loðmýrr" #Fur Marsh
+ nastapoka.norse_amazon_language: "Frystmýrr" #Frozen Marsh
+ great_whale_plateau.norse_amazon_language: "Hvíthvalahöfði" #White Whale Plateau
+ lake_bienville.norse_amazon_language: "Hvíthvalavatn" #White Whale Lake
+ seal_lake.norse_amazon_language: "Selvatn" #Seal Lake
+ #Vargaleið (koksoak_province)
+ kuujjuaq.norse_amazon_language: "Vargaós" #Wolf River Mouth
+ kuuvik.norse_amazon_language: "Ýlfing" #Howling Place
+ natuak.norse_amazon_language: "Vargaholt" #Wolf Hill
+ kasuswapaskau.norse_amazon_language: "Vargasléttr" #Wolf Plain
+ koskoak.norse_amazon_language: "Vargadalr" #Wolf Valley
+ ungava_peninsula.norse_amazon_language: "Varganes" #Wolf Peninsula
+ larch_plateau.norse_amazon_language: "Hrímhæð" #Frost Plateau
+ sanikiluaq.norse_amazon_language: "Vargey" #Wolf Island
+ southampton_island.norse_amazon_language: "Stórvargey" #Great Wolf Island
+ amadjuak_lake.norse_amazon_language: "Vargavatn" #Wolf Lake
+ lake_minto.norse_amazon_language: "Ýlfuvatn" #Howling Lake
+ lake_payne.norse_amazon_language: "Hrímavatn" #Frost Lake
+ #Ísbjarnarvíkir (qikiqtaaluk_province)
+ pangnirtung.norse_amazon_language: "Nárhvalsvík" #Narwhal Bay
+ iglunga.norse_amazon_language: "Dauðavík" #Death Cove  
+ iqaluit.norse_amazon_language: "Ísbjarnarvík" #Polar Bear Cove 
+ kimmirut.norse_amazon_language: "Blóðvík" #Blood Cove  
+ amadjuak.norse_amazon_language: "Einbúavík" #Lone Dweller Cove  
+ kinngait.norse_amazon_language: "Hvítnes" #White Cape  
+ baffin_island.norse_amazon_language: "Ísbjarnarey" #Polar Bear Island  
+ #Fimbulvetr (caniapiscau_province)
+ caniapiscau.norse_amazon_language: "Fimbulheiðr" #Great Winter Wasteland
+ kasakaupuyau.norse_amazon_language: "Hrímsléttr" #Frost Plain  
+ wayustikw.norse_amazon_language: "Snjóslétta" #Snow Plain  
+ mistanipi.norse_amazon_language: "Frosthæð" #Frost Plateau  
+ chipisipi.norse_amazon_language: "Ískaldadalr" #Ice Cold Valley  
+ katataskatikw.norse_amazon_language: "Vindheiðr" #Wind Heath  
+ misinichikw.norse_amazon_language: "Snjóheiðr" #Snow Heath  
+ otelnuk.norse_amazon_language: "Snjósléttr" #Snowfield Plain  
+ kawachisakau.norse_amazon_language: "Ísnes" #Ice Cape Plain  
+ kawachikamasu.norse_amazon_language: "Hrímhæð" #Rime Plateau  
+ enchukamao.norse_amazon_language: "Frostviðr" #Frost Forest (rare surviving timber)  
+ caniapiscau_plateau.norse_amazon_language: "Fimbulhæðir" #Great Winter Highlands  
+ opiscoteo_hills.norse_amazon_language: "Hrímhólar" #Rime Hills  
+ lake_caniapiscau.norse_amazon_language: "Fimbulvatn" #Great Winter Lake  
+ #Sævargastrandir (ungunniavik_province)
+ qikirtajuaq.norse_amazon_language: "Sævargavík" #Sea Wolf (Orca) Cove  
+ kamusawawasich.norse_amazon_language: "Sævargadalr" #Sea Wolf Valley  
+ kawawasukutisich.norse_amazon_language: "Múskúxsléttr" #Musk Ox Plain  
+ kaypikupau.norse_amazon_language: "Múskúxhæð" #Musk Ox Plateau  
+ mistinatwayasu.norse_amazon_language: "Múskúxdalr" #Musk Ox Valley  
+ kamiskayachuuch.norse_amazon_language: "Múskúxheiðr" #Musk Ox Tundra  
+ qurlutuq.norse_amazon_language: "Sævargasléttr" #Sea Wolf Plain   
+ whale_lowlands.norse_amazon_language: "Sævargaheiðr" #Sea Wolf Tundra  
+ #Snjófálkaheiðr (mushuau_province)
+ kangiqsualujjuaq.norse_amazon_language: "Snjófálkavík" #Snow Falcon Cove
+ imaapik.norse_amazon_language: "Snjófálkaklettar" #Snow Falcon Cliffs 
+ siimitalik.norse_amazon_language: "Fjúkholt" #Blizzard Hill 
+ uashekanau.norse_amazon_language: "Snjófálkaskjól" #Snow Falcon Shelter 
+ mistinatuakamau.norse_amazon_language: "Hrímbreiða" #Frost Expanse 
+ mushuau.norse_amazon_language: "Snjófálkahæð" #Snow Falcon Heights 
+ kausseskait.norse_amazon_language: "Snjófálkasteinn" #Snow Falcon Stone 
+ pirvialuit.norse_amazon_language: "Selnes" #Seal Cape 
+ koroc.norse_amazon_language: "Snjófálkafjöll" #Snow Falcon Mountains
+ quebec_torngats.norse_amazon_language: "Jöklatindar" #Glacier Peaks 
+ george_river_plateau.norse_amazon_language: "Snjófálkavíðir" #Snow Falcon Wastes 
+
+##Friggjarárheimr (Quebec)
+ #Laxavíkur (gaspe_province)
+ gaspe.norse_amazon_language: "Laxavík" #Salmon Cove
+ chicchoc.norse_amazon_language: "Laxaskógr" #Salmon Forest
+ marsoui.norse_amazon_language: "Laxafjörðr" #Salmon Fjord (coastal mountain zone)
+ pewjeg.norse_amazon_language: "Laxaholt" #Salmon Hill
+ cascapedia.norse_amazon_language: "Laxahöfn"
+ paspebiac.norse_amazon_language: "Laxalundr" #Salmon Grove
+ matapedia.norse_amazon_language: "Laxadalr" #Salmon Valley
+ chic_choc_mountains.norse_amazon_language: "Laxafjöll" #Salmon Mountains
+ matane.norse_amazon_language: "Laxarif" #Salmon Reef
+ #Andaströnd (rimouski_province)
+ rimouski.norse_amazon_language: "Andavellir" #Duck Fields
+ mitis.norse_amazon_language: "Fjaðravík" #Feather Cove
+ amqui.norse_amazon_language: "Andaholt" #Duck Hill
+ causapscal.norse_amazon_language: "Andadalr" #Duck Valley
+ kakouna.norse_amazon_language: "Nefavík" #Beak Cove
+ molsemtekw.norse_amazon_language: "Andavík" #Duck Cove
+ temiscouata.norse_amazon_language: "Andaskógr" #Duck Forest
+ kamouraska.norse_amazon_language: "Andalundr" #Duck Grove 
+ northern_notre_dame_mountains.norse_amazon_language: "Andahryggir" #Duck Ridges 
+ #Suðr Friggjarárvangr (kikonteku_province)
+ kikonteku.norse_amazon_language: "Almóðurhof" #All-Mother's Temple
+ kamitsisit.norse_amazon_language: "Nýja Muninn" #New Muninn
+ etchemin.norse_amazon_language: "Sandvellir" #Sand Fields
+ wachilmezi.norse_amazon_language: "Suðr Friggjarárvellir" #Southern Frigg River Fields
+ onkobagag.norse_amazon_language: "Hrafnadalr" #Raven Valley
+ sartigan.norse_amazon_language: "Hrafnavellir" #Raven Fields (hunting grounds)
+ wolastoq.norse_amazon_language: "Hrafnaskógr" #Raven Forest (lumber zone)
+ #Norðr Friggjarárvangr (stadacona_province)
+ stadacona.norse_amazon_language: "Nýja Eldára" #New Eldara (capital)
+ andawaohie.norse_amazon_language: "Norðr Friggjarárvellir" #Northern Frigg River Fields
+ ontaretse.norse_amazon_language: "Hrafnaholt" #Raven Hill
+ ahwendoe.norse_amazon_language: "Friggjarárey" #Frig River Island
+ ondaonnentakwi.norse_amazon_language: "Nýja Huginn" #New Huginn
+ aunona.norse_amazon_language: "Friggjarávík" #Frigg River Cove (fish zone)
+ taoondewake.norse_amazon_language: "Nýja Hrafnavík" #New Raven Cove
+ kouate.norse_amazon_language: "Fjaðralundr" #Feather Grove
+ laurentian_massif.norse_amazon_language: "Hrafnahryggir" #Raven Ridges 
+ #Snjóugluvíkur (minganie_province)
+ mingan.norse_amazon_language: "Snjóuglumýrr" #Snowy Owl Marsh
+ pigou.norse_amazon_language: "Snjóugluskógr" #Snowy Owl Forest
+ aguanish.norse_amazon_language: "Snjóuglulundr" #Snowy Owl Grove
+ natashquan.norse_amazon_language: "Snjóuglufen" #Snowy Owl Fen
+ manapakuaniskau.norse_amazon_language: "Snjóugluvellir" #Snowy Owl Fields
+ uanaman.norse_amazon_language: "Snjóugluholt" #Snowy Owl Wooded Hill
+ upuahpukau.norse_amazon_language: "Snjóugluhálendið" #Snowy Owl Highland
+ magpie_massif.norse_amazon_language: "Skjórhryggr" #Magpie Ridge
+ notiskuan.norse_amazon_language: "Snjóugluvík" #Snowy Owl Bay
+ anticosti.norse_amazon_language: "Hrímvík" #Frost Bay
+ natigostec.norse_amazon_language: "Snjóugluhöfn" #Snowy Owl Harbour
+ #Minkaströnd (mecatina_province)
+ mecatina.norse_amazon_language: "Minkavík" #Mink Cove 
+ kegaska.norse_amazon_language: "Minkamýrr" #Mink Marsh 
+ coacoachou.norse_amazon_language: "Minkaskógr" #Mink Forest 
+ napetipi.norse_amazon_language: "Minkalundr" #Mink Grove
+ mecatina_hills.norse_amazon_language: "Minkaholt" #Mink Hill
+ #Elgaheimr (uashat_province)
+ uashat.norse_amazon_language: "Elgahöfn" #Moose Harbor (major port, central hub)
+ nipisso.norse_amazon_language: "Elgaholt" #Moose Wooded Hill
+ nipissis.norse_amazon_language: "Elgaskógr" #Moose Forest
+ caopacho.norse_amazon_language: "Elgastaðir" #Moose Stead
+ opocopa.norse_amazon_language: "Elgalundr" #Moose Grove
+ mistecapiu.norse_amazon_language: "Elgavík" #Moose Cove
+ sainte_marguerite_plateau.norse_amazon_language: "Elgahryggr" #Moose Ridge
+ #Lómaheimr (manicouagan_province)
+ ouiauirabugu.norse_amazon_language: "Lómavík" #Loon Cove
+ toulnustouc.norse_amazon_language: "Lómaskógr" #Loon Forest
+ capotigamau.norse_amazon_language: "Lómaholt" #Loon Wooded Hill
+ manicouagan.norse_amazon_language: "Lómahryggr" #Loon Ridge Spine
+ mouchalagane.norse_amazon_language: "Lómalundr" #Loon Grove
+ kapuameut.norse_amazon_language: "Lómalóðir" #Loon grounds
+ piletisipuk.norse_amazon_language: "Lómamór" #Loon Moor
+ manicouagan_plateau.norse_amazon_language: "Lómahryggjar" #Loon Ridge Wasteland
+ manicouagan_depression.norse_amazon_language: "Lómalægð" #Loon Depression / Basin
+ lake_manicouagan.norse_amazon_language: "Vest Lómavatn" #West Loon Lake
+ lake_mouchalagane.norse_amazon_language: "Aust Lómavatn" #Eastern Loon Lake
+ #Bjórár (betsiamites_province)
+ pessamit.norse_amazon_language: "Bjóravík" #Beaver Cove
+ betsiamites.norse_amazon_language: "Bjóraholt" #Beaver Wooded Hill
+ pipmuacan.norse_amazon_language: "Öspaskógr" #Aspen Forest
+ itomamo.norse_amazon_language: "Bjóraskógr" #Beaver Forest
+ kitchesatsiou.norse_amazon_language: "Öspalundr" #Aspen Woods
+ manouanis.norse_amazon_language: "Viðasskógr" #Willow Woods
+ tetepisca.norse_amazon_language: "Bjóradalr" #Eastern Beaver Valley
+ essipit.norse_amazon_language: "Bjórafjörðr" #Beaver Fjord
+ manouane.norse_amazon_language: "Viðaslundr" #Willow Grove (medicinal zone)
+ manouanis_massif.norse_amazon_language: "Bjórhryggr" #Beaver Ridge Wasteland
+ lake_pipmuacan.norse_amazon_language: "Bjóravatn" #Beaver Lake
+ #Otradalir (saguenay_province)
+ chicoutimi.norse_amazon_language: "Otravellir" #Otter Fields (fertile fur-trapping lowlands)
+ shipshaw.norse_amazon_language: "Bjarkalundr" #Birch Grove (medicinal zone)
+ onatchiway.norse_amazon_language: "Otraskógr" #Otter Forest
+ outapimiskou.norse_amazon_language: "Otradalr" #Otter Valley (hunting hills)
+ metabetchouane.norse_amazon_language: "Otralundr" #Otter Grove (fur-rich lowland forest)
+ valin_mountains.norse_amazon_language: "Otrahryggir" #Otter Ridges (wasteland hills)
+ tadoussac.norse_amazon_language: "Otravík" #Otter Cove
+
+#Renamed Vanilla Sea Provinces
+ #Salacia
+ flores_island: "Vada Floralia" #Floral Shallows
+ sao_miguel_island1: "Vada Solaria" #Solar Shallows
+ sao_jorge_island: "Vada Montis" #Mountain Shallows
+ terceira_island: "Vada Tridentis" #Trident Shallows
+ santa_maria_island: "Vada Serena" #Calm Shallows
+
+ western_madeira_coast: "Vada Hesperia" #Western Shallows
+ eastern_madeira_coast: "Vada Spei" #Shallows of Hope
+
+ southern_fuerteventura_coast: "Vada Arida" #Dry Shallows
+ northern_fuerteventura_coast: "Vada Canaria" #Canarian Shallows
+ southern_gran_canaria_coast: "Vada Prima" #Prime Shallows
+ southern_tenerife_coast2: "Vada Nebulosa" #Misty Shallows
+ north_western_tenerife_coast: "Vada Occidentis" #Western Shallows
+ northern_tenerife_coast2: "Vada Alta" #High Shallows
+
+ #North America
+ mouth_of_saint_lawrence: "Mouth of the Friggjarár"
+ saint_lawrence_estuary: "Friggjarárós"
+
+##Skjaldarmörk (New Brunswick)
+ #Eikskógar (siknikt_province)
+ chipoudy.norse_amazon_language: "Eikdalr" #Oak Valley
+ petitcodiac.norse_amazon_language: "Eikholt" #Oak Hill
+ memramcook.norse_amazon_language: "Eikskjöldr" #Oaken Shield (Border with the Arnarvaengr)
+ richibucto.norse_amazon_language: "Eikvík" #Oak Cove
+ kouchibouguac.norse_amazon_language: "Makrílsvík" #Mackerel Cove
+ miramichi.norse_amazon_language: "Eikfjörðr" #Oak Fjord
+ neguac.norse_amazon_language: "Eiklundr" #Oak Grove 
+ anagance.norse_amazon_language: "Eikvellir" #Oak Plains
+ seeboosis.norse_amazon_language: "Eikskógr" #Oak Forest 
+ #Birkiskógar (kespek_province)
+ nepisiguit.norse_amazon_language: "Birkivík" #Birch Cove
+ tracadie.norse_amazon_language: "Birkivellir" #Birch plain
+ caraquet.norse_amazon_language: "Birkiskógr" #Birch Forest
+ restigouche.norse_amazon_language: "Birkifjörðr" #Birch Fjord
+ maleagit.norse_amazon_language: "Birkiholt" #Birch Hill
+ pogomeg.norse_amazon_language: "Birkilundr" #Birch Grove
+ asoqasqoq.norse_amazon_language: "Birkidalr" #Birch Valley
+ matapedia_highlands.norse_amazon_language: "Birkihryggir" #Birch Ridges (wasteland)
+ #Íkornadalir (madawaska_province)
+ madawaska.norse_amazon_language: "Íkornadalr" #Squirrel Valley
+ negoot.norse_amazon_language: "Íkornaholt" #Squirrel Hill
+ becaguimec.norse_amazon_language: "Íkornalundr" #Squirrel Grove
+ siegas.norse_amazon_language: "Íkornaskógr" #Squirrel Forest
+ #Askskógar (menahkwesk_province)
+ menahkwesk.norse_amazon_language: "Askhöfn" #Ash Harbor 
+ mispec.norse_amazon_language: "Askvík" #Ash Cove
+ kennebecasis.norse_amazon_language: "Askskógr" #Ash Forest 
+ washademoak.norse_amazon_language: "Askavellir" #Ash Fields 
+ otnabog.norse_amazon_language: "Rófavellir" #Beet Fields 
+ kcheeminpink.norse_amazon_language: "Mörðrholt" #Marten Hill 
+ canaan_bog.norse_amazon_language: "Askmýrr" #Ash marsh
+ grand_lake_ca.norse_amazon_language: "Askvatn" #Ash Lake 
+ #Þrastalundir (nashwaak_province)
+ nashwaak.norse_amazon_language: "Þrastaskógr" #Thrush Forest
+ oromocto.norse_amazon_language: "Baunavellir" #Bean Fields
+ meductic.norse_amazon_language: "Læknilundr" #Healing Grove
+ welamooktook.norse_amazon_language: "Þrastaholt" #Thrush Hill
+ pokiok.norse_amazon_language: "Þrastavellir" #Thrush Fields
+ #Márströnd (manan_province)
+ grand_manan.norse_amazon_language: "Stórmárey" #Great Gull Island
+ pocologan.norse_amazon_language: "Márskógr" #Gull Forest
+ chamcook.norse_amazon_language: "Márvík" #Gull Cove
+ magaguadavic.norse_amazon_language: "Márvellir" #Gull Fields
+
+##Arnarveldi (Acadia)
+ #Þorskeyjar (prince_edward_island_province)
+ elsiktuk.norse_amazon_language: "Þorskauga" #Cod Eye 
+ tignish.norse_amazon_language: "Þorsksporðr" #Cod Tail 
+ malpeque.norse_amazon_language: "Þorskhryggr" #Cod Spine 
+ tapu_tuitn.norse_amazon_language: "Þorskhjarta" #Cod Heart 
+ pukusamkek.norse_amazon_language: "Þorskuggi" #Cod Fin 
+ menageesenog.norse_amazon_language: "Þorskflakseyjar" #Flayed Cod Islands
+ #Hjörthorn (Cape breton - unamakik_province)
+ ainslie_lake.norse_amazon_language: "Hjörtauga" #Stag Eye
+ askataliank.norse_amazon_language: "Hjörtklauf" #Stag Hoof 
+ cheticamp.norse_amazon_language: "Hjörtholt" #Stag Hill
+ ingonish.norse_amazon_language: "Hjörtkviður" #Stag Belly
+ qospemk.norse_amazon_language: "Hjörthali" #Stag Tail
+ apaqtukowatek.norse_amazon_language: "Hjörtleggr" #Stag Leg 
+ sipuk.norse_amazon_language: "Hjörtsíða" #Stag Flank 
+ kluskapewiktuk.norse_amazon_language: "Hjörthryggr" #Stag Spine
+ bras_dor_lake.norse_amazon_language: "Stórhjörtauga" #Great Stag Eye
+ #Hundhöfuð (agg_piktuk_province)
+ pictou.norse_amazon_language: "Hundauga" #Hound Eye 
+ chignecto.norse_amazon_language: "Hundsnútr" #Hound Snout 
+ maccan.norse_amazon_language: "Hundtönn" #Hound Fang 
+ tatamagouche.norse_amazon_language: "Hundhaus" #Hound Skull 
+ antigonish.norse_amazon_language: "Hundeyra" #Hound Ear 
+ #Hindaströnd (eskikewakik_province)
+ canso.norse_amazon_language: "Hindauga" #Doe Eye 
+ kekwapskuk.norse_amazon_language: "Hindskinn" #Doe Hide 
+ wikipoq.norse_amazon_language: "Hindhryggr" #Doe Spine 
+ weljuik.norse_amazon_language: "Hindsíða" #Doe Flank 
+ #Hundkjaptr (sipeknekatik_province)
+ jijkwtuk.norse_amazon_language: "Hundtunga" #Hound Tongue 
+ cobequid.norse_amazon_language: "Hundmunnr" #Hound Mouth 
+ shubenacadie.norse_amazon_language: "Hundkverkr" #Hound Throat 
+ kennetook.norse_amazon_language: "Hundkjálki" #Hound Jawbone 
+ #Arnarhreiðr (kjipuktuk_province)
+ kjipuktuk.norse_amazon_language: "Nýja Arnarvík" #New Eagle Bay 
+ wetewatoqsik.norse_amazon_language: "Arnarnéf" #Eagle Beak 
+ musquedoboit.norse_amazon_language: "Fjaðurvík" #Feather Cove
+ aspotogan.norse_amazon_language: "Örvarvík" #Arrow Cove
+ esekatik.norse_amazon_language: "Arnarkló" #Eagle Claw 
+ #Gnægðströnd (kespukwitkw_province)
+ nmejuaqnek.norse_amazon_language: "Fangvík" #Catch Bay
+ nictaux.norse_amazon_language: "Fiskivík" #Fishing Cove
+ wekwayik.norse_amazon_language: "Auðskógr" #Wealth Forest (timber wealth)
+ chebogue.norse_amazon_language: "Forðiskógr" #Supply Forest
+ muinawamek.norse_amazon_language: "Stórfang" #Great Catch (major harbor)
+ nisiamk.norse_amazon_language: "Gnægðavík" #Abundance Bay
+ oqumkikiak.norse_amazon_language: "Fiskiströnd" #Fish Coast

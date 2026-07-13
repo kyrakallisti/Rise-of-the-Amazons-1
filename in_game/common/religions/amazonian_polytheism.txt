@@ -1,0 +1,83 @@
+﻿amazon_hellenism_religion = {
+    color = map_amazon_hellenic
+    group = amazon_polytheism
+
+	religious_aspects = 1
+    definition_modifier = {
+        army_light_infantry_power = 0.05
+        skill_of_new_artists = 0.1
+    }
+    
+    opinions = {
+        amazon_asatru_religion = positive			#Shared pure-amazon identity, mutual understanding
+		roman_amazon_religion = neutral				#They are still amazons, but they changed too much
+		erisian_heresy = enemy						#Chaos Worshipers
+    }
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+amazon_asatru_religion = { 
+	color = map_amazon_norse
+	group = amazon_polytheism
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+    opinions = {
+        amazon_hellenism_religion = positive		#Shared pure-amazon identity, mutual understanding
+		roman_amazon_religion = neutral				#They are strong, but too structured and rigid
+		erisian_heresy = enemy						#Chaos Worshipers
+    }
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+roman_amazon_religion = {
+    color = map_amazon_latin
+    group = amazon_polytheism
+
+	religious_aspects = 1
+    definition_modifier = {
+        army_heavy_infantry_power = 0.05
+        auto_slave_raid_different_religion = yes
+    }
+    
+    opinions = {
+		amazon_hellenism_religion = neutral			#shared identity under tension
+        amazon_asatru_religion = neutral			#shared identity under tension
+		erisian_heresy = enemy						#Chaos Worshipers
+    }
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+erisian_heresy = { 
+	color = map_amazon_erisian
+	group = amazon_polytheism
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+    opinions = {
+        amazon_hellenism_religion = enemy	
+		roman_amazon_religion = enemy
+		amazon_asatru_religion = enemy
+    }
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}

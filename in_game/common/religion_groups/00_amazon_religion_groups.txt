@@ -1,0 +1,11 @@
+﻿amazon_polytheism = {
+	color = map_amazon_hellenic
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = no
+	modifier = {
+		allow_female_leader = yes
+		allow_female_cabinet = yes
+		block_male_leader = yes
+		block_male_cabinet = yes
+	}
+}

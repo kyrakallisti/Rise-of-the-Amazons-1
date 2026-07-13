@@ -1,0 +1,16 @@
+﻿INJECT:monarchy = {
+	heir_selection = matriarchy
+	heir_selection = matrilineal_primogeniture
+	heir_selection = youngest_daughter_of_ruler
+	heir_selection = favorite_daughter_elective_succession
+	heir_selection = matriarchal_elective_succession
+}
+INJECT:republic = {
+	heir_selection = amazon_matrician_republic
+	heir_selection = amazon_oligarchy
+	heir_selection = amazon_democracy
+	heir_selection = amazon_technocracy
+	heir_selection = amazon_stratocracy
+	heir_selection = amazon_thalassocracy
+	heir_selection = erisian_anarchy
+}

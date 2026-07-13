@@ -1,0 +1,34 @@
+﻿l_english:
+#Heir Successions
+  HEIR_SELECTION_LEGALLY_FEMALE_DESC: "Secore for being a female within a Matriarchal Sociaety."
+ #Monarchy
+  matriarchy: "Matriarchy"
+  matriarchy_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('monarchy')] in which the [ruler|e] is the oldest female child of the previous [ruler]. Only female children can ever inherit and transfer the right to the throne to their own daughters."
+  matrilineal_primogeniture: "Matrilineal Primogeniture"
+  matrilineal_primogeniture_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('monarchy')] in which the [heir|e] is the oldest female child of the current [ruler|e]."
+  youngest_daughter_of_ruler: "Matrilineal Ultimogeniture"
+  youngest_daughter_of_ruler_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('monarchy')] in which the [ruler|e] is the youngest female child of the previous [ruler]."
+  favorite_daughter_elective_succession: "Favorite Daughter Elective Succession"
+  favorite_daughter_elective_succession_desc: "It is a type of [heir_selection|e] in which the old ruler would favor one of her daughters over the others and designate her as heir paying no attention to their age."
+  matriarchal_elective_succession: "Elective Succession Matriarchy"
+  matriarchal_elective_succession_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('monarchy')], in which the new ruler is elected by the [ShowEstateTypeName('nobles_estate')]. Although every noble would be eligible to be elected, the electors prefer a member of the current dynasty for the position of monarch.\n\n$UNSTABLE_UNION_WARNING$"
+ #Republic
+  amazon_matrician_republic: "Res Publica Matriciarum"
+  amazon_matrician_republic_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('republic')], in which the [ruler|e] is selected from the ranks of the Matrician Estate by [election|e] for a 5 year term."
+  amazon_oligarchy: "Amazon Oligarchy"
+  amazon_oligarchy_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('republic')], in which the [ruler|e] is selected from the ranks of the ruling minority by [election|e] for a life-long term."
+  amazon_democracy: "Amazon Democracy"
+  amazon_democracy_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('republic')], in which the [ruler|e] is selected by [election|e] for an established tenure of 5 years. All citizens, independant of their social class, can take part of the election."
+  amazon_technocracy: "Amazon Technocracy"
+  amazon_technocracy_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('republic')], in which the most administratively prominent Amazon rules for life."
+  amazon_stratocracy: "Amazon Stratocracy"
+  amazon_stratocracy_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('republic')], in which the most militarily prominent Amazon rules for life."
+  amazon_thalassocracy: "Amazon Thalassocracy"
+  amazon_thalassocracy_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('republic')], in which the most navally prominent Amazon rules for life."
+  erisian_anarchy: "Kallistē Anarkhía"
+  erisian_anarchy_desc: "It is a type of [heir_selection|e] of an Erisian Anarchy in which a Pirate Queen (a.k.a.: Kallistē) is chosen by Chaos itself, just like the Goddess Eris demands. For that to happen, the names of all candidates are placed inside a hat and taken to a blind parrot to pick one with its beak, rendering the Erisian Heretics even more unpredictable and dangerous."
+
+#Estate privileges
+  hoplite_politeia: "Hoplite Politeia"
+  hoplite_politeia_desc: "Citizenship within the polis carries both privileges and obligations. Those granted the rights of the Politeia are expected to maintain arms, train regularly, and answer the call to war as Hoplitai. In return, they demand a greater voice in the affairs of the state, for those who defend the polis refuse to remain unheard within it."
+

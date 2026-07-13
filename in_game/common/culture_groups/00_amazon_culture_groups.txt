@@ -1,0 +1,10 @@
+﻿# avoid naming the same as Cultures and Languages
+
+amazon_group = {	
+}
+hellenic_amazon_group = {
+}
+norse_amazon_group = {
+}
+roman_amazon_group = {
+}

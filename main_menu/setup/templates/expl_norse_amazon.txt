@@ -1,0 +1,37 @@
+﻿discovered_regions = {
+	nordrheimar_region
+	motherland_region
+	amazonotheia_region
+	macaronesia_region
+	
+	north_atlantic_islands_region
+
+	carpathia_region
+	ruthenia_region
+	baltic_region
+	scandinavian_region
+	north_german_region
+	great_britain_region
+	ireland_region
+}
+discovered_areas = {
+	labrador_sea_area
+	canadian_atlantic_coast_area
+
+	black_sea_area
+	bulgaria_area
+	yedisan_area
+	crimea_area
+
+	atlantic_gulf_stream_area
+	atlantic_labrador_area
+	atlantic_irminger_area
+	atlantic_north_atlantic_current_area
+
+	newfoundland_area
+	acadia_area
+	new_brunswick_area
+	prince_edward_island_area
+	quebec_area
+	labrador_area
+}

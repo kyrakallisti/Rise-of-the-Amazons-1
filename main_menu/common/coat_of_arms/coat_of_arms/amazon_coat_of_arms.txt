@@ -1,0 +1,813 @@
+@ratio = 1.5 # how wide the flags are compared to their height
+@height = 512 
+@width =  @[height*ratio]
+
+@five_sixths = @[5/6]
+@three_quarters = @[3/4]
+@two_thirds = @[2/3]
+@half = @[1/2]
+@third = @[1/3]
+@quarter = @[1/4]
+@sixth = @[1/6]
+
+@semy = 0.27
+
+@canton_scale_cross_x = @[ ( 333 / 768 ) + 0.001 ]
+@canton_scale_cross_y = @[ ( 205 / 512 ) + 0.001 ]
+
+#Arthemisia
+	AART = { 
+		pattern = "pattern_solid.dds"
+		color1 = "indigo_green"
+		color2 = "cream"
+		color3 = "grey"
+		
+		colored_emblem = {
+			texture = "ce_likopeltai.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AULF = { 
+		pattern = "pattern_solid.dds"
+		color1 = "white"
+		color2 = "blue"
+		
+		colored_emblem = {
+			texture = "ce_ulfsark.dds"
+			color1 = color2
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+#Arkhouda
+	AARK = { 
+		pattern = "pattern_solid.dds"
+		color1 = "beige"
+		color2 = "brown"
+		color3 = "red"
+		
+		colored_emblem = {
+			texture = "ce_bear_passant.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ABJN = { 
+		pattern = "pattern_solid.dds"
+		color1 = "brown"
+		color2 = "beige"
+		color3 = "white"
+		
+		colored_emblem = {
+			texture = "ce_bear_rampant_holding_axe.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+#Eldara
+	AELD = { 
+		pattern = "pattern_solid.dds"
+		color1 = "blue_sky"
+		color2 = "black"
+		color3 = "saffron"
+		
+		colored_emblem = {
+			texture = "ce_twin_ravens.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+
+	AFOL = { 
+		pattern = "pattern_solid.dds"
+		color1 = "purple"
+		color2 = "yellow"
+		
+		colored_emblem = {
+			texture = "ce_freyja.dds"
+			color1 = color2
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ASVE = { #Sverðfiskeyjar
+		pattern = "pattern_solid.dds"
+		color1 = "indigo"
+		color2 = "cyan"
+		color3 = "pearl"
+		color4 = "pearl"
+		
+		colored_emblem = {
+			texture = "ce_swordfish.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+#Arnareyjar
+	AARN = { #Arnareyjar
+		pattern = "pattern_solid.dds"
+		color1 = "black"
+		color2 = "saffron"
+		color3 = "yellow_pale"
+		color4 = "red"
+		
+		colored_emblem = {
+			texture = "ce_arnarey.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+#Vindmark
+	ASVA = { # svarthestar
+		pattern = "pattern_solid.dds"
+		color1 = "beige"
+		color2 = "brown_dark"
+		color3 = "black"
+		
+		colored_emblem = {
+			texture = "ce_twin_norse_runes.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AKVI = { # kvithestar
+		pattern = "pattern_solid.dds"
+		color1 = "brown_tea"
+		color2 = "white"
+		color3 = "white_secondary"
+		
+		colored_emblem = {
+			texture = "ce_twin_norse_runes.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ARAU = { # raudhestar
+		pattern = "pattern_solid.dds"
+		color1 = "maroon"
+		color2 = "red_light"
+		color3 = "red_scarlet"
+		
+		colored_emblem = {
+			texture = "ce_twin_norse_runes.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ASOL = { # solvmanar
+		pattern = "pattern_solid.dds"
+		color1 = "grey_dark"
+		color2 = "grey"
+		color3 = "ivory"
+		
+		colored_emblem = {
+			texture = "ce_twin_norse_runes.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AGUL = { # gulmanar
+		pattern = "pattern_solid.dds"
+		color1 = "saffron_mid"
+		color2 = "yellow"
+		color3 = "yellow_pale"
+		
+		colored_emblem = {
+			texture = "ce_twin_norse_runes.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ABRU = { # brunmanar
+		pattern = "pattern_solid.dds"
+		color1 = "brown_dark"
+		color2 = "saffron"
+		color3 = "clay"
+		
+		colored_emblem = {
+			texture = "ce_twin_norse_runes.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+
+#Throhaven Highlands
+	ATHR = { 
+		pattern = "pattern_solid.dds"
+		color1 = "red"
+		color2 = "white"
+		
+		colored_emblem = {
+			texture = "ce_wings_addorsed_shield.dds"
+			color1 = color2
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AHKF = { 
+		pattern = "pattern_solid.dds"
+		color1 = "green"
+		color2 = "saffron"
+		color3 = "pearl"
+		
+		colored_emblem = {
+			texture = "ce_bow_arrows_03.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	APYR = { 
+		pattern = "pattern_solid.dds"
+		color1 = "saffron"
+		color2 = "orange"
+		color3 = "yellow"
+		color4 = "red"
+		
+		colored_emblem = {
+			texture = "ce_twin_phoenix.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+
+#Hēliás Nēsoi
+	ASUN = { #Sunnaheimr
+		pattern = "pattern_solid.dds"
+		color1 = "orange"
+		color2 = "yellow"
+		
+		colored_emblem = {
+			texture = "ce_sun_radiant_simple.dds"
+			color1 = color2
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+
+#Miteras
+	ABAS = { #Basileia Amazōnōn
+		pattern = "pattern_solid.dds"
+		color1 = "indigo_green"
+		color2 = "white"
+		color3 = "yellow"
+		
+		colored_emblem = {
+			texture = "ce_hippolytide_dinasty.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	APER = { #Persephonea
+		pattern = "pattern_diagonal_split_04.dds"
+		color1 = "red_light"
+		color2 = "saffron"
+		color3 = "black"
+		color4 = "yellow"
+		
+		colored_emblem = {
+			texture = "ce_cerberus.dds"
+			color1 = color3
+			color2 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+  #Éndon Koílai
+	AAET = { #Melanaetidai
+		pattern = "pattern_checkers_diagonal_01.dds"
+		color1 = "red_light"
+		color2 = "pearl"
+		color3 = "black"
+		color4 = "yellow"
+		color5 = "white"
+		
+		colored_emblem = {
+			texture = "ce_melanaetos_eagle.dds"
+			color1 = color3
+			color2 = color4
+			color3 = color5
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ALEA = { #Leainídai
+		pattern = "pattern_diagonal_split_04.dds"
+		color1 = "saffron"
+		color2 = "orange"
+		color3 = "black"
+		color4 = "yellow"
+		
+		colored_emblem = {
+			texture = "ce_bend_lions_03.dds"
+			color1 = color3
+			color2 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+  #Norsellenic
+	ANEA = { #Neathemyskira
+		pattern = "pattern_solid.dds"
+		color1 = "cyan"
+		color2 = "white"
+		color3 = "yellow"
+		
+		colored_emblem = {
+			texture = "ce_svana_swan.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ANEA_Basilissa = { #Basilíssa Elpída
+		pattern = "pattern_solid.dds"
+		color1 = "cyan"
+		color2 = "white"
+		color3 = "yellow"
+		color4 = "red"
+		
+		colored_emblem = {
+			texture = "ce_hippolytide_dinasty_scar.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AARG = { #Argyría
+		pattern = "pattern_solid.dds"
+		color1 = "blue_gray"
+		color2 = "grey"
+		color3 = "white"
+		color4 = "red"
+		
+		colored_emblem = {
+			texture = "ce_silver_fox.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AEPL = { #Eplaeyjar (Mēlonēsos)
+		pattern = "pattern_solid.dds"
+		color1 = "green_light"
+		color2 = "red"
+		color3 = "green_pine"
+		
+		colored_emblem = {
+			texture = "ce_apples.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ARHO = { #Rhodonía
+		pattern = "pattern_solid.dds"
+		color1 = "saffron"
+		color2 = "red"
+		color3 = "green"
+		
+		colored_emblem = {
+			texture = "ce_rhodonia_rose.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AGRY = { #Akti Grýphōns
+		pattern = "pattern_solid.dds"
+		color1 = "black"
+		color2 = "saffron"
+		color3 = "orange"
+		color4 = "cyan"
+		
+		colored_emblem = {
+			texture = "ce_gryphon.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+
+
+#Hellenic Theocracies
+	AKRP = { #Ákra Persephónēs
+		pattern = "pattern_solid.dds"
+		color1 = "black"
+		color2 = "purple"
+		
+		colored_emblem = {
+			texture = "ce_persephone_pomegranate.dds"
+			color1 = color2
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ADEM = { #Demetréia
+		pattern = "pattern_solid.dds"
+		color1 = "brown"
+		color2 = "yellow"
+		
+		colored_emblem = {
+			texture = "ce_demeter_wheat.dds"
+			color1 = color2
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	APHR = { #Aphroditía
+		pattern = "pattern_solid.dds"
+		color1 = "purple"
+		color2 = "pearl"
+		color3 = "orange"
+		color4 = "pink"
+		
+		colored_emblem = {
+			texture = "ce_aphrodite_shell.dds"
+			color1 = color3
+			color2 = color2
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ANIK = { #Nikaion
+		pattern = "pattern_solid.dds"
+		color1 = "yellow"
+		color2 = "green"
+		
+		colored_emblem = {
+			texture = "ce_athena_nike.dds"
+			color1 = color2
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+
+#Athenaean Democracies
+	AGLA = { #Glaukopis
+		pattern = "pattern_solid.dds"
+		color1 = "red"
+		color2 = "white"
+		color3 = "green"
+		
+		colored_emblem = {
+			texture = "ce_athena_glaukopis.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ASOP = { #Sophion
+		pattern = "pattern_solid.dds"
+		color1 = "blue"
+		color2 = "yellow"
+		color3 = "white"
+		
+		colored_emblem = {
+			texture = "ce_athena_sophias.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	APRO = { #Promache
+		pattern = "pattern_solid.dds"
+		color1 = "red_dark"
+		color2 = "saffron"
+		
+		colored_emblem = {
+			texture = "ce_athena_promachos.dds"
+			color1 = color2
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AERG = { #Ergane
+		pattern = "pattern_solid.dds"
+		color1 = "saffron"
+		color2 = "green"
+		color3 = "white"
+		
+		colored_emblem = {
+			texture = "ce_athena_ergane.dds"
+			color1 = color3
+			color2 = color2
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	APOL = { #Poliás
+		pattern = "pattern_solid.dds"
+		color1 = "white"
+		color2 = "green"
+		color3 = "black"
+		
+		colored_emblem = {
+			texture = "ce_athena_polias.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AAIT = { #Aithyia
+		pattern = "pattern_solid.dds"
+		color1 = "blue_gray"
+		color2 = "white"
+		color3 = "pearl"
+		
+		colored_emblem = {
+			texture = "ce_athena_aethyia.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+
+#Thalassan Octarchy
+	ASER = { #Serikíon
+		pattern = "pattern_solid.dds"
+		color1 = "red_dark"
+		color2 = "white"
+		color3 = "brown"
+		color4 = "green"
+		
+		colored_emblem = {
+			texture = "ce_mulberry.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	APOR = { #Porphyráion
+		pattern = "pattern_solid.dds"
+		color1 = "tyrian"
+		color2 = "pink"
+		color3 = "cream"
+		
+		colored_emblem = {
+			texture = "ce_porphyraion.dds"
+			color1 = color3
+			color2 = color2
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ATHA = { #Thalassía
+		pattern = "pattern_solid.dds"
+		color1 = "blue"
+		color2 = "yellow"
+		color3 = "white"
+		color4 = "orange"
+		
+		colored_emblem = {
+			texture = "ce_thalassa.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AOPH = { #Ophidísion
+		pattern = "pattern_solid.dds"
+		color1 = "green"
+		color2 = "white"
+		color3 = "brown"
+		
+		colored_emblem = {
+			texture = "ce_snake_knot.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AMAR = { #Márgaron
+		pattern = "pattern_solid.dds"
+		color1 = "pearl"
+		color2 = "pink"
+		color3 = "purple"
+		color4 = "white"
+		
+		colored_emblem = {
+			texture = "ce_margaron_pearl.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ANAU = { #Naupēgía
+		pattern = "pattern_solid.dds"
+		color1 = "blue_dark"
+		color2 = "saffron"
+		color3 = "white"
+		color4 = "cyan"
+		
+		colored_emblem = {
+			texture = "ce_naupegion_trirreme.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AHES = { #Hestiaía
+		pattern = "pattern_solid.dds"
+		color1 = "saffron"
+		color2 = "pearl"
+		color3 = "yellow"
+		color4 = "orange"
+		
+		colored_emblem = {
+			texture = "ce_eternal_flame.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AHYP = { #Hyphásion
+		pattern = "pattern_solid.dds"
+		color1 = "beige"
+		color2 = "white"
+		color3 = "yellow"
+		color4 = "green"
+		
+		colored_emblem = {
+			texture = "ce_hyphasia_cotton.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+
+#Salacia (Born from Legio XII Salaciana Fidelis)
+	ASAL = { #Senatus Populusque Salaciae
+		pattern = "pattern_solid.dds"
+		color1 = "red"
+		color2 = "yellow"
+		color3 = "white"
+		color4 = "red"
+
+		colored_emblem = {
+			texture = "ce_laurel_wreath.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 0.975 0.975 } }			
+		}	
+		colored_emblem = {
+			texture = "ce_salacian_aquila.dds"
+			color1 = color2
+			color2 = hsv360 	{	25	70	33	} 	
+			color3 = color1
+			instance = { position = { 0.5 0.55 } scale = { 0.7 0.7 } }			
+		}			
+	}
+
+#Erisían Anarkhía
+	AERI = { #Erisía
+		pattern = "pattern_solid.dds"
+		color1 = "black"
+		color2 = "yellow"
+		color3 = "white"
+		
+		colored_emblem = {
+			texture = "ce_kallisti.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+
+#Formable Countries
+	AMZN = { #Amazonésia
+		pattern = "pattern_solid.dds"
+		color1 = "tyrian"
+		color2 = "white"
+		color3 = "yellow"
+		color4 = "red"
+		
+		colored_emblem = {
+			texture = "ce_hippolytide_dinasty_scar.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ANZV = { #Amazonveldi
+		pattern = "pattern_solid.dds"
+		color1 = "tyrian"
+		color2 = "white"
+		color3 = "saffron"
+		
+		colored_emblem = {
+			texture = "ce_twin_ravens.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+
+	AMTR = { #Metria Khora
+		pattern = "pattern_solid.dds"
+		color1 = "indigo_green"
+		color2 = "white"
+		color3 = "yellow"
+		color4 = "red"
+		
+		colored_emblem = {
+			texture = "ce_hippolytide_dinasty_scar.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AMZT = { #Amazonotheia
+		pattern = "pattern_solid.dds"
+		color1 = "white"
+		color2 = "green"
+		
+		colored_emblem = {
+			texture = "ce_athena_nike.dds"
+			color1 = color2
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ANHM = { #Nordheimar
+		pattern = "pattern_solid.dds"
+		color1 = "blue_sky"
+		color2 = "black"
+		color3 = "saffron"
+		
+		colored_emblem = {
+			texture = "ce_twin_ravens.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AFHM = { #Fjallheimar
+		pattern = "pattern_solid.dds"
+		color1 = "cyan"
+		color2 = "white"
+		
+		colored_emblem = {
+			texture = "ce_wings_addorsed_shield.dds"
+			color1 = color2
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+
+	AATH = { #Athenéia
+		pattern = "pattern_solid.dds"
+		color1 = "red_dark"
+		color2 = "saffron"
+		color3 = "green"
+		
+		colored_emblem = {
+			texture = "ce_athena_glaukopis.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	ATHL = { #Koinon of Thalassía
+		pattern = "pattern_solid.dds"
+		color1 = "blue_dark"
+		color2 = "saffron"
+		color3 = "pearl"
+		color4 = "orange"
+		
+		colored_emblem = {
+			texture = "ce_thalassa.dds"
+			color1 = color2
+			color2 = color3
+			color3 = color4
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}
+	AVND = { # Vindmark
+		pattern = "pattern_solid.dds"
+		color1 = "green_light"
+		color2 = "brown_dark"
+		color3 = "saffron"
+		
+		colored_emblem = {
+			texture = "ce_twin_norse_runes.dds"
+			color1 = color2
+			color2 = color3
+			instance = { position = { 0.5 0.5 } scale = { 1.10 1.10 } }				
+		}
+	}

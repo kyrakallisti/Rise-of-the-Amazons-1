@@ -1,0 +1,347 @@
+﻿#Empire Rank
+	AMZN_f = { #Empire of Amazonesia
+
+		level = 3
+		required_locations_fraction = 0.75
+		rule = historical
+		content_priority = 800
+		
+		potential = {
+			culture = { has_culture_group = culture_group:hellenic_amazon_group }
+		}
+		
+		allow = {
+			owns = location:heraion_basileion
+			owns = location:nea_themyskira
+			owns = location:glaukopis
+			owns = location:pharosthalasses
+			owns = location:nikaion
+			owns = location:lykos
+			owns = location:eldara
+			owns = location:thrudhavn
+			owns = location:arnarvik
+			owns = location:sagavind
+		}
+
+		name = AMZN
+		flag = AMZN
+		adjective = AMZN_ADJ
+		tag = AMZN
+		color = map_porphyraion
+
+		regions = {
+			motherland_region
+			amazonotheia_region
+			nordrheimar_region
+		}
+		areas = {
+			azores_area
+			magna_bellona_area
+		}
+		form_effect = {
+		}
+	}
+
+	AMZV_f = { #Empire of Amazonveldi
+
+		level = 3
+		required_locations_fraction = 0.75
+		rule = historical
+		content_priority = 800
+		
+		potential = {
+			culture = { has_culture_group = culture_group:norse_amazon_group }
+		}
+		
+		allow = {
+			owns = location:heraion_basileion
+			owns = location:nea_themyskira
+			owns = location:glaukopis
+			owns = location:pharosthalasses
+			owns = location:nikaion
+			owns = location:lykos
+			owns = location:eldara
+			owns = location:thrudhavn
+			owns = location:arnarvik
+			owns = location:sagavind
+		}
+
+		name = AMZV
+		flag = AMZV
+		adjective = AMZV_ADJ
+		tag = AMZV
+		color = map_porphyraion
+
+		regions = {
+			motherland_region
+			amazonotheia_region
+			nordrheimar_region
+		}
+		areas = {
+			newfoundland_area
+			azores_area
+		}
+		form_effect = {
+		}
+	}
+
+#Kingdom Ranks
+	AMTR_f = { #Metria Khora
+
+		level = 2	
+		required_locations_fraction = 0.75
+		rule = historical
+
+		potential = {
+			OR = {
+				culture = culture:heraean_amazon
+				culture = culture:norsellenic_amazon
+				culture = culture:aphroditian_amazon
+			}
+		}
+		
+		allow = {
+			owns = location:heraion_basileion
+			owns = location:nea_themyskira
+		}
+		
+		name = AMTR
+		flag = AMTR
+		adjective = AMTR_ADJ
+		tag = AMTR
+		color = map_amazon_norsellenic
+		
+		
+		regions = {
+			motherland_region
+		}
+		form_effect = {
+		}
+	}
+
+	AMZT_f = { #Amazonothéia
+
+		level = 2	
+		required_locations_fraction = 0.75
+		rule = historical
+
+		potential = {
+			OR = {
+				culture = culture:athenaean_amazon
+				culture = culture:thalassan_amazon
+				culture = culture:hestian_amazon
+			}
+		}
+		
+		allow = {
+			owns = location:glaukopis
+			owns = location:pharosthalasses
+			owns = location:nikaion
+		}
+		
+		name = AMZT
+		flag = AMZT
+		adjective = AMZT_ADJ
+		tag = AMZT
+		color = map_amazon_hellenic
+		
+		
+		regions = {
+			amazonotheia_region
+		}
+		form_effect = {
+		}
+	}
+
+	ANHM_f = { #Nordheimar
+
+		level = 2	
+		required_locations_fraction = 0.75
+		rule = historical
+
+		potential = {
+			OR = {
+				culture = culture:friggardaetur_amazon
+				culture = culture:arnarvaengir_amazon
+				culture = culture:saebornar_amazon
+			}
+		}
+		
+		allow = {
+			owns = location:eldara
+			owns = location:arnarvik
+			owns = location:alsos_idunnes		#Iðunnarlundr
+			owns = location:wipetikil 			#Ránvík
+		}
+		
+		name = ANHM
+		flag = ANHM
+		adjective = ANHM_ADJ
+		tag = ANHM
+		color = map_amazon_norse
+		
+		
+		areas = {
+			formodreland_area
+			arnarey_area
+			newfoundland_area
+		}
+		provinces = {
+			melonesos_province
+		}
+
+		form_effect = {
+		}
+	}
+
+	AFHM_f = { #Fjallheimar
+
+		level = 2	
+		required_locations_fraction = 0.75
+		rule = historical
+
+		potential = {
+			OR = {
+				culture = culture:thrudardotre_amazon
+				culture = culture:vindmarkar_amazon
+				culture = culture:freyjardotre_amazon
+			}
+		}
+		
+		allow = {
+			owns = location:sessrumnir
+			owns = location:thrudhavn
+			owns = location:sagavind
+			owns = location:thrymheimr
+		}
+		
+		name = AFHM
+		flag = AFHM
+		adjective = AFHM_ADJ
+		tag = AFHM
+		color = map_amazon_thrud
+
+
+		areas = {
+			thrudardaler_highlands_area
+			vindmark_area
+			arkouda_area
+		}
+
+		form_effect = {
+		}
+	}
+
+#Duchy Rank
+	AATH_f = { #Athenéia
+
+		level = 1	
+		required_locations_fraction = 0.6
+		rule = historical
+
+		potential = {
+			culture = culture:athenaean_amazon
+		}
+		
+		allow = {
+			owns = location:glaukopis
+			owns = location:sophion
+			owns = location:promache
+			owns = location:ergane
+			owns = location:polias
+			owns = location:aithyia
+			owns = location:nikaion
+		}
+		
+		name = AATH
+		flag = AATH
+		adjective = AATH_ADJ
+		tag = AATH
+		color = map_amazon_athenaean
+		
+		
+		areas = {
+			atheneia_area
+		}
+		provinces = {
+			nikaia_province
+			aithyia_province
+		}
+
+		form_effect = {
+		}
+	}
+
+	ATHL_f = { #Thalassía
+
+		level = 1	
+		required_locations_fraction = 0.6
+		rule = historical
+
+		potential = {
+			culture = culture:thalassan_amazon
+		}
+		
+		allow = {
+			owns = location:pharosthalasses
+			owns = location:porphyraion
+			owns = location:ophidision
+			owns = location:margaron
+			owns = location:naupegion
+			owns = location:hestias_hieron
+			owns = location:hyphasion
+			owns = location:serikion
+		}
+		
+		name = ATHL
+		flag = ATHL
+		adjective = ATHL_ADJ
+		tag = ATHL
+		color = map_amazon_thalassan
+		
+		
+		areas = {
+			thalasses_akte_area
+		}
+		provinces = {
+			porphyra_akte_province
+			serikia_province
+		}
+
+		form_effect = {
+		}
+	}
+
+	AVND_f = { #Vindmark
+
+		level = 1	
+		required_locations_fraction = 0.6
+		rule = historical
+
+		potential = {
+			culture = culture:vindmarkar_amazon
+		}
+		
+		allow = {
+			owns = location:hrimfaxivang
+			owns = location:skinfaxivang
+			owns = location:raudhstod
+			owns = location:sagavind
+			owns = location:solvang
+			owns = location:brunvang
+		}
+		
+		name = AVND
+		flag = AVND
+		adjective = AVND_ADJ
+		tag = AVND
+		color = map_amazon_vindmarkar
+		
+
+		areas = {
+			vindmark_area
+		}
+
+		form_effect = {
+		}
+	}

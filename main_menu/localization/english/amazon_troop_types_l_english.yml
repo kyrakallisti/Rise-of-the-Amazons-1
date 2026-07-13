@@ -1,0 +1,310 @@
+﻿l_english:
+#Neutralizing Masculine Vanilla names so the Amazons don't look odd
+  a_footmen: "Foot Soldiers"
+  a_footmen_levy: "Foot Soldiers Levy"
+  a_horsemen: "Horse Riders"
+  a_horsemen_desc: "Lightly-armored fighters mounted upon swift horses, bands of $a_horsemen$ have the mobility to harass, charge, and pursue."
+  a_armored_horsemen: "Armored Horse Riders" 
+  a_armored_horsemen_desc: "Horse Riders who are more heavily armored, usually with some form of mail or full plate, to charge headlong into enemy ranks."
+  a_crossbowmen: "Crossbows"
+  a_cavalrymen: "Cavalry"
+  a_heavy_cavalrymen: "Heavy Cavalry"
+  a_pikemen: "Pikes"
+  a_pikemen_desc: "$a_pikemen$ are soldiers armed with long polearms, allowing them to form dense formations that easily confront enemy cavalry charges, thus negating the power of cavalry on the battlefield." 
+  a_men_at_arms: "Armored Foot Soldiers"
+  a_men_at_arms_desc: "Warriors outfitted with a medley of hand-to-hand weapons, $a_men_at_arms$ are heavy melee infantry who can break through enemy formations."
+  a_men_at_arms_levy: "Armored Foot Soldiers Levy"
+  a_longbowmen: "Longbows"
+  a_late_longbowmen: "Reformed Longbows"
+
+#Salacian Unique Units
+  a_legionariae_1: "Salacian Legionaries"
+  a_legionariae_1_desc: "While the rest of Rome fragmented beneath the weight of invasion and decline, the Salacian Amazons remained united and steadfast in their devotion to Roman civilization. The Legio XII Salaciana, once garrisoned in Salacia, survived the fall of its parent Empire and was reborn as an Amazon legion. Preserved within the sacred Campi Bellonae, its traditions have endured for centuries, altered only where necessity demanded. Every Salacian Legionary marches as the heir to an unbroken martial lineage stretching back to the glory days of Rome."
+
+  a_legionariae_2: "Restored Legionaries"
+  a_legionariae_2_desc: "As the nations of the world embrace the Renaissance and rediscover the wisdom of antiquity, the Salacian Legions likewise look to their own past. Long-forgotten innovations such as the Lorica Segmentata, the Pilum and the Acies Triplex are restored to service. Once abandoned as overly complex and costly to maintain, these advances can now be sustained through improved metallurgy, administration, and logistics. By reviving the methods that once made the Roman armies the finest of their age, the Salacians restore the Legion to its former glory."
+
+  a_legionariae_3: "Expeditionary Legionaries"
+  a_legionariae_3_desc: "The Age of Discovery has carried Salacian banners far beyond their home shores. To serve the Senate's growing network of colonies and overseas possessions, the Legions have adapted to long campaigns, distant deployments, and unfamiliar foes. Supported by advanced logistics and powerful fleets, these Expeditionary Legionaries bring Roman order and Bellonan discipline to even the most distant frontiers of Salacian civilization."
+
+  a_legionariae_4: "Integrated Legionaries"
+  a_legionariae_4_desc: "The spread of gunpowder warfare has transformed the battlefield. While many armies abandoned their traditional methods entirely, the Salacian Legions instead adapted them. Arquebusiers now fight beside pikewomen and swordswomen in disciplined formations, combining the proven virtues of Roman organization with the destructive power of firearms. Though the Pilum has passed into history, the Legion remains as formidable as ever."
+
+  a_legionariae_5: "Reformed Legionaries"
+  a_legionariae_5_desc: "Centuries of warfare have taught the Salacian Legions a difficult lesson, tradition alone cannot win tomorrow's battles. The Scutum, the pike, and even the venerable Lorica Segmentata have finally yielded to the realities of modern warfare. Armed with muskets and drilled to deliver devastating volleys, Reformed Legionaries fight in disciplined ranks while retaining the unshakable resolve that has defined the Legion since the days of ancient Rome. Though their appearance has changed, their spirit remains the same."
+
+  a_legionariae_6: "Imperial Legionaries"
+  a_legionariae_6_desc: "After centuries of adaptation and reform, the Salacian Legion has reached the pinnacle of military excellence. Though little remains of the equipment carried by the ancient Legio XII Salaciana, its spirit endures unchanged. Armed with the finest weapons that modern industry can provide and drilled to a standard unmatched anywhere in the world, Imperial Legionaries serve as the embodiment of Salacia's Imperium: disciplined, professional, and victorious. They are living proof that while Rome itself may have fallen, Salacia never did."
+
+  unlock_legionariae_1_advance: "$a_legionariae_1$"
+  unlock_legionariae_1_advance_desc: "$a_legionariae_1_desc$"
+  unlock_legionariae_2_advance: "$a_legionariae_2$"
+  unlock_legionariae_2_advance_desc: "$a_legionariae_2_desc$"
+  unlock_legionariae_3_advance: "$a_legionariae_3$"
+  unlock_legionariae_3_advance_desc: "$a_legionariae_3_desc$"
+  unlock_legionariae_4_advance: "$a_legionariae_4$"
+  unlock_legionariae_4_advance_desc: "$a_legionariae_4_desc$"
+  unlock_legionariae_5_advance: "$a_legionariae_5$"
+  unlock_legionariae_5_advance_desc: "$a_legionariae_5_desc$"
+  unlock_legionariae_6_advance: "$a_legionariae_6$"
+  unlock_legionariae_6_advance_desc: "$a_legionariae_6_desc$"
+
+#Heraian Kataphraktoi
+  a_kataphractoi_1: "Heraian Kataphractoi"
+  a_kataphractoi_1_desc: "The Heraian Kataphractoi are drawn from the oldest and most prestigious noble dynasties of Metria Khora. Raised from birth to ride and wage war, they enter battle clad in the finest armor and mounted upon magnificent warhorses. Armed with long two-handed kontoi, these amazons strike with overwhelming force, breaking enemy lines in a storm of steel, discipline, and thunderous hooves."
+
+  a_kataphractoi_2: "Resurgent Kataphractoi"
+  a_kataphractoi_2_desc: "The scars left by the Norse-Amazon invasions have not yet fully faded, yet the noble houses of Metria Khora have rebuilt their fortunes and restored their martial traditions. Better equipped, better mounted, and more numerous than in generations past, the Resurgent Kataphractoi embody the determination of a people reclaiming their rightful place among the great powers of the world."
+
+  a_kataphractoi_3: "Heavy Kataphractoi"
+  a_kataphractoi_3_desc: "With the noble houses of Metria Khora restored to prosperity and power, the Kataphractoi have reached the pinnacle of their traditional form. Encased in magnificent suits of full plate armor and mounted upon carefully bred warhorses, these warriors represent the zenith of heavy cavalry warfare. Few formations can stop the impact of a Heavy Kataphract charge, and fewer still can survive it."
+
+  a_kataphractoi_4: "Guardian Kataphractoi"
+  a_kataphractoi_4_desc: "The spread of gunpowder has challenged the supremacy of heavy cavalry, yet the Kataphractoi remain among the most formidable warriors on any battlefield. Encased in masterfully crafted plate armor and mounted upon powerful destriers, they can shrug off most blades and even distant musket fire. Though no longer invulnerable, the Kataphractoi continue to dominate the field through superior training, discipline, and the overwhelming force of their charges."
+
+  a_kataphractoi_5: "Reformed Kataphractoi"
+  a_kataphractoi_5_desc: "The growing lethality of firearms has forced even the proud Kataphractoi to adapt. Abandoning the cumbersome armor that once encased both rider and steed, they now concentrate their protection upon the most vital areas while retaining their iconic steel masks and reinforced cuirasses. Faster, more agile, yet no less disciplined than their predecessors, the Reformed Kataphractoi continue to deliver devastating lance charges while exploiting speed and maneuver to strike where the enemy is weakest."
+
+  a_kataphractoi_6: "Imperial Kataphractoi"
+  a_kataphractoi_6_desc: "The Imperial Kataphractoi represent the culmination of centuries of Heraian heavy cavalry tradition. Though still drawn from the noble dynasties of Metria Khora, their loyalty now belongs first and foremost to the Basilissa and the Amazon Empire. Equipped with the finest arms and armor that modern industry can provide, these elite horsewomen combine the discipline of professional soldiers with the martial heritage of their ancestors. Wherever the Imperial Kataphractoi ride, the authority of the Crown follows in their wake."
+
+  unlock_kataphractoi_1_advance: "$a_kataphractoi_1$"
+  unlock_kataphractoi_1_advance_desc: "$a_kataphractoi_1_desc$"
+  unlock_kataphractoi_2_advance: "$a_kataphractoi_2$"
+  unlock_kataphractoi_2_advance_desc: "$a_kataphractoi_2_desc$"
+  unlock_kataphractoi_3_advance: "$a_kataphractoi_3$"
+  unlock_kataphractoi_3_advance_desc: "$a_kataphractoi_3_desc$"
+  unlock_kataphractoi_4_advance: "$a_kataphractoi_4$"
+  unlock_kataphractoi_4_advance_desc: "$a_kataphractoi_4_desc$"
+  unlock_kataphractoi_5_advance: "$a_kataphractoi_5$"
+  unlock_kataphractoi_5_advance_desc: "$a_kataphractoi_5_desc$"
+  unlock_kataphractoi_6_advance: "$a_kataphractoi_6$"
+  unlock_kataphractoi_6_advance_desc: "$a_kataphractoi_6_desc$"
+
+#Norsellenic Aspidoklastai
+  a_aspidoklastai_1: "Aspidoklastai"
+  a_aspidoklastai_1_desc: "Born from the mingling of Norse-Amazon conquerors and Hellenic-Amazon traditionalists, the Aspidoklastai embody the martial traditions of both peoples. Clad in heavy mail forged by the smiths of Metria Khora and armed with sturdy shields and fearsome axes, they were created to shatter phalanxes and bring down heavily armored Kataphractoi. Though their ancestors arrived as invaders, the Aspidoklastai now stand as loyal defenders of the realm, combining Norse ferocity with Hellenic discipline."
+  
+  a_aspidoklastai_2: "Hearthguard Aspidoklastai"
+  a_aspidoklastai_2_desc: "The descendants of the Norse-Amazon settlers no longer see themselves as foreign conquerors. Their villages, farms, and strongholds now dot the coasts of Metria Khora and the defense of these lands has become a matter of honor and duty. Armed with heavy axes and sturdy shields, the Hearthguard Aspidoklastai fight with the determination of warriors defending their homes, their families, and their place within the realm."
+
+  a_aspidoklastai_3: "Heavy Aspidoklastai"
+  a_aspidoklastai_3_desc: "As armor grows stronger and shields gradually disappear from the battlefield, the Aspidoklastai have adapted their methods accordingly. Forgoing shields in favor of heavier armor and massive two-handed poleaxes, they have become fearsome shock troops capable of smashing through plate armor and shattering enemy morale. Few warriors can withstand the force of a Heavy Aspidoklastai charge, and fewer still remain standing after the first blow lands."
+ 
+  a_aspidoklastai_4: "Chosen Aspidoklastai"
+  a_aspidoklastai_4_desc: "The rise of pike formations and gunpowder warfare has done little to diminish the battlefield value of the Aspidoklastai. Generations of combat experience have transformed them into elite assault troops, entrusted with the most difficult and dangerous tasks. Whether breaking enemy formations, storming fortifications or exploiting breaches in the line, the Chosen Aspidoklastai remain feared for their relentless aggression and unmatched skill with the axe."
+
+  a_aspidoklastai_5: "Grenadier Aspidoklastai"
+  a_aspidoklastai_5_desc: "Always quick to embrace any weapon capable of breaking enemy defenses, the Aspidoklastai readily adopted grenades as instruments of war. Selected from the strongest and most experienced warriors, these elite assault troops hurl explosive charges into enemy ranks before advancing with axe and pistol to finish the work. Their mastery of shock tactics has made the Grenadier Aspidoklastai a terrifying sight for fort defenders and field armies alike."
+ 
+  a_aspidoklastai_6: "Imperial Aspidoklastai"
+  a_aspidoklastai_6_desc: "Once the warriors of Norse-Amazon conquerors, the Aspidoklastai have become one of the most celebrated military institutions of the Amazon Empire. Drawn from the finest warriors of the Norsellenic provinces and equipped with the best arms the Empire can provide, they serve as elite assault troops capable of breaking even the strongest enemy positions. Armed with grenades, pistols, and their iconic axes, the Imperial Aspidoklastai embody centuries of martial evolution, combining the ferocity of their Norse ancestors with the discipline and loyalty expected of the Basilissa's finest soldiers."
+
+  unlock_aspidoklastai_1_advance: "$a_aspidoklastai_1$"
+  unlock_aspidoklastai_1_advance_desc: "$a_aspidoklastai_1_desc$"
+  unlock_aspidoklastai_2_advance: "$a_aspidoklastai_2$"
+  unlock_aspidoklastai_2_advance_desc: "$a_aspidoklastai_2_desc$"
+  unlock_aspidoklastai_3_advance: "$a_aspidoklastai_3$"
+  unlock_aspidoklastai_3_advance_desc: "$a_aspidoklastai_3_desc$"
+  unlock_aspidoklastai_4_advance: "$a_aspidoklastai_4$"
+  unlock_aspidoklastai_4_advance_desc: "$a_aspidoklastai_4_desc$"
+  unlock_aspidoklastai_5_advance: "$a_aspidoklastai_5$"
+  unlock_aspidoklastai_5_advance_desc: "$a_aspidoklastai_5_desc$"
+  unlock_aspidoklastai_6_advance: "$a_aspidoklastai_6$"
+  unlock_aspidoklastai_6_advance_desc: "$a_aspidoklastai_6_desc$"
+
+#Athenaian Hoplitai
+  a_hoplitai_1: "Hoplitai"
+  a_hoplitai_1_desc: "The Hoplitai form the backbone of the armies from the fragmented and democratic city-states of Athēnéia. Drawn from the free citizenry and trained from an early age in the arts of warfare and civic duty, they fight in disciplined phalanxes with spear and shield, standing firm where lesser troops might falter. Though neither professional soldiers nor aristocratic warriors, their courage, education and devotion to their Polis make them among the most reliable levied infantry in Amazonesia."
+  
+  a_hoplitai_2: "Veteran Hoplitai"
+  a_hoplitai_2_desc: "Generations of rivalry, alliance and warfare among the city-states of Athēnéia have forged the Hoplitai into seasoned defenders of their respective Poleis. Though still drawn from the citizenry rather than a professional warrior class, these experienced soldiers possess a deep understanding of formation warfare and civic responsibility. Their steadfast discipline and determination allow them to stand firm against enemies that would scatter lesser militias."
+  
+  a_hoplitai_3: "Phalangitai"
+  a_hoplitai_3_desc: "As the city-states of Athēnéia grew wealthier and more ambitious, their military traditions evolved beyond the limitations of the old hoplite phalanx. Armed with a massively long pike and protected by improved armor, the Phalangitai fight in dense formations capable of presenting a forest of spearpoints to any foe. Though their tactics have changed, they remain citizen-soldiers at heart, combining civic duty with battlefield discipline to form some of the most dependable infantry in Amazonesia."
+  
+  a_hoplitai_4: "Sarissa Phalangitai"
+  a_hoplitai_4_desc: "The military reforms of Athēnéia have transformed the ancient phalanx into a formidable force suited to a changing age. Armed with improved Sarissa pikes and increasingly supported by early firearms, the Phalangitai continue to draw their strength not from professional warrior castes, but from the dedication of the Polis itself. Every woman who takes her place within the formation stands not merely as a soldier, but as a citizen fulfilling her duty to her community."
+  
+  a_hoplitai_5: "Politophylakes"
+  a_hoplitai_5_desc: "The ancient pike formations of Athēnéia have finally given way to the age of powder and shot. Organized into disciplined firing lines and trained extensively in the use of muskets, the Politophylakes continue the long tradition of citizen service upon which the city-states were founded. Though no longer fighting as phalangites, they remain steadfast defenders of their communities, combining civic responsibility with martial discipline to remain one of the most dependable militia forces in Amazonesia."
+  
+  a_hoplitai_6: "National Guard"
+  a_hoplitai_6_desc: "The National Guard represents the culmination of centuries of civic and military tradition. Drawn from an educated citizenry and trained to high standards of discipline, these conscripted soldiers stand ready to defend the liberties, institutions and communities of Athēnéia and beyond. Though armed and equipped according to the demands of modern warfare, they remain heirs to the ancient Hoplitai who once marched from the Poleis with spear and shield. In their ranks, the bond between citizenship and military service endures stronger than ever."
+
+  unlock_hoplitai_1_advance: "$a_hoplitai_1$"
+  unlock_hoplitai_1_advance_desc: "$a_hoplitai_1_desc$"
+  unlock_hoplitai_2_advance: "$a_hoplitai_2$"
+  unlock_hoplitai_2_advance_desc: "$a_hoplitai_2_desc$"
+  unlock_hoplitai_3_advance: "$a_hoplitai_3$"
+  unlock_hoplitai_3_advance_desc: "$a_hoplitai_3_desc$"
+  unlock_hoplitai_4_advance: "$a_hoplitai_4$"
+  unlock_hoplitai_4_advance_desc: "$a_hoplitai_4_desc$"
+  unlock_hoplitai_5_advance: "$a_hoplitai_5$"
+  unlock_hoplitai_5_advance_desc: "$a_hoplitai_5_desc$"
+  unlock_hoplitai_6_advance: "$a_hoplitai_6$"
+  unlock_hoplitai_6_advance_desc: "$a_hoplitai_6_desc$"
+
+#Artemisian Lykotoxotai
+  a_lykotoxotai_1: "Lykotoxotai"
+  a_lykotoxotai_1_desc: "The Lykotoxotai are the famed Wolf Archers of Artemisia, raised among the vast northern forests and devoted to Artemis, Goddess of the Hunt. Skilled trackers, hunters and woodswomen from an early age, they wield powerful recurved bows with deadly precision while moving unseen through terrain that would hinder ordinary soldiers. Clad in wolf pelts and bearing the traditions of their frontier homeland, the Lykotoxotai excel at ambushes, skirmishes and relentless harassment, striking from the shadows before vanishing back into the wilderness."
+  
+  a_lykotoxotai_2: "Veteran Lykotoxotai"
+  a_lykotoxotai_2_desc: "For generations, the divided lands of Artemisia have been shaped by constant frontier warfare. Norse settlers occupy portions of the western coast, while raids, skirmishes and territorial disputes continue to plague the shores. The Lykotoxotai who so often rise to defend their homes emerge as seasoned warriors, their skills honed through years of stalking enemies across forests and mountains alike. Patient, disciplined and deadly, the Veteran Lykotoxotai embody the hard-earned experience of a people who have never known true peace."
+  
+  a_lykotoxotai_3: "Huntmaster Lykotoxotai"
+  a_lykotoxotai_3_desc: "The shores of Artemisia have bled enough from endless invasions. The Lykotoxotai no longer limit themselves to defending their forests. Clad in finer armor and wielding powerful composite war bows, these master huntresses now carry the war into enemy lands, serving as scouts, raiders and sharpshooters for the armies of Artemisia. Their enemies soon learn that the wolves of the north have taken to the seas. The hunted are about to become the hunters."
+  
+  a_lykotoxotai_4: "Chosen Lykotoxotai"
+  a_lykotoxotai_4_desc: "The spread of gunpowder has transformed warfare across the world, yet the Lykotoxotai remain unmatched in the forests, mountains and wilderness of the north. Drawn from the most accomplished huntresses of Artemisia, these chosen warriors combine generations of woodland expertise with exceptional skill at archery, reconnaissance and irregular warfare. While armies clash in ordered formations, the Chosen Lykotoxotai strike unseen, gathering intelligence, harassing supply lines and hunting down vulnerable foes far beyond the battlefield."
+  
+  a_lykotoxotai_5: "Wolfguard Lykotoxotai"
+  a_lykotoxotai_5_desc: "The Wolfguard Lykotoxotai represent the pinnacle of Artemisia's ancient hunting traditions. Armed with finely crafted rifles capable of striking targets far beyond the reach of ordinary smoothbore muskets, they serve as reconnaissance, markswomen and ambushers for the armies of the north. Yet despite embracing new weapons, they remain faithful to the teachings of Artemis, retaining the stealth, patience and fieldcraft that made their predecessors legendary. Whether stalking enemy officers through dense forests, screening advancing armies or harassing retreating foes, the Wolfguard Lykotoxotai are feared throughout Amazonesia as relentless hunters who strike with deadly precision before vanishing into the wild once more."
+  
+  a_lykotoxotai_6: "Imperial Lykotoxotai"
+  a_lykotoxotai_6_desc: "Centuries of warfare, exploration and frontier service have transformed the Lykotoxotai into one of the most respected military institutions in Amazonesia. Armed with superb rifles and renowned for their unmatched fieldcraft, they serve as scouts, pathfinders and sharpshooters wherever the Amazon Empire's armies march. Though their equipment has changed with the times, the spirit of the hunt endures. To become an Imperial Lykotoxotēs is to join a lineage stretching back to the wolf-clad huntresses who once defended the forests of Artemisia alone against foreign invaders."
+
+  unlock_lykotoxotai_1_advance: "$a_lykotoxotai_1$"
+  unlock_lykotoxotai_1_advance_desc: "$a_lykotoxotai_1_desc$"
+  unlock_lykotoxotai_2_advance: "$a_lykotoxotai_2$"
+  unlock_lykotoxotai_2_advance_desc: "$a_lykotoxotai_2_desc$"
+  unlock_lykotoxotai_3_advance: "$a_lykotoxotai_3$"
+  unlock_lykotoxotai_3_advance_desc: "$a_lykotoxotai_3_desc$"
+  unlock_lykotoxotai_4_advance: "$a_lykotoxotai_4$"
+  unlock_lykotoxotai_4_advance_desc: "$a_lykotoxotai_4_desc$"
+  unlock_lykotoxotai_5_advance: "$a_lykotoxotai_5$"
+  unlock_lykotoxotai_5_advance_desc: "$a_lykotoxotai_5_desc$"
+  unlock_lykotoxotai_6_advance: "$a_lykotoxotai_6$"
+  unlock_lykotoxotai_6_advance_desc: "$a_lykotoxotai_6_desc$"
+
+#Thalassan Polyremes
+  n_polyreme_1: "Diērēs"
+  n_polyreme_1_desc: "The Diērēs is the foundation of the Thalassan naval tradition. Swift, agile and perfectly suited to the narrow seas and island-strewn waters of Amazonothéia, these war galleys are crewed by disciplined sailors and marines drawn from their wealthy maritime city-states. Though modest in size, they embody the seamanship and determination that have long protected Thalassan commerce and independence."
+
+  n_polyreme_2: "Triērēs"
+  n_polyreme_2_desc: "Building upon centuries of naval experience, the Triērēs combines greater endurance and fighting power with the speed and maneuverability for which Thalassan vessels are renowned. Their crews train relentlessly in navigation, boarding actions and coordinated fleet maneuvers, ensuring Thalassan dominance throughout the archipelagos and coastal waters of Amazonothéia."
+
+  n_polyreme_3: "Tetrērēs"
+  n_polyreme_3_desc: "The Tetrērēs represents the maturation of the Thalassan art of war at sea. Larger and more heavily armed than its predecessors, it nenetheless retains the agility required to navigate straits, reefs and narrow channels. Under experienced captains, squadrons of Tetrērēis serve as the mailed fist of the Thalassan fleets, protecting trade routes and carrying the League's influence across distant waters."
+
+  n_polyreme_4: "Hexērēs"
+  n_polyreme_4_desc: "The Hexērēs is the pinnacle of classical galley warfare. Designed to project power far beyond the traditional waters of the Thalassan city-states, these formidable warships carry larger complements of marines and increasingly sophisticated naval armaments. Yet despite their size, they remain swift enough to exploit the shallow waters and confined seas where heavier vessels dare not venture."
+
+  n_polyreme_5: "Oktērēs"
+  n_polyreme_5_desc: "The Oktērēs stands at the crossroads between tradition and innovation. Built during an era of rapid naval advancement, these imposing polyremes combine the proven strengths of the ancient Thalassan galley with increasingly sophisticated artillery and reinforced construction. Though larger and more heavily armed than any previous generation, they remain remarkably agile in the shallow seas, straits and archipelagos of Amazonothéia. Serving as both warships and instruments of power projection, the Oktērēs allows the Thalassan city-states to preserve their naval supremacy even as the character of warfare upon the seas begins to change."
+
+  n_polyreme_6: "Thalassophylax Dekērēs"
+  n_polyreme_6_desc: "Named for the Guardians of Thalassa, the Thalassophylax Dekērēs represents the culmination of centuries of maritime innovation. Revered throughout Amazonesia, these magnificent vessels serve as the backbone of the Thalassan fleets, combining unmatched seamanship, disciplined marine contingents and powerful naval artillery. Though the age of great sailing warships dawns upon the world, the Thalassophylax remains a symbol of Thalassan mastery over the seas blessed by the Goddess Thalassa herself."
+
+  unlock_polyreme_1_advance: "$n_polyreme_1$"
+  unlock_polyreme_1_advance_desc: "$n_polyreme_1_desc$"
+  unlock_polyreme_2_advance: "$n_polyreme_2$"
+  unlock_polyreme_2_advance_desc: "$n_polyreme_2_desc$"
+  unlock_polyreme_3_advance: "$n_polyreme_3$"
+  unlock_polyreme_3_advance_desc: "$n_polyreme_3_desc$"
+  unlock_polyreme_4_advance: "$n_polyreme_4$"
+  unlock_polyreme_4_advance_desc: "$n_polyreme_4_desc$"
+  unlock_polyreme_5_advance: "$n_polyreme_5$"
+  unlock_polyreme_5_advance_desc: "$n_polyreme_5_desc$"
+  unlock_polyreme_6_advance: "$n_polyreme_5$"
+  unlock_polyreme_6_advance_desc: "$n_polyreme_5_desc$"
+
+#Saebornar Longships
+  n_longship_1: "Snekkja" #Sea Snake
+  n_longship_1_desc: "The Snekkja is the vessel upon which the fortunes of the Saebornar were built. Descended from the ancient longships that first crossed the cold waters between the Old World and Sverðfiskeyjar, these swift seacrafts are unmatched in speed and maneuverability. Though lightly armed and fragile in battle, their skilled crews navigate treacherous seas with confidence born of generations spent beneath the gaze of Rán, Goddess of the Sea."
+
+  n_longship_2: "Skeið" #Slider or Cutter
+  n_longship_2_desc: "As commerce and exploration expand across the North Atlantic, the Skeið reflects the growing sophistication of Saebornar shipwrights. Larger and more seaworthy than the traditional Snekkja, it combines the agility of its predecessors with improvements inspired by foreign shipbuilding traditions from South Amazonesia. Merchant captains, explorers and naval patrols alike rely upon these versatile vessels to maintain the sea-lanes that bind Norðrheimar and the Vinland colonies together."
+
+  n_longship_3: "Dreki" #Dragon
+  n_longship_3_desc: "The Dreki marks the transition from coastal longship to true ocean-going vessel. Built for lengthy voyages across the northern seas, it carries larger crews, greater provisions and increasingly powerful armaments. By this age, the routes first pioneered by the Saebornar have become well-traveled highways of trade and migration, and the Drakkar serves as their trusted guardian."
+
+  n_longship_4: "Ránarvörðr" #Guardian of Rán
+  n_longship_4_desc: "Named for the Guardians of Rán, the Ránarvörðr represents the maturity of the Saebornar naval tradition. Fast, resilient and expertly handled, these vessels excel at escorting merchant convoys, hunting enemy commerce and projecting power across distant seas. Their crews regard themselves not merely as sailors, but as inheritors of a sacred maritime legacy stretching back to the first overseas colonies of Norðrheimar."
+
+  n_longship_5: "Haffrigata" #Sea Frigate
+  n_longship_5_desc: "The Haffrigata embodies centuries of accumulated maritime knowledge. Though modern naval warfare increasingly favors larger and more heavily armed vessels, the captains of the Haffrigata continue to rely upon superior speed, maneuverability and seamanship to dictate the terms of battle. Feared by pirates and respected by admirals, these swift warships patrol vast stretches of ocean with remarkable efficiency."
+
+  n_longship_6: "Hafdrottning" #Queen of the Sea
+  n_longship_6_desc: "The Hafdrottning stands as the culmination of Norðrheimar Atlantic seamanship. Combining advanced naval technology with the enduring principles established by the earliest Saebornar navigators, these formidable ships are renowned for their speed, discipline and uncanny ability to evade destruction. Whether scouting distant horizons, protecting vital trade routes or pursuing enemy fleets across entire oceans, the Nordhafsjäger remains a symbol of the mastery of the Sea-Born over the waters of the world."
+
+  unlock_longship_1_advance: "$n_longship_1$"
+  unlock_longship_1_advance_desc: "$n_longship_1_desc$"
+  unlock_longship_2_advance: "$n_longship_2$"
+  unlock_longship_2_advance_desc: "$n_longship_2_desc$"
+  unlock_longship_3_advance: "$n_longship_3$"
+  unlock_longship_3_advance_desc: "$n_longship_3_desc$"
+  unlock_longship_4_advance: "$n_longship_4$"
+  unlock_longship_4_advance_desc: "$n_longship_4_desc$"
+  unlock_longship_5_advance: "$n_longship_5$"
+  unlock_longship_5_advance_desc: "$n_longship_5_desc$"
+  unlock_longship_6_advance: "$n_longship_5$"
+  unlock_longship_6_advance_desc: "$n_longship_5_desc$"
+
+#Vindmarkar Vindryttarar
+  a_vindryttarar_1: "Vindryttarar"
+  a_vindryttarar_1_desc: "The Vindryttarar are practically born on the saddle among the windswept plateaus and towering cliffs of Vindmark, where horses are as essential to survival as food or shelter. From childhood they learn to ride across open grasslands, hunt from on horseback, and navigate the treacherous highland trails. Armed with powerful bows and guided by the instincts of generations of horse clans, these riders strike swiftly before vanishing into the endless winds of the north."
+
+  a_vindryttarar_2: "High Vindryttarar"
+  a_vindryttarar_2_desc: "The High Vindryttarar are veterans of the upper plateaus, hardened by relentless weather and the isolation of Vindmark's highest settlements. Their horses are carefully bred for endurance and their commanders are chosen for skill rather than birth. Able to traverse terrain that would halt most armies, they serve as scouts, raiders, and mercenaries, carrying the reputation of the wind clans far beyond their homeland."
+
+  a_vindryttarar_3: "Himmelryttarar"
+  a_vindryttarar_3_desc: "As the clans of Vindmark grew more organized, the Himmelryttarar emerged as disciplined cavalry formations capable of fighting across vast distances. Their mastery of mounted archery allows them to harass enemy columns, screen allied armies and strike exposed flanks with deadly precision. To their foes, the 'Sky Riders' skirmishes seem to appear from the horizon itself before disappearing once more into the open country."
+
+  a_vindryttarar_4: "High Himmelryttarar"
+  a_vindryttarar_4_desc: "The High Himmelryttarar represent the finest horsewomen of the Vindmarkar clans. Selected from among the most accomplished riders of Vindmark's highland strongholds, they combine exceptional horsemanship with years of battlefield experience. Whether serving as elite scouts, clan champions or commanders of roaming warbands, these riders embody the fierce independence and merit-based traditions of the northern plateaus."
+
+  a_vindryttarar_5: "Stormryttarar"
+  a_vindryttarar_5_desc: "The arrival of firearms transformed the horse clans of Vindmark. The Stormryttarar replaced their bows with carbines and rifles, yet retained the mobility that had long made them feared across the north. Galloping into range before unleashing volleys that crack like thunder, they strike with the speed of a storm and withdraw before the enemy can react."
+
+  a_vindryttarar_6: "High Stormryttarar"
+  a_vindryttarar_6_desc: "The High Stormryttarar are the culmination of centuries of Vindmarkar horsemanship. Mounted on the finest plateau-bred horses and armed with modern rifles, they combine the independence of the old wind clans with the discipline of veteran cavalry. Wherever the High Stormryttarar ride, the thunder of hooves and gunfire announces the coming of the storm."
+
+  unlock_vindryttarar_1_advance: "$n_vindryttarar_1$"
+  unlock_vindryttarar_1_advance_desc: "$n_vindryttarar_1_desc$"
+  unlock_vindryttarar_2_advance: "$n_vindryttarar_2$"
+  unlock_vindryttarar_2_advance_desc: "$n_vindryttarar_2_desc$"
+  unlock_vindryttarar_3_advance: "$n_vindryttarar_3$"
+  unlock_vindryttarar_3_advance_desc: "$n_vindryttarar_3_desc$"
+  unlock_vindryttarar_4_advance: "$n_vindryttarar_4$"
+  unlock_vindryttarar_4_advance_desc: "$n_vindryttarar_4_desc$"
+  unlock_vindryttarar_5_advance: "$n_vindryttarar_5$"
+  unlock_vindryttarar_5_advance_desc: "$n_vindryttarar_5_desc$"
+  unlock_vindryttarar_6_advance: "$n_vindryttarar_5$"
+  unlock_vindryttarar_6_advance_desc: "$n_vindryttarar_5_desc$"
+
+#Arnarvaengir Arnarskyttarar
+  a_arnarskyttarar_1: "Arnarskyttarar"
+  a_arnarskyttarar_1_desc: "The Arnarskyttarar are the famous 'Eagle Shooters' of Arnareyar, raised among towering cliffs and windswept coasts where keen eyesight and steady hands are prized above all else. From an early age they learn to judge distance, read the wind and loose their arrows with remarkable precision. Wielding powerful longbows crafted from the finest timber of the northern forests, these disciplined markswomen strike with deadly accuracy long before their enemies can close the distance."
+
+  a_arnarskyttarar_2: "Keen Arnarskyttarar"
+  a_arnarskyttarar_2_desc: "Years of relentless practice and frontier warfare have refined the eyesight and judgment of the Keen Arnarskyttarar to extraordinary levels. Few warriors can rival their ability to estimate range, account for shifting winds or strike vulnerable targets amidst the chaos of battle. Enemy officers and standard bearers quickly learn that nowhere within bowshot is truly safe from the gaze of the Eagles."
+
+  a_arnarskyttarar_3: "Elite Arnarskyttarar"
+  a_arnarskyttarar_3_desc: "Only the most accomplished archers among the Arnarvængir earn the honor of joining the Elite Arnarskyttarar. Equipped with finely crafted war bows and superior equipment, they represent the pinnacle of traditional Amazon archery. Their disciplined volleys and uncanny precision allow them to inflict devastating casualties while sowing fear and disorder among enemy formations."
+
+  a_arnarskyttarar_4: "Eagleguard Arnarskyttarar"
+  a_arnarskyttarar_4_desc: "As firearms spread across Amazonesia, the Eagleguard Arnarskyttarar preserve centuries of accumulated mastery while adapting their methods to an ever-changing battlefield. Entrusted with protecting the finest traditions of Arnarvængir marksmanship, they continue to demonstrate that discipline, patience and precision remain as valuable as ever, even in an age increasingly dominated by gunpowder."
+
+  a_arnarskyttarar_5: "Longshot Arnarskyttarar"
+  a_arnarskyttarar_5_desc: "Embracing finely crafted rifles while preserving the principles that made their predecessors legendary, the Longshot Arnarskyttarar have become the foremost markswomen of Amazonesia. Their exceptional training allows them to eliminate officers, artillery crews and other valuable targets at distances that ordinary soldiers would scarcely attempt. Every shot is deliberate, every bullet carefully placed and every miss considered a personal failure."
+
+  a_arnarskyttarar_6: "Imperial Arnarskyttarar"
+  a_arnarskyttarar_6_desc: "The Imperial Arnarskyttarar embody the culmination of centuries of Arnarvængir marksmanship. Armed with the finest precision rifles produced by the Empire and selected from the greatest shooting traditions of their homeland, they became the greatest nightmare of enemy armies marching on open fields. Their reputation is such that enemy commanders learn to fear not the sound of their rifles, but the silent moments before a perfectly aimed shot finds its mark."
+
+  unlock_arnarskyttarar_1_advance: "$n_arnarskyttarar_1$"
+  unlock_arnarskyttarar_1_advance_desc: "$n_arnarskyttarar_1_desc$"
+  unlock_arnarskyttarar_2_advance: "$n_arnarskyttarar_2$"
+  unlock_arnarskyttarar_2_advance_desc: "$n_arnarskyttarar_2_desc$"
+  unlock_arnarskyttarar_3_advance: "$n_arnarskyttarar_3$"
+  unlock_arnarskyttarar_3_advance_desc: "$n_arnarskyttarar_3_desc$"
+  unlock_arnarskyttarar_4_advance: "$n_arnarskyttarar_4$"
+  unlock_arnarskyttarar_4_advance_desc: "$n_arnarskyttarar_4_desc$"
+  unlock_arnarskyttarar_5_advance: "$n_arnarskyttarar_5$"
+  unlock_arnarskyttarar_5_advance_desc: "$n_arnarskyttarar_5_desc$"
+  unlock_arnarskyttarar_6_advance: "$n_arnarskyttarar_5$"
+  unlock_arnarskyttarar_6_advance_desc: "$n_arnarskyttarar_5_desc$"
+
+#Military Buildings
+  EFFECTIVE_CAMPI_BELLONAE_BUILDINGS: "Effective Campi Bellonae Buildings"
+  EFFECTIVE_HIPPARCHEION_BUILDINGS: "Effective Hipparcheion Buildings"

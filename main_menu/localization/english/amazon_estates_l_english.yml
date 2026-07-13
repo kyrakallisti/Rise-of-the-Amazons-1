@@ -1,0 +1,33 @@
+﻿l_english:
+#Hellenic Amazon
+  crown_estate_hellenic_amazon_monarchy: "Basileía" #Queenship / Royal Authority
+  crown_estate_hellenic_amazon_republic: "Politeía" #The arrangement of power in a state
+  crown_estate_hellenic_amazon_theocracy: "Hierón" #The Sacred / The Holy Domain
+
+  nobles_estate_hellenic_amazon: "Eugenê" #The Well-Born / The Noble-Born
+  clergy_estate_hellenic_amazon: "Hierateía" #The Clergy / The Priesthood
+  burghers_estate_hellenic_amazon: "Astoí" #The Townsfolk / Citizens
+  peasants_estate_hellenic_amazon: "Ágroikoi" #Rural Folk
+  tribes_estate_hellenic_amazon: "Bárbaroi"
+
+#Norse Amazon
+  crown_estate_norse_amazon_monarchy: "Konungdómr" #Kingship / Royal Authority
+  crown_estate_norse_amazon_republic: "Lögþing" #Law Assembly
+  crown_estate_norse_amazon_theocracy: "Goðorð" #Sacred Chieftain Authority
+
+  nobles_estate_norse_amazon: "Dróttkonur" #Ladies of the warband
+  clergy_estate_norse_amazon: "Gyðjur" #Priestesses
+  burghers_estate_norse_amazon: "Borgarkonur" #Townswomen
+  peasants_estate_norse_amazon: "Bændakonur" #Farm women
+  tribes_estate_norse_amazon: "Skrælingjar" #Wildlings
+
+#Roman Amazon (-ae is feminine of -ii. Patricii > Matriciae)
+  crown_estate_roman_amazon_monarchy: "Domus Principis" #House of the Princeps
+  crown_estate_roman_amazon_republic: "Res Publica"
+  crown_estate_roman_amazon_theocracy: "Res Sacra"
+
+  nobles_estate_roman_amazon: "Matriciae" #Matricians
+  clergy_estate_roman_amazon: "Sacerdotissae" 
+  burghers_estate_roman_amazon: "Equites"
+  peasants_estate_roman_amazon: "Plebeiae"
+  tribes_estate_roman_amazon: "Peregrinae" #Conquered non-citizens

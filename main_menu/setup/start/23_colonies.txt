@@ -1,0 +1,278 @@
+colony_manager={
+#Sverðfiskeyjar Claims
+  #Rostungaheimr (Labrador)
+	nunatsiavut_province = {
+		tag = ASVE
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	aivitok_province = {
+		tag = ASVE
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	ashuanipi_province = {
+		tag = ASVE
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	michikamau_province = {
+		tag = ASVE
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	labrador_province = {
+		tag = ASVE
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+  #Ísbjarnarheimr (Nunavik)
+	nunavik_area = {
+		tag = ASVE
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	tursujuq_province = {
+		tag = ASVE
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	koksoak_province = {
+		tag = ASVE
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	qikiqtaaluk_province = {
+		tag = ASVE
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	caniapiscau_province = {
+		tag = ASVE
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	ungunniavik_province = {
+		tag = ASVE
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	mushuau_province = {
+		tag = ASVE
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+#Eldára's claims
+  #Quebec
+  	mecatina_province = {
+		tag = ASVE
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+  	mecatina_province = {
+		tag = AELD
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	minganie_province = {
+		tag = ASVE
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	minganie_province = {
+		tag = AELD
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	gaspe_province = {
+		tag = AELD
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	rimouski_province = {
+		tag = AELD
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	kikonteku_province = {
+		tag = AELD
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	stadacona_province = {
+		tag = AELD
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	uashat_province = {
+		tag = AELD
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	manicouagan_province = {
+		tag = AELD
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	betsiamites_province = {
+		tag = AELD
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	saguenay_province = {
+		tag = AELD
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+#Arnareyjar Claims
+  #Arnarveldi (Acadia)
+	epexiwitk_province = {
+		tag = AARN
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	unamakik_province = {
+		tag = AARN
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	agg_piktuk_province = {
+		tag = AARN
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	eskikewakik_province = {
+		tag = AARN
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	sipeknekatik_province = {
+		tag = AARN
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	kjipuktuk_province = {
+		tag = AARN
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+	kespukwitkw_province = {
+		tag = AARN
+		category = exclusive
+		reason = treaty_of_sagavind
+	}
+
+###Original
+	sodra_osterbotten_province = {
+		tag = SWE
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	
+	vasterbotten_province = {
+		tag = SWE
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	norra_osterbotten_province = {
+		tag = SWE
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	
+	
+	ume_lappmark_province = {
+		tag = SWE
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	pite_lappmark_province = {
+		tag = SWE
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	lule_lappmark_province = {
+		tag = SWE
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	torne_lappmark_province = {
+		tag = SWE
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	kemi_lappmark_province = {
+		tag = SWE
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	kajanaland_province = {
+		tag = SWE
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	
+	
+	tavastland_province = {
+		tag = SWE
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	
+	satakunta_province = {
+		tag = SWE
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	
+	savolax_province = {
+		tag = SWE
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	
+	vyborg_province = {
+		tag = SWE
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	korela_province = {
+		tag = NOV
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	
+	white_karelia_province = {
+		tag = NOV
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	inner_white_karelia_province = {
+		tag = NOV
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	western_kola_province = {
+		tag = NOV
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	korela_province = {
+		tag = NOV
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+		
+	south_kola_province = {
+		tag = NOV
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+	
+	north_kola_province = {
+		tag = NOV
+		category = exclusive
+		reason = treaty_of_noteborg
+	}
+}
+

@@ -1,0 +1,103 @@
+﻿#Unit Triggers
+##Hellenic
+    unit_heraean_kataphractoi_location_trigger = {
+        dominant_culture = { has_culture_group = culture_group:hellenic_amazon_group }
+        owner ?= {
+            has_primary_or_accepted_culture = culture:heraean_amazon
+        }
+    }
+
+    unit_norsellenic_aspidoklastai_unit_location_trigger = {
+        dominant_culture = {
+            has_culture_group = culture_group:hellenic_amazon_group
+            has_culture_group = culture_group:norse_amazon_group
+        }
+        owner ?= {
+            has_primary_or_accepted_culture = culture:norsellenic_amazon
+        }
+    }
+
+    unit_hoplitai_pop_trigger = {
+        OR = {
+            culture = culture:athenaean_amazon
+            AND = {
+                location = { 
+                    owner ?= { 
+                        has_estate_privilege = estate_privilege:hoplite_politeia
+                        has_primary_or_accepted_culture = root.dominant_culture
+                    }
+                    OR = { 
+                        integration_level = integrated
+                        integration_level = core
+                    }
+                }
+            }
+        }
+    }
+    unit_hoplitai_location_trigger = {
+        OR = {
+            dominant_culture ?= culture:athenaean_amazon
+            AND = {
+                owner ?= { 
+                    has_estate_privilege = estate_privilege:hoplite_politeia
+                    has_primary_or_accepted_culture = root.dominant_culture
+                }
+                OR = { 
+                    integration_level = integrated
+                    integration_level = core
+                }
+            }
+        }
+    }
+
+    unit_artemisian_lykotoxotai_location_trigger = {
+        dominant_culture = { has_culture_group = culture_group:hellenic_amazon_group }
+        owner ?= {
+            has_primary_or_accepted_culture = culture:artemisian_amazon
+        }
+    }
+
+    unit_thalassan_polyreme_location_trigger = {
+        OR = {
+            dominant_culture ?= culture:thalassan_amazon
+            AND = {
+                owner ?= { 
+                    has_primary_or_accepted_culture = root.dominant_culture
+                }
+                OR = { 
+                    integration_level = integrated
+                    integration_level = core
+                }
+            }
+        }
+    }
+
+##Norse
+    unit_saebornar_ship_location_trigger = {
+        OR = {
+            dominant_culture ?= culture:saebornar_amazon
+            AND = {
+                owner ?= { 
+                    has_primary_or_accepted_culture = root.dominant_culture
+                }
+                OR = { 
+                    integration_level = integrated
+                    integration_level = core
+                }
+            }
+        }
+    }
+
+    unit_vindmark_unit_location_trigger = {
+        dominant_culture = { has_culture_group = culture_group:norse_amazon_group }
+        owner ?= {
+            has_primary_or_accepted_culture = culture:vindmarkar_amazon
+        }
+    }
+
+    unit_arnarskyttarar_location_trigger = {
+        dominant_culture = { has_culture_group = culture_group:norse_amazon_group }
+        owner ?= {
+            has_primary_or_accepted_culture = culture:arnarvaengir_amazon
+        }
+    }
