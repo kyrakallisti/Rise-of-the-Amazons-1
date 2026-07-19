@@ -119,7 +119,7 @@
 		}
 		amazonotheia_region = {
 			atheneia_area = {
-				glaukopis_province = { glaukopis erythropedion boulaia athenophylakon kyanopotamia kyanodrymos glaukelimne }
+				glaukopis_province = { glaukopis erythropedion pronoia athenophylakon kyanopotamia kyanodrymos glaukelimne }
 				sophion_province = { sophion kyanagora potamophylakon sophopotamos erythragros sitagros }
 				promache_province = { promache promachikonpedion aspispotamos limnophylakon siderokremnon siderophylakon }
 				ergane_province = { ergane marmarolakkos potamagora erythroplinthion erythropotamia demiourgion southwest_jormungandr_mountains }
@@ -133,8 +133,8 @@
 			thalasses_akte_area = {
 				thalassia_province = { pharosthalasses eirene_aigialos hierapyle mesokolposaigialos tracheiaigialos tracheiakymata hierochrysos dakryathalasses }
 				ophidia_province = { ophidision diplopotamos potamophoros bathypedion eirenakymata thymiaterion ophioakra styraxoroi ophion_mountains }
-				pelagion_margaron_province = { margaron konchelimen lamprakymata korallionpelagos bathypelagos kyanokymata galenakymata metaxychora }
-				naupegia_province = { naupegion eisbolenesos anemoessaigialos klydoniaigialos galeneaigialos nomophylakteaigialos nausxylon hylenausike }
+				pelagion_margaron_province = { margaron konchelimen lamprakymata korallia margaritobythos kyanokymata galenakymata metaxychora }
+				naupegia_province = { naupegion eisbolenesos anemoessaigialos klydoniaigialos galeneaigialos neoria nausxylon hylenausike }
 			}
 			hestias_nesoi_area = {
 				hestiaia_province = { hestias_hieron glykanthes_pedion melikalamos_pedion anemophylax_nesos hygra_lophoi skioessa_alsos theron_drymos drymodes_aigialos hestias_dakrylimne hestias_aionion_pyr }

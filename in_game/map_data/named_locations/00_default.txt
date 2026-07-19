@@ -322,7 +322,7 @@
    #Glaukópis
       glaukopis = e7014d
       erythropedion = ff3eab
-      boulaia = 961448
+      pronoia = 961448
       athenophylakon = c81379
       kyanopotamia = a5457b
       kyanodrymos = 661543
@@ -407,8 +407,8 @@
       margaron = bc5901
       konchelimen = db7852
       lamprakymata = cb7713
-      korallionpelagos = 6f430f
-      bathypelagos = f0c28b
+      korallia = 6f430f
+      margaritobythos = f0c28b
       kyanokymata = ef8c17
       galenakymata = dca05a
       metaxychora = b1732a
@@ -418,7 +418,7 @@
       anemoessaigialos = 407f2f
       klydoniaigialos = 35d909
       galeneaigialos = 1f8155
-      nomophylakteaigialos = 063c23
+      neoria = 063c23
       nausxylon = 95fd79
       hylenausike = 055631
 ###Hestías Nēsoi

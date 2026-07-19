@@ -293,7 +293,7 @@ locations={
 	#Glaukópis
 		glaukopis = { legalism = yes	feudalism = yes }
 		erythropedion = { legalism = yes	feudalism = yes }
-		boulaia = { legalism = yes	feudalism = yes }
+		pronoia = { legalism = yes	feudalism = yes }
 		athenophylakon = { legalism = yes	feudalism = yes }
 		kyanopotamia = { legalism = yes	feudalism = yes }
 		kyanodrymos = { legalism = yes	feudalism = yes }
@@ -375,8 +375,8 @@ locations={
 		margaron = { legalism = yes	feudalism = yes }
 		konchelimen = { legalism = yes	feudalism = yes }
 		lamprakymata = { legalism = yes	feudalism = yes }
-		korallionpelagos = { legalism = yes	feudalism = yes }
-		bathypelagos = { legalism = yes	feudalism = yes }
+		korallia = { legalism = yes	feudalism = yes }
+		margaritobythos = { legalism = yes	feudalism = yes }
 		kyanokymata = { legalism = yes	feudalism = yes }
 		galenakymata = { legalism = yes	feudalism = yes }
 		metaxychora = { legalism = yes	feudalism = yes }
@@ -386,7 +386,7 @@ locations={
 		anemoessaigialos = { legalism = yes	feudalism = yes }
 		klydoniaigialos = { legalism = yes	feudalism = yes }
 		galeneaigialos = { legalism = yes	feudalism = yes }
-		nomophylakteaigialos = { legalism = yes	feudalism = yes }
+		neoria = { legalism = yes	feudalism = yes }
 		nausxylon = { legalism = yes	feudalism = yes }
 		hylenausike = { legalism = yes	feudalism = yes }
 	###Hestías Nēsoi

@@ -1454,7 +1454,7 @@ game_object_locator={
 			scale={ 1.000000 1.000000 1.000000 }
 		}
 		{
-			id=boulaia
+			id=pronoia
 			position={ 5704.500000 0.000000 5752.500000 }
 			rotation={ -0.000000 -0.907420 -0.000000 0.420225 }
 			scale={ 1.000000 1.000000 1.000000 }
@@ -1862,13 +1862,13 @@ game_object_locator={
 			scale={ 1.000000 1.000000 1.000000 }
 		}
 		{
-			id=korallionpelagos
+			id=korallia
 			position={ 5733.500000 0.000000 5669.500000 }
 			rotation={ -0.000000 -0.998064 -0.000000 -0.062189 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
 		{
-			id=bathypelagos
+			id=margaritobythos
 			position={ 5750.500000 0.000000 5652.500000 }
 			rotation={ -0.000000 -0.846103 -0.000000 0.533019 }
 			scale={ 1.000000 1.000000 1.000000 }
@@ -1922,7 +1922,7 @@ game_object_locator={
 			scale={ 1.000000 1.000000 1.000000 }
 		}
 		{
-			id=nomophylakteaigialos
+			id=neoria
 			position={ 5783.500000 0.000000 5664.500000 }
 			rotation={ -0.000000 -0.053323 -0.000000 0.998577 }
 			scale={ 1.000000 1.000000 1.000000 }

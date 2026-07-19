@@ -62,7 +62,7 @@ locations={
 
 	#Athenéia
 		glaukopis = { rank = city 	town_setup = hellenic_amazon_city }
-		boulaia = { rank = town 	town_setup = hellenic_amazon_town }
+		pronoia = { rank = town 	town_setup = hellenic_amazon_town }
 		sophion = { rank = city 	town_setup = hellenic_amazon_city }
 		kyanagora = { rank = town 	town_setup = hellenic_amazon_town }
 		promache = { rank = city 	town_setup = hellenic_amazon_city }

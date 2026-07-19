@@ -1186,7 +1186,6 @@
 		category = navy_light_ship
 		copy_from = n_age_6_revolutions_light_ship
 		buildable = yes
-		upgrades_to = n_longship_6
 
 		hull_size = -2
 		movement_speed = 2

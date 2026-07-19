@@ -322,7 +322,7 @@
   #Glaukópis
     glaukopis = { topography = flatland vegetation = farmland climate = mediterranean religion = amazon_hellenism_religion culture = athenaean_amazon raw_material = olives }
     erythropedion = { topography = flatland vegetation = farmland climate = mediterranean religion = amazon_hellenism_religion culture = athenaean_amazon raw_material = wheat }
-    boulaia = { topography = flatland vegetation = farmland climate = mediterranean religion = amazon_hellenism_religion culture = athenaean_amazon raw_material = livestock }
+    pronoia = { topography = flatland vegetation = farmland climate = mediterranean religion = amazon_hellenism_religion culture = athenaean_amazon raw_material = livestock }
     athenophylakon = { topography = hills vegetation = woods climate = mediterranean religion = amazon_hellenism_religion culture = athenaean_amazon raw_material = fruit }
     kyanopotamia = { topography = plateau vegetation = grasslands climate = mediterranean religion = amazon_hellenism_religion culture = athenaean_amazon raw_material = wool }
     kyanodrymos = { topography = hills vegetation = woods climate = mediterranean religion = amazon_hellenism_religion culture = athenaean_amazon raw_material = lumber }
@@ -406,8 +406,8 @@
  	margaron = { topography = flatland vegetation = grasslands climate = mediterranean religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = sand natural_harbor_suitability = 0.80 }
  	konchelimen = { topography = flatland vegetation = grasslands climate = mediterranean religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = pearls }
  	lamprakymata = { topography = flatland vegetation = sparse climate = subtropical religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = pearls }
- 	korallionpelagos = { topography = flatland vegetation = sparse climate = subtropical religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = fish }
- 	bathypelagos = { topography = flatland vegetation = sparse climate = subtropical religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = fish }
+ 	korallia = { topography = flatland vegetation = sparse climate = subtropical religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = fish }
+ 	margaritobythos = { topography = flatland vegetation = sparse climate = subtropical religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = fish }
  	kyanokymata = { topography = flatland vegetation = grasslands climate = mediterranean religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = fish }
  	galenakymata = { topography = wetlands vegetation = woods climate = mediterranean religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = fish natural_harbor_suitability = 0.40 }
  	metaxychora = { topography = wetlands vegetation = woods climate = mediterranean religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = millet }
@@ -417,7 +417,7 @@
  	anemoessaigialos = { topography = flatland vegetation = sparse climate = subtropical religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = fish }
  	klydoniaigialos = { topography = flatland vegetation = sparse climate = subtropical religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = tin }
  	galeneaigialos = { topography = flatland vegetation = woods climate = subtropical religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = lumber }
- 	nomophylakteaigialos = { topography = flatland vegetation = woods climate = subtropical religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = fiber_crops }
+ 	neoria = { topography = flatland vegetation = woods climate = subtropical religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = fiber_crops }
  	nausxylon = { topography = hills vegetation = forest climate = subtropical religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = lumber }
  	hylenausike = { topography = hills vegetation = forest climate = subtropical religion = amazon_hellenism_religion culture = thalassan_amazon raw_material = lumber }
 ###Hestías Nēsoi

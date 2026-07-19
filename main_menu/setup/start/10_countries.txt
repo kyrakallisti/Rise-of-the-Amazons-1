@@ -784,7 +784,7 @@ countries = {
   #Athenaean Democracies
 	AGLA = {
 		own_control_core = {
-			glaukopis erythropedion boulaia athenophylakon kyanopotamia kyanodrymos
+			glaukopis erythropedion pronoia athenophylakon kyanopotamia kyanodrymos
 		}
 		capital = glaukopis
 
@@ -952,7 +952,7 @@ countries = {
 	}
 	AMAR = { #Márgaron
 		own_control_core = {
-			margaron konchelimen lamprakymata korallionpelagos bathypelagos kyanokymata galenakymata metaxychora
+			margaron konchelimen lamprakymata korallia margaritobythos kyanokymata galenakymata metaxychora
 		}
 		capital = margaron
 
@@ -967,7 +967,7 @@ countries = {
 	}
 	ANAU = { #Naupēgía
 		own_control_core = {
-			naupegion eisbolenesos anemoessaigialos klydoniaigialos galeneaigialos nomophylakteaigialos nausxylon hylenausike
+			naupegion eisbolenesos anemoessaigialos klydoniaigialos galeneaigialos neoria nausxylon hylenausike
 		}
 		capital = naupegion
 
