@@ -153,6 +153,11 @@
  ANHM_f: "Norðrheimar"
  ANHM_f_desc: "For untold centuries, the Amazon Clans of the North have remained divided, locked in endless rivalries and struggles for power. Though bound by common traditions and ancestry, no ruler has ever succeeded in forging a lasting union among them. Yet the world is changing. If the Norse Amazons wish to stand alongside the great powers of the age, they must put aside old feuds and unite beneath a single banner, however difficult that task may prove."
 
+ AFHM: "Fjallheimar"
+ AFHM_ADJ: "High Norse Amazon"
+ AFHM_f: "Fjallheimar"
+ AFHM_f_desc: "The Amazon Clans of the Amazonesian Highlands have remained isolated in the mountain valleys and plateaus of their homelands, surrounded by mountains and steep cliffs that provided safety, but also cut them from the rest of the world. Yet the world is changing. The mountains wont keep them safe foerever. If the High Norse Amazons wish to stand alongside the great powers of the age, they must overcome geaography itself and connect themselves across their rugged harsh lands, however steep of a slope it may be."
+
 #Duchy Rank
  AATH: "Athenéia"
  AATH_ADJ: "Athenaian"

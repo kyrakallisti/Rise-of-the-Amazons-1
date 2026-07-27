@@ -79,7 +79,7 @@
 	}
 
 ##Hellenic
-#Heraian Kataphraktoi
+ #Heraian Kataphraktoi
 	unlock_kataphractoi_1_advance = {
 		potential = { 
 			OR = {
@@ -158,7 +158,7 @@
 		unlock_unit = a_kataphractoi_6
 	}
 
-#Norsellenic Aspidoklastai
+ #Norsellenic Aspidoklastai
 	unlock_aspidoklastai_1_advance = {
 		age = age_1_traditions
 		requires = iron_working
@@ -168,6 +168,7 @@
 				has_or_had_tag = AMTR
 				has_or_had_tag = AMZN
 				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
 			}
 		}
 		unlock_unit = a_aspidoklastai_1
@@ -181,6 +182,7 @@
 				has_or_had_tag = AMTR
 				has_or_had_tag = AMZN
 				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
 			}
 		}
 		unlock_unit = a_aspidoklastai_2
@@ -194,6 +196,7 @@
 				has_or_had_tag = AMTR
 				has_or_had_tag = AMZN
 				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
 			}
 		}
 		unlock_unit = a_aspidoklastai_3
@@ -207,6 +210,7 @@
 				has_or_had_tag = AMTR
 				has_or_had_tag = AMZN
 				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
 			}
 		}
 		unlock_unit = a_aspidoklastai_4
@@ -220,6 +224,7 @@
 				has_or_had_tag = AMTR
 				has_or_had_tag = AMZN
 				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
 			}
 		}
 		unlock_unit = a_aspidoklastai_5
@@ -233,12 +238,13 @@
 				has_or_had_tag = AMTR
 				has_or_had_tag = AMZN
 				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
 			}
 		}
 		unlock_unit = a_aspidoklastai_6
 	}
 
-#Athenaian Hoplitai
+ #Athenaian Hoplitai
 	unlock_hoplitai_1_advance = {
 		potential = { 
 			OR = {
@@ -324,7 +330,7 @@
 		unlock_levy = levy_a_hoplitai_6
 	}
 
-#Artemisian Lykotoxotai
+ #Artemisian Lykotoxotai
 	unlock_lykotoxotai_1_advance = {
 		age = age_1_traditions
 		requires = iron_working
@@ -392,7 +398,7 @@
 		unlock_unit = a_lykotoxotai_6
 	}
 
-#Thalassan Polyremes
+ #Thalassan Polyremes
 	unlock_polyreme_1_advance = {
 		age = age_1_traditions
 		requires = ship_building_advance
@@ -464,7 +470,7 @@
 	}
 
 ##Norse
-#Saebornar Longships
+ #Saebornar Longships
 	unlock_longship_1_advance = {
 		age = age_1_traditions
 		requires = ship_building_advance
@@ -529,7 +535,7 @@
 		unlock_unit = n_longship_6
 	}
 
-#Vindmarkar Vindryttarar
+ #Vindmarkar Vindryttarar
 	unlock_vindryttarar_1_advance = {
 		potential = { 
 			OR = {
@@ -614,8 +620,8 @@
 		unlock_unit = a_vindryttarar_6
 	}
 
-#Arnarvaengir Arnarskyttarar
-	unlock_arnarskyttarar_1_advance = {
+ #Arnarvaengir Arnarskyttur
+	unlock_arnarskyttur_1_advance = {
 		age = age_1_traditions
 		requires = iron_working
 		potential = {
@@ -625,9 +631,9 @@
 				has_or_had_tag = AMZV
 			}
 		}
-		unlock_unit = a_arnarskyttarar_1
+		unlock_unit = a_arnarskyttur_1
 	}
-	unlock_arnarskyttarar_2_advance = {
+	unlock_arnarskyttur_2_advance = {
 		age = age_2_renaissance
 		requires = armory_advance
 		potential = {
@@ -637,9 +643,9 @@
 				has_or_had_tag = AMZV
 			}
 		}
-		unlock_unit = a_arnarskyttarar_2
+		unlock_unit = a_arnarskyttur_2
 	}
-	unlock_arnarskyttarar_3_advance = {
+	unlock_arnarskyttur_3_advance = {
 		age = age_3_discovery
 		requires = training_fields_advance
 		potential = {
@@ -649,9 +655,9 @@
 				has_or_had_tag = AMZV
 			}
 		}
-		unlock_unit = a_arnarskyttarar_3
+		unlock_unit = a_arnarskyttur_3
 	}
-	unlock_arnarskyttarar_4_advance = {
+	unlock_arnarskyttur_4_advance = {
 		age = age_4_reformation
 		requires = barracks_advance
 		potential = {
@@ -661,9 +667,9 @@
 				has_or_had_tag = AMZV
 			}
 		}
-		unlock_unit = a_arnarskyttarar_4
+		unlock_unit = a_arnarskyttur_4
 	}
-	unlock_arnarskyttarar_5_advance = {
+	unlock_arnarskyttur_5_advance = {
 		age = age_5_absolutism
 		requires = military_revolution_advance
 		potential = {
@@ -673,9 +679,9 @@
 				has_or_had_tag = AMZV
 			}
 		}
-		unlock_unit = a_arnarskyttarar_5
+		unlock_unit = a_arnarskyttur_5
 	}
-	unlock_arnarskyttarar_6_advance = {
+	unlock_arnarskyttur_6_advance = {
 		age = age_6_revolutions
 		requires = conscription_center_advance
 		potential = {
@@ -685,5 +691,120 @@
 				has_or_had_tag = AMZV
 			}
 		}
-		unlock_unit = a_arnarskyttarar_6
+		unlock_unit = a_arnarskyttur_6
+	}
+
+ #Friggardætur Friggarvarðir
+	unlock_friggarvardir_1_advance = {
+		age = age_1_traditions
+		requires = iron_working
+		potential = {
+			OR = {
+				culture = culture:friggardaetur_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_friggarvardir_1
+	}
+	unlock_friggarvardir_2_advance = {
+		age = age_2_renaissance
+		requires = armory_advance
+		potential = {
+			OR = {
+				culture = culture:friggardaetur_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_friggarvardir_2
+	}
+	unlock_friggarvardir_3_advance = {
+		age = age_3_discovery
+		requires = training_fields_advance
+		potential = {
+			OR = {
+				culture = culture:friggardaetur_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_friggarvardir_3
+	}
+	unlock_friggarvardir_4_advance = {
+		age = age_4_reformation
+		requires = barracks_advance
+		potential = {
+			OR = {
+				culture = culture:friggardaetur_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_friggarvardir_4
+	}
+	unlock_friggarvardir_5_advance = {
+		age = age_5_absolutism
+		requires = military_revolution_advance
+		potential = {
+			OR = {
+				culture = culture:friggardaetur_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_friggarvardir_5
+	}
+	unlock_friggarvardir_6_advance = {
+		age = age_6_revolutions
+		requires = conscription_center_advance
+		potential = {
+			OR = {
+				culture = culture:friggardaetur_amazon
+				has_or_had_tag = ANHM
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_friggarvardir_6
+	}
+
+ #Thrúdardøtre Tordenkanoner
+	unlock_tordenkanoner_2_advance = {
+		age = age_2_renaissance
+		requires = cannon_maker_advance
+		potential = {
+			OR = {
+				culture = culture:thrudardotre_amazon
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZN
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_tordenkanoner_2
+	}
+	unlock_tordenkanoner_4_advance = {
+		age = age_4_reformation
+		requires = assault_ability_reformation
+		potential = {
+			OR = {
+				culture = culture:thrudardotre_amazon
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZN
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_tordenkanoner_4
+	}
+	unlock_tordenkanoner_6_advance = {
+		age = age_6_revolutions
+		requires = military_tactics_advance_6
+		potential = {
+			OR = {
+				culture = culture:thrudardotre_amazon
+				has_or_had_tag = AFHM
+				has_or_had_tag = AMZN
+				has_or_had_tag = AMZV
+			}
+		}
+		unlock_unit = a_tordenkanoner_6
 	}

@@ -141,7 +141,7 @@
 
 ###Thrúdaradal
  #Thrúdhavn
-    thrudhavn = { topography = plateau vegetation = woods climate = continental religion = amazon_asatru_religion culture = thrudardotre_amazon raw_material = dyes}
+    thrudarhavn = { topography = plateau vegetation = woods climate = continental religion = amazon_asatru_religion culture = thrudardotre_amazon raw_material = dyes}
     thrudgard = { topography = plateau vegetation = grasslands climate = continental religion = amazon_asatru_religion culture = thrudardotre_amazon raw_material = wool}
     vatnveg = { topography = plateau vegetation = woods climate = continental religion = amazon_asatru_religion culture = thrudardotre_amazon raw_material = fiber_crops}
     tommervatn = { topography = plateau vegetation = woods climate = continental religion = amazon_asatru_religion culture = thrudardotre_amazon raw_material = lumber}

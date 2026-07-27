@@ -32,7 +32,7 @@
 				brunmanar_province = { brunvang sauevang engbakker jordskard lyngmark }
 			}
 			thrudardaler_highlands_area = {
-				thrudhavn_province = { thrudhavn thrudgard vatnveg tommervatn leirevatn sorgard thrudarfjell hornvatn middle_jormungandr_mountains }
+				thrudarhavn_province = { thrudarhavn thrudgard vatnveg tommervatn leirevatn sorgard thrudarfjell hornvatn middle_jormungandr_mountains }
 				brudransvang_province = { brudransvang nyraudhestarvang hornvang heivang oksvang blomvang alunfjell hjartavatn }
 				jotnarfjell_province = { jotnarborg skadilund skadiskog frostthrymskard thrymheimr jernfjellene skadivatn east_jormungandr_mountains }
 				fjellborg_province = { fjellborg pearelund ullenger honningskog hornfjell north_charybdis_mountains }

@@ -554,13 +554,13 @@
   lyngmark.roman_amazon_language: "Campus Ericae"
 
 ##Thrúdardaler Highlands
- #Thrúdhavn
-  thrudhavn: "Thrúdhavn" #Thrúd's Harbour
-  thrudhavn.old_norse_amazon_dialect: "Þrúðarhöfn"
-  thrudhavn.hellenic_amazon_language: "Limēn Thrúdos"
-  thrudhavn.roman_amazon_language: "Portus Tonitriae"
+ #Thrúdarhavn
+  thrudarhavn: "Thrúdarhavn" #Thrúd's Harbour
+  thrudarhavn.old_norse_amazon_dialect: "Þrúðarhöfn"
+  thrudarhavn.hellenic_amazon_language: "Limēn Thrúdos"
+  thrudarhavn.roman_amazon_language: "Portus Tonitriae"
 
-  thrudgard: "Thrúdgard" #Thrúd's Settlement
+  thrudgard: "Thrúdargard" #Thrúd's Settlement
   thrudgard.old_norse_amazon_dialect: "Þrúðargarðr"
   thrudgard.hellenic_amazon_language: "Kêpos Thrúdos"
   thrudgard.roman_amazon_language: "Hortus Tonitriae"
@@ -585,7 +585,7 @@
   sorgard.hellenic_amazon_language: "Nótioi Kêpoi"
   sorgard.roman_amazon_language: "Horti Australes"
 
-  thrudarfjell: "Thrúðarfjell" #Thrúd's Peak (Holy Site)
+  thrudarfjell: "Thrúdarfjell" #Thrúd's Peak (Holy Site)
   thrudarfjell.old_norse_amazon_dialect: "Þrúðarfjall"
   thrudarfjell.hellenic_amazon_language: "Óros Brontês"
   thrudarfjell.roman_amazon_language: "Mons Tonitriae"
@@ -2316,7 +2316,7 @@
   regnymai_pelagos: "Rēgnýmai Pélagos" #Shattered Sea
   tarachon_pelagos: "Tarachōn Pélagos" #Sea of Upheaval
   teraton_pelagos: "Terátōn Pélagos" #Sea of Monsters
-##Mare Atlanticum Nostrum"
+##Mare Atlanticum Nostrum
  #Mare Bellonicum
   sinus_hastae: "Sinus Hastae" #Bay of the Spear
   vada_aenea: "Vada Aenea" #Bronze Shallows

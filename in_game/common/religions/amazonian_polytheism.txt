@@ -4,7 +4,7 @@
 
 	religious_aspects = 1
     definition_modifier = {
-        army_light_infantry_power = 0.05
+        army_heavy_cavalry_power = 0.1
         skill_of_new_artists = 0.1
     }
     
@@ -26,7 +26,7 @@ amazon_asatru_religion = {
 	religious_aspects = 1
 	
 	definition_modifier = {
-		auto_slave_raid_different_religion = yes
+		army_light_infantry_power = 0.1
 	}
 
     opinions = {
@@ -46,8 +46,7 @@ roman_amazon_religion = {
 
 	religious_aspects = 1
     definition_modifier = {
-        army_heavy_infantry_power = 0.05
-        auto_slave_raid_different_religion = yes
+        army_heavy_infantry_power = 0.1
     }
     
     opinions = {

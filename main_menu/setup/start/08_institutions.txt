@@ -128,7 +128,7 @@ locations={
 			lyngmark = { legalism = yes	feudalism = yes }
 	###Thrúdhavnen Highlands
 		#Thrúdhavnen
-			thrudhavn = { legalism = yes	feudalism = yes }
+			thrudarhavn = { legalism = yes	feudalism = yes }
 			thrudgard = { legalism = yes	feudalism = yes }
 			vatnveg = { legalism = yes	feudalism = yes }
 			tommervatn = { legalism = yes	feudalism = yes }

@@ -2,5 +2,40 @@
 
   campus_bellonae: "Campus Bellonae"
   campus_bellonae_desc: "A $campus_bellonae$ is a sacred military academy dedicated to Bellona, Goddess of War. Within these ancient Campi, the Salacian Amazons preserve the disciplined martial traditions inherited from the foreign Roman Legions once stationed there, training professional Amazon legionaries and auxilia loyal to the Senate and the Republic."
+  navalia_magna: "Navalia Magna Salaciae"
+  navalia_magna_desc: "A vast circular harbor, carved and shaped by design rather than nature. Within its sheltered waters, fleets gather like a coiled serpent, ready to strike across the sea. Here, Salacia's dominion is not prayed for, but built and sustained by the best shipwrights, carpenters and sailors the Salacianae can muster. While others worship the sea, Salacia Augusta masters it in their Sea Goddess' name."
+
   hipparcheion: "Hipparcheion"
   hipparcheion_desc: "A $hipparcheion$ is a prestigious cavalry academy and noble estate dedicated to the breeding of warhorses and the martial education of the aristocracy. Within these renowned institutions, the noble houses of the Hellenic Amazons preserve centuries of equestrian tradition, training generations of mounted warriors in the arts of horsemanship, warfare, and command. From the Hipparcheia emerge the famed Kataphractoi, elite cavalrywomen whose loyalty, discipline, and martial skill form the backbone of the Basilissa's armies."
+
+  thrudarsmedja: "Thrúdarsmedja"
+  thrudarsmedja_desc: "At the heart of Thrúdardaler rises Thrúdarsmedja, the Thunder Forge, where the purest iron from Thrúdarfjell is shaped by the finest smiths of the Norse Amazons into weapons of unmatched quality. Within its roaring furnaces, steel is tempered in fire and thunder alike, and it is said that everything forged here, from blades to the mighty Tordenkanoner, carries the strength of the Daughter of Thunder. Those who bear such weapons into battle are believed to wield the wrath of Asgard itself."
+  thrudarhavn_artillery_yard_maintenance: "$thrudarsmedja$"
+
+#Temples
+ #Hellenic
+  temple_of_hera: "Court of Hera"
+  temple_of_hera_desc: "The $temple_of_hera$ serves as both a sacred sanctuary and a seat of justice, where magistrates, priestesses and nobles gather beneath the watchful gaze of Hera, Queen of the Skies. Here, laws are proclaimed, oaths are sworn and disputes are settled according to divine custom, reinforcing the authority of the state and the sacred order upon which Amazon society is built."
+  temple_of_demeter: "Harvest Hall of Demeter"
+  temple_of_demeter_desc: "The $temple_of_demeter$ stands at the heart of the fertile farmlands of the Amazons, where wise priestesses oversee the cultivation, harvesting and preservation of each year's bounty. More than just a place of celebration and worship, these great halls serve as granaries, fairgrounds and centers of agricultural learning, ensuring that Demeter's gifts nourish the people through both abundance and hardship."
+  temple_of_persephone: "Sanctuary of Persephone"
+  temple_of_persephone_desc: "The $temple_of_persephone$ offers refuge to both the living and the dying beneath the gentle gaze of Persephone, Queen of the Underworld. Here, priestesses tend to the sick, comfort the grieving and honor the departed, believing that every soul passes through the Goddess' embrace in its own time. Through careful healing, sacred rites and unwavering compassion, they strive to delay that final journey for as long as fate allows."
+  temple_of_aphrodite: "Gardens of Aphrodite"
+  temple_of_aphrodite_desc: "The $temple_of_aphrodite$ are sanctuaries of beauty, love and celebration, where fragrant gardens, flowing fountains and blooming orchards are tended in honor of Aphrodite, Goddess of Love. Nestled beside rivers, lakes and sheltered shores, these peaceful retreats host festivals of beauty, marriage celebrations and joyful gatherings that strengthen the bonds of family and community. It is said that wherever the Goddess' gardens flourish, hearts find love, new romances blossom and families grow swiftly."
+  temple_of_thalassa: "Beacon of Thalassa"
+  temple_of_thalassa_desc: "The $temple_of_thalassa$ rises above the harbor as both lighthouse and sanctuary. Its sacred flame guiding sailors safely through storm and darkness. Dedicated to Thalassa, Primordial Goddess of the Sea, these beacons watch over those who make their living upon the waters, blessing fishermen, pearl divers and mariners alike. It is said that wherever their light shines, the sea is generous, the harbors prosper and every voyage is more likely to find its way safely home."
+  temple_of_athena: "Academy of Athena"
+  temple_of_athena_desc: "The $temple_of_athena$ is a center of learning where philosophers, artisans, engineers and strategists pursue knowledge beneath the watchful gaze of Athena, Goddess of Wisdom. Within its halls, the arts and sciences flourish alongside the study of statecraft and warfare, for the Amazons believe that true wisdom is measured not by knowledge alone, but by its application. From these academies, new ideas spread across the realm, shaping a more enlightened and prosperous society."
+  temple_of_nike: "Gymnasion of Nike"
+  temple_of_nike_desc: "The $temple_of_nike$ is a grand athletic complex dedicated to Nike, Goddess of Victory, where athletes, poets, musicians and craftsmen gather to train, compete and pursue excellence beneath the eyes of the divine. The Amazons believe that greatness is earned through honorable competition, and that every contest, whether of strength, wit or artistry, brings society closer to perfection. These celebrated games draw competitors and spectators from distant lands, spreading Amazon culture far beyond their borders while inspiring new generations to strive for glory."
+  temple_of_artemis: "Sacred Grove of Artemis"
+  temple_of_artemis_desc: "The $temple_of_artemis$ is no monument of stone and marble, but a living sanctuary where the ancient forest itself is preserved, tended and held sacred. Within these protected groves the Amazons honor Artemis, Goddess of the Wilderness and the Hunt, protecting nature from encroaching civilization while living in harmony with the animals and seasons. Hunters, foresters and wardens thrive beneath the forest canopy while ensuring that nature's bounty remains plentiful and endures for generations to come."
+  temple_of_hestia: "Prytaneion of Hestia"
+  temple_of_hestia_desc: "The $temple_of_hestia$ is the sacred civic hearth of the Amazon towns and cities, where the eternal flame of Hestia, Goddess of the Hearth, burns day and night. Around this holy fire, priestesses welcome newcomers into the customs, faith and traditions of Amazon society, preserving the unity of the community across generations. It is said that while the sacred flame endures, so too shall the spirit of the Amazons, passed from one hearth to the next."
+  temple_of_enyo: "Fortress Temple of Enyo"
+  temple_of_enyo_desc: "The $temple_of_enyo$ stands within the walls of the Amazon frontier fortifications, where the worship of Enyo, Goddess of War, is inseparable from the defense of the realm. Here, priestesses bless weapons, train militia and steel the resolve of every defender before battle. More than a sanctuary, each Fortress Temple serves as an arsenal, training ground and rallying point, ensuring that every fortress stands ready to withstand whatever foe dares threaten the Amazons."
+ #Heresy
+  temple_of_eris: "Adyton of Eris"
+  temple_of_eris_desc: "The $temple_of_eris$ is no place of public worship, but a hidden refuge where outcasts, pirates and heretics gather beneath the shadow of the Fallen One. Here, the teachings of Eris reject law, order and harmony, exalting anarchy as the truest expression of freedom. To the Amazons, these Adyton are nests of sedition and treachery, for wherever the whispers of the Goddess of Chaos take root, trust withers, loyalties fracture and civilization itself begins to unravel."
+
+

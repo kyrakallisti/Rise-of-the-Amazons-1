@@ -2,7 +2,7 @@
 
 levy_a_hoplitai_1 = {
 	# size = levy_generic_infantry_size
-	size = 0.3
+	size = 0.4
 
 	allow = {
 		unit_hoplitai_pop_trigger = yes
@@ -20,7 +20,7 @@ levy_a_hoplitai_1 = {
 }
 
 levy_a_hoplitai_2 = {
-	size = 0.4
+	size = 0.5
 
 	allow = {
 		unit_hoplitai_pop_trigger = yes
@@ -38,7 +38,7 @@ levy_a_hoplitai_2 = {
 }
 
 levy_a_hoplitai_3 = {
-	size = 0.5
+	size = 0.6
 
 	allow = {
 		unit_hoplitai_pop_trigger = yes
@@ -56,7 +56,7 @@ levy_a_hoplitai_3 = {
 }
 
 levy_a_hoplitai_4 = {
-	size = 0.6
+	size = 0.7
 
 	allow = {
 		unit_hoplitai_pop_trigger = yes
@@ -74,7 +74,7 @@ levy_a_hoplitai_4 = {
 }
 
 levy_a_hoplitai_5 = {
-	size = 0.7
+	size = 0.8
 
 	allow = {
 		unit_hoplitai_pop_trigger = yes
@@ -92,7 +92,7 @@ levy_a_hoplitai_5 = {
 }
 
 levy_a_hoplitai_6 = {
-	size = 0.8
+	size = 0.9
 
 	allow = {
 		unit_hoplitai_pop_trigger = yes

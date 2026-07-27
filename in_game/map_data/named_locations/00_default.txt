@@ -143,7 +143,7 @@
 
 ###Thrúdhavnen Highlands
  #Thrúdhavnen
-    thrudhavn = 960c0c
+    thrudarhavn = 960c0c
     thrudgard = e20000
     vatnveg = 9e3535
     tommervatn = 802b37

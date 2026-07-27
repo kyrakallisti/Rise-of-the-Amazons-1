@@ -90,7 +90,7 @@
 	}
 
 #Thóradal
-	ATHR = { # thrudhavn
+	ATHR = { # thrudarhavn
 		flag_definition = {
 			coa = ATHR
 			priority = 1

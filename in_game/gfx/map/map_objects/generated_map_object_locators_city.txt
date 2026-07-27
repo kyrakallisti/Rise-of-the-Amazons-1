@@ -650,7 +650,7 @@ game_object_locator={
 			scale={ 1.000000 1.000000 1.000000 }
 		}
 		{
-			id=thrudhavn
+			id=thrudarhavn
 			position={ 5738.500000 0.000000 5885.500000 }
 			rotation={ -0.000000 -0.738977 -0.000000 -0.673731 }
 			scale={ 1.000000 1.000000 1.000000 }

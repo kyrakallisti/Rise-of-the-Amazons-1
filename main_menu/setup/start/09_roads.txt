@@ -14,7 +14,7 @@ road_network = {
 	eldara = gullgard
 	gullgard = birkiskogr
 	birkiskogr = thrudarfjell
-	thrudarfjell = thrudhavn
+	thrudarfjell = thrudarhavn
 
    #Pearl Road
 	margaron = konchelimen

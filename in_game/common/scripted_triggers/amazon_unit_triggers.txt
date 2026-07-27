@@ -95,9 +95,21 @@
         }
     }
 
-    unit_arnarskyttarar_location_trigger = {
+    unit_arnarskyttur_location_trigger = {
         dominant_culture = { has_culture_group = culture_group:norse_amazon_group }
         owner ?= {
             has_primary_or_accepted_culture = culture:arnarvaengir_amazon
         }
+    }
+
+    unit_friggarvardir_unit_location_trigger = {
+        dominant_culture = { has_culture_group = culture_group:norse_amazon_group }
+        owner ?= {
+            has_primary_or_accepted_culture = culture:friggardaetur_amazon
+        }
+    }
+
+    unit_tordenkanoner_unit_location_trigger = {
+        dominant_culture = { has_culture_group = culture_group:norse_amazon_group }
+        has_building_with_at_least_one_level = thrudarsmedja
     }

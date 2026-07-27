@@ -394,17 +394,20 @@ countries = {
   #Thóradal
 	ATHR = {
 		own_control_core = {
-			thrudhavn thrudgard vatnveg tommervatn leirevatn sorgard thrudarfjell
+			thrudarhavn thrudgard vatnveg tommervatn leirevatn sorgard thrudarfjell
 			brudransvang nyraudhestarvang hornvang heivang oksvang blomvang alunfjell
 			jotnarborg skadilund skadiskog frostthrymskard thrymheimr jernfjellene
 			fjellborg pearelund ullenger honningskog hornfjell
 		}
-		capital = thrudhavn
+		capital = thrudarhavn
 
 		include = "high_norse_amazon_monarchy"
 		include = "expl_norse_amazon"
 
 		country_rank = rank_duchy
+
+		accepted_cultures = { friggardaetur_amazon vindmarkar_amazon }
+		tolerated_cultures = { athenaean_amazon }
 
 		government = {
 			heir_selection = favorite_daughter_elective_succession
@@ -425,6 +428,9 @@ countries = {
 
 		country_rank = rank_county
 
+		accepted_cultures = { friggardaetur_amazon vindmarkar_amazon }
+		tolerated_cultures = { athenaean_amazon }
+
 		government = {
 			heir_selection = favorite_daughter_elective_succession
 			ruler = ithilia_velos
@@ -440,6 +446,9 @@ countries = {
 		include = "expl_norse_amazon"
 
 		country_rank = rank_county
+
+		accepted_cultures = { friggardaetur_amazon vindmarkar_amazon }
+		tolerated_cultures = { athenaean_amazon }
 
 		government = {
 			heir_selection = favorite_daughter_elective_succession
@@ -459,6 +468,8 @@ countries = {
 		include = "expl_hellenic_amazon"
 
 		country_rank = rank_duchy
+
+		tolerated_cultures = { aphroditian_amazon bellonian_amazon }
 
 		government = {
 			ruler = asun_solveig_solveigardottir_1
@@ -486,6 +497,8 @@ countries = {
 		include = "expl_hellenic_amazon"
 
 		country_rank = rank_kingdom
+
+		tolerated_cultures = { norsellenic_amazon }
 
 		government = {
 			ruler = abas_althaia_hippolytide_5
@@ -547,6 +560,8 @@ countries = {
 
 		country_rank = rank_duchy
 
+		tolerated_cultures = { norsellenic_amazon }
+
 		government = {
 			ruler = aper_melinoe_melinoide_12
 			ruler_term = { character = aper_melinoe_melinoide_12 start_date = 1328.1.1 regnal_number = 12	}
@@ -599,6 +614,8 @@ countries = {
 
 		country_rank = rank_duchy
 
+		accepted_cultures = { friggardaetur_amazon heraean_amazon }
+
 		government = {
 			ruler = anea_stephane_svanardottir_2
 
@@ -627,6 +644,8 @@ countries = {
 
 		country_rank = rank_county
 
+		accepted_cultures = { friggardaetur_amazon heraean_amazon }
+
 		government = {
 			ruler = aarg_argyra_audardottir_5
 
@@ -654,6 +673,8 @@ countries = {
 		include = "expl_hellenic_amazon"
 
 		country_rank = rank_county
+
+		accepted_cultures = { norsellenic_amazon heraean_amazon }
 
 		government = {
 			heir_selection = matrilineal_primogeniture
@@ -684,6 +705,8 @@ countries = {
 
 		country_rank = rank_county
 
+		accepted_cultures = { arnarvaengir_amazon heraean_amazon }
+
 		government = {
 			ruler = agry_arnveig_arnardottir_2
 
@@ -713,6 +736,8 @@ countries = {
 		include = "expl_hellenic_amazon"
 
 		country_rank = rank_duchy
+
+		accepted_cultures = { friggardaetur_amazon aphroditian_amazon }
 
 		government = {
 			ruler = arho_ragnfrid_ragnheide
@@ -900,6 +925,8 @@ countries = {
 
 		country_rank = rank_county
 
+		accepted_cultures = { aphroditian_amazon }
+
 		government = {
 			ruler = random
 		}
@@ -914,6 +941,8 @@ countries = {
 		include = "expl_hellenic_amazon"
 
 		country_rank = rank_county
+
+		accepted_cultures = { athenaean_amazon }
 
 		government = {
 			ruler = random
@@ -946,6 +975,8 @@ countries = {
 
 		country_rank = rank_county
 
+		toleratedd_cultures = { athenaean_amazon }
+
 		government = {
 			ruler = random
 		}
@@ -960,6 +991,8 @@ countries = {
 		include = "expl_hellenic_amazon"
 
 		country_rank = rank_county
+
+		toleratedd_cultures = { athenaean_amazon heraean_amazon }
 
 		government = {
 			ruler = random
@@ -991,6 +1024,8 @@ countries = {
 
 		country_rank = rank_county
 
+		tolerated_cultures = { thalassan_amazon }
+
 		government = {
 			ruler = random
 		}
@@ -1005,6 +1040,8 @@ countries = {
 		include = "expl_hellenic_amazon"
 
 		country_rank = rank_county
+
+		accepted_cultures = { thalassan_amazon }
 
 		government = {
 			ruler = random
@@ -1034,6 +1071,8 @@ countries = {
 		include = "expl_hellenic_amazon"
 
 		country_rank = rank_duchy
+
+		accepted_cultures = { bellonian_amazon canarian_amazon }
 
 		starting_technology_level = 3
 

@@ -39,6 +39,54 @@
 	construction_demand = early_soldier_building_construction
 }
 
+navalia_magna = {
+	audio_tier = 6
+	is_special = yes
+	is_foreign = no
+	pop_type = soldiers
+	max_levels = 1
+	employment_size = dry_dock_employment
+	category = military_category
+	rural_settlement = no
+	town = yes
+	city = yes
+	megalopolis = yes
+	expensive = yes
+
+	location_potential = {
+		this = location:salacia_augusta
+	}
+	country_potential = {
+		culture = { has_culture_group = culture_group:roman_amazon_group }
+	}
+
+	build_time = huge_port_building_time
+	modifier = {
+		max_ships_built_at_same_time = 4
+		local_sailors = 0.025
+		local_ship_build_speed = 0.33
+		can_build_ships_in_this_location = yes
+		harbor_suitability = 0.2
+		local_repair_speed = 0.05
+	}
+	
+	country_modifier = {
+		navy_maintenance_efficiency = 0.10
+	}
+	
+	unique_production_methods = {
+		venetian_arsenal_maintenance = {
+			tar = 0.5
+			naval_supplies = 1.0
+			tools = 0.2
+			lumber = 1.0
+			category = building_maintenance
+		}
+	}
+
+	construction_demand = port_building_construction
+}
+
 hipparcheion = {
 	is_special = yes
 	is_foreign = no
@@ -101,4 +149,87 @@ hipparcheion = {
 		early_soldier_building_maintenance
 	}
 	construction_demand = early_soldier_building_construction
+}
+
+thrudarsmedja = {
+	audio_tier = 4
+	is_special = yes
+	is_foreign = no
+	max_levels = 1
+	pop_type = burghers
+	category = military_category
+	employment_size = military_support_employment
+	town = yes
+	city = yes
+	megalopolis = yes
+
+	build_time = big_soldier_building
+
+	country_potential = {
+		OR = {
+			has_primary_or_accepted_culture = culture:thrudardotre_amazon
+			has_or_had_tag = AMZV
+			has_or_had_tag = AMZN
+			has_or_had_tag = AFHM
+		}
+	}
+
+	location_potential = {
+		this = location:thrudarhavn
+	}
+
+	unique_production_methods = {
+		cannon_workshop_iron_maintenance = {			
+			# Wrought Iron
+			iron = 1.0
+			tools = 0.1
+			
+			produced = cannons
+			output = 1.2
+			
+			debug_max_profit = workshop_profit_margin
+			
+			category = workshop_input
+		}	
+	}
+
+	unique_production_methods = {
+		cannon_workshop_ammunition_stone_maintenance = {
+			stone = 0.1
+			saltpeter = 0.1
+			produced = cannons
+			output = 0.1
+			
+			debug_max_profit = workshop_profit_margin
+			
+			category = workshop_input
+		}
+		cannon_workshop_ammunition_lead_maintenance = {
+			lead = 0.12
+			saltpeter = 0.12
+			produced = cannons
+			output = 0.15
+			
+			debug_max_profit = workshop_profit_margin
+			
+			category = workshop_input
+		}
+		cannon_workshop_ammunition_iron_maintenance = {
+			iron = 0.14
+			saltpeter = 0.14
+			produced = cannons
+			output = 0.25
+			
+			debug_max_profit = workshop_profit_margin
+			
+			category = workshop_input
+		}
+	}
+
+	construction_demand = soldier_building_construction
+
+	country_modifier = {
+		army_artillery_build_cost_modifier = -0.25
+        army_artillery_power = 0.1
+	}
 }

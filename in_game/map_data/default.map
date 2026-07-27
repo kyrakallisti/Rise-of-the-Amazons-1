@@ -1109,7 +1109,7 @@ sea_zones = {
 ########
 lakes = { 
 	###Amazon
-	#thrudhavn
+	#thrudarhavn
 	skadivatn hjartavatn hornvatn hogvatn limne_erythra limne_kyane
 	#Vindmark
 	vindvatn

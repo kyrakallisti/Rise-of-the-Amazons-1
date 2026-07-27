@@ -4,70 +4,70 @@ heraion_basileion_holy_city = {
     type = city
     importance = 5
 	religions = { amazon_hellenism_religion }
-    god = hera_god
+    god = hera_amz_god
 }
 the_athenaion = {
     location = glaukopis
     type = temple
     importance = 5
 	religions = { amazon_hellenism_religion }
-    god = amzathena_god
+    god = athena_amz_god
 }
 agonion_tes_nikephorias = {
     location = nikaion
     type = city
     importance = 4
 	religions = { amazon_hellenism_religion }
-    god = amzathena_god
+    god = athena_amz_god
 }
 sanctuary_of_the_eternal_flame = {
     location = hestias_hieron
     type = city
     importance = 4
 	religions = { amazon_hellenism_religion }
-    god = hestia_god
+    god = hestia_amz_god
 }
 thalassa_pharos_island = {
     location = pharosthalasses
     type = city
     importance = 4
 	religions = { amazon_hellenism_religion }
-    god = thalassa_god
+    god = thalassa_amz_god
 }
 akra_persephones_necropolis = {
     location = akra_persephones
     type = city
     importance = 4
 	religions = { amazon_hellenism_religion }
-    god = persephone_god
+    god = persephone_amz_god
 }
 naos_demetras_sacred_gardens = {
     location = naos_demetras
     type = temple
     importance = 3
 	religions = { amazon_hellenism_religion }
-    god = demeter_god
+    god = demeter_amz_god
 }
 aphrogenia_sacred_beaches = {
     location = aphrogenia
     type = city
     importance = 3
 	religions = { amazon_hellenism_religion }
-    god = amzaphrodite_god
+    god = aphrodite_amz_god_god
 }
 alsos_artemidos_sacred_grove = {
     location = alsos_artemidos
     type = mountain
     importance = 3
 	religions = { amazon_hellenism_religion }
-    god = artemis_god
+    god = artemis_amz_god
 }
 agoge_enyous = {
     location = ignis_bellonae
     type = mountain
     importance = 4
 	religions = { amazon_hellenism_religion }
-    god = enyo_god
+    god = enyo_amz_god
 }
 
 #Heresy
@@ -76,7 +76,7 @@ kepos_eridos = {
     type = city
     importance = 3
 	religions = { erisian_heresy }
-    god = eris_god
+    god = eris_amz_god
 }
 
 #Norse
@@ -94,7 +94,7 @@ sessrumnir_and_folkvangr = {
 	religions = { amazon_asatru_religion }
     god = freyja_god
 }
-thrudarfjell_thunder_forge = {
+holy_site_thrudarfjell = {
     location = thrudarfjell
     type = mountain
     importance = 4
@@ -167,7 +167,7 @@ lifandi_eldr = { #Living Hearth of Frigg in Núja Eldára
 
 
 #Latin
-navalia_magna_salaciae = {
+holy_site_salacia = {
     location = salacia_augusta
     type = city
     importance = 5

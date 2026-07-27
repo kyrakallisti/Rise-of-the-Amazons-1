@@ -54,7 +54,7 @@ development = {
 		artemisia_area = 4
 			lykos_province = 2
 		thrudardaler_highlands_area = 2
-			thrudhavn_province = 2
+			thrudarhavn_province = 2
 			tvillingsostre_province = 4
 
 	motherland_region = 16

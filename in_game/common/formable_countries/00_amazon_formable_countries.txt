@@ -18,7 +18,7 @@
 			owns = location:nikaion
 			owns = location:lykos
 			owns = location:eldara
-			owns = location:thrudhavn
+			owns = location:thrudarhavn
 			owns = location:arnarvik
 			owns = location:sagavind
 		}
@@ -61,7 +61,7 @@
 			owns = location:nikaion
 			owns = location:lykos
 			owns = location:eldara
-			owns = location:thrudhavn
+			owns = location:thrudarhavn
 			owns = location:arnarvik
 			owns = location:sagavind
 		}
@@ -210,7 +210,7 @@
 		
 		allow = {
 			owns = location:sessrumnir
-			owns = location:thrudhavn
+			owns = location:thrudarhavn
 			owns = location:sagavind
 			owns = location:thrymheimr
 		}

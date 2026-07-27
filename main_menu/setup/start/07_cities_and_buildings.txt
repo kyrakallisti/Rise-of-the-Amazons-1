@@ -1,6 +1,6 @@
 locations={
 	
-###Amazonesia
+ ###Amazonesia
 	#Artemisia
 		lykos = { rank = town 			town_setup = norse_fortified_amazon_town_port }
 		hedraoistou = { rank = town 	town_setup = norse_amazon_town_port }
@@ -33,7 +33,7 @@ locations={
 		skinfaxivang = { rank = town 	town_setup = norse_fortified_amazon_town }
 		raudhstod = { rank = town 	town_setup = norse_fortified_amazon_town }
 	#Thrúdhavnen
-		thrudhavn = { rank = town 		town_setup = norse_amazon_town }
+		thrudarhavn = { rank = town 		town_setup = norse_amazon_town }
 		jotnarborg = { rank = town 		town_setup = norse_amazon_town }
 		vesttvilling = { rank = town 	town_setup = norse_fortified_amazon_town }
 		osttvilling = { rank = town 	town_setup = norse_amazon_town }
@@ -99,7 +99,7 @@ locations={
 		portus_internus = { rank = town 	town_setup = salacian_amazon_town_port }
 
 
-###ORIGINAL
+ ###ORIGINAL
 	#sweden
 	stockholm = { rank = town 		town_setup = important_scandinavian_town }
 	linkoping = { rank = town 		town_setup = scandinavian_town }
@@ -1276,7 +1276,8 @@ locations={
 # for the unique and special buildings
 
 building_manager = {
-
+ ##Amazonesia
+	navalia_magna = { tag = ASAL level = 1 location = salacia_augusta }
 
 	# Scandinavia
 

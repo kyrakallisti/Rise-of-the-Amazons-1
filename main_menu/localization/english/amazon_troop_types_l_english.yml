@@ -209,24 +209,24 @@
   unlock_polyreme_6_advance: "$n_polyreme_5$"
   unlock_polyreme_6_advance_desc: "$n_polyreme_5_desc$"
 
-#Saebornar Longships
+#Sæbornar Longships
   n_longship_1: "Snekkja" #Sea Snake
-  n_longship_1_desc: "The Snekkja is the vessel upon which the fortunes of the Saebornar were built. Descended from the ancient longships that first crossed the cold waters between the Old World and Sverðfiskeyjar, these swift seacrafts are unmatched in speed and maneuverability. Though lightly armed and fragile in battle, their skilled crews navigate treacherous seas with confidence born of generations spent beneath the gaze of Rán, Goddess of the Sea."
+  n_longship_1_desc: "The Snekkja is the vessel upon which the fortunes of the Sæbornar were built. Descended from the ancient longships that first crossed the cold waters between the Old World and Sverðfiskeyjar, these swift seacrafts are unmatched in speed and maneuverability. Though lightly armed and fragile in battle, their skilled crews navigate treacherous seas with confidence born of generations spent beneath the gaze of Rán, Goddess of the Sea."
 
   n_longship_2: "Skeið" #Slider or Cutter
-  n_longship_2_desc: "As commerce and exploration expand across the North Atlantic, the Skeið reflects the growing sophistication of Saebornar shipwrights. Larger and more seaworthy than the traditional Snekkja, it combines the agility of its predecessors with improvements inspired by foreign shipbuilding traditions from South Amazonesia. Merchant captains, explorers and naval patrols alike rely upon these versatile vessels to maintain the sea-lanes that bind Norðrheimar and the Vinland colonies together."
+  n_longship_2_desc: "As commerce and exploration expand across the North Atlantic, the Skeið reflects the growing sophistication of Sæbornar shipwrights. Larger and more seaworthy than the traditional Snekkja, it combines the agility of its predecessors with improvements inspired by foreign shipbuilding traditions from South Amazonesia. Merchant captains, explorers and naval patrols alike rely upon these versatile vessels to maintain the sea-lanes that bind Norðrheimar and the Vinland colonies together."
 
   n_longship_3: "Dreki" #Dragon
-  n_longship_3_desc: "The Dreki marks the transition from coastal longship to true ocean-going vessel. Built for lengthy voyages across the northern seas, it carries larger crews, greater provisions and increasingly powerful armaments. By this age, the routes first pioneered by the Saebornar have become well-traveled highways of trade and migration, and the Drakkar serves as their trusted guardian."
+  n_longship_3_desc: "The Dreki marks the transition from coastal longship to true ocean-going vessel. Built for lengthy voyages across the northern seas, it carries larger crews, greater provisions and increasingly powerful armaments. By this age, the routes first pioneered by the Sæbornar have become well-traveled highways of trade and migration, and the Drakkar serves as their trusted guardian."
 
   n_longship_4: "Ránarvörðr" #Guardian of Rán
-  n_longship_4_desc: "Named for the Guardians of Rán, the Ránarvörðr represents the maturity of the Saebornar naval tradition. Fast, resilient and expertly handled, these vessels excel at escorting merchant convoys, hunting enemy commerce and projecting power across distant seas. Their crews regard themselves not merely as sailors, but as inheritors of a sacred maritime legacy stretching back to the first overseas colonies of Norðrheimar."
+  n_longship_4_desc: "Named for the Guardians of Rán, the Ránarvörðr represents the maturity of the Sæbornar naval tradition. Fast, resilient and expertly handled, these vessels excel at escorting merchant convoys, hunting enemy commerce and projecting power across distant seas. Their crews regard themselves not merely as sailors, but as inheritors of a sacred maritime legacy stretching back to the first overseas colonies of Norðrheimar."
 
   n_longship_5: "Haffrigata" #Sea Frigate
   n_longship_5_desc: "The Haffrigata embodies centuries of accumulated maritime knowledge. Though modern naval warfare increasingly favors larger and more heavily armed vessels, the captains of the Haffrigata continue to rely upon superior speed, maneuverability and seamanship to dictate the terms of battle. Feared by pirates and respected by admirals, these swift warships patrol vast stretches of ocean with remarkable efficiency."
 
   n_longship_6: "Hafdrottning" #Queen of the Sea
-  n_longship_6_desc: "The Hafdrottning stands as the culmination of Norðrheimar Atlantic seamanship. Combining advanced naval technology with the enduring principles established by the earliest Saebornar navigators, these formidable ships are renowned for their speed, discipline and uncanny ability to evade destruction. Whether scouting distant horizons, protecting vital trade routes or pursuing enemy fleets across entire oceans, the Nordhafsjäger remains a symbol of the mastery of the Sea-Born over the waters of the world."
+  n_longship_6_desc: "The Hafdrottning stands as the culmination of Norðrheimar Atlantic seamanship. Combining advanced naval technology with the enduring principles established by the earliest Sæbornar navigators, these formidable ships are renowned for their speed, discipline and uncanny ability to evade destruction. Whether scouting distant horizons, protecting vital trade routes or pursuing enemy fleets across entire oceans, the Nordhafsjäger remains a symbol of the mastery of the Sea-Born over the waters of the world."
 
   unlock_longship_1_advance: "$n_longship_1$"
   unlock_longship_1_advance_desc: "$n_longship_1_desc$"
@@ -273,37 +273,86 @@
   unlock_vindryttarar_6_advance: "$n_vindryttarar_5$"
   unlock_vindryttarar_6_advance_desc: "$n_vindryttarar_5_desc$"
 
-#Arnarvaengir Arnarskyttarar
-  a_arnarskyttarar_1: "Arnarskyttarar"
-  a_arnarskyttarar_1_desc: "The Arnarskyttarar are the famous 'Eagle Shooters' of Arnareyar, raised among towering cliffs and windswept coasts where keen eyesight and steady hands are prized above all else. From an early age they learn to judge distance, read the wind and loose their arrows with remarkable precision. Wielding powerful longbows crafted from the finest timber of the northern forests, these disciplined markswomen strike with deadly accuracy long before their enemies can close the distance."
+#Arnarvængir Arnarskyttur
+  a_arnarskyttur_1: "Arnarskyttur"
+  a_arnarskyttur_1_desc: "The Arnarskyttur are the famous 'Eagle Shooters' of Arnareyar, raised among towering cliffs and windswept coasts where keen eyesight and steady hands are prized above all else. From an early age they learn to judge distance, read the wind and loose their arrows with remarkable precision. Wielding powerful longbows crafted from the finest timber of the northern forests, these disciplined markswomen strike with deadly accuracy long before their enemies can close the distance."
 
-  a_arnarskyttarar_2: "Keen Arnarskyttarar"
-  a_arnarskyttarar_2_desc: "Years of relentless practice and frontier warfare have refined the eyesight and judgment of the Keen Arnarskyttarar to extraordinary levels. Few warriors can rival their ability to estimate range, account for shifting winds or strike vulnerable targets amidst the chaos of battle. Enemy officers and standard bearers quickly learn that nowhere within bowshot is truly safe from the gaze of the Eagles."
+  a_arnarskyttur_2: "Keen Arnarskyttur"
+  a_arnarskyttur_2_desc: "Years of relentless practice and frontier warfare have refined the eyesight and judgment of the Keen Arnarskyttur to extraordinary levels. Few warriors can rival their ability to estimate range, account for shifting winds or strike vulnerable targets amidst the chaos of battle. Enemy officers and standard bearers quickly learn that nowhere within bowshot is truly safe from the gaze of the Eagles."
 
-  a_arnarskyttarar_3: "Elite Arnarskyttarar"
-  a_arnarskyttarar_3_desc: "Only the most accomplished archers among the Arnarvængir earn the honor of joining the Elite Arnarskyttarar. Equipped with finely crafted war bows and superior equipment, they represent the pinnacle of traditional Amazon archery. Their disciplined volleys and uncanny precision allow them to inflict devastating casualties while sowing fear and disorder among enemy formations."
+  a_arnarskyttur_3: "Elite Arnarskyttur"
+  a_arnarskyttur_3_desc: "Only the most accomplished archers among the Arnarvængir earn the honor of joining the Elite Arnarskyttur. Equipped with finely crafted war bows and superior equipment, they represent the pinnacle of traditional Amazon archery. Their disciplined volleys and uncanny precision allow them to inflict devastating casualties while sowing fear and disorder among enemy formations."
 
-  a_arnarskyttarar_4: "Eagleguard Arnarskyttarar"
-  a_arnarskyttarar_4_desc: "As firearms spread across Amazonesia, the Eagleguard Arnarskyttarar preserve centuries of accumulated mastery while adapting their methods to an ever-changing battlefield. Entrusted with protecting the finest traditions of Arnarvængir marksmanship, they continue to demonstrate that discipline, patience and precision remain as valuable as ever, even in an age increasingly dominated by gunpowder."
+  a_arnarskyttur_4: "Eagleguard Arnarskyttur"
+  a_arnarskyttur_4_desc: "As firearms spread across Amazonesia, the Eagleguard Arnarskyttur preserve centuries of accumulated mastery while adapting their methods to an ever-changing battlefield. Entrusted with protecting the finest traditions of Arnarvængir marksmanship, they continue to demonstrate that discipline, patience and precision remain as valuable as ever, even in an age increasingly dominated by gunpowder."
 
-  a_arnarskyttarar_5: "Longshot Arnarskyttarar"
-  a_arnarskyttarar_5_desc: "Embracing finely crafted rifles while preserving the principles that made their predecessors legendary, the Longshot Arnarskyttarar have become the foremost markswomen of Amazonesia. Their exceptional training allows them to eliminate officers, artillery crews and other valuable targets at distances that ordinary soldiers would scarcely attempt. Every shot is deliberate, every bullet carefully placed and every miss considered a personal failure."
+  a_arnarskyttur_5: "Longshot Arnarskyttur"
+  a_arnarskyttur_5_desc: "Embracing finely crafted rifles while preserving the principles that made their predecessors legendary, the Longshot Arnarskyttur have become the foremost markswomen of Amazonesia. Their exceptional training allows them to eliminate officers, artillery crews and other valuable targets at distances that ordinary soldiers would scarcely attempt. Every shot is deliberate, every bullet carefully placed and every miss considered a personal failure."
 
-  a_arnarskyttarar_6: "Imperial Arnarskyttarar"
-  a_arnarskyttarar_6_desc: "The Imperial Arnarskyttarar embody the culmination of centuries of Arnarvængir marksmanship. Armed with the finest precision rifles produced by the Empire and selected from the greatest shooting traditions of their homeland, they became the greatest nightmare of enemy armies marching on open fields. Their reputation is such that enemy commanders learn to fear not the sound of their rifles, but the silent moments before a perfectly aimed shot finds its mark."
+  a_arnarskyttur_6: "Imperial Arnarskyttur"
+  a_arnarskyttur_6_desc: "The Imperial Arnarskyttur embody the culmination of centuries of Arnarvængir marksmanship. Armed with the finest precision rifles produced by the Empire and selected from the greatest shooting traditions of their homeland, they became the greatest nightmare of enemy armies marching on open fields. Their reputation is such that enemy commanders learn to fear not the sound of their rifles, but the silent moments before a perfectly aimed shot finds its mark."
 
-  unlock_arnarskyttarar_1_advance: "$n_arnarskyttarar_1$"
-  unlock_arnarskyttarar_1_advance_desc: "$n_arnarskyttarar_1_desc$"
-  unlock_arnarskyttarar_2_advance: "$n_arnarskyttarar_2$"
-  unlock_arnarskyttarar_2_advance_desc: "$n_arnarskyttarar_2_desc$"
-  unlock_arnarskyttarar_3_advance: "$n_arnarskyttarar_3$"
-  unlock_arnarskyttarar_3_advance_desc: "$n_arnarskyttarar_3_desc$"
-  unlock_arnarskyttarar_4_advance: "$n_arnarskyttarar_4$"
-  unlock_arnarskyttarar_4_advance_desc: "$n_arnarskyttarar_4_desc$"
-  unlock_arnarskyttarar_5_advance: "$n_arnarskyttarar_5$"
-  unlock_arnarskyttarar_5_advance_desc: "$n_arnarskyttarar_5_desc$"
-  unlock_arnarskyttarar_6_advance: "$n_arnarskyttarar_5$"
-  unlock_arnarskyttarar_6_advance_desc: "$n_arnarskyttarar_5_desc$"
+  unlock_arnarskyttur_1_advance: "$n_arnarskyttur_1$"
+  unlock_arnarskyttur_1_advance_desc: "$n_arnarskyttur_1_desc$"
+  unlock_arnarskyttur_2_advance: "$n_arnarskyttur_2$"
+  unlock_arnarskyttur_2_advance_desc: "$n_arnarskyttur_2_desc$"
+  unlock_arnarskyttur_3_advance: "$n_arnarskyttur_3$"
+  unlock_arnarskyttur_3_advance_desc: "$n_arnarskyttur_3_desc$"
+  unlock_arnarskyttur_4_advance: "$n_arnarskyttur_4$"
+  unlock_arnarskyttur_4_advance_desc: "$n_arnarskyttur_4_desc$"
+  unlock_arnarskyttur_5_advance: "$n_arnarskyttur_5$"
+  unlock_arnarskyttur_5_advance_desc: "$n_arnarskyttur_5_desc$"
+  unlock_arnarskyttur_6_advance: "$n_arnarskyttur_5$"
+  unlock_arnarskyttur_6_advance_desc: "$n_arnarskyttur_5_desc$"
+
+#Friggardætur Friggarvarðir
+  a_friggarvardir_1: "Friggarvarðir"
+  a_friggarvardir_1_desc: "The Friggarvarðir are the elite guardians of Formóðurland. Drawn from the proud Friggardætur clans who protect the fertile Eldár Valley and the great city of Eldára, they are raised from childhood to stand shoulder to shoulder within the shield wall. With spears in hand, they present an unbroken hedge of steel against raiders and invaders alike. The Friggarvarðir embody discipline, patience and unwavering resolve. Where others seek glory through conquest, they earn theirs by ensuring that no enemy threatens their homeland."
+
+  a_friggarvardir_2: "Seasoned Friggarvarðir"
+  a_friggarvardir_2_desc: "Years spent defending Formóðurland's borders against Vindmarkar horsewomen, Bjarnheim savages and Arnarvængir raiders have forged the Friggarvarðir into veterans of countless campaigns. Their formations have grown tighter, their discipline stronger and their trust in one another absolute. Few warriors can equal their ability to maintain an unbroken shield wall under the fiercest assault, proving that steadfast resolve is often stronger than reckless courage."
+
+  a_friggarvardir_3: "Stalwart Friggarvarðir"
+  a_friggarvardir_3_desc: "As warfare grows ever more sophisticated, so too do the Friggarvarðir. Their shields remain, but longer spears and finely crafted polearms now allow them to keep enemies at an even greater distance. Clad in brigandines over their mail and equipped with the finest steel produced by the forges of nearby Þrúðardalr, the Stalwart Friggarvarðir have become the unyielding backbone of Formóðurland's armies, standing firm against cavalry charges and furious infantry assaults alike."
+
+  a_friggarvardir_4: "High Friggarvarðir"
+  a_friggarvardir_4_desc: "The High Friggarvarðir represent the pinnacle of Formóðurland's ancient defensive tradition. Centuries of drill and battlefield experience have refined every movement of their disciplined ranks, allowing them to maintain impeccable cohesion even amid the chaos of battle. Their long polearms and superior armor continue to deny the enemy any easy breakthrough, while generations of veteran officers ensure that every warrior understands her place within the wall."
+
+  a_friggarvardir_5: "Reformed Friggarvarðir"
+  a_friggarvardir_5_desc: "The arrival of firearms has transformed the battlefield, yet the Friggarvarðir have adapted without abandoning the principles that made them legendary. Their heavy shields have finally given way to muskets fitted with sturdy bayonets, allowing every warrior to wield both firearm and spear within a single weapon. Though their methods have modernized, the Reformed Friggarvarðir remain true to their ancient purpose: to hold the line, repel the invader and safeguard the heartland of the Norse Amazons."
+
+  a_friggarvardir_6: "Imperial Friggarvarðir"
+  a_friggarvardir_6_desc: "The Imperial Friggarvarðir stand as the foremost guardians of the Norse Amazon realm, preserving a martial tradition stretching back centuries to the first defenders of Eldára. Equipped with superb muskets, disciplined bayonet formations and the finest equipment the Empire can provide, they serve wherever the realm requires steadfast defenders. Whether protecting the fertile valleys of Formóðurland, securing the colonies of Friggjarárheimr or standing before the Queen herself, the Imperial Friggarvarðir remain the living embodiment of duty, discipline and unwavering loyalty."
+
+  unlock_friggarvardir_1_advance: "$n_friggarvardir_1$"
+  unlock_friggarvardir_1_advance_desc: "$n_friggarvardir_1_desc$"
+  unlock_friggarvardir_2_advance: "$n_friggarvardir_2$"
+  unlock_friggarvardir_2_advance_desc: "$n_friggarvardir_2_desc$"
+  unlock_friggarvardir_3_advance: "$n_friggarvardir_3$"
+  unlock_friggarvardir_3_advance_desc: "$n_friggarvardir_3_desc$"
+  unlock_friggarvardir_4_advance: "$n_friggarvardir_4$"
+  unlock_friggarvardir_4_advance_desc: "$n_friggarvardir_4_desc$"
+  unlock_friggarvardir_5_advance: "$n_friggarvardir_5$"
+  unlock_friggarvardir_5_advance_desc: "$n_friggarvardir_5_desc$"
+  unlock_friggarvardir_6_advance: "$n_friggarvardir_5$"
+  unlock_friggarvardir_6_advance_desc: "$n_friggarvardir_5_desc$"
+
+#Thrúdardøtre Tordenkanoner
+  a_tordenkanoner_2: "Tordenkanoner"
+  a_tordenkanoner_2_desc: "Forged exclusively within the legendary Thrúdarsmedja of Thrúdarhavn, the Tordenkanoner are the pride of the Thrúdardøtre and the finest artillery pieces in all of Amazonesia. Cast from the pure iron of nearby Thrúdarfjell by generations of master smiths, these great cannons are renowned for their exceptional craftsmanship, destructive power and unwavering reliability. Though any army may field artillery, only those who command the sacred forge may unleash the true Thunder Cannons upon their enemies."
+
+  a_tordenkanoner_4: "Improved Tordenkanoner"
+  a_tordenkanoner_4_desc: "Centuries of refinement have elevated the Tordenkanoner beyond mere weapons into symbols of the Thrúdardøtre's unmatched mastery of metallurgy. Improved casting techniques, standardized calibres and stronger gun carriages have made these cannons both deadlier and more dependable upon the battlefield. Produced only at Thrúdarsmedja, they remain a prize coveted by every ruler of Amazonesia and a constant reminder that mastery of iron can shape the fate of kingdoms."
+
+  a_tordenkanoner_6: "Imperial Tordenkanoner"
+  a_tordenkanoner_6_desc: "The Imperial Tordenkanoner represent the culmination of centuries of craftsmanship preserved within Thrúdarsmedja. Every barrel is forged to exacting standards, every carriage built for endurance, and every cannon entrusted to crews trained in generations of artillery tradition. Their thunder has shattered countless fortresses and broken innumerable battle lines, earning them a reputation that extends far beyond the borders of the Thrúdardaler Highlands."
+
+  unlock_tordenkanoner_1_advance: "$n_tordenkanoner_1$"
+  unlock_tordenkanoner_1_advance_desc: "$n_tordenkanoner_1_desc$"
+  unlock_tordenkanoner_4_advance: "$n_tordenkanoner_4$"
+  unlock_tordenkanoner_4_advance_desc: "$n_tordenkanoner_4_desc$"
+  unlock_tordenkanoner_6_advance: "$n_tordenkanoner_6$"
+  unlock_tordenkanoner_6_advance_desc: "$n_tordenkanoner_6_desc$"
 
 #Military Buildings
   EFFECTIVE_CAMPI_BELLONAE_BUILDINGS: "Effective Campi Bellonae Buildings"

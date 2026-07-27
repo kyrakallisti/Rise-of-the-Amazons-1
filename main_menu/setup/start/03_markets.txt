@@ -2,7 +2,7 @@ market_manager = {
 	#Amazonesia
 	add_market = lykos
 	add_market = eldara
-	add_market = thrudhavn
+	add_market = thrudarhavn
 	add_market = nea_themyskira
 	add_market = pharosthalasses
 	add_market = aithyia

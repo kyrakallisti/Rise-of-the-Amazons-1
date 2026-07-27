@@ -87,7 +87,7 @@ dynasty_manager = {
   #Thóradal
 	thorardottir_dynasty = {
 		name = { name = thorardottir_dynasty }
-		home = thrudhavn
+		home = thrudarhavn
 		female_names = {
 			name_amz_thalia name_amz_thora name_amz_thordis name_amz_thorfrid name_amz_thorhild
 		}

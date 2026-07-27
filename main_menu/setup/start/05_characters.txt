@@ -2425,7 +2425,7 @@ character_db={
 				female = yes
 				birth_date = 1315.10.1
 				mother = atho_thora
-				birth = thrudhavn
+				birth = thrudarhavn
 				dynasty = thorardottir_dynasty
 				ruler_trait = just
 				ruler_trait = benevolent
@@ -2439,7 +2439,7 @@ character_db={
 				female = yes
 				birth_date = 1287.06.03
 				death_date = 1320.10.1
-				birth = thrudhavn
+				birth = thrudarhavn
 				dynasty = thorardottir_dynasty
 				tag = ATHR
 			}

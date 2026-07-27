@@ -117,16 +117,3 @@ idunn_god = {
       global_fruit_output_modifier = 0.15
     }
 }
-
-
-#Heresy
-#loki_god = {
-#    icon = god_folk_green
-#    religion = { 
-#      religion = 
-#      name_key = loki_god
-#    }
-#    country_modifier = {
-#      siege_ability = 0.05
-#    }
-#}

@@ -1,0 +1,100 @@
+﻿Hellenic Temples
+		temple_of_hera_production_method = {
+			fine_cloth = 0.1
+			pottery = 0.05
+			glass = 0.025
+			beeswax = 0.05
+			wine = 0.05
+
+			category = building_maintenance
+		}
+		temple_of_demeter_production_method = {
+			fiber_crops = 0.025
+			clay = 0.05
+			tools = 0.05
+			beeswax = 0.05
+			livestock = 0.1
+
+			category = building_maintenance
+		}	
+		temple_of_persephone_production_method = {
+			incense = 0.025
+			stone = 0.05
+			cloth = 0.05
+			medicaments = 0.1
+			fruit = 0.05
+
+			category = building_maintenance
+		}	
+		temple_of_aphrodite_production_method = {
+			jewelry = 0.025
+			silk = 0.025
+			fine_cloth = 0.05
+			olives = 0.1
+			wine = 0.1
+
+			category = building_maintenance
+		}	
+		temple_of_thalassa_production_method = {
+			tar = 0.025
+			fiber_crops = 0.05
+			salt = 0.05
+			lumber = 0.1
+			cloth = 0.05
+
+			category = building_maintenance
+		}	
+		temple_of_athena_production_method = {
+			paper = 0.05
+			books = 0.1
+			dyes = 0.05
+			leather = 0.025
+			olives = 0.05
+
+			category = building_maintenance
+		}
+		temple_of_nike_production_method = {
+			jewelry = 0.025
+			marble = 0.025
+			wine = 0.05
+			olives = 0.05
+			horses = 0.05
+
+			category = building_maintenance
+		}
+		temple_of_artemis_production_method = {
+			weaponry = 0.1
+			fur = 0.025
+			lumber = 0.05
+			leather = 0.05
+
+			produced = wild_game
+			output = 1.0
+			debug_max_profit = rural_profit_margin		
+
+			category = building_maintenance
+		}	
+		temple_of_hestia_production_method = {
+			lumber = 0.1
+			coal = 0.025
+			pottery = 0.05
+			cloth = 0.05
+			dyes = 0.025
+
+			category = building_maintenance
+		}	
+		temple_of_enyo_production_method = {
+			weaponry = 0.2
+			liquor = 0.05
+			cloth = 0.05
+			leather = 0.05
+
+			category = building_maintenance
+		}	
+		temple_of_eris_production_method = {
+			weaponry = 0.05
+			liquor = 0.1
+			cloth = 0.05
+
+			category = building_maintenance
+		}
