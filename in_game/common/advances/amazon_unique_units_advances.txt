@@ -781,6 +781,7 @@
 			}
 		}
 		unlock_unit = a_tordenkanoner_2
+		unlock_building = thrudarsmedja
 	}
 	unlock_tordenkanoner_4_advance = {
 		age = age_4_reformation

@@ -53,7 +53,7 @@ aphrogenia_sacred_beaches = {
     type = city
     importance = 3
 	religions = { amazon_hellenism_religion }
-    god = aphrodite_amz_god_god
+    god = aphrodite_amz_god
 }
 alsos_artemidos_sacred_grove = {
     location = alsos_artemidos

@@ -53,11 +53,11 @@ worship_thalassa_amz_god = {
     }
 }
 
-worship_aphrodite_amz_god_god = {
+worship_aphrodite_amz_god = {
     icon = aphrodite_amazon_god
     religion = amazon_hellenism_religion
     modifier = {
-        global_population_growth = 0.00024
+        global_population_growth = 0.0005
         global_pop_conversion_speed_modifier = 0.15
         antagonism_monthly_change_modifier  = 0.05
         monthly_towards_conciliatory = 0.2

@@ -1,4 +1,4 @@
-﻿INJECT:throne_room_test = {
+﻿INJECT:throne_room = {
   #Amazon
 	illustration_image = {
 		texture_file = "gfx/interface/illustrations/government/throne_rooms/throne_room_hellenic_amazon_high_tier.dds"

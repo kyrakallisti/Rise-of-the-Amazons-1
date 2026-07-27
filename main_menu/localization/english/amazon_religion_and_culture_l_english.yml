@@ -51,11 +51,11 @@
   amazon_hellenism_religion_desc: "During the Amazon Exodus from the Black Sea in the 12 century B.C., Queen Hippolyta the Wise led her people South and then West, pillaging and sacking her way through the Aegean Sea where she replenished the exhausted numbers of her mighty navy with liberated Greek women. Enough of them to Hellenize the pure Amazons, absorbing their culture, their language and their deities."
   amazon_asatru_religion: "Amazon Ásatrú"
 
-  amazon_asatru_religion_ADJ: "Norse"
+  amazon_asatru_religion_ADJ: "Ásatrúan"
   amazon_asatru_religion_desc: "During the Amazon Exodus from the Black Sea in the 12 century B.C., Princess Penthesilea the Bold rebelled against her sister and took half of the Amazon people North up the River Volga, pillaging and sacking her way through the Baltic Sea where she replenished the exhausted numbers of her mighty navy with liberated proto-germanic women from Scandinavia. Enough of them to Germanize the pure Amazons, absorbing their culture, their language and their deities."
 
   roman_amazon_religion: "Cultus Dearum Amazonum"
-  roman_amazon_religion_ADJ: "Amazonum"
+  roman_amazon_religion_ADJ: "Fideles Deis Amazonum"
   roman_amazon_religion_desc: "Known among its followers as Cultus Dearum Amazonum, this faith diverges little in its myths and divine figures from the Amazon Hellenism practiced in the heartlands of Amazonesia. Yet centuries under Roman conquest and assimilation profoundly reshaped the beliefs of the Latinae Amazones. Worship became structured and institutionalized, with strict rites, public ceremonies and religious duties intertwined with the authority of the state. Syncretism with Roman deities was enforced, names were altered and rituals came to emphasize duty and obligation over personal devotion. In time, Bellona and Salacia, the goddesses of war and the sea, rose to prominence. Often surpassing even the All-Mother Juno in the daily worship of Latinae households."
 
   erisian_heresy: "Eris Heresy"
@@ -90,10 +90,10 @@
   worship_thalassa_amz_god: "$worship_title1$ $thalassa_amz_god$ as our Patron Deity"
   worship_thalassa_amz_god_desc: "$worship_desc1$ [ShowGodName('thalassa_amz_god')] $worship_desc2$"
 
-  aphrodite_amz_god_god: "Aphrodite"
-  aphrodite_amz_god_god_desc: "$aphrodite_amz_god_god$, Goddess of love, beauty, pleasure and passion. Worshiping her through free love often results in a steep rise in population grouth. For obvious reasons."
-  worship_aphrodite_amz_god_god: "$worship_title1$ $aphrodite_amz_god_god$ as our Patron Deity"
-  worship_aphrodite_amz_god_god_desc: "$worship_desc1$ [ShowGodName('aphrodite_amz_god_god')] $worship_desc2$"
+  aphrodite_amz_god: "Aphrodite"
+  aphrodite_amz_god_desc: "$aphrodite_amz_god$, Goddess of love, beauty, pleasure and passion. Worshiping her through free love often results in a steep rise in population grouth. For obvious reasons."
+  worship_aphrodite_amz_god: "$worship_title1$ $aphrodite_amz_god$ as our Patron Deity"
+  worship_aphrodite_amz_god_desc: "$worship_desc1$ [ShowGodName('aphrodite_amz_god')] $worship_desc2$"
 
   hestia_amz_god: "Hestia"
   hestia_amz_god_desc: "$hestia_amz_god$, Goddess of Fire, the hearth, home, and domestic life. She is revered as the guardian of Amazon homes and families, the quiet flame that warms, shelters, and endures. Yet within her dwells a far greater power. A raging fire that, when neglected or provoked, may become unstopable and all-consuming."
