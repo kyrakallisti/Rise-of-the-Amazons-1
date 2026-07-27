@@ -2,9 +2,9 @@
     icon = religious_aspect_folk_purple
     religion = roman_amazon_religion
     modifier = {
-        global_max_control = 0.04
-        global_pop_assimilation_speed_modifier = 0.2
-        diplomatic_annexation_efficiency = 0.2
+        global_crown_estate_power = 0.1
+        global_integration_speed_modifier = 0.2
+        monthly_republican_tradition = 0.2
         monthly_towards_centralization = 0.2
     }
 }
@@ -105,5 +105,6 @@ worship_bellona_god = {
         global_manpower_modifier = 0.1
         siege_ability = 0.1
         monthly_towards_offensive = 0.2
+        enslave_tribals = yes
     }
 }

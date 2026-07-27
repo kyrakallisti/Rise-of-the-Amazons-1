@@ -64,44 +64,42 @@
 
 # Hellenic Amazon Deities
   hera_amz_god: "Hera"
-  hera_amz_god.old_hellenic_amazon_dialect: "Hēra"
-  hera_amz_god_desc: "$hera_amz_god$, the All-Mother, Queen of Olympus, creator of the Amazons! Protector of women and children. Her word is absolute!"
+  hera_amz_god_desc: "$hera_amz_god$, the All-Mother, Queen of Heavens and Creator of the Amazons. Protector of women, children and the sacred bonds that unite society. She embodies lawful authority and righteous rule. To the faithful, her word is absolute and through her divine will all order is maintained."
   worship_hera_amz_god: "$worship_title1$ $hera_amz_god$ as our Patron Deity"
   worship_hera_amz_god_desc: "$worship_desc1$ [ShowGodName('hera_amz_god')] $worship_desc2$"
 
   athena_amz_god: "Athena"
-  athena_amz_god.old_hellenic_amazon_dialect: "Athēnē"
-  athena_amz_god_desc: "$athena_amz_god$, Goddess of wisdom, warfare and free thinking. Many amazons come to her in search of enlightment."
+  athena_amz_god_desc: "$athena_amz_god$, Goddess of Wisdom, Strategy and Crafts, teaches that true strength lies not in brute force, but in knowledge guided by reason. To the Amazons, she is the patron of scholars, inventors, artisans and generals alike, for every great discovery and every brilliant victory begins with a single enlightened mind. Those who seek her favor pray not for easy answers, but for the wisdom to find them."
   worship_athena_amz_god: "$worship_title1$ $athena_amz_god$ as our Patron Deity"
   worship_athena_amz_god_desc: "$worship_desc1$ [ShowGodName('athena_amz_god')] $worship_desc2$"
 
   nike_amz_god: "Nike"
-  nike_amz_god_desc: "$nike_amz_god$, Goddess of victory and excellence, personifying triumph through speed, strength and honor. Specially in war and athletic competitions."
+  nike_amz_god_desc: "$nike_amz_god$, Goddess of Victory and Excellence, teaches that triumph is earned through discipline, perseverance and honor rather than fortune alone. To the Amazons, every contest is an opportunity to surpass oneself, whether upon the battlefield, in the Gymnasion or through feats of strength, speed and skill. Those who seek her favor strive not merely to prevail over others, but to become the finest version of themselves."
   worship_nike_amz_god: "$worship_title1$ $nike_amz_god$ as our Patron Deity"
   worship_nike_amz_god_desc: "$worship_desc1$ [ShowGodName('nike_amz_god')] $worship_desc2$"
 
   artemis_amz_god: "Artemis"
-  artemis_amz_god_desc: "$artemis_amz_god$, Goddess of hunting, the wilderness, wild animals, nature and the Moon. Her worshipers prove themselves to be fierce levies in times of war."
+  artemis_amz_god_desc: "$artemis_amz_god$, Goddess of the Wilderness, the Hunt and the Moon, teaches that mankind is but one part of nature's eternal balance. To the Amazons, the forest is no obstacle to be tamed, but a sacred home to be respected and protected. Those who walk Her path learn patience, self-reliance and harmony with the wild, becoming skilled hunters in peace and fearless defenders of their homeland in times of war."
   worship_artemis_amz_god: "$worship_title1$ $artemis_amz_god$ as our Patron Deity"
   worship_artemis_amz_god_desc: "$worship_desc1$ [ShowGodName('artemis_amz_god')] $worship_desc2$"
 
   thalassa_amz_god: "Thalassa"
-  thalassa_amz_god_desc: "$thalassa_amz_god$, the primordial Goddess of the ocean, physical embodiment of the sea itself! No amazon sets sail from any port without making an offering to her for safe travels."
+  thalassa_amz_god_desc: "$thalassa_amz_god$, the Primordial Goddess of the Ocean, is the very embodiment of the sea itself. Long before the rise of Olympus, her tides shaped the world and carried the first voyages across the endless horizon. Every Amazon sailor offers a prayer before setting sail, seeking calm waters, favorable winds and a safe return home, for while none can command the sea, all live by Thalassa's mercy."
   worship_thalassa_amz_god: "$worship_title1$ $thalassa_amz_god$ as our Patron Deity"
   worship_thalassa_amz_god_desc: "$worship_desc1$ [ShowGodName('thalassa_amz_god')] $worship_desc2$"
 
   aphrodite_amz_god: "Aphrodite"
-  aphrodite_amz_god_desc: "$aphrodite_amz_god$, Goddess of love, beauty, pleasure and passion. Worshiping her through free love often results in a steep rise in population grouth. For obvious reasons."
+  aphrodite_amz_god_desc: "$aphrodite_amz_god$, Goddess of Love, Beauty, Passion and Desire, teaches that love is life's greatest joy and the surest path to the future. The Amazons celebrate her through festivals, courtship and the free expression of affection, believing that every newborn child is a blessing bestowed by the Goddess herself. It is therefore no surprise that lands devoted to Aphrodite are seldom lacking in laughter... or cradles."
   worship_aphrodite_amz_god: "$worship_title1$ $aphrodite_amz_god$ as our Patron Deity"
   worship_aphrodite_amz_god_desc: "$worship_desc1$ [ShowGodName('aphrodite_amz_god')] $worship_desc2$"
 
   hestia_amz_god: "Hestia"
-  hestia_amz_god_desc: "$hestia_amz_god$, Goddess of Fire, the hearth, home, and domestic life. She is revered as the guardian of Amazon homes and families, the quiet flame that warms, shelters, and endures. Yet within her dwells a far greater power. A raging fire that, when neglected or provoked, may become unstopable and all-consuming."
+  hestia_amz_god_desc: "$hestia_amz_god$, Goddess of the Hearth, Home and Sacred Fire, is revered as the quiet flame that warms Amazon homes, gathers families and preserves the peace of every household. Yet within that gentle fire dwells a far greater power, for the same flame that cooks the meal and lights the hearth also burns beneath the mountains. The Amazons therefore honor Hestia with both gratitude and reverence, knowing that when her sacred fire is neglected or her patience exhausted, it may awaken as an unstoppable and all-consuming inferno."
   worship_hestia_amz_god: "$worship_title1$ $hestia_amz_god$ as our Patron Deity"
   worship_hestia_amz_god_desc: "$worship_desc1$ [ShowGodName('hestia_amz_god')] $worship_desc2$"
 
   demeter_amz_god: "Demeter"
-  demeter_amz_god_desc: "$demeter_amz_god$, Goddess of the harvest and agriculture, presiding over crops, grains, food and the fertility of the earth. Farmers pray to her for bountful yelds on their fields. For when Demeter denies the harvest, Amazons starve!"
+  demeter_amz_god_desc: "$demeter_amz_god$, Goddess of the Harvest and the Fertile Earth, teaches that civilization is built not by the sword, but by the plow. Every grain gathered, every orchard tended and every field brought to harvest is regarded as a blessing from her generous hand. The Amazons therefore honor Demeter with gratitude and diligence, knowing that while prosperity begins with the harvest, famine follows swiftly wherever her gifts are neglected."
   worship_demeter_amz_god: "$worship_title1$ $demeter_amz_god$ as our Patron Deity"
   worship_demeter_amz_god_desc: "$worship_desc1$ [ShowGodName('demeter_amz_god')] $worship_desc2$"
 
@@ -111,13 +109,13 @@
   worship_persephone_amz_god_desc: "$worship_desc1$ [ShowGodName('persephone_amz_god')] $worship_desc2$"
 
   enyo_amz_god: "Enyo"
-  enyo_amz_god_desc: "$enyo_amz_god$, Goddess of war, bloodshed, and the chaos of battle. She marches beside warriors where spears break and shields shatter, exalting courage, fury and glorious struggle beneath her dread gaze."
+  enyo_amz_god_desc: "$enyo_amz_god$, Goddess of War, Battle and Martial Valor, is the terrible companion of every warrior who marches into battle knowing that victory is never certain. She does not promise safety, only the courage to face death with honor and the resolve to stand firm while others falter. To the Amazons, glory is not found in needless bloodshed, but in fulfilling one's duty, whatever the cost."
   worship_enyo_amz_god: "$worship_title1$ $enyo_amz_god$ as our Patron Deity"
   worship_enyo_amz_god_desc: "$worship_desc1$ [ShowGodName('enyo_amz_god')] $worship_desc2$"
 
  #Heresy
   eris_amz_god: "Eris"
-  eris_amz_god_desc: "$eris_amz_god$, Goddess of chaos, discord, and strife. She is the personification of conflict, spreading havoc and mayhem on battlefields and in the lives of mortals. Worshiping her is considered dangerous and even seen as heresy in the eyes of most Amazons."
+  eris_amz_god_desc: "$eris_amz_god$, the Fallen One, is the Goddess of Chaos, Discord and Rebellion. She teaches that no throne is truly sacred, no law is completely just and no bond is worthy of blind obedience. To her followers, she is the liberator of the oppressed. But to most Amazons, she is the Great Corrupter, whose whispers dissolve trust, fracture kingdoms and set sister against sister. Her worship is condemned as the gravest of heresies, for wherever Eris is welcomed, civilization itself soon begins to unravel into chaos."
   worship_eris_amz_god: "$worship_title1$ $eris_amz_god$ as our Patron Deity"
   worship_eris_amz_god_desc: "$worship_desc1$ [ShowGodName('eris_amz_god')] $worship_desc2$"
 

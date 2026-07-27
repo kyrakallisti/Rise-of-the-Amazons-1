@@ -39,6 +39,7 @@ worship_skadi_god = {
         land_unit_attrition = -0.25
         global_hostile_attrition = 0.5
         monthly_towards_defensive = 0.2
+        enslave_tribals = yes
     }
 }
 
@@ -46,7 +47,7 @@ worship_ran_god = {
     icon = religious_aspect_folk_dark_blue
     religion = amazon_asatru_religion
     modifier = {
-        sea_cost_on_distance_from_capital_when_maritime = -2.5 
+        naval_range_modifier = 0.2
 		global_maritime_presence_modifier = 0.25
         naval_damage_done = 0.1
         monthly_towards_naval = 0.2

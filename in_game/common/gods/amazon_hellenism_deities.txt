@@ -16,7 +16,7 @@ athena_amz_god = {
     name_key = athena_amz_god
   }
   country_modifier = {
-    research_speed_modifier = 0.025
+    global_max_literacy = 5
   }
 }
 
@@ -49,7 +49,7 @@ thalassa_amz_god = {
     name_key = thalassa_amz_god
   }
   country_modifier = {
-    global_fish_output_modifier = 0.1
+    own_coast_naval_combat_bonus = 0.1
   }
 }
 
@@ -60,7 +60,7 @@ aphrodite_amz_god = {
     name_key = aphrodite_amz_god
   }
   country_modifier = {
-	  global_population_growth = 0.0002
+    global_estate_target_satisfaction = small_permanent_target_satisfaction
   }
 }
 
@@ -71,7 +71,7 @@ hestia_amz_god = {
     name_key = hestia_amz_god
   }
   country_modifier = {
-    global_monthly_prosperity = 0.0005
+    tolerance_own = 1
   }
 }
 
