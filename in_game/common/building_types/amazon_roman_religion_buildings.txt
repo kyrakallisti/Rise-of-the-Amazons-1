@@ -1,0 +1,621 @@
+﻿#Roman
+	temple_of_juno = {
+		audio_tier = 1
+		is_foreign = no
+		max_levels = 1
+		pop_type = clergy
+		
+		employment_size = large_religious_building_employment
+		
+		category = religious_category
+		
+		rural_settlement = no
+		town = yes
+		city = yes
+		megalopolis = yes
+		
+		build_time = religious_building_time
+		graphical_tags = { medium_religious }
+			
+		country_potential = {
+			religion = religion:roman_amazon_religion
+		}
+
+		location_potential = {
+			topography = flatland
+		}
+		allow = {
+			NOR = {
+				has_building = building_type:temple_of_juno
+				has_building = building_type:temple_of_ceres
+				has_building = building_type:temple_of_proserpina
+				has_building = building_type:temple_of_venus
+				has_building = building_type:temple_of_salacia
+				has_building = building_type:temple_of_minerva
+				has_building = building_type:temple_of_victoria
+				has_building = building_type:temple_of_diana
+				has_building = building_type:temple_of_vesta
+				has_building = building_type:temple_of_bellona
+			}
+		}
+		remove_if = {
+			NOT = {
+				location.owner = {
+					owner ?= { religion.group != religion_group:amazon_polytheism }
+				}
+			}
+		}
+
+		possible_production_methods = {
+			temple_of_juno_production_method
+		}	
+
+		construction_demand = town_building_construction
+		
+		modifier = {
+			scaled_gold_to_building_owner = 0.1
+			local_distance_from_capital_speed_propagation = 0.2
+		}
+	}
+
+	temple_of_ceres = {
+		audio_tier = 1
+		is_foreign = no
+		max_levels = 1
+		pop_type = clergy
+		
+		employment_size = large_religious_building_employment
+		
+		category = religious_category
+		
+		rural_settlement = yes
+		town = yes
+		city = yes
+		megalopolis = yes
+		
+		build_time = religious_building_time
+		graphical_tags = { medium_religious }
+			
+		country_potential = {
+			religion = religion:roman_amazon_religion
+		}
+
+		location_potential = {
+			vegetation = farmland
+		}
+		allow = {
+			NOR = {
+				has_building = building_type:temple_of_juno
+				has_building = building_type:temple_of_ceres
+				has_building = building_type:temple_of_proserpina
+				has_building = building_type:temple_of_venus
+				has_building = building_type:temple_of_salacia
+				has_building = building_type:temple_of_minerva
+				has_building = building_type:temple_of_victoria
+				has_building = building_type:temple_of_diana
+				has_building = building_type:temple_of_vesta
+				has_building = building_type:temple_of_bellona
+			}
+		}
+		remove_if = {
+			NOT = {
+				location.owner = {
+					owner ?= { religion.group != religion_group:amazon_polytheism }
+				}
+			}
+		}
+
+		possible_production_methods = {
+			temple_of_demeter_production_method
+		}	
+
+		construction_demand = town_building_construction
+		
+		modifier = {
+			local_monthly_food_modifier = 0.1
+			#local_food_capacity = 500
+			local_food_capacity_modifier = 0.1
+			local_food_decay_modifier = -0.05
+		}
+	}
+
+	temple_of_proserpina = {
+		audio_tier = 1
+		is_foreign = no
+		max_levels = 1
+		pop_type = clergy
+		
+		employment_size = large_religious_building_employment
+		
+		category = religious_category
+		
+		rural_settlement = no
+		town = yes
+		city = yes
+		megalopolis = yes
+		
+		build_time = religious_building_time
+		graphical_tags = { medium_religious }
+			
+		country_potential = {
+			religion = religion:roman_amazon_religion
+		}
+
+		location_potential = {
+			OR = {
+				topography = hills
+				topography = mountains
+			}
+		}
+		allow = {
+			NOR = {
+				has_building = building_type:temple_of_juno
+				has_building = building_type:temple_of_ceres
+				has_building = building_type:temple_of_proserpina
+				has_building = building_type:temple_of_venus
+				has_building = building_type:temple_of_salacia
+				has_building = building_type:temple_of_minerva
+				has_building = building_type:temple_of_victoria
+				has_building = building_type:temple_of_diana
+				has_building = building_type:temple_of_vesta
+				has_building = building_type:temple_of_bellona
+			}
+		}
+		remove_if = {
+			NOT = {
+				location.owner = {
+					owner ?= { religion.group != religion_group:amazon_polytheism }
+				}
+			}
+		}
+
+		possible_production_methods = {
+			temple_of_proserpina_production_method
+		}	
+
+		construction_demand = town_building_construction
+		
+		modifier = {
+			local_disease_resistance = 0.05
+			local_cultural_tradition = 0.1
+		}
+	}
+
+	temple_of_venus = {
+		audio_tier = 1
+		is_foreign = no
+		max_levels = 1
+		pop_type = clergy
+		
+		employment_size = large_religious_building_employment
+		
+		category = religious_category
+		
+		rural_settlement = no
+		town = yes
+		city = yes
+		megalopolis = yes
+		
+		build_time = religious_building_time
+		graphical_tags = { medium_religious }
+			
+		country_potential = {
+			religion = religion:roman_amazon_religion
+		}
+
+		location_potential = {
+			OR = {
+				is_coastal = yes
+				has_river = yes
+				is_adjacent_to_lake = yes
+			}
+		}
+		allow = {
+			NOR = {
+				has_building = building_type:temple_of_juno
+				has_building = building_type:temple_of_ceres
+				has_building = building_type:temple_of_proserpina
+				has_building = building_type:temple_of_venus
+				has_building = building_type:temple_of_salacia
+				has_building = building_type:temple_of_minerva
+				has_building = building_type:temple_of_victoria
+				has_building = building_type:temple_of_diana
+				has_building = building_type:temple_of_vesta
+				has_building = building_type:temple_of_bellona
+			}
+		}
+		remove_if = {
+			NOT = {
+				location.owner = {
+					owner ?= { religion.group != religion_group:amazon_polytheism }
+				}
+			}
+		}
+
+		possible_production_methods = {
+			temple_of_venus_production_method
+		}	
+
+		construction_demand = town_building_construction
+		
+		modifier = {
+			local_cultural_influence = 0.5
+			local_monthly_prosperity = 0.001
+			local_migration_attraction = 0.05
+		}
+	}
+
+	temple_of_salacia = {
+		audio_tier = 1
+		is_foreign = no
+		max_levels = 1
+		pop_type = clergy
+		
+		employment_size = large_religious_building_employment
+		
+		category = religious_category
+		
+		rural_settlement = no
+		town = yes
+		city = yes
+		megalopolis = yes
+		
+		build_time = religious_building_time
+		graphical_tags = { medium_religious }
+			
+		country_potential = {
+			religion = religion:roman_amazon_religion
+		}
+
+		location_potential = {
+			is_port = yes
+		}
+		allow = {
+			NOR = {
+				has_building = building_type:temple_of_juno
+				has_building = building_type:temple_of_ceres
+				has_building = building_type:temple_of_proserpina
+				has_building = building_type:temple_of_venus
+				has_building = building_type:temple_of_salacia
+				has_building = building_type:temple_of_minerva
+				has_building = building_type:temple_of_victoria
+				has_building = building_type:temple_of_diana
+				has_building = building_type:temple_of_vesta
+				has_building = building_type:temple_of_bellona
+			}
+		}
+		remove_if = {
+			NOT = {
+				location.owner = {
+					owner ?= { religion.group != religion_group:amazon_polytheism }
+				}
+			}
+		}
+
+		possible_production_methods = { 
+			temple_of_salacia_production_method
+		}	
+
+		construction_demand = town_building_construction
+		
+		modifier = {
+			harbor_suitability = 0.15
+			local_market_access = 0.015
+			local_merchant_power = 2.0
+			local_merchant_capacity = 2.0
+		}
+	}
+
+	temple_of_minerva = {
+		audio_tier = 1
+		is_foreign = no
+		max_levels = 1
+		pop_type = clergy
+		
+		employment_size = large_religious_building_employment
+		
+		category = religious_category
+		
+		rural_settlement = no
+		town = yes
+		city = yes
+		megalopolis = yes
+		
+		build_time = religious_building_time
+		graphical_tags = { medium_religious }
+			
+		country_potential = {
+			religion = religion:roman_amazon_religion
+		}
+
+		location_potential = {
+		}
+		allow = {
+			NOR = {
+				has_building = building_type:temple_of_juno
+				has_building = building_type:temple_of_ceres
+				has_building = building_type:temple_of_proserpina
+				has_building = building_type:temple_of_venus
+				has_building = building_type:temple_of_salacia
+				has_building = building_type:temple_of_minerva
+				has_building = building_type:temple_of_victoria
+				has_building = building_type:temple_of_diana
+				has_building = building_type:temple_of_vesta
+				has_building = building_type:temple_of_bellona
+			}
+		}
+		remove_if = {
+			NOT = {
+				location.owner = {
+					owner ?= { religion.group != religion_group:amazon_polytheism }
+				}
+			}
+		}
+
+		possible_production_methods = {
+			temple_of_athena_production_method
+		}	
+
+		construction_demand = town_building_construction
+		
+		modifier = {
+			local_production_efficiency = small_production_efficiency_bonus
+			local_laborers_max_literacy = 10
+			local_burghers_max_literacy = 10
+			local_pop_promotion_speed = 0.002
+		}
+	}
+
+	temple_of_victoria = {
+		audio_tier = 1
+		is_foreign = no
+		max_levels = 1
+		pop_type = clergy
+		
+		employment_size = large_religious_building_employment
+		
+		category = religious_category
+		
+		rural_settlement = no
+		town = yes
+		city = yes
+		megalopolis = yes
+		
+		build_time = religious_building_time
+		graphical_tags = { medium_religious }
+			
+		country_potential = {
+			religion = religion:roman_amazon_religion
+		}
+
+		location_potential = {
+		}
+		allow = {
+			NOR = {
+				has_building = building_type:temple_of_juno
+				has_building = building_type:temple_of_ceres
+				has_building = building_type:temple_of_proserpina
+				has_building = building_type:temple_of_venus
+				has_building = building_type:temple_of_salacia
+				has_building = building_type:temple_of_minerva
+				has_building = building_type:temple_of_victoria
+				has_building = building_type:temple_of_diana
+				has_building = building_type:temple_of_vesta
+				has_building = building_type:temple_of_bellona
+			}
+		}
+		remove_if = {
+			NOT = {
+				location.owner = {
+					owner ?= { religion.group != religion_group:amazon_polytheism }
+				}
+			}
+		}
+
+		possible_production_methods = {
+			temple_of_victoria_production_method
+		}	
+
+		construction_demand = town_building_construction
+		
+		modifier = {
+			local_unrest = -0.25
+			local_crown_estate_power = 0.20
+			local_max_control = 0.02
+		}
+	}
+
+	temple_of_diana = {
+		audio_tier = 1
+		is_foreign = no
+		max_levels = 1
+		pop_type = clergy
+		
+		employment_size = large_religious_building_employment
+		
+		category = religious_category
+		
+		rural_settlement = yes
+		town = no
+		city = no
+		megalopolis = no
+		
+		build_time = religious_building_time
+		graphical_tags = { medium_religious }
+			
+		country_potential = {
+			religion = religion:roman_amazon_religion
+		}
+
+		location_potential = {
+			OR = {
+				vegetation = forest
+				vegetation = woods
+			}
+		}
+		allow = {
+			NOR = {
+				has_building = building_type:temple_of_juno
+				has_building = building_type:temple_of_ceres
+				has_building = building_type:temple_of_proserpina
+				has_building = building_type:temple_of_venus
+				has_building = building_type:temple_of_salacia
+				has_building = building_type:temple_of_minerva
+				has_building = building_type:temple_of_victoria
+				has_building = building_type:temple_of_diana
+				has_building = building_type:temple_of_vesta
+				has_building = building_type:temple_of_bellona
+			}
+		}
+		remove_if = {
+			NOT = {
+				location.owner = {
+					owner ?= { religion.group != religion_group:amazon_polytheism }
+				}
+			}
+		}
+
+		possible_production_methods = {
+			temple_of_artemis_production_method
+		}	
+
+		construction_demand = town_building_construction
+		
+		modifier = {
+			local_max_rgo_size_modifier = 0.2
+			local_max_rural_control = 0.06
+			cannot_upgrade_location = yes
+		}
+	}
+
+	temple_of_vesta = {
+		audio_tier = 1
+		is_foreign = no
+		max_levels = 1
+		pop_type = clergy
+		
+		employment_size = large_religious_building_employment
+		
+		category = religious_category
+		
+		rural_settlement = no
+		town = yes
+		city = yes
+		megalopolis = yes
+		
+		build_time = religious_building_time
+		graphical_tags = { medium_religious }
+			
+		country_potential = {
+			religion = religion:roman_amazon_religion
+		}
+
+		location_potential = {
+		}
+		allow = {
+			NOR = {
+				has_building = building_type:temple_of_juno
+				has_building = building_type:temple_of_ceres
+				has_building = building_type:temple_of_proserpina
+				has_building = building_type:temple_of_venus
+				has_building = building_type:temple_of_salacia
+				has_building = building_type:temple_of_minerva
+				has_building = building_type:temple_of_victoria
+				has_building = building_type:temple_of_diana
+				has_building = building_type:temple_of_vesta
+				has_building = building_type:temple_of_bellona
+			}
+		}
+		remove_if = {
+			NOT = {
+				location.owner = {
+					owner ?= { religion.group != religion_group:amazon_polytheism }
+				}
+			}
+		}
+
+		possible_production_methods = {
+			temple_of_hestia_production_method
+		}	
+
+		construction_demand = town_building_construction
+		
+		modifier = {
+			local_pop_assimilation_speed_modifier = 0.25
+			local_pop_conversion_speed_modifier = 0.25
+			local_tribal_promotion = 0.1
+		}
+	}
+
+	temple_of_bellona = {
+		audio_tier = 1
+		is_foreign = no
+		max_levels = 1
+		pop_type = clergy
+		
+		employment_size = order_religious_building_employment
+		
+		category = religious_category
+		
+		rural_settlement = yes
+		town = yes
+		city = yes
+		megalopolis = yes
+		
+		build_time = religious_building_time
+		graphical_tags = { medium_religious }
+			
+		country_potential = {
+			religion = religion:roman_amazon_religion
+		}
+
+		location_potential = {
+			has_fort = yes
+		}
+		allow = {
+			NOR = {
+				has_building = building_type:temple_of_juno
+				has_building = building_type:temple_of_ceres
+				has_building = building_type:temple_of_proserpina
+				has_building = building_type:temple_of_venus
+				has_building = building_type:temple_of_salacia
+				has_building = building_type:temple_of_minerva
+				has_building = building_type:temple_of_victoria
+				has_building = building_type:temple_of_diana
+				has_building = building_type:temple_of_vesta
+				has_building = building_type:temple_of_bellona
+			}
+		}
+		remove_if = {
+			OR = {
+				location = {
+					owner ?= {
+						religion.group != religion_group:amazon_polytheism
+					}
+				}
+				location = {
+					has_fort = no
+				}
+			}
+		}
+
+		possible_production_methods = {
+			temple_of_enyo_production_method
+		}	
+
+		construction_demand = town_building_construction
+		
+		modifier = {
+			local_levy_size_modifier = 0.2
+			local_manpower = 0.0025
+			local_garrison_size = 0.2
+			can_recruit_regiment_in_this_location = yes
+		}
+
+		raw_modifier = {
+			local_defensive = 0.1
+			pure_tooltip_entry = pte_no_propagating_zone_of_control            # propagating_zone_of_control = no
+		}
+	}
+
+#Heresy

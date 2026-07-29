@@ -355,5 +355,10 @@
   unlock_tordenkanoner_6_advance_desc: "$a_tordenkanoner_6_desc$"
 
 #Military Buildings
-  EFFECTIVE_CAMPI_BELLONAE_BUILDINGS: "Effective Campi Bellonae Buildings"
+  EFFECTIVE_CASTRA_LEGIONIS_BUILDINGS: "Effective Castra Legionis Buildings"
+  EFFECTIVE_ARMORY_BUILDINGS: "Effective Armory Buildings"
+  EFFECTIVE_BARRACKS_BUILDINGS: "Effective Barracks Buildings"
+  EFFECTIVE_CONSCRIPTION_CENTER_BUILDINGS: "Effective Conscription Center Buildings"
+  EFFECTIVE_TRAINING_FIELDS_BUILDINGS: "Effective Training Fields Buildings"
+  EFFECTIVE_REGIMENTAL_CAMPS_BUILDINGS: "Effective Regimental Camps Buildings"
   EFFECTIVE_HIPPARCHEION_BUILDINGS: "Effective Hipparcheion Buildings"

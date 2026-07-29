@@ -1,16 +1,18 @@
 ﻿hera_amz_god = {
   icon = hera_amazon_god
+  is_female = yes
 	religion = { 
     religion = amazon_hellenism_religion
     name_key = hera_amz_god
   }
   country_modifier = {
-    global_monthly_control = 0.002
+    global_monthly_control = 0.0025
   }
 }
 
 athena_amz_god = {
   icon = athena_amazon_god
+  is_female = yes
   religion = { 
     religion = amazon_hellenism_religion
     name_key = athena_amz_god
@@ -22,17 +24,19 @@ athena_amz_god = {
 
 nike_amz_god = {
   icon = nike_amazon_god
+  is_female = yes
   religion = { 
     religion = amazon_hellenism_religion
     name_key = nike_amz_god
   }
   country_modifier = {
-    global_war_score_efficiency = 0.05
+    cultural_influence_modifier = 0.05
   }
 }
 
 artemis_amz_god = {
   icon = artemis_amazon_god
+  is_female = yes
   religion = {    
     religion = amazon_hellenism_religion
     name_key = artemis_amz_god
@@ -44,17 +48,19 @@ artemis_amz_god = {
 
 thalassa_amz_god = {
 	icon = thalassa_amazon_god
+  is_female = yes
   religion = { 
     religion = amazon_hellenism_religion
     name_key = thalassa_amz_god
   }
   country_modifier = {
-    own_coast_naval_combat_bonus = 0.1
+    naval_morale = 0.1
   }
 }
 
 aphrodite_amz_god = {
   icon = aphrodite_amazon_god
+  is_female = yes
   religion = { 
     religion = amazon_hellenism_religion
     name_key = aphrodite_amz_god
@@ -66,17 +72,19 @@ aphrodite_amz_god = {
 
 hestia_amz_god = {
   icon = hestia_amazon_god
+  is_female = yes
 	religion = { 
     religion = amazon_hellenism_religion
     name_key = hestia_amz_god
   }
   country_modifier = {
-    tolerance_own = 1
+    tolerated_culture_maintenance_cost_modifier = -0.1
   }
 }
 
 demeter_amz_god = {
 	icon = demeter_amazon_god
+  is_female = yes
   religion = { 
     religion = amazon_hellenism_religion
     name_key = demeter_amz_god
@@ -88,6 +96,7 @@ demeter_amz_god = {
 
 persephone_amz_god = {
   icon = persephone_amazon_god
+  is_female = yes
   religion = { 
     religion = amazon_hellenism_religion
     name_key = persephone_amz_god
@@ -99,6 +108,7 @@ persephone_amz_god = {
 
 enyo_amz_god = {
   icon = enyo_amazon_god
+  is_female = yes
   religion = { 
     religion = amazon_hellenism_religion
     name_key = enyo_amz_god
@@ -111,8 +121,9 @@ enyo_amz_god = {
 #Heresy
 eris_amz_god = {
   icon = eris_amazon_god
+  is_female = yes
   religion = { 
-    religion = erisian_heresy
+    religion = amazon_hellenism_religion
     name_key = eris_amz_god
   }
   country_modifier = {

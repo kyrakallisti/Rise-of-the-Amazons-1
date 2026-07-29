@@ -178,52 +178,52 @@
 
 # Latin Amazon Deities
   juno_god: "Juno"
-  juno_god_desc: "$juno_god$, the All-Mother, Queen of the Heavens and guardian of the Amazons. Protector of women and the state alike, her authority is absolute and her will unquestioned."
+  juno_god_desc: "$juno_god$, the All-Mother, Queen of the Heavens and eternal guardian of the Roman Amazons. As patroness of the Republic, She watches over its magistrates, its treasury and its people alike, teaching that no nation can endure without duty, discipline and just governance. Beneath her vigilant gaze, the strength of the state rests not upon a single ruler, but upon the steadfast devotion of every citizen."
   worship_juno_god: "$worship_title1$ $juno_god$ as our Patron Deity"
   worship_juno_god_desc: "$worship_desc1$ [ShowGodName('juno_god')] $worship_desc2$"
 
   minerva_god: "Minerva"
-  minerva_god_desc: "$minerva_god$, Goddess of wisdom, strategy, and disciplined warfare. She guides the minds of generals and scholars alike, embodying reason, order, and enlightened thought."
+  minerva_god_desc: "$minerva_god$, Goddess of wisdom, crafts and ingenious works. Patroness of artisans, architects, engineers and magistrates, she teaches that knowledge finds its highest purpose when put to practical use. Under her guidance, workshops flourish, monuments rise and the Republic grows stronger through discipline, skill and tireless industry."
   worship_minerva_god: "$worship_title1$ $minerva_god$ as our Patron Deity"
   worship_minerva_god_desc: "$worship_desc1$ [ShowGodName('minerva_god')] $worship_desc2$"
 
   victoria_god: "Victoria"
-  victoria_god_desc: "$victoria_god$, Goddess of victory and achievement, bestowing triumph upon those who prove worthy through strength, discipline, and excellence."
+  victoria_god_desc: "$victoria_god$, Goddess of Triumph, Glory and the enduring victories of the Republic. She teaches that true victory is not won upon the battlefield alone, but secured through discipline, sacrifice and cohesion. Every triumph celebrated, every enemy subdued and every province brought into the Republic's embrace stands as a testament to her divine favor."
   worship_victoria_god: "$worship_title1$ $victoria_god$ as our Patron Deity"
   worship_victoria_god_desc: "$worship_desc1$ [ShowGodName('victoria_god')] $worship_desc2$"
 
   diana_god: "Diana"
-  diana_god_desc: "$diana_god$, Goddess of the hunt, the wilderness, and the moon. She watches over the untamed lands and those who prove their strength within them."
+  diana_god_desc: "$diana_god$, Goddess of the hunt, the forests and the untamed frontier, watching over the common people, freedwomen and all who dwell beyond the city walls. Beneath the shade of her sacred groves, every free Amazon stands equal, drawing strength from the land and answering the call to arms in times of need."
   worship_diana_god: "$worship_title1$ $diana_god$ as our Patron Deity"
   worship_diana_god_desc: "$worship_desc1$ [ShowGodName('diana_god')] $worship_desc2$"
 
   salacia_god: "Salacia"
-  salacia_god_desc: "$salacia_god$, the living sea itself, boundless and eternal. She is not merely the mistress of the ocean but its very essence, its calm and its fury alike. No fleet sails without seeking her favor."
+  salacia_god_desc: "$salacia_god$, Lady of the Seas, Patroness of Sailors and guardian of the Roman Amazon Republic. To her faithful, the ocean is not a wild frontier, but the great highway of civilization, carrying commerce, prosperity and the Republic's banners to every distant shore. Every voyage begins with a prayer to Salacia, for through her favor the seas become the lifeblood of the nation."
   worship_salacia_god: "$worship_title1$ $salacia_god$ as our Patron Deity"
   worship_salacia_god_desc: "$worship_desc1$ [ShowGodName('salacia_god')] $worship_desc2$"
 
   venus_god: "Venus"
-  venus_god_desc: "$venus_god$, Goddess of love, beauty, and desire. Through her blessings, bonds are formed, passions ignited and new life brought forth among the Amazons."
+  venus_god_desc: "$venus_god$, Goddess of love, beauty, prosperity and the flourishing of civilization. She teaches that affection gives rise to families, families to communities and communities to a strong Republic. Through her blessings, cities grow prosperous, the arts flourish and future generations are born to inherit the legacy of their ancestors."
   worship_venus_god: "$worship_title1$ $venus_god$ as our Patron Deity"
   worship_venus_god_desc: "$worship_desc1$ [ShowGodName('venus_god')] $worship_desc2$"
 
   vesta_god: "Vesta"
-  vesta_god_desc: "$vesta_god$, Goddess of the hearth, fire, and the eternal flame of the household. She safeguards the unity and continuity of Amazon society, from the smallest home to the greatest city."
+  vesta_god_desc: "$vesta_god$, Goddess of the sacred flame, the household and the eternal traditions of the Republic. She guards the hearths of the Amazon people and preserves the customs, laws and bonds that unite them. To her followers, the flame of Vesta is more than a mere fire. It is the living memory of generations past and the promise that the Amazon civilization shall endure forever."
   worship_vesta_god: "$worship_title1$ $vesta_god$ as our Patron Deity"
   worship_vesta_god_desc: "$worship_desc1$ [ShowGodName('vesta_god')] $worship_desc2$"
 
   ceres_god: "Ceres"
-  ceres_god_desc: "$ceres_god$, Goddess of agriculture and the fruits of the earth, ensuring the fertility of fields and the sustenance of the people. Without her favor, famine follows."
+  ceres_god_desc: "$ceres_god$, Goddess of agriculture, grain and the nourishment of the people. Revered as the patroness of farmers and common folk alike, she ensures that the Republic's granaries remain full and its citizens well fed. To the Amazons of Salacia, no treasure is more precious than bread, for an empty stomach threatens the state more surely than any foreign army."
   worship_ceres_god: "$worship_title1$ $ceres_god$ as our Patron Deity"
   worship_ceres_god_desc: "$worship_desc1$ [ShowGodName('ceres_god')] $worship_desc2$"
 
   proserpina_god: "Proserpina"
-  proserpina_god_desc: "$proserpina_god$, Queen of the Underworld and bringer of renewal. She governs the cycle of life and death, guiding the souls of the fallen while heralding the return of life each spring."
-  worship_prosepina_god: "$worship_title1$ $prosepina_god$ as our Patron Deity"
-  worship_prosepina_god_desc: "$worship_desc1$ [ShowGodName('prosepina_god')] $worship_desc2$"
+  proserpina_god_desc: "$proserpina_god$, Queen of the Underworld, reigns over the silent realm of the departed and watches faithfully over those who have gone before. To the Amazons of Salacia, death does not erase one's duty to the Republic, for the honored dead endure through memory, lineage and the legacy of their deeds. Her faithful tend tombs, preserve ancestral traditions and perform sacred funeral rites, believing that a civilization which remembers its past shall never lose its future."
+  worship_proserpina_god: "$worship_title1$ $proserpina_god$ as our Patron Deity"
+  worship_proserpina_god_desc: "$worship_desc1$ [ShowGodName('proserpina_god')] $worship_desc2$"
 
   bellona_god: "Bellona"
-  bellona_god_desc: "$bellona_god$, Goddess of war, fury, and conquest. She embodies the unrelenting force of battle, guiding the Amazons against their enemies and shaping their destiny through conflict."
+  bellona_god_desc: "$bellona_god$, Goddess of war, discipline and conquest. She presides over the ordered might of the Republic, blessing its legions, commanders and victories alike. Through Bellona, the Amazons believe that triumph belongs not to reckless fury alone, but to unwavering discipline, careful preparation and the strength of an army united beneath a single banner."
   worship_bellona_god: "$worship_title1$ $bellona_god$ as our Patron Deity"
   worship_bellona_god_desc: "$worship_desc1$ [ShowGodName('bellona_god')] $worship_desc2$"
 

@@ -2,13 +2,28 @@
     legionariae_unit_limit = {
         add = {
             desc = "SUBUNIT_LIMIT_BASE"
-            value = 4
+            value = 8
         }
         add = {
-            desc = "EFFECTIVE_CAMPI_BELLONAE_BUILDINGS"
+            desc = "EFFECTIVE_CASTRA_LEGIONIS_BUILDINGS"
             value = 4
-            add = total_effective_building_levels:campus_bellonae
+            add = total_effective_building_levels:castra_legionis
         }
+        add = {
+            desc = "EFFECTIVE_ARMORY_BUILDINGS"
+            value = 1
+            add = total_effective_building_levels:armory
+        }
+        add = {
+            desc = "EFFECTIVE_BARRACKS_BUILDINGS"
+            value = 2
+            add = total_effective_building_levels:barracks
+        }
+        add = {
+            desc = "EFFECTIVE_CONSCRIPTION_CENTER_BUILDINGS"
+            value = 3
+            add = total_effective_building_levels:conscription_center
+        }      
     }
     kataphractoi_unit_limit = {
         add = {
@@ -17,8 +32,18 @@
         }
         add = {
             desc = "EFFECTIVE_HIPPARCHEION_BUILDINGS"
-            value = 2
+            value = 4
             add = total_effective_building_levels:hipparcheion
+        }
+        add = {
+            desc = "EFFECTIVE_TRAINING_FIELDS_BUILDINGS"
+            value = 1
+            add = total_effective_building_levels:training_fields
+        }
+        add = {
+            desc = "EFFECTIVE_REGIMENTAL_CAMPS_BUILDINGS"
+            value = 2
+            add = total_effective_building_levels:regimental_camp
         }
     }
 

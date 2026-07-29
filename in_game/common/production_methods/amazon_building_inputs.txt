@@ -84,10 +84,11 @@
 			category = building_maintenance
 		}	
 		temple_of_enyo_production_method = {
-			weaponry = 0.2
+			weaponry = 0.15
 			liquor = 0.05
 			cloth = 0.05
 			leather = 0.05
+			paper = 0.5
 
 			category = building_maintenance
 		}	
@@ -95,6 +96,53 @@
 			weaponry = 0.05
 			liquor = 0.1
 			cloth = 0.05
+
+			category = building_maintenance
+		}
+
+Latin Temples
+		temple_of_juno_production_method = {
+			furniture = 0.05
+			paper = 0.1
+			goods_gold = 0.025
+			copper = 0.05
+			beeswax = 0.02
+
+			category = building_maintenance
+		}
+		temple_of_proserpina_production_method = {
+			incense = 0.025
+			marble = 0.05
+			cloth = 0.05
+			stone = 0.1
+			pottery = 0.05
+
+			category = building_maintenance
+		}
+		temple_of_venus_production_method = {
+			tools = 0.025
+			dyes = 0.05
+			marble = 0.05
+			cloth = 0.5
+			paper = 0.1
+
+			category = building_maintenance
+		}
+		temple_of_salacia_production_method = {
+			cloth = 0.1
+			jewelry = 0.1
+			paper = 0.1
+			salt = 0.1
+			beeswax = 0.04
+				
+			category = building_maintenance
+		}
+		temple_of_victoria_production_method = {
+			weaponry = 0.1
+			sand = 0.025
+			masonry = 0.05
+			wheat = 0.1
+			horses = 0.05
 
 			category = building_maintenance
 		}

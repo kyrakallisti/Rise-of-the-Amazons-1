@@ -47,6 +47,7 @@ roman_amazon_religion = {
 	religious_aspects = 1
     definition_modifier = {
         army_heavy_infantry_power = 0.1
+		auto_slave_raid_different_religion = yes
     }
     
     opinions = {
@@ -67,7 +68,7 @@ erisian_heresy = {
 	religious_aspects = 1
 	
 	definition_modifier = {
-		auto_slave_raid_different_religion = yes
+		auto_slave_raid = yes
 	}
 
     opinions = {

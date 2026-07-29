@@ -75,7 +75,7 @@ kepos_eridos = {
     location = kallisti
     type = city
     importance = 3
-	religions = { erisian_heresy }
+	religions = { amazon_hellenism_religion erisian_heresy }
     god = eris_amz_god
 }
 

@@ -53,7 +53,7 @@
 		construction_demand = town_building_construction
 		
 		modifier = {
-			local_max_control = 0.04
+			local_max_control = 0.05
 			local_crown_estate_power = 0.2
 		}
 	}
@@ -358,9 +358,9 @@
 		construction_demand = town_building_construction
 		
 		modifier = {
-			local_max_literacy = 10
 			local_institution_growth_modifier = 0.25
-			local_pop_promotion_speed = 0.001
+			local_max_literacy = 10
+			local_pop_promotion_speed = 0.002
 		}
 	}
 
@@ -509,6 +509,9 @@
 		}
 
 		location_potential = {
+			dominant_culture = { has_culture_group = culture_group:hellenic_amazon_group }
+			is_province_capital = yes 
+			is_capital = no 
 		}
 		allow = {
 			NOR = {
@@ -539,9 +542,8 @@
 		construction_demand = town_building_construction
 		
 		modifier = {
-			local_pop_assimilation_speed_modifier = 0.25
-			local_pop_conversion_speed_modifier = 0.25
-			local_tribal_promotion = 0.1
+			local_monthly_development_modifier = 0.05
+			local_proximity_source = 20
 		}
 	}
 
@@ -551,7 +553,7 @@
 		max_levels = 1
 		pop_type = clergy
 		
-		employment_size = large_religious_building_employment
+		employment_size = order_religious_building_employment
 		
 		category = religious_category
 		
@@ -604,8 +606,9 @@
 		construction_demand = town_building_construction
 		
 		modifier = {
-			local_manpower_modifier = 0.2
-			local_garrison_size = 0.1
+			local_levy_size_modifier = 0.2
+			local_manpower = 0.0025
+			local_garrison_size = 0.2
 			can_recruit_regiment_in_this_location = yes
 		}
 
@@ -615,6 +618,7 @@
 		}
 	}
 
+#Heresy
 	temple_of_eris = {
 		audio_tier = 1
 		is_foreign = no
