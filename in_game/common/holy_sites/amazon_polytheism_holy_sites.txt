@@ -1,240 +1,239 @@
 ﻿#Hellenic
-heraion_basileion_holy_city = {
-    location = heraion_basileion
-    type = city
-    importance = 5
-	religions = { amazon_hellenism_religion }
-    god = hera_amz_god
-}
-the_athenaion = {
-    location = glaukopis
-    type = temple
-    importance = 5
-	religions = { amazon_hellenism_religion }
-    god = athena_amz_god
-}
-agonion_tes_nikephorias = {
-    location = nikaion
-    type = city
-    importance = 4
-	religions = { amazon_hellenism_religion }
-    god = athena_amz_god
-}
-sanctuary_of_the_eternal_flame = {
-    location = hestias_hieron
-    type = city
-    importance = 4
-	religions = { amazon_hellenism_religion }
-    god = hestia_amz_god
-}
-thalassa_pharos_island = {
-    location = pharosthalasses
-    type = city
-    importance = 4
-	religions = { amazon_hellenism_religion }
-    god = thalassa_amz_god
-}
-akra_persephones_necropolis = {
-    location = akra_persephones
-    type = city
-    importance = 4
-	religions = { amazon_hellenism_religion }
-    god = persephone_amz_god
-}
-naos_demetras_sacred_gardens = {
-    location = naos_demetras
-    type = temple
-    importance = 3
-	religions = { amazon_hellenism_religion }
-    god = demeter_amz_god
-}
-aphrogenia_sacred_beaches = {
-    location = aphrogenia
-    type = city
-    importance = 3
-	religions = { amazon_hellenism_religion }
-    god = aphrodite_amz_god
-}
-alsos_artemidos_sacred_grove = {
-    location = alsos_artemidos
-    type = mountain
-    importance = 3
-	religions = { amazon_hellenism_religion }
-    god = artemis_amz_god
-}
-agoge_enyous = {
-    location = ignis_bellonae
-    type = mountain
-    importance = 4
-	religions = { amazon_hellenism_religion }
-    god = enyo_amz_god
-}
+    heraion_basileion_holy_city = {
+        location = heraion_basileion
+        type = city
+        importance = 5
+        religions = { amazon_hellenism_religion }
+        god = hera_amz_god
+    }
+    the_athenaion = {
+        location = glaukopis
+        type = temple
+        importance = 5
+        religions = { amazon_hellenism_religion }
+        god = athena_amz_god
+    }
+    agonion_tes_nikephorias = {
+        location = nikaion
+        type = city
+        importance = 4
+        religions = { amazon_hellenism_religion }
+        god = athena_amz_god
+    }
+    sanctuary_of_the_eternal_flame = {
+        location = hestias_hieron
+        type = city
+        importance = 4
+        religions = { amazon_hellenism_religion }
+        god = hestia_amz_god
+    }
+    thalassa_pharos_island = {
+        location = pharosthalasses
+        type = city
+        importance = 4
+        religions = { amazon_hellenism_religion }
+        god = thalassa_amz_god
+    }
+    akra_persephones_necropolis = {
+        location = akra_persephones
+        type = city
+        importance = 4
+        religions = { amazon_hellenism_religion }
+        god = persephone_amz_god
+    }
+    naos_demetras_sacred_gardens = {
+        location = naos_demetras
+        type = temple
+        importance = 3
+        religions = { amazon_hellenism_religion }
+        god = demeter_amz_god
+    }
+    aphrogenia_sacred_beaches = {
+        location = aphrogenia
+        type = city
+        importance = 3
+        religions = { amazon_hellenism_religion }
+        god = aphrodite_amz_god
+    }
+    alsos_artemidos_sacred_grove = {
+        location = alsos_artemidos
+        type = mountain
+        importance = 3
+        religions = { amazon_hellenism_religion }
+        god = artemis_amz_god
+    }
+    agoge_enyous = {
+        location = ignis_bellonae
+        type = mountain
+        importance = 4
+        religions = { amazon_hellenism_religion }
+        god = enyo_amz_god
+    }
 
 #Heresy
-kepos_eridos = {
-    location = kallisti
-    type = city
-    importance = 3
-	religions = { amazon_hellenism_religion erisian_heresy }
-    god = eris_amz_god
-}
+    kepos_eridos = {
+        location = kallisti
+        type = city
+        importance = 3
+        religions = { amazon_hellenism_religion erisian_heresy }
+        god = eris_amz_god
+    }
 
 #Norse
-eldara_ancestral_city = {
-    location = eldara
-    type = city
-    importance = 5
-	religions = { amazon_asatru_religion }
-    god = frigga_god
-}
-sessrumnir_and_folkvangr = {
-    location = sessrumnir
-    type = city
-    importance = 5
-	religions = { amazon_asatru_religion }
-    god = freyja_god
-}
-holy_site_thrudarfjell = {
-    location = thrudarfjell
-    type = mountain
-    importance = 4
-	religions = { amazon_asatru_religion }
-    god = thrud_god
-}
-ranarnet = {
-    location = wipetikil
-    type = city
-    importance = 4
-	religions = { amazon_asatru_religion }
-    god = ran_god
-}
-sagavindhall = {
-    location = sagavind
-    type = city
-    importance = 4
-	religions = { amazon_asatru_religion }
-    god = saga_god
-}
-idunnarlundr = {
-    location = alsos_idunnes
-    type = city
-    importance = 4
-	religions = { amazon_asatru_religion }
-    god = idunn_god
-}
-sifvangr = {
-    location = sifvangr
-    type = mountain
-    importance = 4
-	religions = { amazon_asatru_religion }
-    god = sif_god
-}
-helgrind = {
-    location = myrklund
-    type = mountain
-    importance = 3
-	religions = { amazon_asatru_religion }
-    god = hel_god
-}
-solleid = {
-    location = horta
-    type = mountain
-    importance = 3
-	religions = { amazon_asatru_religion }
-    god = sunna_god
-}
-thrymheimr_silver = {
-    location = thrymheimr
-    type = mountain
-    importance = 3
-	religions = { amazon_asatru_religion }
-    god = skadi_god
-}
-veidihjarta = { #Temple of Skadi at Arnarey
-    location = arnarhjarta
-    type = temple
-    importance = 2
-	religions = { amazon_asatru_religion }
-    god = skadi_god
-}
-lifandi_eldr = { #Living Hearth of Frigg in Núja Eldára
-    location = kikonteku
-    type = temple
-    importance = 2
-	religions = { amazon_asatru_religion }
-    god = frigga_god
-}
-
+    eldara_ancestral_city = {
+        location = eldara
+        type = city
+        importance = 5
+        religions = { amazon_asatru_religion }
+        god = frigga_god
+    }
+    sessrumnir_and_folkvangr = {
+        location = sessrumnir
+        type = city
+        importance = 5
+        religions = { amazon_asatru_religion }
+        god = freyja_god
+    }
+    holy_site_thrudarfjell = {
+        location = thrudarfjell
+        type = mountain
+        importance = 4
+        religions = { amazon_asatru_religion }
+        god = thrud_god
+    }
+    ranarnet = {
+        location = wipetikil
+        type = city
+        importance = 4
+        religions = { amazon_asatru_religion }
+        god = ran_god
+    }
+    sagavindhall = {
+        location = sagavind
+        type = city
+        importance = 4
+        religions = { amazon_asatru_religion }
+        god = saga_god
+    }
+    idunnarlundr = {
+        location = alsos_idunnes
+        type = city
+        importance = 4
+        religions = { amazon_asatru_religion }
+        god = idunn_god
+    }
+    sifvangr = {
+        location = sifvangr
+        type = mountain
+        importance = 4
+        religions = { amazon_asatru_religion }
+        god = sif_god
+    }
+    helgrind = {
+        location = myrklund
+        type = mountain
+        importance = 3
+        religions = { amazon_asatru_religion }
+        god = hel_god
+    }
+    solleid = {
+        location = horta
+        type = mountain
+        importance = 3
+        religions = { amazon_asatru_religion }
+        god = sunna_god
+    }
+    thrymheimr_silver = {
+        location = thrymheimr
+        type = mountain
+        importance = 3
+        religions = { amazon_asatru_religion }
+        god = skadi_god
+    }
+    veidihjarta = { #Temple of Skadi at Arnarey
+        location = arnarhjarta
+        type = temple
+        importance = 2
+        religions = { amazon_asatru_religion }
+        god = skadi_god
+    }
+    lifandi_eldr = { #Living Hearth of Frigg in Núja Eldára
+        location = kikonteku
+        type = temple
+        importance = 2
+        religions = { amazon_asatru_religion }
+        god = frigga_god
+    }
 
 #Latin
-holy_site_salacia = {
-    location = salacia_augusta
-    type = city
-    importance = 5
-	religions = { roman_amazon_religion }
-    god = salacia_god
-}
-arena_bellonae = {
-    location = ignis_bellonae
-    type = mountain
-    importance = 5
-	religions = { roman_amazon_religion }
-    god = bellona_god
-}
-ignis_aeternus_vestae = {
-    location = fauces_vestae
-    type = mountain
-    importance = 4
-	religions = { roman_amazon_religion }
-    god = vesta_god
-}
+    holy_site_salacia = {
+        location = salacia_augusta
+        type = city
+        importance = 5
+        religions = { roman_amazon_religion }
+        god = salacia_god
+    }
+    arena_bellonae = {
+        location = ignis_bellonae
+        type = mountain
+        importance = 5
+        religions = { roman_amazon_religion }
+        god = bellona_god
+    }
+    ignis_aeternus_vestae = {
+        location = fauces_vestae
+        type = mountain
+        importance = 4
+        religions = { roman_amazon_religion }
+        god = vesta_god
+    }
 
-aedes_junonis_monetae = {
-    location = rome
-    type = city
-    importance = 5
-	religions = { roman_amazon_religion }
-    god = juno_god
-}
-horrea_cereris = {
-    location = tunis
-    type = city
-    importance = 4
-	religions = { roman_amazon_religion }
-    god = ceres_god
-}
-bibliotheca_minervae = {
-    location = alexandria
-    type = city
-    importance = 4
-	religions = { roman_amazon_religion }
-    god = minerva_god
-}
-paphos_veneris = {
-    location = paphos
-    type = city
-    importance = 4
-	religions = { roman_amazon_religion }
-    god = venus_god
-}
-victoria_aeterna = {
-    location = constantinople
-    type = city
-    importance = 5
-	religions = { roman_amazon_religion }
-    god = victoria_god
-}
-lucus_proserpinae = {
-    location = piazza
-    type = mountain
-    importance = 3
-	religions = { roman_amazon_religion }
-    god = proserpina_god
-}
-lucus_dianae = {
-    location = guarda
-    type = mountain
-    importance = 3
-	religions = { roman_amazon_religion }
-    god = diana_god
-}
+    aedes_junonis_monetae = {
+        location = rome
+        type = city
+        importance = 5
+        religions = { roman_amazon_religion }
+        god = juno_god
+    }
+    horrea_cereris = {
+        location = tunis
+        type = city
+        importance = 4
+        religions = { roman_amazon_religion }
+        god = ceres_god
+    }
+    promontorium_minervae = {
+        location = lagos        #Algarve, Portugal's Southwestern tip. Great Cliffs
+        type = mountain
+        importance = 4
+        religions = { roman_amazon_religion }
+        god = minerva_god
+    }
+    litus_veneris = {
+        location = aphrogenia
+        type = city
+        importance = 4
+        religions = { roman_amazon_religion }
+        god = venus_god
+    }
+    victoria_aeterna = {
+        location = rome
+        type = city
+        importance = 5
+        religions = { roman_amazon_religion }
+        god = victoria_god
+    }
+    lucus_proserpinae = {
+        location = piazza
+        type = mountain
+        importance = 3
+        religions = { roman_amazon_religion }
+        god = proserpina_god
+    }
+    lucus_dianae = {
+        location = guarda
+        type = mountain
+        importance = 3
+        religions = { roman_amazon_religion }
+        god = diana_god
+    }

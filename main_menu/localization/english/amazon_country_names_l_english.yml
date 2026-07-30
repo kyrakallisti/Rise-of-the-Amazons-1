@@ -27,9 +27,9 @@
  AHKF: "Haukefjær" #Hawk Feather
  AHKF_ADJ: "Haukefjæring"
  APYR: "Eldtvillingar" #Fire Twins
- APYR.hellenic_amazon_language: "Didymópyra"
+ APYR.greek_language: "Didymópyra"
  APYR_ADJ: "Eldtvillingan"
- APYR_ADJ.hellenic_amazon_language: "Didymopyraían"
+ APYR_ADJ.greek_language: "Didymopyraían"
  ASUN: "Sunnaheimr"
  ASUN_ADJ: "Sól-kissed" #The Sun-kissed
 
@@ -62,12 +62,12 @@
  ANEA: "Neathemiskyra"
  ANEA_ADJ: "Neathemiskyran"
  AEPL: "Eplaeyjar"
- AEPL.hellenic_amazon_language: "Mēlonēsos"
+ AEPL.greek_language: "Mēlonēsos"
  AEPL_ADJ: "Mēlonēsian"
  AARG: "Argyría"
  AARG_ADJ: "Argyrian"
  AGRY: "Aktē Grýphōnos"
- AGRY.norse_amazon_language: "Gryphonvík"
+ AGRY.scandinavian_language: "Gryphonvík"
  AGRY_ADJ: "Gryphōnian" 
  ARHO: "Rhodonía"
  ARHO_ADJ: "Rhodonian"

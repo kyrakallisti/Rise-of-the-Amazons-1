@@ -16,8 +16,8 @@
  #Hellenic
   temple_of_hera: "Court of Hera"
   temple_of_hera_desc: "The $temple_of_hera$ serves as both a sacred sanctuary and a seat of justice, where magistrates, priestesses and nobles gather beneath the watchful gaze of Hera, Queen of the Skies. Here, laws are proclaimed, oaths are sworn and disputes are settled according to divine custom, reinforcing the authority of the state and the sacred order upon which Amazon society is built."
-  temple_of_demeter: "Harvest Hall of Demeter"
-  temple_of_demeter_desc: "The $temple_of_demeter$ stands at the heart of the fertile farmlands of the Amazons, where wise priestesses oversee the cultivation, harvesting and preservation of each year's bounty. More than just a place of celebration and worship, these great halls serve as granaries, fairgrounds and centers of agricultural learning, ensuring that Demeter's gifts nourish the people through both abundance and hardship."
+  temple_of_demeter: "Thesmophorion of Demeter"
+  temple_of_demeter_desc: "The $temple_of_demeter$ is a sacred sanctuary dedicated to Demeter, Lady of the Harvest and Giver of Grain. Here, priestesses oversee the cultivation of fertile lands, bless the harvest and safeguard both granaries and seed stores against times of hardship. Serving as a center of agricultural learning, seasonal festivals and the careful stewardship of the earth's bounty, the Thesmophorion ensures that Demeter's gifts sustain the Amazon people through every season."
   temple_of_persephone: "Sanctuary of Persephone"
   temple_of_persephone_desc: "The $temple_of_persephone$ offers refuge to both the living and the dying beneath the gentle gaze of Persephone, Queen of the Underworld. Here, priestesses tend to the sick, comfort the grieving and honor the departed, believing that every soul passes through the Goddess' embrace in its own time. Through careful healing, sacred rites and unwavering compassion, they strive to delay that final journey for as long as fate allows."
   temple_of_aphrodite: "Gardens of Aphrodite"
@@ -60,4 +60,8 @@
   temple_of_bellona: "Aedes Bellonae"
   temple_of_bellona_desc: "The $temple_of_bellona$ serves as the military and administrative heart of every major Salacian fortress. Here, the priestesses of Bellona oversee the mustering of levies, maintain military records, organize supplies and perform the sacred rites that precede every campaign. While commanders prepare their strategies and messengers carry orders across the Republic, the Aedes ensures that every garrison remains disciplined, well-provisioned and ever ready for war. Through Bellona's guidance, the strength of the Republic lies not only in the courage of its soldiers, but in the order and preparation that sustain them."
 
-
+ #Norse
+  temple_of_frigga: "Great Hall of Frigg"
+  temple_of_frigga_desc: "The $temple_of_frigga$ stands at the heart of every loyal province, where the sacred hearth burns day and night beneath the watch of the All-Mother. Here, jarls, priestesses and freewomen gather to swear oaths, settle disputes, welcome travelers and celebrate the bonds of kinship that unite the realm. From its warmth, prosperity and fellowship spread throughout the surrounding countryside, binding distant communities together not through command, but through shared faith and sacred oaths."
+  temple_of_sif: "Harvest Hall of Sif"
+  temple_of_sif_desc: "The $temple_of_sif$ stands amid golden fields blessed by Sif, the Golden-Haired Lady of the Harvest. Here, grain is gathered, seed stores are protected and the fruits of the land are preserved against the long northern winters. More than a place of worship, the Harvest Hall serves as a communal granary, fairground and feast hall, where priestesses give thanks for the earth's bounty and ensure that no household under Sif's blessing knows hunger."

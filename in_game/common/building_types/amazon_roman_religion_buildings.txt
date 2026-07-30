@@ -22,6 +22,7 @@
 		}
 
 		location_potential = {
+			dominant_religion = religion:amazon_hellenism_religion 
 			topography = flatland
 		}
 		allow = {
@@ -40,8 +41,9 @@
 		}
 		remove_if = {
 			NOT = {
-				location.owner = {
-					owner ?= { religion.group != religion_group:amazon_polytheism }
+				dominant_religion = religion:amazon_hellenism_religion 
+				location = {
+					owner ?= { religion.group = religion_group:amazon_polytheism }
 				}
 			}
 		}
@@ -81,6 +83,7 @@
 		}
 
 		location_potential = {
+			dominant_religion = religion:amazon_hellenism_religion 
 			vegetation = farmland
 		}
 		allow = {
@@ -99,8 +102,9 @@
 		}
 		remove_if = {
 			NOT = {
-				location.owner = {
-					owner ?= { religion.group != religion_group:amazon_polytheism }
+				dominant_religion = religion:amazon_hellenism_religion 
+				location = {
+					owner ?= { religion.group = religion_group:amazon_polytheism }
 				}
 			}
 		}
@@ -112,7 +116,7 @@
 		construction_demand = town_building_construction
 		
 		modifier = {
-			local_monthly_food_modifier = 0.1
+			local_monthly_food_modifier = 0.15
 			#local_food_capacity = 500
 			local_food_capacity_modifier = 0.1
 			local_food_decay_modifier = -0.05
@@ -142,6 +146,7 @@
 		}
 
 		location_potential = {
+			dominant_religion = religion:amazon_hellenism_religion 
 			OR = {
 				topography = hills
 				topography = mountains
@@ -163,8 +168,9 @@
 		}
 		remove_if = {
 			NOT = {
-				location.owner = {
-					owner ?= { religion.group != religion_group:amazon_polytheism }
+				dominant_religion = religion:amazon_hellenism_religion 
+				location = {
+					owner ?= { religion.group = religion_group:amazon_polytheism }
 				}
 			}
 		}
@@ -204,6 +210,7 @@
 		}
 
 		location_potential = {
+			dominant_religion = religion:amazon_hellenism_religion 
 			OR = {
 				is_coastal = yes
 				has_river = yes
@@ -226,8 +233,9 @@
 		}
 		remove_if = {
 			NOT = {
-				location.owner = {
-					owner ?= { religion.group != religion_group:amazon_polytheism }
+				dominant_religion = religion:amazon_hellenism_religion 
+				location = {
+					owner ?= { religion.group = religion_group:amazon_polytheism }
 				}
 			}
 		}
@@ -268,6 +276,7 @@
 		}
 
 		location_potential = {
+			dominant_religion = religion:amazon_hellenism_religion 
 			is_port = yes
 		}
 		allow = {
@@ -286,8 +295,9 @@
 		}
 		remove_if = {
 			NOT = {
-				location.owner = {
-					owner ?= { religion.group != religion_group:amazon_polytheism }
+				dominant_religion = religion:amazon_hellenism_religion 
+				location = {
+					owner ?= { religion.group = religion_group:amazon_polytheism }
 				}
 			}
 		}
@@ -329,6 +339,7 @@
 		}
 
 		location_potential = {
+			dominant_religion = religion:amazon_hellenism_religion 
 		}
 		allow = {
 			NOR = {
@@ -346,8 +357,9 @@
 		}
 		remove_if = {
 			NOT = {
-				location.owner = {
-					owner ?= { religion.group != religion_group:amazon_polytheism }
+				dominant_religion = religion:amazon_hellenism_religion 
+				location = {
+					owner ?= { religion.group = religion_group:amazon_polytheism }
 				}
 			}
 		}
@@ -389,6 +401,7 @@
 		}
 
 		location_potential = {
+			dominant_religion = religion:amazon_hellenism_religion 
 		}
 		allow = {
 			NOR = {
@@ -406,8 +419,9 @@
 		}
 		remove_if = {
 			NOT = {
-				location.owner = {
-					owner ?= { religion.group != religion_group:amazon_polytheism }
+				dominant_religion = religion:amazon_hellenism_religion 
+				location = {
+					owner ?= { religion.group = religion_group:amazon_polytheism }
 				}
 			}
 		}
@@ -448,6 +462,7 @@
 		}
 
 		location_potential = {
+			dominant_religion = religion:amazon_hellenism_religion 
 			OR = {
 				vegetation = forest
 				vegetation = woods
@@ -469,8 +484,9 @@
 		}
 		remove_if = {
 			NOT = {
-				location.owner = {
-					owner ?= { religion.group != religion_group:amazon_polytheism }
+				dominant_religion = religion:amazon_hellenism_religion 
+				location = {
+					owner ?= { religion.group = religion_group:amazon_polytheism }
 				}
 			}
 		}
@@ -528,8 +544,8 @@
 		}
 		remove_if = {
 			NOT = {
-				location.owner = {
-					owner ?= { religion.group != religion_group:amazon_polytheism }
+				location = {
+					owner ?= { religion.group = religion_group:amazon_polytheism }
 				}
 			}
 		}
@@ -570,6 +586,7 @@
 		}
 
 		location_potential = {
+			dominant_religion = religion:amazon_hellenism_religion 
 			has_fort = yes
 		}
 		allow = {
@@ -587,15 +604,12 @@
 			}
 		}
 		remove_if = {
-			OR = {
+			NOT = {
+				dominant_religion = religion:amazon_hellenism_religion 
 				location = {
-					owner ?= {
-						religion.group != religion_group:amazon_polytheism
-					}
+					owner ?= { religion.group = religion_group:amazon_polytheism }
 				}
-				location = {
-					has_fort = no
-				}
+				location = { has_fort = no }
 			}
 		}
 

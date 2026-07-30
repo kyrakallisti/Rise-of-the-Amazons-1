@@ -10,95 +10,95 @@
  #Relevant Hellenic
   hippolytide_dynasty: "Hippolytidē"
   hippolytide_dynasty.old_hellenic_amazon_dialect: "Hippolytidē"
-  hippolytide_dynasty.norse_amazon_language: "Hippolytardóttir"
+  hippolytide_dynasty.scandinavian_language: "Hippolytardóttir"
 
   melanaetide_dynasty: "Melanaetidē"
-  melanaetide_dynasty.norse_amazon_language: "Melanaetíardóttir"
+  melanaetide_dynasty.scandinavian_language: "Melanaetíardóttir"
 
   leainide_dynasty: "Lenidē"
   leainide_dynasty.old_hellenic_amazon_dialect: "Leainidē"
-  leainide_dynasty.norse_amazon_language: "Leainardóttir"
+  leainide_dynasty.scandinavian_language: "Leainardóttir"
 
   melisside_dynasty: "Melíssidē"
   melisside_dynasty.old_hellenic_amazon_dialect: "Melissidē"
-  melisside_dynasty.norse_amazon_language: "Melíssardóttir"
+  melisside_dynasty.scandinavian_language: "Melíssardóttir"
 
   lykainide_dynasty: "Lykenidē"
   lykainide_dynasty.old_hellenic_amazon_dialect: "Lykainidē"
-  lykainide_dynasty.norse_amazon_language: "Lykainardóttir"
+  lykainide_dynasty.scandinavian_language: "Lykainardóttir"
 
   melinoide_dynasty: "Melinoidē"
-  melinoide_dynasty.norse_amazon_language: "Melinóidardóttir"
+  melinoide_dynasty.scandinavian_language: "Melinóidardóttir"
 
  #Republican
   ophelide_dynasty: "Ophelidē"
   ophelide_dynasty.old_hellenic_amazon_dialect: "Ōphelidē"
-  ophelide_dynasty.norse_amazon_language: "Ophelardóttir"
+  ophelide_dynasty.scandinavian_language: "Ophelardóttir"
 
  #Relevant Norsellenic
   svanardottir_dynasty: "Svanardóttir"
-  svanardottir_dynasty.hellenic_amazon_language: "Svanaidē"
+  svanardottir_dynasty.greek_language: "Svanaidē"
 
   audardottir_dynasty: "Audardóttir"
   audardottir_dynasty.old_norse_amazon_dialect: "Auðardóttir"
-  audardottir_dynasty.hellenic_amazon_language: "Audidē"
+  audardottir_dynasty.greek_language: "Audidē"
 
   ragnheidardottir_dynasty: "Ragnheidardóttir"
   ragnheidardottir_dynasty.old_norse_amazon_dialect: "Ragnheiðardóttir"
-  ragnheidardottir_dynasty.hellenic_amazon_language: "Ragnheidē"
+  ragnheidardottir_dynasty.greek_language: "Ragnheidē"
 
   ingfridardottir_dynasty: "Ingridardóttir"
   ingfridardottir_dynasty.old_norse_amazon_dialect: "Ingfríðardóttir"
-  ingfridardottir_dynasty.hellenic_amazon_language: "Ingridē"
+  ingfridardottir_dynasty.greek_language: "Ingridē"
 
  #Relevant Norse
   thorardottir_dynasty: "Thorardóttir"
   thorardottir_dynasty.old_norse_amazon_dialect: "Þórardóttir"
-  thorardottir_dynasty.hellenic_amazon_language: "Thoraidē"
+  thorardottir_dynasty.greek_language: "Thoraidē"
 
   hrafnardottir_dynasty: "Revnardóttir"
   hrafnardottir_dynasty.old_norse_amazon_dialect: "Hrafnardóttir"
-  hrafnardottir_dynasty.hellenic_amazon_language: "Revnaidē"
+  hrafnardottir_dynasty.greek_language: "Revnaidē"
 
   arnardottir_dynasty: "Arnardóttir"
-  arnardottir_dynasty.hellenic_amazon_language: "Arnaidē"
+  arnardottir_dynasty.greek_language: "Arnaidē"
 
   ylvardottir_dynasty: "Ylvardóttir"
   ylvardottir_dynasty.old_norse_amazon_dialect: "Ylvardóttir"
-  ylvardottir_dynasty.hellenic_amazon_language: "Ylvaidē"
+  ylvardottir_dynasty.greek_language: "Ylvaidē"
 
   yrsardottir_dynasty: "Yrsardóttir"
   yrsardottir_dynasty.old_norse_amazon_dialect: "Yrsardóttir"
-  yrsardottir_dynasty.hellenic_amazon_language: "Yrsaidē"
+  yrsardottir_dynasty.greek_language: "Yrsaidē"
 
   solveigardottir_dynasty: "Solveigardóttir"
   solveigardottir_dynasty.old_norse_amazon_dialect: "Sólveigardóttir"
-  solveigardottir_dynasty.hellenic_amazon_language: "Solveigidē"
+  solveigardottir_dynasty.greek_language: "Solveigidē"
   
  #Vindmark
   svarthildardottir_dynasty: "Svarthildardóttir"
   svarthildardottir_dynasty.old_norse_amazon_dialect: "Svarthildardóttir"
-  svarthildardottir_dynasty.hellenic_amazon_language: "Svarthildidē"
+  svarthildardottir_dynasty.greek_language: "Svarthildidē"
 
   hvitfridardottir_dynasty: "Hvitfridardóttir"
   hvitfridardottir_dynasty.old_norse_amazon_dialect: "Hvítfríðardóttir"
-  hvitfridardottir_dynasty.hellenic_amazon_language: "Hvitfrididē"
+  hvitfridardottir_dynasty.greek_language: "Hvitfrididē"
 
   veidhildardottir_dynasty: "Veidhildardóttir"
   veidhildardottir_dynasty.old_norse_amazon_dialect: "Veiðhildardóttir"
-  veidhildardottir_dynasty.hellenic_amazon_language: "Veidhildidē"
+  veidhildardottir_dynasty.greek_language: "Veidhildidē"
 
   sagardottir_dynasty: "Ságardóttir"
   sagardottir_dynasty.old_norse_amazon_dialect: "Ságardóttir"
-  sagardottir_dynasty.hellenic_amazon_language: "Ságaidē"
+  sagardottir_dynasty.greek_language: "Ságaidē"
 
   horveigardottir_dynasty: "Hørveigardóttir"
   horveigardottir_dynasty.old_norse_amazon_dialect: "Hørveigardóttir"
-  horveigardottir_dynasty.hellenic_amazon_language: "Horveigidē"
+  horveigardottir_dynasty.greek_language: "Horveigidē"
 
   brynhildardottir_dynasty: "Brynhildardóttir"
   brynhildardottir_dynasty.old_norse_amazon_dialect: "Brynhildardóttir"
-  brynhildardottir_dynasty.hellenic_amazon_language: "Brynhildidē"
+  brynhildardottir_dynasty.greek_language: "Brynhildidē"
 
  #Non-Matronymic
   velos_dynasty: "Vélos"
@@ -108,7 +108,7 @@
  #Oligarchic
   serikide_dynasty: "Sērikidē"
   serikide_dynasty.old_hellenic_amazon_dialect: "Sērikidē"
-  serikide_dynasty.norse_amazon_language: "Sērikardóttir"
+  serikide_dynasty.scandinavian_language: "Sērikardóttir"
 
 #Relevant Latin
   aquiliana_dynasty: "Aquiliana" #Of the Eagle. This is the descendants of the Amazon Auxilia Commander who took the Aquila from Legio XII Salaciana and liberated Salacia. The founders of the Republic
@@ -119,209 +119,209 @@
 #Hellenic
 
   aellide_dynasty: "Aellidē"
-  aellide_dynasty.norse_amazon_language: "Aellardóttir"
+  aellide_dynasty.scandinavian_language: "Aellardóttir"
 
   agathide_dynasty: "Agáthidē"
-  agathide_dynasty.norse_amazon_language: "Agáthardóttir"
+  agathide_dynasty.scandinavian_language: "Agáthardóttir"
 
   delphide_dynasty: "Delphídē"
-  delphide_dynasty.norse_amazon_language: "Delphisardóttir"
+  delphide_dynasty.scandinavian_language: "Delphisardóttir"
 
   alexandride_dynasty: "Alexandridē"
   alexandride_dynasty.old_hellenic_amazon_dialect: "Alexandridē"
-  alexandride_dynasty.norse_amazon_language: "Alexandardóttir"
+  alexandride_dynasty.scandinavian_language: "Alexandardóttir"
 
   alexiade_dynasty: "Alexídē"
   alexiade_dynasty.old_hellenic_amazon_dialect: "Alexídē"
-  alexiade_dynasty.norse_amazon_language: "Alexíardóttir"
+  alexiade_dynasty.scandinavian_language: "Alexíardóttir"
 
   althaiade_dynasty: "Althídē"
   althaiade_dynasty.old_hellenic_amazon_dialect: "Althídē"
-  althaiade_dynasty.norse_amazon_language: "Althíardóttir"
+  althaiade_dynasty.scandinavian_language: "Althíardóttir"
 
   antheide_dynasty: "Anthídē"
   antheide_dynasty.old_hellenic_amazon_dialect: "Antheidē"
-  antheide_dynasty.norse_amazon_language: "Anthíardóttir"
+  antheide_dynasty.scandinavian_language: "Anthíardóttir"
 
   antiopeide_dynasty: "Antiópidē"
   antiopeide_dynasty.old_hellenic_amazon_dialect: "Antiópidē"
-  antiopeide_dynasty.norse_amazon_language: "Antiópardóttir"
+  antiopeide_dynasty.scandinavian_language: "Antiópardóttir"
 
   apolloniade_dynasty: "Apollonídē"
   apolloniade_dynasty.old_hellenic_amazon_dialect: "Apollōnidē"
-  apolloniade_dynasty.norse_amazon_language: "Apolloníardóttir"
+  apolloniade_dynasty.scandinavian_language: "Apolloníardóttir"
 
   argyride_dynasty: "Argyridē"
   argyride_dynasty.old_hellenic_amazon_dialect: "Argyridē"
-  argyride_dynasty.norse_amazon_language: "Argyrardóttir"
+  argyride_dynasty.scandinavian_language: "Argyrardóttir"
 
   athenaiside_dynasty: "Athenáidē"
   athenaiside_dynasty.old_hellenic_amazon_dialect: "Athēnaidē"
-  athenaiside_dynasty.norse_amazon_language: "Athenáisardóttir"
+  athenaiside_dynasty.scandinavian_language: "Athenáisardóttir"
 
   athenikide_dynasty: "Atheníkidē"
   athenikide_dynasty.old_hellenic_amazon_dialect: "Athēnikidē"
-  athenikide_dynasty.norse_amazon_language: "Atheníkardóttir"
+  athenikide_dynasty.scandinavian_language: "Atheníkardóttir"
 
   barbaride_dynasty: "Barbaridē"
   barbaride_dynasty.old_hellenic_amazon_dialect: "Barbaridē"
-  barbaride_dynasty.norse_amazon_language: "Barbarardóttir"
+  barbaride_dynasty.scandinavian_language: "Barbarardóttir"
 
   berenikide_dynasty: "Berenikidē"
   berenikide_dynasty.old_hellenic_amazon_dialect: "Berenikidē"
-  berenikide_dynasty.norse_amazon_language: "Veroníkardóttir"
+  berenikide_dynasty.scandinavian_language: "Veroníkardóttir"
 
   demetride_dynasty: "Demetridē"
   demetride_dynasty.old_hellenic_amazon_dialect: "Dēmētridē"
-  demetride_dynasty.norse_amazon_language: "Dímitrardóttir"
+  demetride_dynasty.scandinavian_language: "Dímitrardóttir"
 
   dorotheide_dynasty: "Dorothéidē"
   dorotheide_dynasty.old_hellenic_amazon_dialect: "Dōrotheidē"
-  dorotheide_dynasty.norse_amazon_language: "Dorothéardóttir"
+  dorotheide_dynasty.scandinavian_language: "Dorothéardóttir"
 
   eileithyide_dynasty: "Elethídē"
   eileithyide_dynasty.old_hellenic_amazon_dialect: "Eileithyidē"
-  eileithyide_dynasty.norse_amazon_language: "Ilithíardóttir"
+  eileithyide_dynasty.scandinavian_language: "Ilithíardóttir"
 
   eireneide_dynasty: "Eirenidē"
   eireneide_dynasty.old_hellenic_amazon_dialect: "Eirēnidē"
-  eireneide_dynasty.norse_amazon_language: "Irínardóttir"
+  eireneide_dynasty.scandinavian_language: "Irínardóttir"
 
   elpide_dynasty: "Elpídē"
   elpide_dynasty.old_hellenic_amazon_dialect: "Elpidē"
-  elpide_dynasty.norse_amazon_language: "Elpídardóttir"
+  elpide_dynasty.scandinavian_language: "Elpídardóttir"
 
   eugeniade_dynasty: "Eugenídē"
-  eugeniade_dynasty.norse_amazon_language: "Eugeniardóttir"
+  eugeniade_dynasty.scandinavian_language: "Eugeniardóttir"
 
   eudokiade_dynasty: "Eudokídē"
-  eudokiade_dynasty.norse_amazon_language: "Eudokíardóttir"
+  eudokiade_dynasty.scandinavian_language: "Eudokíardóttir"
 
   eudoxiade_dynasty: "Eudoxídē"
-  eudoxiade_dynasty.norse_amazon_language: "Eudoxíardóttir"
+  eudoxiade_dynasty.scandinavian_language: "Eudoxíardóttir"
 
   euphemiade_dynasty: "Euphemídē"
-  euphemiade_dynasty.norse_amazon_language: "Efimíardóttir"
+  euphemiade_dynasty.scandinavian_language: "Efimíardóttir"
 
   euphrosynide_dynasty: "Euphrosynidē"
-  euphrosynide_dynasty.norse_amazon_language: "Efrosínardóttir"
+  euphrosynide_dynasty.scandinavian_language: "Efrosínardóttir"
 
   hagnide_dynasty: "Agnídē"
   hagnide_dynasty.old_hellenic_amazon_dialect: "Hagnidē"
-  hagnide_dynasty.norse_amazon_language: "Agníardóttir"
+  hagnide_dynasty.scandinavian_language: "Agníardóttir"
 
   helenide_dynasty: "Helenidē"
   helenide_dynasty.old_hellenic_amazon_dialect: "Helenidē"
-  helenide_dynasty.norse_amazon_language: "Helenardóttir"
+  helenide_dynasty.scandinavian_language: "Helenardóttir"
 
   hypatiade_dynasty: "Hypatidē"
-  hypatiade_dynasty.norse_amazon_language: "Ypatíardóttir"
+  hypatiade_dynasty.scandinavian_language: "Ypatíardóttir"
 
   ithiliade_dynasty: "Ithilidē"
-  ithiliade_dynasty.norse_amazon_language: "Ithiliardóttir"
+  ithiliade_dynasty.scandinavian_language: "Ithiliardóttir"
 
   kalliopide_dynasty: "Kalliópidē"
-  kalliopide_dynasty.norse_amazon_language: "Kalliópardóttir"
+  kalliopide_dynasty.scandinavian_language: "Kalliópardóttir"
 
   kallistide_dynasty: "Kallístidē"
-  kallistide_dynasty.norse_amazon_language: "Kallístardóttir"
+  kallistide_dynasty.scandinavian_language: "Kallístardóttir"
 
   kassandride_dynasty: "Kassandridē"
-  kassandride_dynasty.norse_amazon_language: "Kassandardóttir"
+  kassandride_dynasty.scandinavian_language: "Kassandardóttir"
 
   khloeide_dynasty: "Khlóidē"
-  khloeide_dynasty.norse_amazon_language: "Chlóardóttir"
+  khloeide_dynasty.scandinavian_language: "Chlóardóttir"
 
   kleoide_dynasty: "Kleidē"
   kleoide_dynasty.old_hellenic_amazon_dialect: "Kleidē"
-  kleoide_dynasty.norse_amazon_language: "Kleóardóttir"
+  kleoide_dynasty.scandinavian_language: "Kleóardóttir"
 
   kyride_dynasty: "Kýridē"
-  kyride_dynasty.norse_amazon_language: "Kýrardóttir"
+  kyride_dynasty.scandinavian_language: "Kýrardóttir"
 
   larisside_dynasty: "Lárissidē"
-  larisside_dynasty.norse_amazon_language: "Larissardóttir"
+  larisside_dynasty.scandinavian_language: "Larissardóttir"
 
   lydiade_dynasty: "Lydíaidē"
-  lydiade_dynasty.norse_amazon_language: "Lydíardóttir"
+  lydiade_dynasty.scandinavian_language: "Lydíardóttir"
 
   lysandride_dynasty: "Lysandridē"
   lysandride_dynasty.old_hellenic_amazon_dialect: "Lysándridē"
-  lysandride_dynasty.norse_amazon_language: "Lysandardóttir"
+  lysandride_dynasty.scandinavian_language: "Lysandardóttir"
 
   megaride_dynasty: "Megaridē"
-  megaride_dynasty.norse_amazon_language: "Megarardóttir"
+  megaride_dynasty.scandinavian_language: "Megarardóttir"
 
   melanide_dynasty: "Melánidē"
-  melanide_dynasty.norse_amazon_language: "Melánardóttir"
+  melanide_dynasty.scandinavian_language: "Melánardóttir"
 
   melanippide_dynasty: "Melaníppidē"
-  melanippide_dynasty.norse_amazon_language: "Melaníppardóttir"
+  melanippide_dynasty.scandinavian_language: "Melaníppardóttir"
 
   myrinide_dynasty: "Myrínidē"
-  myrinide_dynasty.norse_amazon_language: "Myrínardóttir"
+  myrinide_dynasty.scandinavian_language: "Myrínardóttir"
 
   nikaiside_dynasty: "Nikaisidē"
-  nikaiside_dynasty.norse_amazon_language: "Nikaisardóttir"
+  nikaiside_dynasty.scandinavian_language: "Nikaisardóttir"
 
   nikephoride_dynasty: "Nikephoridē"
   nikephoride_dynasty.old_hellenic_amazon_dialect: "Nikēphoridē"
-  nikephoride_dynasty.norse_amazon_language: "Nikephorardóttir"
+  nikephoride_dynasty.scandinavian_language: "Nikephorardóttir"
 
   nyxide_dynasty: "Nyxidē"
   nyxide_dynasty.old_hellenic_amazon_dialect: "Nyxidē"
-  nyxide_dynasty.norse_amazon_language: "Nyxardóttir"
+  nyxide_dynasty.scandinavian_language: "Nyxardóttir"
 
   odesside_dynasty: "Odessidē"
   odesside_dynasty.old_hellenic_amazon_dialect: "Odéssidē"
-  odesside_dynasty.norse_amazon_language: "Odíssardóttir"
+  odesside_dynasty.scandinavian_language: "Odíssardóttir"
 
   penthesileide_dynasty: "Penthesíleidē"
-  penthesileide_dynasty.norse_amazon_language: "Penthesíleiardóttir"
+  penthesileide_dynasty.scandinavian_language: "Penthesíleiardóttir"
 
   philippide_dynasty: "Philíppidē"
-  philippide_dynasty.norse_amazon_language: "Philíppardóttir"
+  philippide_dynasty.scandinavian_language: "Philíppardóttir"
 
   phoibeide_dynasty: "Phoíbidē"
-  phoibeide_dynasty.norse_amazon_language: "Phoíbardóttir"
+  phoibeide_dynasty.scandinavian_language: "Phoíbardóttir"
 
   polyxenide_dynasty: "Polyxenidē"
   polyxenide_dynasty.old_hellenic_amazon_dialect: "Polixénidē"
-  polyxenide_dynasty.norse_amazon_language: "Polixénardóttir"
+  polyxenide_dynasty.scandinavian_language: "Polixénardóttir"
 
   sophiade_dynasty: "Sophídē"
-  sophiade_dynasty.norse_amazon_language: "Sofíardóttir"
+  sophiade_dynasty.scandinavian_language: "Sofíardóttir"
 
   stephaniade_dynasty: "Stephanidē"
   stephaniade_dynasty.old_hellenic_amazon_dialect: "Stephánidē"
-  stephaniade_dynasty.norse_amazon_language: "Stefanardóttir"
+  stephaniade_dynasty.scandinavian_language: "Stefanardóttir"
 
   sibyllide_dynasty: "Sibyllidē"
-  sibyllide_dynasty.norse_amazon_language: "Sibyllardóttir"
+  sibyllide_dynasty.scandinavian_language: "Sibyllardóttir"
 
   selenide_dinasty: "Selenidē"
-  selenide_dinasty.norse_amazon_language: "Selenardóttir"
+  selenide_dinasty.scandinavian_language: "Selenardóttir"
 
   thaliade_dynasty: "Thálidē"
   thaliade_dynasty.old_hellenic_amazon_dialect: "Thalídē"
-  thaliade_dynasty.norse_amazon_language: "Tháliardóttir"
+  thaliade_dynasty.scandinavian_language: "Tháliardóttir"
 
   theride_dynasty: "Theridē"
   theride_dynasty.old_hellenic_amazon_dialect: "Theridē"
-  theride_dynasty.norse_amazon_language: "Thírardóttir"
+  theride_dynasty.scandinavian_language: "Thírardóttir"
 
   thessaliade_dynasty: "Thessalídē"
-  thessaliade_dynasty.norse_amazon_language: "Thessalíardóttir"
+  thessaliade_dynasty.scandinavian_language: "Thessalíardóttir"
 
   xanthiade_dynasty: "Xanthídē"
-  xanthiade_dynasty.norse_amazon_language: "Xanthiardóttir"
+  xanthiade_dynasty.scandinavian_language: "Xanthiardóttir"
 
   xeniade_dynasty: "Xénidē"
   xeniade_dynasty.old_hellenic_amazon_dialect: "Xenídē"
-  xeniade_dynasty.norse_amazon_language: "Xéniardóttir"
+  xeniade_dynasty.scandinavian_language: "Xéniardóttir"
 
   zoeide_dynasty: "Zoidē"
-  zoeide_dynasty.norse_amazon_language: "Zoíardóttir"
+  zoeide_dynasty.scandinavian_language: "Zoíardóttir"
 #Lowborn Hellenic
   # Occupations
   kerameis_amz: "Kerameis" #Potter
@@ -371,198 +371,198 @@
 
 #Norse
   arnhildottir_dynasty: "Arnhildardóttir"
-  arnhildottir_dynasty.hellenic_amazon_language: "Arnhildidē"
+  arnhildottir_dynasty.greek_language: "Arnhildidē"
 
   arnfridottir_dynasty: "Arnfridardóttir"
   arnfridottir_dynasty.old_norse_amazon_dialect: "Arnfríðardóttir"
-  arnfridottir_dynasty.hellenic_amazon_language: "Arnfrididē"
+  arnfridottir_dynasty.greek_language: "Arnfrididē"
 
   arnveigardottir_dynasty: "Arnveigardóttir"
-  arnveigardottir_dynasty.hellenic_amazon_language: "Arnveigidē"
+  arnveigardottir_dynasty.greek_language: "Arnveigidē"
 
   aslauggdottir_dynasty: "Aslaugdóttir"
   aslauggdottir_dynasty.old_norse_amazon_dialect: "Áslaugardóttir"
-  aslauggdottir_dynasty.hellenic_amazon_language: "Aslaugidē"
+  aslauggdottir_dynasty.greek_language: "Aslaugidē"
 
   astridottir_dynasty: "Astridardóttir"
   astridottir_dynasty.old_norse_amazon_dialect: "Ástríðardóttir"
-  astridottir_dynasty.hellenic_amazon_language: "Astrididē"
+  astridottir_dynasty.greek_language: "Astrididē"
 
   astadottir_dynasty: "Astadóttir"
   astadottir_dynasty.old_norse_amazon_dialect: "Ástadóttir"
-  astadottir_dynasty.hellenic_amazon_language: "Astidē"
+  astadottir_dynasty.greek_language: "Astidē"
 
   authildottir_dynasty: "Authildardóttir"
   authildottir_dynasty.old_norse_amazon_dialect: "Auðhildardóttir"
-  authildottir_dynasty.hellenic_amazon_language: "Authildidē"
+  authildottir_dynasty.greek_language: "Authildidē"
 
   bjornfridottir_dynasty: "Bjornfridardóttir"
   bjornfridottir_dynasty.old_norse_amazon_dialect: "Bjarnfríðardóttir"
-  bjornfridottir_dynasty.hellenic_amazon_language: "Bjornfrididē"
+  bjornfridottir_dynasty.greek_language: "Bjornfrididē"
 
   bjornhildottir_dynasty: "Bjornhildardóttir"
   bjornhildottir_dynasty.old_norse_amazon_dialect: "Bjarnhildardóttir"
-  bjornhildottir_dynasty.hellenic_amazon_language: "Bjornhildidē"
+  bjornhildottir_dynasty.greek_language: "Bjornhildidē"
 
   bothildottir_dynasty: "Bothildardóttir"
   bothildottir_dynasty.old_norse_amazon_dialect: "Bóthildardóttir"
-  bothildottir_dynasty.hellenic_amazon_language: "Bothildidē"
+  bothildottir_dynasty.greek_language: "Bothildidē"
 
   drifadottir_dynasty: "Drifadóttir"
   drifadottir_dynasty.old_norse_amazon_dialect: "Drífudóttir"
-  drifadottir_dynasty.hellenic_amazon_language: "Drifidē"
+  drifadottir_dynasty.greek_language: "Drifidē"
 
   eivordottir_dynasty: "Eivorardóttir"
   eivordottir_dynasty.old_norse_amazon_dialect: "Eivörardóttir"
-  eivordottir_dynasty.hellenic_amazon_language: "Eivoridē"
+  eivordottir_dynasty.greek_language: "Eivoridē"
 
   erikadottir_dynasty: "Erikadóttir"
   erikadottir_dynasty.old_norse_amazon_dialect: "Eirikadóttir"
-  erikadottir_dynasty.hellenic_amazon_language: "Erikaidē"
+  erikadottir_dynasty.greek_language: "Erikaidē"
 
   gudfridottir_dynasty: "Gudfridardóttir"
   gudfridottir_dynasty.old_norse_amazon_dialect: "Guðfríðardóttir"
-  gudfridottir_dynasty.hellenic_amazon_language: "Gudfrididē"
+  gudfridottir_dynasty.greek_language: "Gudfrididē"
 
   gudrundottir_dynasty: "Gudrunardóttir"
   gudrundottir_dynasty.old_norse_amazon_dialect: "Guðrúnardóttir"
-  gudrundottir_dynasty.hellenic_amazon_language: "Gudrunidē"
+  gudrundottir_dynasty.greek_language: "Gudrunidē"
 
   gunnhildottir_dynasty: "Gunnhildardóttir"
   gunnhildottir_dynasty.old_norse_amazon_dialect: "Gunnhildardóttir"
-  gunnhildottir_dynasty.hellenic_amazon_language: "Gunnhildidē"
+  gunnhildottir_dynasty.greek_language: "Gunnhildidē"
 
   gydadottir_dynasty: "Gydadóttir"
   gydadottir_dynasty.old_norse_amazon_dialect: "Gyðudóttir"
-  gydadottir_dynasty.hellenic_amazon_language: "Gydidē"
+  gydadottir_dynasty.greek_language: "Gydidē"
 
   hallfridottir_dynasty: "Hallfridardóttir"
   hallfridottir_dynasty.old_norse_amazon_dialect: "Hallfríðardóttir"
-  hallfridottir_dynasty.hellenic_amazon_language: "Hallfrididē"
+  hallfridottir_dynasty.greek_language: "Hallfrididē"
 
   hallveigdottir_dynasty: "Hallveigardóttir"
   hallveigdottir_dynasty.old_norse_amazon_dialect: "Hallveigardóttir"
-  hallveigdottir_dynasty.hellenic_amazon_language: "Hallveigidē"
+  hallveigdottir_dynasty.greek_language: "Hallveigidē"
 
   hervordottir_dynasty: "Hervorardóttir"
   hervordottir_dynasty.old_norse_amazon_dialect: "Hervarardóttir"
-  hervordottir_dynasty.hellenic_amazon_language: "Hervoridē"
+  hervordottir_dynasty.greek_language: "Hervoridē"
 
   hildottir_dynasty: "Hildardóttir"
   hildottir_dynasty.old_norse_amazon_dialect: "Hildardóttir"
-  hildottir_dynasty.hellenic_amazon_language: "Hildidē"
+  hildottir_dynasty.greek_language: "Hildidē"
 
   hjordisadottir_dynasty: "Hjordisardóttir"
   hjordisadottir_dynasty.old_norse_amazon_dialect: "Hjördisardóttir"
-  hjordisadottir_dynasty.hellenic_amazon_language: "Hjordisidē"
+  hjordisadottir_dynasty.greek_language: "Hjordisidē"
 
   ingeborgdottir_dynasty: "Ingeborgardóttir"
   ingeborgdottir_dynasty.old_norse_amazon_dialect: "Ingibjargardóttir"
-  ingeborgdottir_dynasty.hellenic_amazon_language: "Ingeborgidē"
+  ingeborgdottir_dynasty.greek_language: "Ingeborgidē"
 
   ingegerdottir_dynasty: "Ingegerdardóttir"
   ingegerdottir_dynasty.old_norse_amazon_dialect: "Ingigerðardóttir"
-  ingegerdottir_dynasty.hellenic_amazon_language: "Ingegerdē"
+  ingegerdottir_dynasty.greek_language: "Ingegerdē"
 
   jorunndottir_dynasty: "Jorunnardóttir"
   jorunndottir_dynasty.old_norse_amazon_dialect: "Jórunnardóttir"
-  jorunndottir_dynasty.hellenic_amazon_language: "Jorunnidē"
+  jorunndottir_dynasty.greek_language: "Jorunnidē"
 
   livdottir_dynasty: "Livardóttir"
   livdottir_dynasty.old_norse_amazon_dialect: "Lífardóttir"
-  livdottir_dynasty.hellenic_amazon_language: "Lividē"
+  livdottir_dynasty.greek_language: "Lividē"
 
   magnfridottir_dynasty: "Magnfridardóttir"
   magnfridottir_dynasty.old_norse_amazon_dialect: "Magnfríðardóttir"
-  magnfridottir_dynasty.hellenic_amazon_language: "Magnfrididē"
+  magnfridottir_dynasty.greek_language: "Magnfrididē"
 
   magnhildottir_dynasty: "Magnhildardóttir"
   magnhildottir_dynasty.old_norse_amazon_dialect: "Magnhildardóttir"
-  magnhildottir_dynasty.hellenic_amazon_language: "Magnhildidē"
+  magnhildottir_dynasty.greek_language: "Magnhildidē"
 
   oddhildottir_dynasty: "Oddhildardóttir"
   oddhildottir_dynasty.old_norse_amazon_dialect: "Oddhildardóttir"
-  oddhildottir_dynasty.hellenic_amazon_language: "Oddhildidē"
+  oddhildottir_dynasty.greek_language: "Oddhildidē"
 
   ragnadottir_dynasty: "Ragnardóttir"
   ragnadottir_dynasty.old_norse_amazon_dialect: "Ragnardóttir"
-  ragnadottir_dynasty.hellenic_amazon_language: "Ragnidē"
+  ragnadottir_dynasty.greek_language: "Ragnidē"
 
   ragnfridottir_dynasty: "Ragnfridardóttir"
   ragnfridottir_dynasty.old_norse_amazon_dialect: "Ragnfríðardóttir"
-  ragnfridottir_dynasty.hellenic_amazon_language: "Ragnfrididē"
+  ragnfridottir_dynasty.greek_language: "Ragnfrididē"
 
   ragnhildottir_dynasty: "Ragnhildardóttir"
   ragnhildottir_dynasty.old_norse_amazon_dialect: "Ragnhildardóttir"
-  ragnhildottir_dynasty.hellenic_amazon_language: "Ragnhildidē"
+  ragnhildottir_dynasty.greek_language: "Ragnhildidē"
 
   rannveigdottir_dynasty: "Rannveigardóttir"
   rannveigdottir_dynasty.old_norse_amazon_dialect: "Rannveigardóttir"
-  rannveigdottir_dynasty.hellenic_amazon_language: "Rannveigidē"
+  rannveigdottir_dynasty.greek_language: "Rannveigidē"
 
   revnhildottir_dynasty: "Revnhildardóttir"
   revnhildottir_dynasty.old_norse_amazon_dialect: "Hrafnhildardóttir"
-  revnhildottir_dynasty.hellenic_amazon_language: "Revnhildidē"
+  revnhildottir_dynasty.greek_language: "Revnhildidē"
 
   revnveigdottir_dynasty: "Revnveigardóttir"
   revnveigdottir_dynasty.old_norse_amazon_dialect: "Hrafnveigardóttir"
-  revnveigdottir_dynasty.hellenic_amazon_language: "Revnveigidē"
+  revnveigdottir_dynasty.greek_language: "Revnveigidē"
 
   runnadottir_dynasty: "Runnardóttir"
   runnadottir_dynasty.old_norse_amazon_dialect: "Rúnardóttir"
-  runnadottir_dynasty.hellenic_amazon_language: "Runnaidē"
+  runnadottir_dynasty.greek_language: "Runnaidē"
 
   sagadottir_dynasty: "Sagardóttir"
   sagadottir_dynasty.old_norse_amazon_dialect: "Sagardóttir"
-  sagadottir_dynasty.hellenic_amazon_language: "Sagaidē"
+  sagadottir_dynasty.greek_language: "Sagaidē"
 
   sigridottir_dynasty: "Sigridardóttir"
   sigridottir_dynasty.old_norse_amazon_dialect: "Sigríðardóttir"
-  sigridottir_dynasty.hellenic_amazon_language: "Sigrididē"
+  sigridottir_dynasty.greek_language: "Sigrididē"
 
   sigrundottir_dynasty: "Sigrunardóttir"
   sigrundottir_dynasty.old_norse_amazon_dialect: "Sigrúnardóttir"
-  sigrundottir_dynasty.hellenic_amazon_language: "Sigrunidē"
+  sigrundottir_dynasty.greek_language: "Sigrunidē"
 
   skulddottir_dynasty: "Skuldardóttir"
   skulddottir_dynasty.old_norse_amazon_dialect: "Skuldardóttir"
-  skulddottir_dynasty.hellenic_amazon_language: "Skuldidē"
+  skulddottir_dynasty.greek_language: "Skuldidē"
 
   svanfridottir_dynasty: "Svanfridardóttir"
   svanfridottir_dynasty.old_norse_amazon_dialect: "Svanfríðardóttir"
-  svanfridottir_dynasty.hellenic_amazon_language: "Svanfrididē"
+  svanfridottir_dynasty.greek_language: "Svanfrididē"
 
   svanhildottir_dynasty: "Svanhildardóttir"
   svanhildottir_dynasty.old_norse_amazon_dialect: "Svanhildardóttir"
-  svanhildottir_dynasty.hellenic_amazon_language: "Svanhildidē"
+  svanhildottir_dynasty.greek_language: "Svanhildidē"
 
   svanlauggdottir_dynasty: "Svanlaugardóttir"
   svanlauggdottir_dynasty.old_norse_amazon_dialect: "Svanlaugardóttir"
-  svanlauggdottir_dynasty.hellenic_amazon_language: "Svanlaugidē"
+  svanlauggdottir_dynasty.greek_language: "Svanlaugidē"
 
   thordisdottir_dynasty: "Thordisardóttir"
   thordisdottir_dynasty.old_norse_amazon_dialect: "Þórdísardóttir"
-  thordisdottir_dynasty.hellenic_amazon_language: "Thordisidē"
+  thordisdottir_dynasty.greek_language: "Thordisidē"
 
   thorfridottir_dynasty: "Thorfridardóttir"
   thorfridottir_dynasty.old_norse_amazon_dialect: "Þórfríðardóttir"
-  thorfridottir_dynasty.hellenic_amazon_language: "Thorfrididē"
+  thorfridottir_dynasty.greek_language: "Thorfrididē"
 
   thorhildottir_dynasty: "Thorhildardóttir"
   thorhildottir_dynasty.old_norse_amazon_dialect: "Þórhildardóttir"
-  thorhildottir_dynasty.hellenic_amazon_language: "Thorhildidē"
+  thorhildottir_dynasty.greek_language: "Thorhildidē"
 
   ulfridottir_dynasty: "Ulfridardóttir"
   ulfridottir_dynasty.old_norse_amazon_dialect: "Úlfríðardóttir"
-  ulfridottir_dynasty.hellenic_amazon_language: "Ulfrididē"
+  ulfridottir_dynasty.greek_language: "Ulfrididē"
 
   ulfhildottir_dynasty: "Ulfhildardóttir"
   ulfhildottir_dynasty.old_norse_amazon_dialect: "Úlfhildardóttir"
-  ulfhildottir_dynasty.hellenic_amazon_language: "Ulfhildidē"
+  ulfhildottir_dynasty.greek_language: "Ulfhildidē"
 
   vigdisdottir_dynasty: "Vigdisardóttir"
   vigdisdottir_dynasty.old_norse_amazon_dialect: "Vigdísardóttir"
-  vigdisdottir_dynasty.hellenic_amazon_language: "Vigdisidē"
+  vigdisdottir_dynasty.greek_language: "Vigdisidē"
 #Lowborn Norse
   # Professions
   skjoldsmed_amz: "Skjoldsmed" #Shield smith

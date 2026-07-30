@@ -1,76 +1,45 @@
-﻿hellenic_amazon_language = {
+﻿INJECT:latin_language = {
+	dialects = {
+		latin_amazon_dialect = {
+			#color = map_amazon_latin
+			#family = romance_language_family
 
-	color = map_amazon_hellenic
+			male_names = {
+				Appius Agrippa Aulus Caelus Decimus Decius Drusus name_faustus Gaius Gnaeus name_lucius Mamercus Manius 
+				Publius Postumus Proculus Quintus Secundus Septimus Servius name_sextus Spurius Tertius name_titus Tiberius Volero Volumnius 
+				Statius Tullus Volesus Vopiscus Caeso Paullus Hostus Numerius Sertor Potitus Vibius Cossus Camillus 
+			}
+			female_names = {
+				name_amz_prima name_amz_secunda name_amz_tertia name_amz_quarta name_amz_quinta name_amz_sexta name_amz_septima name_amz_octavia name_amz_nona name_amz_decima 
+				name_amz_agrippina name_amz_alba name_amz_appia name_amz_aquila name_amz_augusta name_amz_aurora name_amz_argenta name_amz_aurea name_amz_bella 
+				name_amz_caelia name_amz_carina name_amz_clara name_amz_clementia name_amz_digna name_amz_fausta name_amz_felicia name_amz_flora name_amz_fulvia 
+				name_amz_gaia name_amz_gloria name_amz_gnaea name_amz_grata name_amz_hilaria name_amz_honora name_amz_justa 
+				name_amz_laeta name_amz_longina name_amz_lucilia name_amz_lucia name_amz_lucina name_amz_lupa name_amz_magna name_amz_marcia name_amz_maxima name_amz_mira name_amz_natalia name_amz_nova 
+				name_amz_optima name_amz_ornata name_amz_paulla name_amz_pia name_amz_placida name_amz_prudentia name_amz_publia name_amz_renata 
+				name_amz_sabina name_amz_serena name_amz_severa name_amz_silvia name_amz_solara name_amz_tacita name_amz_tatiana name_amz_tiberia name_amz_titia name_amz_tranquilla name_amz_tulla 
+				name_amz_valentia name_amz_vera name_amz_vesuvia name_amz_vibia name_amz_victa name_amz_viridia name_amz_vita
+			}
+			dynasty_names = {
+				accia_dynasty aelia_dynasty aemilia_dynasty albinia_dynasty antonia_dynasty arruntia_dynasty atiliana_dynasty aurelia_dynasty 
+				camilia_dynasty caninia_dynasty cassia_dynasty claudia_dynasty cornelia_dynasty curia_dynasty 
+				decia_dynasty domitia_dynasty drusia_dynasty fabia_dynasty flavia_dynasty helvia_dynasty horatia_dynasty hostilia_dynasty 
+				julia_dynasty junia_dynasty laelia_dynasty licinia_dynasty livia_dynasty manlia_dynasty numicia_dynasty oliva_dynasty
+				petronia_dynasty plinia_dynasty pompeia_dynasty quintilia_dynasty sempronia_dynasty servilia_dynasty 
+				tullia_dynasty valeria_dynasty vitellia_dynasty vorenia_dynasty
+			}
+			lowborn = {
+				acerba_amz alta_amz aspera_amz audax_amz brevis_amz callida_amz casta_amz celeris_amz decora_amz dextra_amz dura_amz 
+				fera_amz ferox_amz fidelis_amz firma_amz fortis_amz fusca_amz gracilis_amz gravis_amz humilis_amz 
+				lenta_amz libera_amz longa_amz larga_amz mitis_amz mollis_amz parva_amz prava_amz pulchra_amz 
+				rara_amz recta_amz rudis_amz rufa_amz saeva_amz sola_amz tenax_amz tuta_amz vasta_amz vehemens_amz velox_amz
+			}
 
-	male_names = {
-		name_amz_leonidas name_amz_leon name_amz_leontios name_amz_lykos name_amz_lykaon
-		name_amz_aetos name_amz_aetion name_amz_kapros name_amz_arktos name_amz_tauron
-		name_amz_hippokrates name_amz_hippomedon name_amz_philippos name_amz_alexandros name_amz_theodoros
-		name_amz_demetrios name_amz_herakles name_amz_achilleus name_amz_helanos name_amz_alkaios
+			#location_suffix = "location_suffix_latin"
+		}
 	}
-	female_names = {
-		#A
-		name_amz_aella name_amz_agathe name_amz_delphis name_amz_alexandra name_amz_alexia name_amz_althaia name_amz_antheia name_amz_anastasia name_amz_antiope name_amz_apollonia name_amz_argyra name_amz_athenais name_amz_athenike
-		#B
-		name_amz_barbara name_amz_berenike
-		#D
-		name_amz_demeter name_amz_dorothea
-		#E
-		name_amz_eileithyia name_amz_eirene name_amz_elpis name_amz_eugenia name_amz_eudokia name_amz_eudoxia name_amz_euphemia name_amz_euphrosyne
-		#H
-		name_amz_hagne name_amz_helene name_amz_hippolyte name_amz_hypatia name_amz_ithilia
-		#K
-		name_amz_kalliope name_amz_kalliste name_amz_kassandra name_amz_khloe name_amz_kleo name_amz_kyra
-		#L
-		name_amz_larissa name_amz_leaina name_amz_lykaina name_amz_lydia name_amz_lysandra
-		#M
-		name_amz_megara name_amz_melissa name_amz_melanaetis name_amz_melane name_amz_melanippe name_amz_melinoe name_amz_myrine
-		#N
-		name_amz_nikais name_amz_nikephora name_amz_nyx
-		#O
-		name_amz_odessa name_amz_ophelia
-		#P
-		name_amz_penthesileia name_amz_philippa name_amz_phoibe name_amz_polyxene
-		#S
-		name_amz_sophia name_amz_stephane name_amz_sibylla name_amz_selene
-		#T
-		name_amz_thalia name_amz_thera name_amz_thessalia
-		#X
-		name_amz_xanthia name_amz_xenia
-		#Z
-		name_amz_zoe
-	}
-	dynasty_names = {
-		aellide_dynasty agathide_dynasty delphide_dynasty alexandride_dynasty alexiade_dynasty althaiade_dynasty antheide_dynasty antiopeide_dynasty apolloniade_dynasty argyride_dynasty athenaiside_dynasty athenikide_dynasty
-		barbaride_dynasty berenikide_dynasty
-		demetride_dynasty dorotheide_dynasty
-		eileithyide_dynasty eireneide_dynasty elpide_dynasty eugeniade_dynasty eudokiade_dynasty eudoxiade_dynasty euphemiade_dynasty euphrosynide_dynasty
-		hagnide_dynasty helenide_dynasty hippolytide_dynasty hypatiade_dynasty
-		ithiliade_dynasty
-		kalliopide_dynasty kallistide_dynasty kassandride_dynasty khloeide_dynasty kleoide_dynasty kyride_dynasty
-		larisside_dynasty leainide_dynasty lykainide_dynasty lydiade_dynasty lysandride_dynasty
-		megaride_dynasty melisside_dynasty melanaetide_dynasty melanide_dynasty melanippide_dynasty melinoide_dynasty myrinide_dynasty
-		nikaiside_dynasty nikephoride_dynasty nyxide_dynasty
-		odesside_dynasty ophelide_dynasty
-		penthesileide_dynasty philippide_dynasty phoibeide_dynasty polyxenide_dynasty
-		sophiade_dynasty stephaniade_dynasty sibyllide_dynasty selenide_dinasty
-		thaliade_dynasty theride_dynasty thessaliade_dynasty
-		xanthiade_dynasty xeniade_dynasty
-		zoeide_dynasty
-	}
-	lowborn = {
-		# Occupations
- 		kerameis_amz chalkis_amz hyphantria_amz myrepsia_amz sitopoia_amz poimenissa_amz aletride_amz lampadophore_amz therapaina_amz kitaristria_amz
-		# Locations / Origins
-		oreia_amz dasia_amz paralia_amz nesia_amz potamia_amz pedine_amz aigialia_amz limnaia_amz akraia_amz chersonesia_amz
-		# Descriptive
-		xanthe_amz melaina_amz makra_amz brakhia_amz iskhura_amz tolmera_amz glauka_amz lepte_amz
-		# Warriors
-		toxotria_amz doryfore_amz hippea_amz hoplite_amz peltastria_amz akontistria_amz xiphophore_amz aspidophore_amz prodromis_amz
-		# Amazon Specialists
-		hippodametria_amz aetotrofia_amz toxopoia_amz
-	}
+}
 
+INJECT:greek_language = {
 	dialects = {
 		old_hellenic_amazon_dialect = {
 			male_names = {
@@ -311,68 +280,7 @@
 	}
 }
 
-norse_amazon_language = {
-	color = map_amazon_norse
-
-	family = germanic_language_family
-
-	male_names = {
-		name_amz_bjorn name_amz_ulv name_amz_orm name_amz_hrafn name_amz_haukr name_amz_falki name_amz_hrutr name_amz_eikthyr 
-		name_amz_stein name_amz_bjarg name_amz_eld name_amz_frosti name_amz_snaer name_amz_stormr name_amz_vindr 
-		name_amz_ketil name_amz_bersi name_amz_oddr name_amz_kari
-	}
-	female_names = {
-		name_amz_arna name_amz_arnfrid name_amz_arnhild name_amz_arnveig name_amz_aslaug name_amz_asta name_amz_astrid name_amz_audhild name_amz_audfrid name_amz_aud
-		name_amz_bjarna name_amz_bjornfrid name_amz_bjornhild name_amz_bothildr name_amz_brynhild
-		name_amz_drifa
-		name_amz_eivor name_amz_erika
-		name_amz_gudfrid name_amz_gudrun name_amz_gunnhild name_amz_gyda
-		name_amz_hallfrid name_amz_hallveig name_amz_hervor name_amz_hildr name_amz_hjordis name_amz_hrafnhild name_amz_hrafnveig
-		name_amz_ingeborg name_amz_ingegerd name_amz_ingrid
-		name_amz_jorunn
-		name_amz_liv
-		name_amz_magnfrid name_amz_magnhild
-		name_amz_oddhild
-		name_amz_ragna name_amz_ragnfrid name_amz_ragnheid name_amz_ragnhild name_amz_rannveig name_amz_refna name_amz_refhildr name_amz_hrafna name_amz_runna
-		name_amz_sigrid name_amz_sigrun name_amz_skuld name_amz_solveig name_amz_svana name_amz_svanfrid name_amz_svanhild name_amz_svanlaug
-		name_amz_thora name_amz_thordis name_amz_thorfrid name_amz_thorhild
-		name_amz_ulfhild name_amz_ulfrid
-		name_amz_vigdis
-		name_amz_ylva name_amz_yrsa
-
-		name_amz_svarthild name_amz_hvitfrid name_amz_veidhild name_amz_horveig
-	}
-	dynasty_names = {
-		arnardottir_dynasty arnfridottir_dynasty arnhildottir_dynasty arnveigardottir_dynasty aslauggdottir_dynasty astadottir_dynasty astridottir_dynasty audardottir_dynasty authildottir_dynasty
-		bjornfridottir_dynasty bjornhildottir_dynasty bothildottir_dynasty brynhildardottir_dynasty
-		drifadottir_dynasty
-		eivordottir_dynasty erikadottir_dynasty
-		gudfridottir_dynasty gudrundottir_dynasty gunnhildottir_dynasty gydadottir_dynasty
-		hallfridottir_dynasty hallveigdottir_dynasty hervordottir_dynasty hildottir_dynasty hjordisadottir_dynasty
-		ingeborgdottir_dynasty ingegerdottir_dynasty ingfridardottir_dynasty
-		jorunndottir_dynasty
-		livdottir_dynasty
-		magnfridottir_dynasty magnhildottir_dynasty
-		oddhildottir_dynasty
-		ragnadottir_dynasty ragnfridottir_dynasty ragnheidardottir_dynasty ragnhildottir_dynasty rannveigdottir_dynasty hrafnardottir_dynasty revnhildottir_dynasty revnveigdottir_dynasty runnadottir_dynasty
-		sigridottir_dynasty sigrundottir_dynasty skulddottir_dynasty solveigardottir_dynasty svanardottir_dynasty svanfridottir_dynasty svanhildottir_dynasty svanlauggdottir_dynasty
-		thorardottir_dynasty thordisdottir_dynasty thorfridottir_dynasty thorhildottir_dynasty
-		ulfridottir_dynasty ulfhildottir_dynasty
-		vigdisdottir_dynasty
-		ylvardottir_dynasty yrsardottir_dynasty
-	}	
-	lowborn = {
-		# Professions
-		skjoldsmed_amz bogsmid_amz sverdsmed_amz skipsmed_amz hesttemmer_amz olbrygger_amz solvsmed_amz skinnskjaerer_amz spjutmaker_amz runerister_amz
-		# Animals
-		bjornbane_amz orntemmer_amz svartulv_amz ravntemmer_amz ulvbane_amz ormjeger_amz hjortbane_amz falketemmer_amz bjornekvinne_amz ulvekvinne_amz
-		# Descriptive
-		rodhar_amz svarthar_amz blaoye_amz jernhand_amz stormoye_amz hardhjerte_amz snohar_amz frostoye_amz stalhjerte_amz stormhjerte_amz
-		# Warriors
-		blodoks_amz langspyd_amz skjoldmoy_amz sverdbearer_amz spydbaerer_amz brynjebryter_amz hjelmbryter_amz stridsulv_amz valdis_amz skjoldbryter_amz
-	}
-	location_prefix = "location_prefix_norse_amazon"
-
+INJECT:scandinavian_language = {
 	dialects = {
 		old_norse_amazon_dialect = {
 			male_names = {
@@ -489,41 +397,4 @@ norse_amazon_language = {
 			}
 		}
 	}
-}
-
-roman_amazon_language = {
-	color = map_amazon_latin
-	family = romance_language_family
-
-	male_names = {
-		Appius Agrippa Aulus Caelus Decimus Decius Drusus name_faustus Gaius Gnaeus name_lucius Mamercus Manius 
-		Publius Postumus Proculus Quintus Secundus Septimus Servius name_sextus Spurius Tertius name_titus Tiberius Volero Volumnius 
-		Statius Tullus Volesus Vopiscus Caeso Paullus Hostus Numerius Sertor Potitus Vibius Cossus Camillus 
-	}
-	female_names = {
-		name_amz_prima name_amz_secunda name_amz_tertia name_amz_quarta name_amz_quinta name_amz_sexta name_amz_septima name_amz_octavia name_amz_nona name_amz_decima 
-		name_amz_agrippina name_amz_alba name_amz_appia name_amz_aquila name_amz_augusta name_amz_aurora name_amz_argenta name_amz_aurea name_amz_bella 
-		name_amz_caelia name_amz_carina name_amz_clara name_amz_clementia name_amz_digna name_amz_fausta name_amz_felicia name_amz_flora name_amz_fulvia 
-		name_amz_gaia name_amz_gloria name_amz_gnaea name_amz_grata name_amz_hilaria name_amz_honora name_amz_justa 
-		name_amz_laeta name_amz_longina name_amz_lucilia name_amz_lucia name_amz_lucina name_amz_lupa name_amz_magna name_amz_marcia name_amz_maxima name_amz_mira name_amz_natalia name_amz_nova 
-		name_amz_optima name_amz_ornata name_amz_paulla name_amz_pia name_amz_placida name_amz_prudentia name_amz_publia name_amz_renata 
-		name_amz_sabina name_amz_serena name_amz_severa name_amz_silvia name_amz_solara name_amz_tacita name_amz_tatiana name_amz_tiberia name_amz_titia name_amz_tranquilla name_amz_tulla 
-		name_amz_valentia name_amz_vera name_amz_vesuvia name_amz_vibia name_amz_victa name_amz_viridia name_amz_vita
-	}
-	dynasty_names = {
-		accia_dynasty aelia_dynasty aemilia_dynasty albinia_dynasty antonia_dynasty arruntia_dynasty atiliana_dynasty aurelia_dynasty 
-		camilia_dynasty caninia_dynasty cassia_dynasty claudia_dynasty cornelia_dynasty curia_dynasty 
-		decia_dynasty domitia_dynasty drusia_dynasty fabia_dynasty flavia_dynasty helvia_dynasty horatia_dynasty hostilia_dynasty 
-		julia_dynasty junia_dynasty laelia_dynasty licinia_dynasty livia_dynasty manlia_dynasty numicia_dynasty oliva_dynasty
-		petronia_dynasty plinia_dynasty pompeia_dynasty quintilia_dynasty sempronia_dynasty servilia_dynasty 
-		tullia_dynasty valeria_dynasty vitellia_dynasty vorenia_dynasty
-	}
-	lowborn = {
-		acerba_amz alta_amz aspera_amz audax_amz brevis_amz callida_amz casta_amz celeris_amz decora_amz dextra_amz dura_amz 
-		fera_amz ferox_amz fidelis_amz firma_amz fortis_amz fusca_amz gracilis_amz gravis_amz humilis_amz 
-		lenta_amz libera_amz longa_amz larga_amz mitis_amz mollis_amz parva_amz prava_amz pulchra_amz 
-		rara_amz recta_amz rudis_amz rufa_amz saeva_amz sola_amz tenax_amz tuta_amz vasta_amz vehemens_amz velox_amz
-	}
-
-	location_suffix = "location_suffix_latin"
 }

@@ -6,21 +6,21 @@
 	text = {
 		localization_key = crown_estate_roman_amazon_monarchy
 		trigger = {
-				culture.language = language:roman_amazon_language
+				culture.language = language:latin_amazon_dialect
 				government_type = government_type:monarchy
 		}
 	}
 	text = {
 		localization_key = crown_estate_roman_amazon_republic
 		trigger = {
-				culture.language = language:roman_amazon_language
+				culture.language = language:latin_amazon_dialect
 				government_type = government_type:republic
 		}
 	}
 	text = {
 		localization_key = crown_estate_roman_amazon_theocracy
 		trigger = {
-				culture.language = language:roman_amazon_language
+				culture.language = language:latin_amazon_dialect
 				government_type = government_type:theocracy
 		}
 	}
@@ -28,44 +28,44 @@
 	text = {
 		localization_key = crown_estate_hellenic_amazon_monarchy
 		trigger = {
-				culture.language = language:hellenic_amazon_language
-				government_type = government_type:monarchy
+			culture = { has_culture_group = culture_group:hellenic_amazon_group }
+			government_type = government_type:monarchy
 		}
 	}
 	text = {
 		localization_key = crown_estate_hellenic_amazon_republic
 		trigger = {
-				culture.language = language:hellenic_amazon_language
-				government_type = government_type:republic
+			culture = { has_culture_group = culture_group:hellenic_amazon_group }
+			government_type = government_type:republic
 		}
 	}
 	text = {
 		localization_key = crown_estate_hellenic_amazon_theocracy
 		trigger = {
-				culture.language = language:hellenic_amazon_language
-				government_type = government_type:theocracy
+			culture = { has_culture_group = culture_group:hellenic_amazon_group }
+			government_type = government_type:theocracy
 		}
 	}
   #Norse Amazon
 	text = {
 		localization_key = crown_estate_norse_amazon_monarchy
 		trigger = {
-				culture.language = language:norse_amazon_language
-				government_type = government_type:monarchy
+			culture = { has_culture_group = culture_group:norse_amazon_group }
+			government_type = government_type:monarchy
 		}
 	}
 	text = {
 		localization_key = crown_estate_norse_amazon_republic
 		trigger = {
-				culture.language = language:norse_amazon_language
-				government_type = government_type:republic
+			culture = { has_culture_group = culture_group:norse_amazon_group }
+			government_type = government_type:republic
 		}
 	}
 	text = {
 		localization_key = crown_estate_norse_amazon_theocracy
 		trigger = {
-				culture.language = language:norse_amazon_language
-				government_type = government_type:theocracy
+			culture = { has_culture_group = culture_group:norse_amazon_group }
+			government_type = government_type:theocracy
 		}
 	}
 
@@ -155,27 +155,21 @@ nobles_estate = {
 		localization_key = nobles_estate_roman_amazon
 		trigger = {
 			OR = {
-				court_language = language:roman_amazon_language
-				culture.language = language:roman_amazon_language
+				court_language = language:latin_amazon_dialect
+				culture.language = language:latin_amazon_dialect
 			}
 		}
 	}
 	text = {
 		localization_key = nobles_estate_hellenic_amazon
 		trigger = {
-			OR = {
-				court_language = language:hellenic_amazon_language
-				culture.language = language:hellenic_amazon_language
-			}
+			culture = { has_culture_group = culture_group:hellenic_amazon_group }
 		}
 	}
 	text = {
 		localization_key = nobles_estate_norse_amazon
 		trigger = {
-			OR = {
-				court_language = language:norse_amazon_language
-				culture.language = language:norse_amazon_language
-			}
+			culture = { has_culture_group = culture_group:norse_amazon_group }
 		}
 	}
 
@@ -511,27 +505,21 @@ burghers_estate = {
 		localization_key = burghers_estate_roman_amazon
 		trigger = {
 			OR = {
-				court_language = language:roman_amazon_language
-				culture.language = language:roman_amazon_language
+				court_language = language:latin_amazon_dialect
+				culture.language = language:latin_amazon_dialect
 			}
 		}
 	}
 	text = {
 		localization_key = burghers_estate_hellenic_amazon
 		trigger = {
-			OR = {
-				court_language = language:hellenic_amazon_language
-				culture.language = language:hellenic_amazon_language
-			}
+			culture = { has_culture_group = culture_group:hellenic_amazon_group }
 		}
 	}
 	text = {
 		localization_key = burghers_estate_norse_amazon
 		trigger = {
-			OR = {
-				court_language = language:norse_amazon_language
-				culture.language = language:norse_amazon_language
-			}
+			culture = { has_culture_group = culture_group:norse_amazon_group }
 		}
 	}
 
@@ -757,27 +745,21 @@ clergy_estate = {
 		localization_key = clergy_estate_roman_amazon
 		trigger = {
 			OR = {
-				court_language = language:roman_amazon_language
-				culture.language = language:roman_amazon_language
+				court_language = language:latin_amazon_dialect
+				culture.language = language:latin_amazon_dialect
 			}
 		}
 	}
 	text = {
 		localization_key = clergy_estate_hellenic_amazon
 		trigger = {
-			OR = {
-				court_language = language:hellenic_amazon_language
-				culture.language = language:hellenic_amazon_language
-			}
+			culture = { has_culture_group = culture_group:hellenic_amazon_group }
 		}
 	}
 	text = {
 		localization_key = clergy_estate_norse_amazon
 		trigger = {
-			OR = {
-				court_language = language:norse_amazon_language
-				culture.language = language:norse_amazon_language
-			}
+			culture = { has_culture_group = culture_group:norse_amazon_group }
 		}
 	}
 
@@ -1012,27 +994,21 @@ peasants_estate = {
 		localization_key = peasants_estate_roman_amazon
 		trigger = {
 			OR = {
-				court_language = language:roman_amazon_language
-				culture.language = language:roman_amazon_language
+				court_language = language:latin_amazon_dialect
+				culture.language = language:latin_amazon_dialect
 			}
 		}
 	}
 	text = {
 		localization_key = peasants_estate_hellenic_amazon
 		trigger = {
-			OR = {
-				court_language = language:hellenic_amazon_language
-				culture.language = language:hellenic_amazon_language
-			}
+			culture = { has_culture_group = culture_group:hellenic_amazon_group }
 		}
 	}
 	text = {
 		localization_key = peasants_estate_norse_amazon
 		trigger = {
-			OR = {
-				court_language = language:norse_amazon_language
-				culture.language = language:norse_amazon_language
-			}
+			culture = { has_culture_group = culture_group:norse_amazon_group }
 		}
 	}
 
@@ -1279,27 +1255,21 @@ tribes_estate = {
 		localization_key = tribes_estate_roman_amazon
 		trigger = {
 			OR = {
-				court_language = language:roman_amazon_language
-				culture.language = language:roman_amazon_language
+				court_language = language:latin_amazon_dialect
+				culture.language = language:latin_amazon_dialect
 			}
 		}
 	}
 	text = {
 		localization_key = tribes_estate_hellenic_amazon
 		trigger = {
-			OR = {
-				court_language = language:hellenic_amazon_language
-				culture.language = language:hellenic_amazon_language
-			}
+			culture = { has_culture_group = culture_group:hellenic_amazon_group }
 		}
 	}
 	text = {
 		localization_key = tribes_estate_norse_amazon
 		trigger = {
-			OR = {
-				court_language = language:norse_amazon_language
-				culture.language = language:norse_amazon_language
-			}
+			culture = { has_culture_group = culture_group:norse_amazon_group }
 		}
 	}
 

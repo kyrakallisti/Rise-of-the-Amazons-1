@@ -6,8 +6,7 @@
  #Hellenic
   hellenic_amazon_group: "Hellēnikai"
   hellenic_amazon_group_desc: "The Hellēnikai Amazons descended from those who journeyed south after the fall of Themyskira. Traveling through the Aegean and the Mediterranean, they eventually crossed the Atlantic by island-hopping through the Azores aboard their triremes. Over generations, they 'liberated' and assimilated women from the lands of Hellas and beyond, adopting the Greek tongue and reshaping its pantheon in the image of Amazon society."
-  hellenic_amazon_language: "Hellenic"
-  old_hellenic_amazon_dialect: "Old Hellenic"
+  old_hellenic_amazon_dialect: "Amazon Greek"
   heraean_amazon: "Hēraiai"
   hestian_amazon: "Hestiaiai"
   aphroditian_amazon: "Aphroditiai"
@@ -22,7 +21,6 @@
  #Norse
   norse_amazon_group: "Norrœnar"
   norse_amazon_group_desc: "The Norrœnar Amazons descended from those who journeyed north after the fall of Themyskira. Passing through the Baltic and the North Sea, they braved the open Atlantic in their longships to reach the Amazon Islands. Along the way, they raided and assimilated women from the Proto-Germanic lands, especially Scandinavia, adopting their tongue and reshaping their traditions and gods to reflect Amazon ideals."
-  norse_amazon_language: "Norse"
   old_norse_amazon_dialect: "Old Norse"
   friggardaetur_amazon: "Friggardætur" #Daughters of the All-Mother Frigg
   arnarvaengir_amazon: "Arnarvængir" #The Eagle-winged Amazons. Valkyries in all but name
@@ -39,7 +37,7 @@
   salacian_amazon: "Salacianae" #Plural of Salaciana
   bellonian_amazon: "Bellonianae" #Plura of Belloniana
   canarian_amazon: "Canarianae" #Amazons of Canaria (The name comes from actual ancient Rome and means Dog Islands, not from the birds.) 
-  roman_amazon_language: "Amazonian Latin"
+  latin_amazon_dialect: "Amazon Latin"
 
 #Religions
   amazon_polytheism: "Amazon Polytheism"
@@ -121,7 +119,7 @@
 
 # Norse Amazon Deities
   frigga_god: "Frigg"
-  frigga_god_desc: "$frigga_god$, the All-Mother, Queen of Asgard, creator of the Amazons! Protector of women and children. Her word is absolute!"
+  frigga_god_desc: "$frigga_god$, the All-Mother, Queen of Ásgarðr, Lady of Wisdom, Fate and the Hearth. She watches over every hall through her ravens Huginn and Muninn, preserving the oaths, kinship and customs that bind the Amazons together. Though she knows the destiny of all, she speaks only when wisdom demands it, guiding her daughters not through fear, but through foresight, duty and the warmth of a shared hearth."
   worship_frigga_god: "$worship_title1$ $frigga_god$ as our Patron Deity"
   worship_frigga_god_desc: "$worship_desc1$ [ShowGodName('frigga_god')] $worship_desc2$"
 
@@ -156,7 +154,7 @@
   worship_sunna_god_desc: "$worship_desc1$ [ShowGodName('sunna_god')] $worship_desc2$"
 
   sif_god: "Sif"
-  sif_god_desc: "$sif_god$, Goddess of fertility, family, and the earth. Renowned for her long, golden hair, which symbolizes wheat fields and agricultural abundance."
+  sif_god_desc: "$sif_god$, the Golden-Haired Goddess of the Harvest, Fertility and the Cultivated Earth. Her radiant hair mirrors the endless fields of ripened grain that feed the Amazon people, while her blessing brings abundance, prosperous households and healthy livestock. Through hard work, careful stewardship and the bounty of the land, Sif ensures that no faithful community need fear hunger."
   worship_sif_god: "$worship_title1$ $sif_god$ as our Patron Deity"
   worship_sif_god_desc: "$worship_desc1$ [ShowGodName('sif_god')] $worship_desc2$"
 
@@ -227,6 +225,11 @@
   worship_bellona_god: "$worship_title1$ $bellona_god$ as our Patron Deity"
   worship_bellona_god_desc: "$worship_desc1$ [ShowGodName('bellona_god')] $worship_desc2$"
 
+  discordia_amz_god: "Discordia"
+  discordia_amz_god_desc: "$discordia_amz_god$, the Fallen One, is the Goddess of Discord, Strife and Sedition. She whispers that no republic is incorruptible, no law beyond question and no ruler deserving of unquestioning loyalty. To her followers, she is the herald of freedom against tyranny. But to the Amazons of Salacia, she is the Great Deceiver, whose words breed suspicion, divide the Senate, shatter alliances and turn citizen against citizen. Her worship is condemned as the gravest of heresies, for wherever Discordia takes root, society itself begins to unravel."
+  worship_discordia_amz_god: "$worship_title1$ $discordia_amz_god$ as our Patron Deity"
+  worship_discordia_amz_god_desc: "$worship_desc1$ [ShowGodName('discordia_amz_god')] $worship_desc2$"
+
 #Holy Sites
  #Hellenic
   heraion_basileion_holy_city: "The Royal Sanctuary of the All-Mother"
@@ -290,21 +293,15 @@
   #Latin Holy Sites in Old World
   aedes_junonis_monetae: "Aedes Junonis Monetae"
   aedes_junonis_monetae_desc: "Once the sacred seat of Juno Moneta and the beating heart of Roman sovereignty, this great temple stood on the Capitoline Hill as the ultimate symbol of Rome's rightful dominion. Here, coinage, law and authority were sanctified beneath the watchful gaze of the Queen of Heaven. To claim it is not merely to conquer Rome, but to inherit its eternal mandate."
-
   horrea_cereris: "Horrea Cereris"
   horrea_cereris_desc: "Great granaries and fertile storehouses rise beneath the blessing of Ceres, nourisher of civilization and guardian of abundance. From these lands flowed the grain that once fed the Roman world itself. Whoever commands the bounty of Africa commands the lifeblood of empires."
-
-  bibliotheca_minervae: "Bibliotheca Minervae"
-  bibliotheca_minervae_desc: "Though the ancient library was long ago consumed by fire and conquest, its memory endured within the dreams of scholars and philosophers. The Salacianae seek not merely to restore its shelves, but to reshape all wisdom beneath Minerva's gaze into their own view of the world. Here, knowledge itself becomes an instrument of empire."
-
-  paphos_veneris: "Paphos Veneris"
-  paphos_veneris_desc: "At sacred Paphos stands one of the oldest sanctuaries ever devoted to Venus, Lady of beauty, desire and divine lineage. Pilgrims cross sea and shore alike to offer devotion where love and power entwine beneath the Goddess' eternal grace."
-
+  promontorium_minervae: "Promontorium Minervae"
+  promontorium_minervae_desc: "The windswept cape of $promontorium_minervae$ marks the westernmost edge of the old world. Long before the rise of Rome, before even the founding of Amazonesia, it was here that the ancestors of the Amazons stood upon the cliffs and gazed into the endless Ocean. While others saw only the end of the world, Minerva revealed the promise of what lay beyond. Trusting not in fortune, but in faith, courage and careful preparation, they embarked upon the voyage that would one day lead them to Amazonesia. Though the world has forgotten that first crossing, the Salacianae still remember this sacred shore as the place where Wisdom overcame Fear."
+  litus_veneris: "Litus Veneris"
+  litus_veneris_desc: "Along the radiant shores of Aphrogenia, where the sea is said to have first revealed the Goddess in ages long past, the followers of Venus embrace one of their holiest sanctuaries. Pilgrims, artists and lovers journey from across the seas to seek her blessing, believing that beauty, prosperity and harmony flow endlessly from these sacred waters."
   victoria_aeterna: "Victoria Aeterna"
-  victoria_aeterna_desc: "The Eternal Victory stands as the supreme symbol of imperial triumph. Empires may rise and collapse around its walls, yet the dream of dominion endures unbroken. To seize back this sacred city within rightful Roman hands is to proclaim before the world that Rome still lives through the Latin Amazons!"
-
+  victoria_aeterna_desc: "The Eternal Victory stands as the supreme symbol of imperial triumph. Empires may rise and collapse around its walls, yet the dream of dominion endures unbroken. To seize back the mother of all cities within rightful Roman hands is to proclaim before the world that Rome still lives through the Latin Amazons!"
   lucus_proserpinae: "Lucus Proserpinae"
   lucus_proserpinae_desc: "Hidden among the highlands of Sicily lies the sacred grove of Proserpina, where ancient myths speak of the Maiden's descent into the underworld. Quiet and solemn beneath whispering trees, this place reminds all mortals that life, death and rebirth remain forever entwined."
-
   lucus_dianae: "Lucus Dianae"
   lucus_dianae_desc: "Deep within the wild mountains of western Iberia rests a sacred grove devoted to Diana, Huntress of the Moon and guardian of untamed lands. Here, among ancient forests and mist-covered peaks, the faithful seek strength, discipline and freedom beneath the watchful eyes of the Goddess."

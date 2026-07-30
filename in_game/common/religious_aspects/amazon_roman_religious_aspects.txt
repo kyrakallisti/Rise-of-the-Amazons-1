@@ -1,8 +1,11 @@
 ﻿worship_juno_god = {
     icon = hera_amazon_god
     religion = roman_amazon_religion
+    enabled = {	
+        owns = location:rome
+    }
     modifier = {
-        tax_income_efficiency = 0.05
+        tax_income_efficiency = large_tax_income_efficiency_bonus       #0.05
         global_integration_speed_modifier = 0.2
         monthly_republican_tradition = 0.2
         monthly_towards_centralization = 0.2
@@ -12,6 +15,9 @@
 worship_minerva_god = {
     icon = athena_amazon_god
     religion = roman_amazon_religion
+    enabled = {	
+        owns = location:lagos       #Algarve, Portugal's Southwestern tip. Great Cliffs
+    }
     modifier = {
         global_urban_build_buildings_efficiency = 0.1
         global_production_efficiency = small_production_efficiency_bonus
@@ -23,6 +29,9 @@ worship_minerva_god = {
 worship_victoria_god = { 
     icon = victoria_amazon_god
     religion = roman_amazon_religion
+    enabled = {	
+        owns = location:rome
+    }
     modifier = {
         antagonism_received_modifier = -0.1
         antagonism_monthly_change_modifier = 0.01
@@ -34,6 +43,9 @@ worship_victoria_god = {
 worship_diana_god = { 
     icon = artemis_amazon_god
     religion = roman_amazon_religion
+    enabled = {	
+        owns = location:guarda
+    }
     modifier = {
         global_levy_size_modifier = 0.15
 	    levy_combat_efficiency_modifier = 0.15
@@ -45,6 +57,9 @@ worship_diana_god = {
 worship_salacia_god = {
     icon = salacia_amazon_god
     religion = roman_amazon_religion
+    enabled = {	
+        owns = location:salacia_augusta
+    }
     modifier = {
 		global_maritime_presence_modifier = 0.2
         trade_sea_efficiency = medium_trade_sea_efficiency_bonus  #0.2
@@ -56,6 +71,9 @@ worship_salacia_god = {
 worship_venus_god = {
     icon = venus_amazon_god
     religion = roman_amazon_religion
+    enabled = {	
+        owns = location:aphrogenia
+    }
     modifier = {
         global_population_growth = 0.00025
         global_monthly_prosperity = 0.001
@@ -67,6 +85,9 @@ worship_venus_god = {
 worship_vesta_god = {
     icon = hestia_amazon_god
     religion = roman_amazon_religion
+    enabled = {	
+        owns = location:fauces_vestae
+    }
     modifier = {
         global_pop_conversion_speed_modifier = 0.2
         global_pop_assimilation_speed_modifier = 0.2
@@ -78,6 +99,9 @@ worship_vesta_god = {
 worship_ceres_god = {
     icon = demeter_amazon_god
     religion = roman_amazon_religion
+    enabled = {	
+        owns = location:tunis
+    }
     modifier = {
         global_monthly_food_modifier = 0.15
         global_estate_satisfaction_recovery = 0.005
@@ -89,6 +113,9 @@ worship_ceres_god = {
 worship_proserpina_god = {
     icon = persephone_amazon_god
     religion = roman_amazon_religion
+    enabled = {	
+        owns = location:piazza
+    }
     modifier = {
         global_disease_resistance = 0.1
         prestige_decay = -0.0025
@@ -100,6 +127,9 @@ worship_proserpina_god = {
 worship_bellona_god = {
     icon = enyo_amazon_god
     religion = roman_amazon_religion
+        enabled = {	
+        owns = location:ignis_bellonae
+    }
     modifier = {
         discipline = 0.05
         army_heavy_infantry_power = 0.1
@@ -108,4 +138,18 @@ worship_bellona_god = {
     }
 }
 
-#Heresy (Leave it as Eris)
+#Heresy
+worship_discordia_amz_god = {
+    icon = eris_amazon_god
+    religion = roman_amazon_religion
+    visible = {	 }
+    enabled = {	
+            owns = location:kallisti   
+    }
+    modifier = {
+        casus_belli_creation_speed_modifier = 0.66
+        allowed_threaten_war = yes
+        stability_decay = 0.0013
+        monthly_towards_individualism = 0.2
+    }
+}

@@ -1079,7 +1079,7 @@ countries = {
 		government = {
 			type = republic
 			heir_selection = amazon_matrician_republic
-			liturgical_language = roman_amazon_language	
+			liturgical_language = latin_amazon_dialect	
 
 			ruler = asal_maxima_aquiliana_1
 

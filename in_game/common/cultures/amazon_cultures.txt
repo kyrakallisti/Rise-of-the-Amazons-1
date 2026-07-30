@@ -360,7 +360,7 @@ vindmarkar_amazon = {
 }
 
 salacian_amazon = {
-	language = roman_amazon_language
+	language = latin_amazon_dialect
 	
 	color = map_amazon_latin
 	
@@ -379,7 +379,7 @@ salacian_amazon = {
 }
 
 bellonian_amazon = {
-	language = roman_amazon_language
+	language = latin_amazon_dialect
 	
 	color = map_amazon_bellonian
 	
@@ -397,7 +397,7 @@ bellonian_amazon = {
 }
 
 canarian_amazon = {
-	language = roman_amazon_language
+	language = latin_amazon_dialect
 	
 	color = map_amazon_canarian
 	

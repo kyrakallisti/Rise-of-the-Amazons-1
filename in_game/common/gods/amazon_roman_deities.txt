@@ -118,4 +118,15 @@ bellona_god = {
   }
 }
 
-#Discordia can just be Eris
+#Heresy
+discordia_amz_god = {
+  icon = eris_amazon_god
+  is_female = yes
+  religion = { 
+    religion = roman_amazon_religion
+    name_key = discordia_amz_god
+  }
+  country_modifier = {
+    global_fruit_output_modifier = 0.1
+  }
+}

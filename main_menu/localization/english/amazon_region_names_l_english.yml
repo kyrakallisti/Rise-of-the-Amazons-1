@@ -51,7 +51,7 @@
  fjellborg_province: "Fjellborg" #Mountain Castle
  haukelund_province: "Haukefjær" #Hawk Wood
  tvillingsostre_province: "Tvillingsøstre" #Twin Sisters
- tvillingsostre_province.hellenic_amazon_language: "Dídymai Adelphai" #Twin Sisters
+ tvillingsostre_province.greek_language: "Dídymai Adelphai" #Twin Sisters
 
 ###Mētría Khōra
 #Mētra Hēras
@@ -74,7 +74,7 @@
  demetria_province: "Demetría"
  khloe_pedion_province: "Khlóē Pedíon" #The Verdant Plain
  argyria_province: "Argyría" #The Silver Land
- argyria_province.norse_amazon_language: "Sølvland"
+ argyria_province.scandinavian_language: "Sølvland"
 #Aphrodítēs Aktē
  aphrodites_akte_area: "Aphrodítēs Aktē" #The Shores of Aphrodite
  aphroditia_province: "Aphroditía"

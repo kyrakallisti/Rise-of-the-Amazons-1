@@ -15,7 +15,7 @@
     }
 
 	tags = {
-		folk_european_gfx pagan_gfx
+		hellenism_gfx folk_european_gfx pagan_gfx
 	}
 }
 
@@ -57,7 +57,7 @@ roman_amazon_religion = {
     }
 
 	tags = {
-		folk_european_gfx pagan_gfx
+		hellenism_gfx folk_european_gfx pagan_gfx
 	}
 }
 
@@ -78,6 +78,6 @@ erisian_heresy = {
     }
 
 	tags = {
-		folk_european_gfx pagan_gfx
+		hellenism_gfx folk_european_gfx pagan_gfx
 	}
 }
