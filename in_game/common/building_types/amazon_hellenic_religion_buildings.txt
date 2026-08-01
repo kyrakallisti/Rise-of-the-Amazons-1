@@ -443,7 +443,7 @@
 		max_levels = 1
 		pop_type = clergy
 		
-		employment_size = large_religious_building_employment
+		employment_size = order_religious_building_employment
 		
 		category = religious_category
 		

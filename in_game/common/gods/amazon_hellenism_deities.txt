@@ -10,6 +10,54 @@
   }
 }
 
+demeter_amz_god = {
+	icon = demeter_amazon_god
+  is_female = yes
+  religion = { 
+    religion = amazon_hellenism_religion
+    name_key = demeter_amz_god
+  }
+  country_modifier = {
+    global_wheat_output_modifier = 0.1
+  }
+}
+
+persephone_amz_god = {
+  icon = persephone_amazon_god
+  is_female = yes
+  religion = { 
+    religion = amazon_hellenism_religion
+    name_key = persephone_amz_god
+  }
+  country_modifier = {
+	  global_life_expectancy = 2
+  }
+}
+
+aphrodite_amz_god = {
+  icon = aphrodite_amazon_god
+  is_female = yes
+  religion = { 
+    religion = amazon_hellenism_religion
+    name_key = aphrodite_amz_god
+  }
+  country_modifier = {
+    global_estate_target_satisfaction = small_permanent_target_satisfaction
+  }
+}
+
+thalassa_amz_god = {
+	icon = thalassa_amazon_god
+  is_female = yes
+  religion = { 
+    religion = amazon_hellenism_religion
+    name_key = thalassa_amz_god
+  }
+  country_modifier = {
+    naval_morale = 0.1
+  }
+}
+
 athena_amz_god = {
   icon = athena_amazon_god
   is_female = yes
@@ -46,30 +94,6 @@ artemis_amz_god = {
   }
 }
 
-thalassa_amz_god = {
-	icon = thalassa_amazon_god
-  is_female = yes
-  religion = { 
-    religion = amazon_hellenism_religion
-    name_key = thalassa_amz_god
-  }
-  country_modifier = {
-    naval_morale = 0.1
-  }
-}
-
-aphrodite_amz_god = {
-  icon = aphrodite_amazon_god
-  is_female = yes
-  religion = { 
-    religion = amazon_hellenism_religion
-    name_key = aphrodite_amz_god
-  }
-  country_modifier = {
-    global_estate_target_satisfaction = small_permanent_target_satisfaction
-  }
-}
-
 hestia_amz_god = {
   icon = hestia_amazon_god
   is_female = yes
@@ -79,30 +103,6 @@ hestia_amz_god = {
   }
   country_modifier = {
     tolerated_culture_maintenance_cost_modifier = -0.1
-  }
-}
-
-demeter_amz_god = {
-	icon = demeter_amazon_god
-  is_female = yes
-  religion = { 
-    religion = amazon_hellenism_religion
-    name_key = demeter_amz_god
-  }
-  country_modifier = {
-    global_wheat_output_modifier = 0.1
-  }
-}
-
-persephone_amz_god = {
-  icon = persephone_amazon_god
-  is_female = yes
-  religion = { 
-    religion = amazon_hellenism_religion
-    name_key = persephone_amz_god
-  }
-  country_modifier = {
-	  global_life_expectancy = 2
   }
 }
 
@@ -127,6 +127,6 @@ eris_amz_god = {
     name_key = eris_amz_god
   }
   country_modifier = {
-    global_fruit_output_modifier = 0.1
+    stability_decay = -0.00025
   }
 }

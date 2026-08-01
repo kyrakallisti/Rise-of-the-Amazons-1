@@ -171,6 +171,8 @@ countries = {
 
 		country_rank = rank_duchy
 
+		accepted_cultures = { saebornar_amazon }
+
 		government = {
 			heir_selection = favorite_daughter_elective_succession
 			ruler = aeld_astrid_hrafnardottir_1

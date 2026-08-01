@@ -30,14 +30,14 @@
 			NOR = {
 				has_building = building_type:temple_of_frigga
 				has_building = building_type:temple_of_sif
-				has_building = building_type:temple_of_persephone
-				has_building = building_type:temple_of_aphrodite
-				has_building = building_type:temple_of_thalassa
-				has_building = building_type:temple_of_athena
-				has_building = building_type:temple_of_nike
-				has_building = building_type:temple_of_artemis
-				has_building = building_type:temple_of_hestia
-				has_building = building_type:temple_of_enyo
+				has_building = building_type:temple_of_hel
+				has_building = building_type:temple_of_freyja
+				has_building = building_type:temple_of_ran
+				has_building = building_type:temple_of_saga
+				has_building = building_type:temple_of_idunn
+				has_building = building_type:temple_of_skadi
+				has_building = building_type:temple_of_sunna
+				has_building = building_type:temple_of_thrud
 			}
 		}
 		remove_if = {
@@ -56,7 +56,7 @@
 		construction_demand = town_building_construction
 		
 		modifier = {
-			local_monthly_prosperity = 0.001
+			local_monthly_development_modifier = 0.05
 			local_proximity_source = 20
 		}
 	}
@@ -91,14 +91,14 @@
 			NOR = {
 				has_building = building_type:temple_of_frigga
 				has_building = building_type:temple_of_sif
-				has_building = building_type:temple_of_persephone
-				has_building = building_type:temple_of_aphrodite
-				has_building = building_type:temple_of_thalassa
-				has_building = building_type:temple_of_athena
-				has_building = building_type:temple_of_nike
-				has_building = building_type:temple_of_artemis
-				has_building = building_type:temple_of_hestia
-				has_building = building_type:temple_of_enyo
+				has_building = building_type:temple_of_hel
+				has_building = building_type:temple_of_freyja
+				has_building = building_type:temple_of_ran
+				has_building = building_type:temple_of_saga
+				has_building = building_type:temple_of_idunn
+				has_building = building_type:temple_of_skadi
+				has_building = building_type:temple_of_sunna
+				has_building = building_type:temple_of_thrud
 			}
 		}
 		remove_if = {
@@ -124,7 +124,7 @@
 		}
 	}
 
-	temple_of_persephone = {
+	temple_of_hel = {
 		audio_tier = 1
 		is_foreign = no
 		max_levels = 1
@@ -157,14 +157,14 @@
 			NOR = {
 				has_building = building_type:temple_of_frigga
 				has_building = building_type:temple_of_sif
-				has_building = building_type:temple_of_persephone
-				has_building = building_type:temple_of_aphrodite
-				has_building = building_type:temple_of_thalassa
-				has_building = building_type:temple_of_athena
-				has_building = building_type:temple_of_nike
-				has_building = building_type:temple_of_artemis
-				has_building = building_type:temple_of_hestia
-				has_building = building_type:temple_of_enyo
+				has_building = building_type:temple_of_hel
+				has_building = building_type:temple_of_freyja
+				has_building = building_type:temple_of_ran
+				has_building = building_type:temple_of_saga
+				has_building = building_type:temple_of_idunn
+				has_building = building_type:temple_of_skadi
+				has_building = building_type:temple_of_sunna
+				has_building = building_type:temple_of_thrud
 			}
 		}
 		remove_if = {
@@ -177,18 +177,18 @@
 		}
 
 		possible_production_methods = {
-			temple_of_persephone_production_method
+			temple_of_hel_production_method
 		}	
 
 		construction_demand = town_building_construction
 		
 		modifier = {
 			local_disease_resistance = 0.2
-			local_life_expectancy = 6
+			local_cultural_tradition = 0.5
 		}
 	}
 
-	temple_of_aphrodite = {
+	temple_of_freyja = {
 		audio_tier = 1
 		is_foreign = no
 		max_levels = 1
@@ -222,14 +222,14 @@
 			NOR = {
 				has_building = building_type:temple_of_frigga
 				has_building = building_type:temple_of_sif
-				has_building = building_type:temple_of_persephone
-				has_building = building_type:temple_of_aphrodite
-				has_building = building_type:temple_of_thalassa
-				has_building = building_type:temple_of_athena
-				has_building = building_type:temple_of_nike
-				has_building = building_type:temple_of_artemis
-				has_building = building_type:temple_of_hestia
-				has_building = building_type:temple_of_enyo
+				has_building = building_type:temple_of_hel
+				has_building = building_type:temple_of_freyja
+				has_building = building_type:temple_of_ran
+				has_building = building_type:temple_of_saga
+				has_building = building_type:temple_of_idunn
+				has_building = building_type:temple_of_skadi
+				has_building = building_type:temple_of_sunna
+				has_building = building_type:temple_of_thrud
 			}
 		}
 		remove_if = {
@@ -242,18 +242,18 @@
 		}
 
 		possible_production_methods = {
-			temple_of_aphrodite_production_method
+			temple_of_freyja_production_method
 		}	
 
 		construction_demand = town_building_construction
 		
 		modifier = {
 			local_population_growth = 0.0005
-			local_unrest = -0.05
+			local_pop_assimilation_speed_modifier = 0.2
 		}
 	}
 
-	temple_of_thalassa = {
+	temple_of_ran = {
 		audio_tier = 1
 		is_foreign = no
 		max_levels = 1
@@ -283,14 +283,14 @@
 			NOR = {
 				has_building = building_type:temple_of_frigga
 				has_building = building_type:temple_of_sif
-				has_building = building_type:temple_of_persephone
-				has_building = building_type:temple_of_aphrodite
-				has_building = building_type:temple_of_thalassa
-				has_building = building_type:temple_of_athena
-				has_building = building_type:temple_of_nike
-				has_building = building_type:temple_of_artemis
-				has_building = building_type:temple_of_hestia
-				has_building = building_type:temple_of_enyo
+				has_building = building_type:temple_of_hel
+				has_building = building_type:temple_of_freyja
+				has_building = building_type:temple_of_ran
+				has_building = building_type:temple_of_saga
+				has_building = building_type:temple_of_idunn
+				has_building = building_type:temple_of_skadi
+				has_building = building_type:temple_of_sunna
+				has_building = building_type:temple_of_thrud
 			}
 		}
 		remove_if = {
@@ -316,7 +316,7 @@
 		}
 	}
 
-	temple_of_athena = {
+	temple_of_saga = {
 		audio_tier = 1
 		is_foreign = no
 		max_levels = 1
@@ -339,25 +339,23 @@
 		}
 
 		location_potential = {
-			dominant_religion = religion:amazon_asatru_religion 
 		}
 		allow = {
 			NOR = {
 				has_building = building_type:temple_of_frigga
 				has_building = building_type:temple_of_sif
-				has_building = building_type:temple_of_persephone
-				has_building = building_type:temple_of_aphrodite
-				has_building = building_type:temple_of_thalassa
-				has_building = building_type:temple_of_athena
-				has_building = building_type:temple_of_nike
-				has_building = building_type:temple_of_artemis
-				has_building = building_type:temple_of_hestia
-				has_building = building_type:temple_of_enyo
+				has_building = building_type:temple_of_hel
+				has_building = building_type:temple_of_freyja
+				has_building = building_type:temple_of_ran
+				has_building = building_type:temple_of_saga
+				has_building = building_type:temple_of_idunn
+				has_building = building_type:temple_of_skadi
+				has_building = building_type:temple_of_sunna
+				has_building = building_type:temple_of_thrud
 			}
 		}
 		remove_if = {
 			NOT = {
-				dominant_religion = religion:amazon_asatru_religion 
 				location = {
 					owner ?= { religion.group = religion_group:amazon_polytheism }
 				}
@@ -365,86 +363,91 @@
 		}
 
 		possible_production_methods = {
-			temple_of_athena_production_method
+			temple_of_saga_production_method
 		}	
 
 		construction_demand = town_building_construction
 		
 		modifier = {
-			local_institution_growth_modifier = 0.25
-			local_max_literacy = 10
-			local_pop_promotion_speed = 0.002
-		}
-	}
-
-	temple_of_nike = {
-		audio_tier = 1
-		is_foreign = no
-		max_levels = 1
-		pop_type = clergy
-		
-		employment_size = large_religious_building_employment
-		
-		category = religious_category
-		
-		rural_settlement = no
-		town = yes
-		city = yes
-		megalopolis = yes
-		
-		build_time = religious_building_time
-		graphical_tags = { medium_religious }
-			
-		country_potential = {
-			religion = religion:amazon_asatru_religion
-		}
-
-		location_potential = {
-			dominant_religion = religion:amazon_asatru_religion 
-		}
-		allow = {
-			NOR = {
-				has_building = building_type:temple_of_frigga
-				has_building = building_type:temple_of_sif
-				has_building = building_type:temple_of_persephone
-				has_building = building_type:temple_of_aphrodite
-				has_building = building_type:temple_of_thalassa
-				has_building = building_type:temple_of_athena
-				has_building = building_type:temple_of_nike
-				has_building = building_type:temple_of_artemis
-				has_building = building_type:temple_of_hestia
-				has_building = building_type:temple_of_enyo
-			}
-		}
-		remove_if = {
-			NOT = {
-				dominant_religion = religion:amazon_asatru_religion 
-				location = {
-					owner ?= { religion.group = religion_group:amazon_polytheism }
-				}
-			}
-		}
-
-		possible_production_methods = {
-			temple_of_nike_production_method
-		}	
-
-		construction_demand = town_building_construction
-		
-		modifier = {
+			local_institution_growth_modifier = 0.1
+			local_clergy_max_literacy = 10
 			local_cultural_influence = 0.5
-			local_cultural_tradition = 0.5
-			local_migration_attraction = 0.05
+			local_pop_conversion_speed_modifier = 0.2
 		}
 	}
 
-	temple_of_artemis = {
+	temple_of_idunn = {
 		audio_tier = 1
 		is_foreign = no
 		max_levels = 1
 		pop_type = clergy
 		
-		employment_size = large_religious_building_employment
+		employment_size = order_religious_building_employment
+		
+		category = religious_category
+		
+		rural_settlement = no
+		town = yes
+		city = yes
+		megalopolis = yes
+		
+		build_time = religious_building_time
+		graphical_tags = { medium_religious }
+			
+		country_potential = {
+			religion = religion:amazon_asatru_religion
+		}
+
+		location_potential = {
+			dominant_religion = religion:amazon_asatru_religion
+			OR = {
+				vegetation = farmland
+				vegetation = woods
+			}
+		}
+		allow = {
+			NOR = {
+				has_building = building_type:temple_of_frigga
+				has_building = building_type:temple_of_sif
+				has_building = building_type:temple_of_hel
+				has_building = building_type:temple_of_freyja
+				has_building = building_type:temple_of_ran
+				has_building = building_type:temple_of_saga
+				has_building = building_type:temple_of_idunn
+				has_building = building_type:temple_of_skadi
+				has_building = building_type:temple_of_sunna
+				has_building = building_type:temple_of_thrud
+			}
+		}
+		remove_if = {
+			NOT = {
+				dominant_religion = religion:amazon_asatru_religion 
+				location = {
+					owner ?= { religion.group = religion_group:amazon_polytheism }
+				}
+			}
+		}
+
+		possible_production_methods = {
+			temple_of_idunn_production_method
+		}	
+
+		construction_demand = town_building_construction
+		
+		modifier = {
+			local_life_expectancy = 6
+			local_population_capacity_modifier = 0.2
+			local_disease_resistance = 0.05
+		}
+	}
+
+	temple_of_skadi = {
+		audio_tier = 1
+		is_foreign = no
+		max_levels = 1
+		pop_type = clergy
+		
+		employment_size = order_religious_building_employment
 		
 		category = religious_category
 		
@@ -463,22 +466,22 @@
 		location_potential = {
 			dominant_religion = religion:amazon_asatru_religion 
 			OR = {
-				vegetation = forest
-				vegetation = woods
+				climate = arctic
+				topography = mountains
 			}
 		}
 		allow = {
 			NOR = {
 				has_building = building_type:temple_of_frigga
 				has_building = building_type:temple_of_sif
-				has_building = building_type:temple_of_persephone
-				has_building = building_type:temple_of_aphrodite
-				has_building = building_type:temple_of_thalassa
-				has_building = building_type:temple_of_athena
-				has_building = building_type:temple_of_nike
-				has_building = building_type:temple_of_artemis
-				has_building = building_type:temple_of_hestia
-				has_building = building_type:temple_of_enyo
+				has_building = building_type:temple_of_hel
+				has_building = building_type:temple_of_freyja
+				has_building = building_type:temple_of_ran
+				has_building = building_type:temple_of_saga
+				has_building = building_type:temple_of_idunn
+				has_building = building_type:temple_of_skadi
+				has_building = building_type:temple_of_sunna
+				has_building = building_type:temple_of_thrud
 			}
 		}
 		remove_if = {
@@ -491,19 +494,19 @@
 		}
 
 		possible_production_methods = {
-			temple_of_artemis_production_method
+			temple_of_skadi_production_method
 		}	
 
 		construction_demand = town_building_construction
 		
 		modifier = {
-			local_max_rgo_size_modifier = 0.2
+			local_raw_material_output = 0.15
 			local_max_rural_control = 0.06
 			cannot_upgrade_location = yes
 		}
 	}
 
-	temple_of_hestia = {
+	temple_of_sunna = {
 		audio_tier = 1
 		is_foreign = no
 		max_levels = 1
@@ -526,22 +529,27 @@
 		}
 
 		location_potential = {
-			dominant_culture = { has_culture_group = culture_group:hellenic_amazon_group }
-			is_province_capital = yes 
-			is_capital = no 
+			dominant_religion = religion:amazon_asatru_religion 
+			OR = {
+				climate = mediterranean
+				climate = oceanic
+				climate = subtropical
+				climate = tropical
+				climate = arid
+			}
 		}
 		allow = {
 			NOR = {
 				has_building = building_type:temple_of_frigga
 				has_building = building_type:temple_of_sif
-				has_building = building_type:temple_of_persephone
-				has_building = building_type:temple_of_aphrodite
-				has_building = building_type:temple_of_thalassa
-				has_building = building_type:temple_of_athena
-				has_building = building_type:temple_of_nike
-				has_building = building_type:temple_of_artemis
-				has_building = building_type:temple_of_hestia
-				has_building = building_type:temple_of_enyo
+				has_building = building_type:temple_of_hel
+				has_building = building_type:temple_of_freyja
+				has_building = building_type:temple_of_ran
+				has_building = building_type:temple_of_saga
+				has_building = building_type:temple_of_idunn
+				has_building = building_type:temple_of_skadi
+				has_building = building_type:temple_of_sunna
+				has_building = building_type:temple_of_thrud
 			}
 		}
 		remove_if = {
@@ -554,18 +562,19 @@
 		}
 
 		possible_production_methods = {
-			temple_of_hestia_production_method
+			temple_of_sunna_production_method
 		}	
 
 		construction_demand = town_building_construction
 		
 		modifier = {
-			local_monthly_development_modifier = 0.05
-			local_proximity_source = 20
+			local_monthly_prosperity = 0.001
+			local_unrest = -0.05
+			local_migration_attraction = 0.05
 		}
 	}
 
-	temple_of_enyo = {
+	temple_of_thrud = {
 		audio_tier = 1
 		is_foreign = no
 		max_levels = 1
@@ -595,14 +604,14 @@
 			NOR = {
 				has_building = building_type:temple_of_frigga
 				has_building = building_type:temple_of_sif
-				has_building = building_type:temple_of_persephone
-				has_building = building_type:temple_of_aphrodite
-				has_building = building_type:temple_of_thalassa
-				has_building = building_type:temple_of_athena
-				has_building = building_type:temple_of_nike
-				has_building = building_type:temple_of_artemis
-				has_building = building_type:temple_of_hestia
-				has_building = building_type:temple_of_enyo
+				has_building = building_type:temple_of_hel
+				has_building = building_type:temple_of_freyja
+				has_building = building_type:temple_of_ran
+				has_building = building_type:temple_of_saga
+				has_building = building_type:temple_of_idunn
+				has_building = building_type:temple_of_skadi
+				has_building = building_type:temple_of_sunna
+				has_building = building_type:temple_of_thrud
 			}
 		}
 		remove_if = {

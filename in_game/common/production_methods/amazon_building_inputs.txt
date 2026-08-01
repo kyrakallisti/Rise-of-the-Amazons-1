@@ -166,3 +166,63 @@
 
 		category = building_maintenance
 	}
+	temple_of_hel_production_method = {
+		beeswax = 0.025
+		stone = 0.05
+		cloth = 0.05
+		medicaments = 0.1
+		lumber = 0.05
+
+		category = building_maintenance
+	}
+	temple_of_freyja_production_method = {
+		fine_cloth = 0.1
+		beeswax = 0.05
+		jewelry = 0.025
+		wine = 0.05
+		fur = 0.025
+	}
+	temple_of_saga_production_method = {
+		paper = 0.05
+		books = 0.1
+		dyes = 0.05
+		leather = 0.025
+		furniture = 0.05
+
+		category = building_maintenance
+	}
+	temple_of_skadi_production_method = {
+		weaponry = 0.05
+		wool = 0.1
+		cloth = 0.05
+		leather = 0.1
+		fur = 0.05
+
+		produced = wild_game
+		output = 1.0
+		debug_max_profit = rural_profit_margin
+
+		category = building_maintenance
+	}
+	temple_of_sunna_production_method = {
+		stone = 0.05
+		pottery = 0.05
+		dyes = 0.1
+		cloth = 0.05
+		wine = 0.05
+
+		category = building_maintenance
+	}
+	temple_of_idunn_production_method = {
+		beeswax = 0.05
+		pottery = 0.1
+		saltpeter = 0.05	#fertilizer
+		tools = 0.1
+		fiber_crops = 0.05
+
+		produced = fruit
+		output = 1.0
+		debug_max_profit = rural_profit_margin
+
+		category = building_maintenance
+	}

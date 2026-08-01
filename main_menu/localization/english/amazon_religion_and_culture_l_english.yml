@@ -124,32 +124,32 @@
   worship_frigga_god_desc: "$worship_desc1$ [ShowGodName('frigga_god')] $worship_desc2$"
 
   saga_god: "Sága"
-  saga_god_desc: "$saga_god$, Goddess of wisdom, history and storytelling. The muse of writers, skalds and artists alike, as she is believed to bestow creativity, inspiration and artistic talent upon those who trully seek it."
+  saga_god_desc: "$saga_god$, Goddess of wisdom, memory and storytelling, is the keeper of the Sagas and guardian of the deeds of generations past. Patroness of skalds, poets, historians and scribes, she is believed to inspire all who seek to preserve truth through spoken word and written record alike. Through her blessing, no worthy tale is forgotten, and the memory of great heroes lives on forever."
   worship_saga_god: "$worship_title1$ $saga_god$ as our Patron Deity"
   worship_saga_god_desc: "$worship_desc1$ [ShowGodName('saga_god')] $worship_desc2$"
 
   thrud_god: "Thrúd"
-  thrud_god_desc: "$thrud_god$, Daughter of Thunder! Goddess of Strength, power and military might. Norse Amazons praise her by seeking glory through bravery and honor on the battlefield."
+  thrud_god_desc: "$thrud_god$, the Daughter of Thunder, is the Goddess of strength, valor and military excellence. Daughter of Thor and Sif, she inspires warriors to face every challenge with courage and steadfast resolve. To follow Her is to seek victory through honor, proving one's worth through glorious deeds that shall forever be remembered in the Sagas."
   worship_thrud_god: "$worship_title1$ $thrud_god$ as our Patron Deity"
   worship_thrud_god_desc: "$worship_desc1$ [ShowGodName('thrud_god')] $worship_desc2$"
 
-  skadi_god: "Skadi"
-  skadi_god_desc: "$skadi_god$, Goddess of winter, hunting and mountains. She is a fierce and beautiful Jötunn warrioress. The colder the climate, the more fervorously the Amazons worship her."
+  skadi_god: "Skaði"
+  skadi_god_desc: "$skadi_god$, the Frost Giantess, is the Goddess of winter, mountains, hunting and the untamed wilderness. Fierce, proud and fiercely independent, she teaches that only those who endure nature's harshest trials become truly strong. The colder and more unforgiving the land, the more fervently the Norse Amazons invoke her blessing."
   worship_skadi_god: "$worship_title1$ $skadi_god$ as our Patron Deity"
   worship_skadi_god_desc: "$worship_desc1$ [ShowGodName('skadi_god')] $worship_desc2$"
 
   ran_god: "Rán"
-  ran_god_desc: "$ran_god$, Goddess of the sea, responsible for storms, waves and those who died at sea. She is considered to be cruel and greedy, but believed to reward those who please her with proper offerings, granting smooth sailing to the worthy."
+  ran_god_desc: "$ran_god$, Lady of the Sea, is the Goddess of the tides, waves and the endless ocean. Though her temper can be as fierce as the fiercest storm, she is believed to favor those who sail with humility and respect for the sea. The Amazons honor Rán and her Nine Daughters, who raise every wave upon the ocean, praying for calm waters, abundant catches and a safe return to harbor."
   worship_ran_god: "$worship_title1$ $ran_god$ as our Patron Deity"
   worship_ran_god_desc: "$worship_desc1$ [ShowGodName('ran_god')] $worship_desc2$"
 
   freyja_god: "Freyja"
-  freyja_god_desc: "$freyja_god$, Goddess of wisdom, warfare and magic. But also Goddess of love, beauty and fertility. She is known for receiving half of the fallen warriors in her sacred meadows, Fólkvangr."
+  freyja_god_desc: "$freyja_god$, Lady of Seiðr, is the Goddess of love, beauty, magic and noble desire. She teaches that compassion and courage are not opposites, but virtues that strengthen one another. The Amazons honor Freyja as patroness of families, wise women and seiðkonur, believing that those who fall with honor may find eternal rest in her sacred meadows of Fólkvangr."
   worship_freyja_god: "$worship_title1$ $freyja_god$ as our Patron Deity"
   worship_freyja_god_desc: "$worship_desc1$ [ShowGodName('freyja_god')] $worship_desc2$"
 
   sunna_god: "Sunna"
-  sunna_god_desc: "$sunna_god$, Goddess of the Sun, who drives a horse-drawn chariot across the sky to bring light and warmth to the world."
+  sunna_god_desc: "$sunna_god$, Goddess of the Sun, drives her radiant horse-drawn chariot across the heavens each day, bringing light, warmth and life to the world. She is the keeper of the seasons and the herald of every new dawn, whose golden rays nourish the land, guide travelers and remind the faithful that even the longest night must yield to the coming of the Sun."
   worship_sunna_god: "$worship_title1$ $sunna_god$ as our Patron Deity"
   worship_sunna_god_desc: "$worship_desc1$ [ShowGodName('sunna_god')] $worship_desc2$"
 
@@ -159,18 +159,18 @@
   worship_sif_god_desc: "$worship_desc1$ [ShowGodName('sif_god')] $worship_desc2$"
 
   hel_god: "Hel"
-  hel_god_desc: "$hel_god$, Goddess of the dead, Queen of the underworld realm of the same name, Helheim. She is the ruler of those who die of old age or sickness. Norse Amazons pray for Hel to spare them of that dishonorable fate."
+  hel_god_desc: "$hel_god$, Queen of the Underworld, is the Guardian of the Dead and Keeper of the Final Journey. She watches over those whose time has come, receiving every soul with quiet dignity when fate can no longer be delayed. The Amazons pray to Hel not to escape death, but to postpone it until they have lived worthy lives and earned the glory of a noble end."
   worship_hel_god: "$worship_title1$ $hel_god$ as our Patron Deity"
   worship_hel_god_desc: "$worship_desc1$ [ShowGodName('hel_god')] $worship_desc2$"
 
-  idunn_god: "Idunn"
-  idunn_god_desc: "$idunn_god$, Goddess of youth, spring, and vitality, renowned as the keeper of the magical golden apples that ensure the Æsir gods remain immortal and youthful. Aging amazons often pray to Idunn for prolonging what's left of their youth."
+  idunn_god: "Iðunn"
+  idunn_god_desc: "$idunn_god$, Goddess of youth, spring and renewal, is the faithful keeper of the magical golden apples that preserve the eternal youth of the Æsir. Though no mortal may share in the immortality of the gods, the Amazons pray to Iðunn for health, vitality and many long years before old age finally claims them."
   worship_idunn_god: "$worship_title1$ $idunn_god$ as our Patron Deity"
   worship_idunn_god_desc: "$worship_desc1$ [ShowGodName('idunn_god')] $worship_desc2$"
 
  #Heresy
   loki_god: "Loki"
-  loki_god_desc: "$loki_god$, Goddess of Mischief, known as the Trickster Goddess, master of shapeshifting and a sower of chaos among deities and mortals alike. She is fabled to freely turn into animals, and even into men, in order to deceive others. So much that in Europe the Northmen worngly believe she is a male God."
+  loki_god_desc: "$loki_god$, the Shapeshifter, is the mistress of deception, chaos and mischief. Though known to assume countless forms, the Norse Amazons remember Loki as a woman, believing she most often revealed herself to them in feminine guise. Her cunning promises freedom from every chain, yet those who heed her whispers soon discover that every victory comes at an unforeseen price."
   worship_loki_god: "$worship_title1$ $loki_god$ as our Patron Deity"
   worship_loki_god_desc: "$worship_desc1$ [ShowGodName('loki_god')] $worship_desc2$"
 

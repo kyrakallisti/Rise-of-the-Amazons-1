@@ -127,6 +127,6 @@ discordia_amz_god = {
     name_key = discordia_amz_god
   }
   country_modifier = {
-    global_fruit_output_modifier = 0.1
+    stability_decay = -0.00025
   }
 }
