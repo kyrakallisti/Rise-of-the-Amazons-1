@@ -113,7 +113,7 @@
 
  #Heresy
   eris_amz_god: "Eris"
-  eris_amz_god_desc: "$eris_amz_god$, the Fallen One, is the Goddess of Chaos, Discord and Rebellion. She teaches that no throne is truly sacred, no law is completely just and no bond is worthy of blind obedience. To her followers, she is the liberator of the oppressed. But to most Amazons, she is the Great Corrupter, whose whispers dissolve trust, fracture kingdoms and set sister against sister. Her worship is condemned as the gravest of heresies, for wherever Eris is welcomed, civilization itself soon begins to unravel into chaos."
+  eris_amz_god_desc: "$eris_amz_god$, the Fallen One, is the Goddess of Chaos, Discord and Rebellion. Known by many names across Amazon lands, she is called Discordia by the Latins and Loki by the Norse. She whispers that no throne is truly sacred, no law is completely just and no oath is worthy of blind obedience. To her followers, she is the liberator of the oppressed. But to most Amazons, she is the Great Corrupter, whose whispers dissolve trust, fracture kingdoms and set sister against sister. Her worship is condemned as the gravest of heresies, for wherever Eris is embraced, civilization itself soon begins to unravel into chaos."
   worship_eris_amz_god: "$worship_title1$ $eris_amz_god$ as our Patron Deity"
   worship_eris_amz_god_desc: "$worship_desc1$ [ShowGodName('eris_amz_god')] $worship_desc2$"
 

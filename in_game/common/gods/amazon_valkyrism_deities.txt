@@ -125,7 +125,7 @@ loki_amz_god = {
   icon = loki_amazon_god
   is_female = yes
   religion = { 
-    religion = amazon_hellenism_religion
+    religion = amazon_asatru_religion
     name_key = loki_amz_god
   }
   country_modifier = {
